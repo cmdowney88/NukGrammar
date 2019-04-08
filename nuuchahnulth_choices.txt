@@ -5,32 +5,18 @@ language=Nuuchahnulth
 archive=no
 
 section=word-order
-word-order=sov
-has-dets=yes
-noun-det-order=det-noun
-has-aux=no
 
 section=number
-  number1_name=sg
-  number2_name=pl
 
 section=person
-person=1-2-3
-first-person=none
 
 section=gender
 
 section=case
-case-marking=nom-acc
-nom-acc-nom-case-name=nom
-nom-acc-acc-case-name=acc
 
 section=direct-inverse
 
 section=tense-aspect
-tense-definition=choose
-past=on
-nonpast=on
 
 section=other-features
 
