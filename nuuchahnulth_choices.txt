@@ -1,7 +1,9 @@
-version=18
+version=32
 
 section=general
 language=Nuuchahnulth
+punctuation-chars=keep-list
+punctuation-chars-list==
 archive=no
 
 section=word-order
