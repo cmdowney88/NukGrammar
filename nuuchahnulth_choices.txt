@@ -4,6 +4,8 @@ section=general
 language=Nuuchahnulth
 iso-code=nuk
 punctuation-chars=keep-all
+punctuation-chars-list=<>-=.()!+
+
 archive=no
 
 section=word-order
@@ -26,8 +28,13 @@ section=case
 section=direct-inverse
 
 section=tense-aspect
+tense-definition=build
+tense1_supertype1_name=tense
+tense1_name=pst
 
 section=other-features
+mood1_supertype1_name=mood
+mood1_name=real
 
 section=sentential-negation
 
@@ -39,7 +46,7 @@ section=arg-opt
 
 section=lexicon
 noun1_name=noun1
-noun1_det=opt
+noun1_det=opt 
 noun1_valence=trans
 noun1_stem1_pred=_name_n_rel
 noun1_stem1_orth=ʕumt
