@@ -55,8 +55,8 @@ subj-mark-drop=subj-mark-drop-not
 subj-mark-no-drop=subj-mark-no-drop-not
 subj-con=subj-con-always
 obj-drop=obj-drop-all
-obj-mark-drop=obj-mark-drop-req
-obj-mark-no-drop=obj-mark-no-drop-opt
+obj-mark-drop=obj-mark-drop-not
+obj-mark-no-drop=obj-mark-no-drop-not
 
 section=nominalclause
 
