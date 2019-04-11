@@ -896,13 +896,13 @@ noun-pc3_name=noun-pc3
 noun-pc3_order=suffix
 noun-pc3_lrt1_name=noun-pc3_lrt1
 noun-pc3_lrt1_lri1_inflecting=yes
-noun-pc3_lrt1_lri1_orth=-=ʔak
+noun-pc3_lrt1_lri1_orth==ʔak
 noun-pc3_inputs=noun2, noun-pc5, noun-pc106, noun-pc75, noun-pc88
 noun-pc4_name=noun-pc4
 noun-pc4_order=suffix
 noun-pc4_lrt1_name=noun-pc4_lrt1
 noun-pc4_lrt1_lri1_inflecting=yes
-noun-pc4_lrt1_lri1_orth=-=ʔiˑ
+noun-pc4_lrt1_lri1_orth==ʔiˑ
 noun-pc4_inputs=noun-pc14, noun38, noun-pc46, noun-pc52, noun-pc70, noun-pc71
 noun-pc5_name=noun-pc5
 noun-pc5_order=suffix
@@ -918,7 +918,7 @@ noun-pc5_lrt1_lri4_orth=-!aqsup
 noun-pc5_lrt1_lri5_inflecting=yes
 noun-pc5_lrt1_lri5_orth=-(q)aq
 noun-pc5_lrt1_lri6_inflecting=yes
-noun-pc5_lrt1_lri6_orth=-=quˑ
+noun-pc5_lrt1_lri6_orth==quˑ
 noun-pc5_lrt1_lri7_inflecting=yes
 noun-pc5_lrt1_lri7_orth=-(q)čiˑk
 noun-pc5_lrt1_lri8_inflecting=yes
@@ -927,7 +927,7 @@ noun-pc5_lrt2_name=noun-pc5_lrt2
 noun-pc5_lrt2_feat1_name=number
 noun-pc5_lrt2_feat1_value=sg
 noun-pc5_lrt2_lri1_inflecting=yes
-noun-pc5_lrt2_lri1_orth=-=qas
+noun-pc5_lrt2_lri1_orth==qas
 noun-pc5_lrt3_name=noun-pc5_lrt3
 noun-pc5_lrt3_feat1_name=number
 noun-pc5_lrt3_feat1_value=pl
@@ -940,7 +940,7 @@ noun-pc6_lrt1_name=noun-pc6_lrt1
 noun-pc6_lrt1_feat1_name=number
 noun-pc6_lrt1_feat1_value=pl
 noun-pc6_lrt1_lri1_inflecting=yes
-noun-pc6_lrt1_lri1_orth=-=niˑš
+noun-pc6_lrt1_lri1_orth==niˑš
 noun-pc6_inputs=noun-pc46, noun57
 noun-pc7_name=noun-pc7
 noun-pc7_order=suffix
@@ -956,7 +956,7 @@ noun-pc8_name=noun-pc8
 noun-pc8_order=suffix
 noun-pc8_lrt1_name=noun-pc8_lrt1
 noun-pc8_lrt1_lri1_inflecting=yes
-noun-pc8_lrt1_lri1_orth=-=!aƛ
+noun-pc8_lrt1_lri1_orth==!aƛ
 noun-pc8_inputs=noun-pc10, noun-pc13, noun14, noun-pc141, noun-pc148, noun-pc24, noun-pc28, noun155, noun-pc166, noun-pc60, noun-pc88, noun-pc102
 noun-pc9_name=noun-pc9
 noun-pc9_order=suffix
@@ -992,12 +992,12 @@ noun-pc16_name=noun-pc16
 noun-pc16_order=suffix
 noun-pc16_lrt1_name=noun-pc16_lrt1
 noun-pc16_lrt1_lri1_inflecting=yes
-noun-pc16_lrt1_lri1_orth=-=weˑʔin
+noun-pc16_lrt1_lri1_orth==weˑʔin
 noun-pc16_lrt2_name=noun-pc16_lrt2
 noun-pc16_lrt2_feat1_name=number
 noun-pc16_lrt2_feat1_value=pl
 noun-pc16_lrt2_lri1_inflecting=yes
-noun-pc16_lrt2_lri1_orth=-=qun
+noun-pc16_lrt2_lri1_orth==qun
 noun-pc16_inputs=noun-pc8, noun119
 noun-pc17_name=noun-pc17
 noun-pc17_order=suffix
@@ -1011,7 +1011,7 @@ noun-pc18_lrt1_name=noun-pc18_lrt1
 noun-pc18_lrt1_feat1_name=number
 noun-pc18_lrt1_feat1_value=sg
 noun-pc18_lrt1_lri1_inflecting=yes
-noun-pc18_lrt1_lri1_orth=-=s
+noun-pc18_lrt1_lri1_orth==s
 noun-pc18_inputs=noun-pc138, noun-pc46, noun-pc52
 noun-pc19_name=noun-pc19
 noun-pc19_order=suffix
@@ -1023,7 +1023,7 @@ noun-pc20_name=noun-pc20
 noun-pc20_order=suffix
 noun-pc20_lrt1_name=noun-pc20_lrt1
 noun-pc20_lrt1_lri1_inflecting=yes
-noun-pc20_lrt1_lri1_orth=-=!at
+noun-pc20_lrt1_lri1_orth==!at
 noun-pc20_inputs=noun-pc164, noun102, noun-pc8, noun9, noun-pc137, noun-pc139, noun-pc108, noun-pc83
 noun-pc21_name=noun-pc21
 noun-pc21_order=suffix
@@ -1031,11 +1031,11 @@ noun-pc21_lrt1_name=noun-pc21_lrt1
 noun-pc21_lrt1_feat1_name=number
 noun-pc21_lrt1_feat1_value=sg
 noun-pc21_lrt1_lri1_inflecting=yes
-noun-pc21_lrt1_lri1_orth=-=(m)eˑʔic
+noun-pc21_lrt1_lri1_orth==(m)eˑʔic
 noun-pc21_lrt1_lri2_inflecting=yes
-noun-pc21_lrt1_lri2_orth=-=ʔiˑtqak
+noun-pc21_lrt1_lri2_orth==ʔiˑtqak
 noun-pc21_lrt1_lri3_inflecting=yes
-noun-pc21_lrt1_lri3_orth=-=weˑʔincuk
+noun-pc21_lrt1_lri3_orth==weˑʔincuk
 noun-pc21_inputs=noun-pc20, noun-pc39
 noun-pc22_name=noun-pc22
 noun-pc22_order=suffix
@@ -1053,13 +1053,13 @@ noun-pc24_name=noun-pc24
 noun-pc24_order=suffix
 noun-pc24_lrt1_name=noun-pc24_lrt1
 noun-pc24_lrt1_lri1_inflecting=yes
-noun-pc24_lrt1_lri1_orth=-=!ap
+noun-pc24_lrt1_lri1_orth==!ap
 noun-pc24_inputs=noun-pc130, noun-pc100, noun-pc167, noun11, noun-pc25, noun-pc185
 noun-pc25_name=noun-pc25
 noun-pc25_order=suffix
 noun-pc25_lrt1_name=noun-pc25_lrt1
 noun-pc25_lrt1_lri1_inflecting=yes
-noun-pc25_lrt1_lri1_orth=-=ʔaqƛ
+noun-pc25_lrt1_lri1_orth==ʔaqƛ
 noun-pc25_inputs=noun-pc161, noun67, noun164, noun70, noun12, noun-pc15, noun-pc181, noun-pc122
 noun-pc26_name=noun-pc26
 noun-pc26_order=suffix
@@ -1067,7 +1067,7 @@ noun-pc26_lrt1_name=noun-pc26_lrt1
 noun-pc26_lrt1_feat1_name=number
 noun-pc26_lrt1_feat1_value=sg
 noun-pc26_lrt1_lri1_inflecting=yes
-noun-pc26_lrt1_lri1_orth=-=ʔiˑc
+noun-pc26_lrt1_lri1_orth==ʔiˑc
 noun-pc26_inputs=noun-pc20, noun-pc69
 noun-pc27_name=noun-pc27
 noun-pc27_order=suffix
@@ -1088,7 +1088,7 @@ noun-pc29_lrt1_name=noun-pc29_lrt1
 noun-pc29_lrt1_feat1_name=number
 noun-pc29_lrt1_feat1_value=pl
 noun-pc29_lrt1_lri1_inflecting=yes
-noun-pc29_lrt1_lri1_orth=-=ʔał
+noun-pc29_lrt1_lri1_orth==ʔał
 noun-pc29_inputs=noun-pc4, noun-pc101, noun101, noun-pc47, noun-pc48, noun-pc49, noun-pc114, noun-pc115, noun-pc18, noun-pc53, noun-pc142, noun-pc56, noun-pc26, noun-pc92
 noun-pc30_name=noun-pc30
 noun-pc30_order=suffix
@@ -1127,9 +1127,9 @@ noun-pc30_lrt2_name=noun-pc30_lrt2
 noun-pc30_lrt2_feat1_name=number
 noun-pc30_lrt2_feat1_value=pl
 noun-pc30_lrt2_lri1_inflecting=yes
-noun-pc30_lrt2_lri1_orth=-=!aaʔin
+noun-pc30_lrt2_lri1_orth==!aaʔin
 noun-pc30_lrt2_lri2_inflecting=yes
-noun-pc30_lrt2_lri2_orth=-=n
+noun-pc30_lrt2_lri2_orth==n
 noun-pc30_inputs=noun-pc27, noun99
 noun-pc31_name=noun-pc31
 noun-pc31_order=suffix
@@ -1161,7 +1161,7 @@ noun-pc36_lrt1_name=noun-pc36_lrt1
 noun-pc36_lrt1_feat1_name=number
 noun-pc36_lrt1_feat1_value=sg
 noun-pc36_lrt1_lri1_inflecting=yes
-noun-pc36_lrt1_lri1_orth=-=qs
+noun-pc36_lrt1_lri1_orth==qs
 noun-pc36_inputs=noun-pc35, noun-pc46, noun48, noun-pc52
 noun-pc37_name=noun-pc37
 noun-pc37_order=suffix
@@ -1179,7 +1179,7 @@ noun-pc39_name=noun-pc39
 noun-pc39_order=suffix
 noun-pc39_lrt1_name=noun-pc39_lrt1
 noun-pc39_lrt1_lri1_inflecting=yes
-noun-pc39_lrt1_lri1_orth=-=ʔaaqƛ
+noun-pc39_lrt1_lri1_orth==ʔaaqƛ
 noun-pc39_inputs=noun-pc181, noun-pc38, noun-pc126
 noun-pc40_name=noun-pc40
 noun-pc40_order=suffix
@@ -1187,13 +1187,13 @@ noun-pc40_lrt1_name=noun-pc40_lrt1
 noun-pc40_lrt1_feat1_name=number
 noun-pc40_lrt1_feat1_value=sg
 noun-pc40_lrt1_lri1_inflecting=yes
-noun-pc40_lrt1_lri1_orth=-=(m)aˑḥ
+noun-pc40_lrt1_lri1_orth==(m)aˑḥ
 noun-pc40_inputs=noun-pc138, noun-pc39
 noun-pc42_name=noun-pc42
 noun-pc42_order=suffix
 noun-pc42_lrt1_name=noun-pc42_lrt1
 noun-pc42_lrt1_lri1_inflecting=yes
-noun-pc42_lrt1_lri1_orth=-=ƛaˑ
+noun-pc42_lrt1_lri1_orth==ƛaˑ
 noun-pc42_inputs=noun-pc17, noun-pc36, noun-pc4, noun-pc6
 noun-pc45_name=noun-pc45
 noun-pc45_order=suffix
@@ -1205,7 +1205,7 @@ noun-pc46_name=noun-pc46
 noun-pc46_order=suffix
 noun-pc46_lrt1_name=noun-pc46_lrt1
 noun-pc46_lrt1_lri1_inflecting=yes
-noun-pc46_lrt1_lri1_orth=-=int
+noun-pc46_lrt1_lri1_orth==int
 noun-pc46_inputs=noun-pc67, noun-pc3, noun-pc20, noun121, noun-pc59
 noun-pc47_name=noun-pc47
 noun-pc47_order=suffix
@@ -1213,28 +1213,28 @@ noun-pc47_lrt1_name=noun-pc47_lrt1
 noun-pc47_lrt1_feat1_name=number
 noun-pc47_lrt1_feat1_value=pl
 noun-pc47_lrt1_lri1_inflecting=yes
-noun-pc47_lrt1_lri1_orth=-=qin
+noun-pc47_lrt1_lri1_orth==qin
 noun-pc47_inputs=noun-pc38, noun-pc46, noun-pc52
 noun-pc48_name=noun-pc48
 noun-pc48_order=suffix
 noun-pc48_lrt1_name=noun-pc48_lrt1
 noun-pc48_lrt1_lri1_inflecting=yes
-noun-pc48_lrt1_lri1_orth=-=ʔiˑš
+noun-pc48_lrt1_lri1_orth==ʔiˑš
 noun-pc48_inputs=noun-pc52, noun-pc46
 noun-pc49_name=noun-pc49
 noun-pc49_order=suffix
 noun-pc49_lrt1_name=noun-pc49_lrt1
 noun-pc49_lrt1_lri1_inflecting=yes
-noun-pc49_lrt1_lri1_orth=-=w̓it̓as
+noun-pc49_lrt1_lri1_orth==w̓it̓as
 noun-pc49_lrt1_lri2_inflecting=yes
-noun-pc49_lrt1_lri2_orth=-=w̓it̓s
+noun-pc49_lrt1_lri2_orth==w̓it̓s
 noun-pc49_lrt1_lri3_inflecting=yes
-noun-pc49_lrt1_lri3_orth=-=!um
+noun-pc49_lrt1_lri3_orth==!um
 noun-pc49_lrt2_name=noun-pc49_lrt2
 noun-pc49_lrt2_feat1_name=number
 noun-pc49_lrt2_feat1_value=pl
 noun-pc49_lrt2_lri1_inflecting=yes
-noun-pc49_lrt2_lri1_orth=-=!aaḥin
+noun-pc49_lrt2_lri1_orth==!aaḥin
 noun-pc49_inputs=noun-pc10, noun-pc28
 noun-pc50_name=noun-pc50
 noun-pc50_order=suffix
@@ -1242,7 +1242,7 @@ noun-pc50_lrt1_name=noun-pc50_lrt1
 noun-pc50_lrt1_feat1_name=number
 noun-pc50_lrt1_feat1_value=pl
 noun-pc50_lrt1_lri1_inflecting=yes
-noun-pc50_lrt1_lri1_orth=-=ʔiˑcuuš
+noun-pc50_lrt1_lri1_orth==ʔiˑcuuš
 noun-pc50_inputs=noun-pc49, noun155
 noun-pc51_name=noun-pc51
 noun-pc51_order=suffix
@@ -1258,21 +1258,21 @@ noun-pc52_name=noun-pc52
 noun-pc52_order=suffix
 noun-pc52_lrt1_name=noun-pc52_lrt1
 noun-pc52_lrt1_lri1_inflecting=yes
-noun-pc52_lrt1_lri1_orth=-=mit
+noun-pc52_lrt1_lri1_orth==mit
 noun-pc52_inputs=noun-pc67, noun-pc131, noun-pc51, noun-pc20, noun119, noun-pc157
 noun-pc53_name=noun-pc53
 noun-pc53_order=suffix
 noun-pc53_lrt1_name=noun-pc53_lrt1
 noun-pc53_lrt1_lri1_inflecting=yes
-noun-pc53_lrt1_lri1_orth=-=waˑʔiš
+noun-pc53_lrt1_lri1_orth==waˑʔiš
 noun-pc53_lrt1_lri2_inflecting=yes
-noun-pc53_lrt1_lri2_orth=-=waˑʔš
+noun-pc53_lrt1_lri2_orth==waˑʔš
 noun-pc53_inputs=noun-pc52, noun-pc46
 noun-pc56_name=noun-pc56
 noun-pc56_order=suffix
 noun-pc56_lrt1_name=noun-pc56_lrt1
 noun-pc56_lrt1_lri1_inflecting=yes
-noun-pc56_lrt1_lri1_orth=-=ʔiˑtq
+noun-pc56_lrt1_lri1_orth==ʔiˑtq
 noun-pc56_inputs=noun-pc138, noun-pc51
 noun-pc57_name=noun-pc57
 noun-pc57_order=suffix
@@ -1298,7 +1298,7 @@ noun-pc61_lrt1_name=noun-pc61_lrt1
 noun-pc61_lrt1_feat1_name=number
 noun-pc61_lrt1_feat1_value=pl
 noun-pc61_lrt1_lri1_inflecting=yes
-noun-pc61_lrt1_lri1_orth=-=(y)in
+noun-pc61_lrt1_lri1_orth==(y)in
 noun-pc61_inputs=noun-pc46, noun-pc52
 noun-pc62_name=noun-pc62
 noun-pc62_order=suffix
@@ -1318,7 +1318,7 @@ noun-pc64_lrt1_name=noun-pc64_lrt1
 noun-pc64_lrt1_feat1_name=number
 noun-pc64_lrt1_feat1_value=pl
 noun-pc64_lrt1_lri1_inflecting=yes
-noun-pc64_lrt1_lri1_orth=-=(y)iisuu
+noun-pc64_lrt1_lri1_orth==(y)iisuu
 noun-pc64_inputs=noun-pc8, noun-pc63
 noun-pc65_name=noun-pc65
 noun-pc65_order=suffix
@@ -1326,7 +1326,7 @@ noun-pc65_lrt1_name=noun-pc65_lrt1
 noun-pc65_lrt1_feat1_name=number
 noun-pc65_lrt1_feat1_value=sg
 noun-pc65_lrt1_lri1_inflecting=yes
-noun-pc65_lrt1_lri1_orth=-=!iˑs
+noun-pc65_lrt1_lri1_orth==!iˑs
 noun-pc65_inputs=noun-pc100, noun23
 noun-pc66_name=noun-pc66
 noun-pc66_order=suffix
@@ -1338,7 +1338,7 @@ noun-pc67_name=noun-pc67
 noun-pc67_order=suffix
 noun-pc67_lrt1_name=noun-pc67_lrt1
 noun-pc67_lrt1_lri1_inflecting=yes
-noun-pc67_lrt1_lri1_orth=-=uk
+noun-pc67_lrt1_lri1_orth==uk
 noun-pc67_inputs=noun-pc66, noun-pc98, noun-pc5, noun-pc76, noun112, noun-pc25, noun29
 noun-pc68_name=noun-pc68
 noun-pc68_order=suffix
@@ -1355,7 +1355,7 @@ noun-pc69_lrt2_name=noun-pc69_lrt2
 noun-pc69_lrt2_feat1_name=number
 noun-pc69_lrt2_feat1_value=pl
 noun-pc69_lrt2_lri1_inflecting=yes
-noun-pc69_lrt2_lri1_orth=-=!in
+noun-pc69_lrt2_lri1_orth==!in
 noun-pc69_inputs=noun55, noun-pc15
 noun-pc70_name=noun-pc70
 noun-pc70_order=suffix
@@ -1397,7 +1397,7 @@ noun-pc76_lrt1_name=noun-pc76_lrt1
 noun-pc76_lrt1_lri1_inflecting=yes
 noun-pc76_lrt1_lri1_orth=-ʔis
 noun-pc76_lrt1_lri2_inflecting=yes
-noun-pc76_lrt1_lri2_orth=-=ʔis
+noun-pc76_lrt1_lri2_orth==ʔis
 noun-pc76_inputs=noun-pc75
 noun-pc78_name=noun-pc78
 noun-pc78_order=suffix
@@ -1405,7 +1405,7 @@ noun-pc78_lrt1_name=noun-pc78_lrt1
 noun-pc78_lrt1_feat1_name=number
 noun-pc78_lrt1_feat1_value=sg
 noun-pc78_lrt1_lri1_inflecting=yes
-noun-pc78_lrt1_lri1_orth=-=siˑ
+noun-pc78_lrt1_lri1_orth==siˑ
 noun-pc78_inputs=noun-pc8, noun-pc90, noun-pc76
 noun-pc79_name=noun-pc79
 noun-pc79_order=prefix
@@ -1427,7 +1427,7 @@ noun-pc81_name=noun-pc81
 noun-pc81_order=suffix
 noun-pc81_lrt1_name=noun-pc81_lrt1
 noun-pc81_lrt1_lri1_inflecting=yes
-noun-pc81_lrt1_lri1_orth=-=ƛaa
+noun-pc81_lrt1_lri1_orth==ƛaa
 noun-pc81_inputs=noun-pc80, noun-pc8
 noun-pc82_name=noun-pc82
 noun-pc82_order=suffix
@@ -1435,7 +1435,7 @@ noun-pc82_lrt1_name=noun-pc82_lrt1
 noun-pc82_lrt1_feat1_name=number
 noun-pc82_lrt1_feat1_value=sg
 noun-pc82_lrt1_lri1_inflecting=yes
-noun-pc82_lrt1_lri1_orth=-=(y)iˑk
+noun-pc82_lrt1_lri1_orth==(y)iˑk
 noun-pc82_inputs=noun-pc67
 noun-pc83_name=noun-pc83
 noun-pc83_order=suffix
@@ -1455,7 +1455,7 @@ noun-pc85_lrt1_name=noun-pc85_lrt1
 noun-pc85_lrt1_feat1_name=number
 noun-pc85_lrt1_feat1_value=pl
 noun-pc85_lrt1_lri1_inflecting=yes
-noun-pc85_lrt1_lri1_orth=-=niˑ
+noun-pc85_lrt1_lri1_orth==niˑ
 noun-pc85_inputs=noun-pc170, noun-pc52
 noun-pc86_name=noun-pc86
 noun-pc86_order=suffix
@@ -1463,11 +1463,11 @@ noun-pc86_lrt1_name=noun-pc86_lrt1
 noun-pc86_lrt1_feat1_name=number
 noun-pc86_lrt1_feat1_value=sg
 noun-pc86_lrt1_lri1_inflecting=yes
-noun-pc86_lrt1_lri1_orth=-=qaˑs
+noun-pc86_lrt1_lri1_orth==qaˑs
 noun-pc86_lrt1_lri2_inflecting=yes
-noun-pc86_lrt1_lri2_orth=-=saˑ
+noun-pc86_lrt1_lri2_orth==saˑ
 noun-pc86_lrt1_lri3_inflecting=yes
-noun-pc86_lrt1_lri3_orth=-=ḥs
+noun-pc86_lrt1_lri3_orth==ḥs
 noun-pc86_inputs=noun-pc67
 noun-pc87_name=noun-pc87
 noun-pc87_order=suffix
@@ -1503,7 +1503,7 @@ noun-pc92_name=noun-pc92
 noun-pc92_order=suffix
 noun-pc92_lrt1_name=noun-pc92_lrt1
 noun-pc92_lrt1_lri1_inflecting=yes
-noun-pc92_lrt1_lri1_orth=-=quu
+noun-pc92_lrt1_lri1_orth==quu
 noun-pc92_inputs=noun-pc8, noun172
 noun-pc93_name=noun-pc93
 noun-pc93_order=suffix
@@ -1511,13 +1511,13 @@ noun-pc93_lrt1_name=noun-pc93_lrt1
 noun-pc93_lrt1_feat1_name=number
 noun-pc93_lrt1_feat1_value=sg
 noun-pc93_lrt1_lri1_inflecting=yes
-noun-pc93_lrt1_lri1_orth=-=suuk
+noun-pc93_lrt1_lri1_orth==suuk
 noun-pc93_inputs=noun-pc3, noun-pc9, noun14, noun-pc24, noun-pc123
 noun-pc95_name=noun-pc95
 noun-pc95_order=suffix
 noun-pc95_lrt1_name=noun-pc95_lrt1
 noun-pc95_lrt1_lri1_inflecting=yes
-noun-pc95_lrt1_lri1_orth=-=ʔaała
+noun-pc95_lrt1_lri1_orth==ʔaała
 noun-pc95_inputs=noun-pc40, noun-pc105, noun-pc29, noun-pc125
 noun-pc97_name=noun-pc97
 noun-pc97_order=suffix
@@ -1525,7 +1525,7 @@ noun-pc97_lrt1_name=noun-pc97_lrt1
 noun-pc97_lrt1_feat1_name=number
 noun-pc97_lrt1_feat1_value=pl
 noun-pc97_lrt1_lri1_inflecting=yes
-noun-pc97_lrt1_lri1_orth=-=ʔiˑqsuu
+noun-pc97_lrt1_lri1_orth==ʔiˑqsuu
 noun-pc97_inputs=noun-pc3, noun-pc20
 noun-pc98_name=noun-pc98
 noun-pc98_order=suffix
@@ -1549,7 +1549,7 @@ noun-pc101_name=noun-pc101
 noun-pc101_order=suffix
 noun-pc101_lrt1_name=noun-pc101_lrt1
 noun-pc101_lrt1_lri1_inflecting=yes
-noun-pc101_lrt1_lri1_orth=-=ʔaał
+noun-pc101_lrt1_lri1_orth==ʔaał
 noun-pc101_inputs=noun-pc52
 noun-pc102_name=noun-pc102
 noun-pc102_order=suffix
@@ -1571,19 +1571,19 @@ noun-pc104_lrt1_name=noun-pc104_lrt1
 noun-pc104_lrt1_feat1_name=number
 noun-pc104_lrt1_feat1_value=sg
 noun-pc104_lrt1_lri1_inflecting=yes
-noun-pc104_lrt1_lri1_orth=-=siˑš
+noun-pc104_lrt1_lri1_orth==siˑš
 noun-pc104_inputs=noun-pc8, noun102
 noun-pc105_name=noun-pc105
 noun-pc105_order=suffix
 noun-pc105_lrt1_name=noun-pc105_lrt1
 noun-pc105_lrt1_lri1_inflecting=yes
-noun-pc105_lrt1_lri1_orth=-=!iˑ
+noun-pc105_lrt1_lri1_orth==!iˑ
 noun-pc105_inputs=noun-pc8
 noun-pc106_name=noun-pc106
 noun-pc106_order=suffix
 noun-pc106_lrt1_name=noun-pc106_lrt1
 noun-pc106_lrt1_lri1_inflecting=yes
-noun-pc106_lrt1_lri1_orth=-=cum
+noun-pc106_lrt1_lri1_orth==cum
 noun-pc106_inputs=noun-pc28, noun71
 noun-pc108_name=noun-pc108
 noun-pc108_order=suffix
@@ -1599,7 +1599,7 @@ noun-pc111_lrt1_name=noun-pc111_lrt1
 noun-pc111_lrt1_feat1_name=number
 noun-pc111_lrt1_feat1_value=sg
 noun-pc111_lrt1_lri1_inflecting=yes
-noun-pc111_lrt1_lri1_orth=-=quˑs
+noun-pc111_lrt1_lri1_orth==quˑs
 noun-pc111_inputs=noun-pc8, noun-pc106
 noun-pc113_name=noun-pc113
 noun-pc113_order=suffix
@@ -1611,18 +1611,18 @@ noun-pc114_name=noun-pc114
 noun-pc114_order=suffix
 noun-pc114_lrt1_name=noun-pc114_lrt1
 noun-pc114_lrt1_lri1_inflecting=yes
-noun-pc114_lrt1_lri1_orth=-=(y)ii
+noun-pc114_lrt1_lri1_orth==(y)ii
 noun-pc114_lrt2_name=noun-pc114_lrt2
 noun-pc114_lrt2_feat1_name=number
 noun-pc114_lrt2_feat1_value=sg
 noun-pc114_lrt2_lri1_inflecting=yes
-noun-pc114_lrt2_lri1_orth=-=(y)iˑs
+noun-pc114_lrt2_lri1_orth==(y)iˑs
 noun-pc114_inputs=noun-pc46
 noun-pc115_name=noun-pc115
 noun-pc115_order=suffix
 noun-pc115_lrt1_name=noun-pc115_lrt1
 noun-pc115_lrt1_lri1_inflecting=yes
-noun-pc115_lrt1_lri1_orth=-=ʔiˑq
+noun-pc115_lrt1_lri1_orth==ʔiˑq
 noun-pc115_inputs=noun48, noun-pc46
 noun-pc116_name=noun-pc116
 noun-pc116_order=prefix
@@ -1638,7 +1638,7 @@ noun-pc117_lrt1_name=noun-pc117_lrt1
 noun-pc117_lrt1_feat1_name=number
 noun-pc117_lrt1_feat1_value=pl
 noun-pc117_lrt1_lri1_inflecting=yes
-noun-pc117_lrt1_lri1_orth=-=suu
+noun-pc117_lrt1_lri1_orth==suu
 noun-pc117_inputs=noun-pc20
 noun-pc118_name=noun-pc118
 noun-pc118_order=prefix
@@ -1681,9 +1681,9 @@ noun-pc125_lrt1_name=noun-pc125_lrt1
 noun-pc125_lrt1_feat1_name=number
 noun-pc125_lrt1_feat1_value=pl
 noun-pc125_lrt1_lri1_inflecting=yes
-noun-pc125_lrt1_lri1_orth=-=quusuu
+noun-pc125_lrt1_lri1_orth==quusuu
 noun-pc125_lrt1_lri2_inflecting=yes
-noun-pc125_lrt1_lri2_orth=-=(m)in
+noun-pc125_lrt1_lri2_orth==(m)in
 noun-pc125_inputs=noun-pc138
 noun-pc126_name=noun-pc126
 noun-pc126_order=suffix
@@ -1725,7 +1725,7 @@ noun-pc138_name=noun-pc138
 noun-pc138_order=suffix
 noun-pc138_lrt1_name=noun-pc138_lrt1
 noun-pc138_lrt1_lri1_inflecting=yes
-noun-pc138_lrt1_lri1_orth=-=(m)it
+noun-pc138_lrt1_lri1_orth==(m)it
 noun-pc138_inputs=noun140, noun-pc144, noun-pc20, noun-pc191
 noun-pc139_name=noun-pc139
 noun-pc139_order=suffix
@@ -1751,7 +1751,7 @@ noun-pc142_lrt1_name=noun-pc142_lrt1
 noun-pc142_lrt1_feat1_name=number
 noun-pc142_lrt1_feat1_value=sg
 noun-pc142_lrt1_lri1_inflecting=yes
-noun-pc142_lrt1_lri1_orth=-=quuk
+noun-pc142_lrt1_lri1_orth==quuk
 noun-pc142_inputs=noun-pc20
 noun-pc143_name=noun-pc143
 noun-pc143_order=suffix
@@ -1759,7 +1759,7 @@ noun-pc143_lrt1_name=noun-pc143_lrt1
 noun-pc143_lrt1_feat1_name=number
 noun-pc143_lrt1_feat1_value=pl
 noun-pc143_lrt1_lri1_inflecting=yes
-noun-pc143_lrt1_lri1_orth=-=waˑniš
+noun-pc143_lrt1_lri1_orth==waˑniš
 noun-pc143_inputs=noun-pc46
 noun-pc144_name=noun-pc144
 noun-pc144_order=suffix
@@ -1777,12 +1777,12 @@ noun-pc148_lrt1_lri2_orth=-(q)ḥy̓uu
 noun-pc148_lrt1_lri3_inflecting=yes
 noun-pc148_lrt1_lri3_orth=-r.čink
 noun-pc148_lrt1_lri4_inflecting=yes
-noun-pc148_lrt1_lri4_orth=-=(y)iˑ
+noun-pc148_lrt1_lri4_orth==(y)iˑ
 noun-pc148_lrt2_name=noun-pc148_lrt2
 noun-pc148_lrt2_feat1_name=number
 noun-pc148_lrt2_feat1_value=sg
 noun-pc148_lrt2_lri1_inflecting=yes
-noun-pc148_lrt2_lri1_orth=-=(y)iis
+noun-pc148_lrt2_lri1_orth==(y)iis
 noun-pc148_inputs=noun112, noun-pc27
 noun-pc151_name=noun-pc151
 noun-pc151_order=suffix
@@ -1790,7 +1790,7 @@ noun-pc151_lrt1_name=noun-pc151_lrt1
 noun-pc151_lrt1_feat1_name=number
 noun-pc151_lrt1_feat1_value=sg
 noun-pc151_lrt1_lri1_inflecting=yes
-noun-pc151_lrt1_lri1_orth=-=ʔiˑtk
+noun-pc151_lrt1_lri1_orth==ʔiˑtk
 noun-pc151_inputs=noun-pc52
 noun-pc154_name=noun-pc154
 noun-pc154_order=suffix
@@ -1836,7 +1836,7 @@ noun-pc162_lrt1_name=noun-pc162_lrt1
 noun-pc162_lrt1_feat1_name=number
 noun-pc162_lrt1_feat1_value=sg
 noun-pc162_lrt1_lri1_inflecting=yes
-noun-pc162_lrt1_lri1_orth=-=ḥak
+noun-pc162_lrt1_lri1_orth==ḥak
 noun-pc162_inputs=noun144
 noun-pc164_name=noun-pc164
 noun-pc164_order=suffix
@@ -1854,13 +1854,13 @@ noun-pc167_name=noun-pc167
 noun-pc167_order=suffix
 noun-pc167_lrt1_name=noun-pc167_lrt1
 noun-pc167_lrt1_lri1_inflecting=yes
-noun-pc167_lrt1_lri1_orth=-=!aqƛ
+noun-pc167_lrt1_lri1_orth==!aqƛ
 noun-pc167_inputs=noun169, noun-pc30
 noun-pc170_name=noun-pc170
 noun-pc170_order=suffix
 noun-pc170_lrt1_name=noun-pc170_lrt1
 noun-pc170_lrt1_lri1_inflecting=yes
-noun-pc170_lrt1_lri1_orth=-=muˑt
+noun-pc170_lrt1_lri1_orth==muˑt
 noun-pc170_inputs=noun158
 noun-pc180_name=noun-pc180
 noun-pc180_order=suffix
@@ -1910,7 +1910,7 @@ noun-pc191_name=noun-pc191
 noun-pc191_order=suffix
 noun-pc191_lrt1_name=noun-pc191_lrt1
 noun-pc191_lrt1_lri1_inflecting=yes
-noun-pc191_lrt1_lri1_orth=-\!aaḥ
+noun-pc191_lrt1_lri1_orth=-!aaḥ
 noun-pc191_inputs=noun-pc17
 case-marking=none
 verb1_name=verb1
@@ -2425,7 +2425,7 @@ verb_pc2_lrt2_feat3_name=number
 verb_pc2_lrt2_feat3_value=pl
 verb_pc2_lrt2_feat3_head=subj
 verb_pc2_lrt2_lri1_inflecting=yes
-verb_pc2_lrt2_lri1_orth=-=\!in
+verb_pc2_lrt2_lri1_orth==!in
 verb_pc2_lrt3_name=verb_pc2_lrt3
 verb_pc2_lrt3_feat1_name=person
 verb_pc2_lrt3_feat1_value=2
@@ -2434,7 +2434,7 @@ verb_pc2_lrt3_feat2_name=number
 verb_pc2_lrt3_feat2_value=pl
 verb_pc2_lrt3_feat2_head=subj
 verb_pc2_lrt3_lri1_inflecting=yes
-verb_pc2_lrt3_lri1_orth=-=(y)iisuu
+verb_pc2_lrt3_lri1_orth==(y)iisuu
 verb_pc2_lrt4_name=verb_pc2_lrt4
 verb_pc2_lrt4_feat1_name=person
 verb_pc2_lrt4_feat1_value=1
@@ -2443,15 +2443,15 @@ verb_pc2_lrt4_feat2_name=number
 verb_pc2_lrt4_feat2_value=sg
 verb_pc2_lrt4_feat2_head=subj
 verb_pc2_lrt4_lri1_inflecting=yes
-verb_pc2_lrt4_lri1_orth=-=siˑš
+verb_pc2_lrt4_lri1_orth==siˑš
 verb_pc2_lrt5_name=verb_pc2_lrt5
 verb_pc2_lrt5_feat1_name=person
 verb_pc2_lrt5_feat1_value=2
 verb_pc2_lrt5_feat1_head=subj
 verb_pc2_lrt5_lri1_inflecting=yes
-verb_pc2_lrt5_lri1_orth=-=či
+verb_pc2_lrt5_lri1_orth==či
 verb_pc2_lrt5_lri2_inflecting=yes
-verb_pc2_lrt5_lri2_orth=-=\!iˑk
+verb_pc2_lrt5_lri2_orth==!iˑk
 verb_pc2_lrt6_name=verb_pc2_lrt6
 verb_pc2_lrt6_feat1_name=person
 verb_pc2_lrt6_feat1_value=3
@@ -2477,7 +2477,7 @@ verb_pc8_lrt1_feat1_name=tense
 verb_pc8_lrt1_feat1_value=pst
 verb_pc8_lrt1_feat1_head=verb
 verb_pc8_lrt1_lri1_inflecting=yes
-verb_pc8_lrt1_lri1_orth=-=mit
+verb_pc8_lrt1_lri1_orth==mit
 verb_pc8_inputs=verb_pc12, verb_pc78, verb113
 verb_pc9_name=verb_pc9
 verb_pc9_order=suffix
@@ -2486,7 +2486,7 @@ verb_pc9_lrt1_feat1_name=person
 verb_pc9_lrt1_feat1_value=3
 verb_pc9_lrt1_feat1_head=subj
 verb_pc9_lrt1_lri1_inflecting=yes
-verb_pc9_lrt1_lri1_orth=-=waˑʔiš
+verb_pc9_lrt1_lri1_orth==waˑʔiš
 verb_pc9_inputs=verb_pc37, verb_pc8, verb_pc92
 verb_pc10_name=verb_pc10
 verb_pc10_order=suffix
@@ -2498,13 +2498,13 @@ verb_pc11_name=verb_pc11
 verb_pc11_order=suffix
 verb_pc11_lrt1_name=verb_pc11_lrt1
 verb_pc11_lrt1_lri1_inflecting=yes
-verb_pc11_lrt1_lri1_orth=-=\!at
+verb_pc11_lrt1_lri1_orth==!at
 verb_pc11_inputs=verb41, verb_pc14, verb_pc123, verb124
 verb_pc12_name=verb_pc12
 verb_pc12_order=suffix
 verb_pc12_lrt1_name=verb_pc12_lrt1
 verb_pc12_lrt1_lri1_inflecting=yes
-verb_pc12_lrt1_lri1_orth=-=uk
+verb_pc12_lrt1_lri1_orth==uk
 verb_pc12_inputs=verb_pc11, verb_pc113, verb_pc26, verb63
 verb_pc13_name=verb_pc13
 verb_pc13_order=suffix
@@ -2516,7 +2516,7 @@ verb_pc14_name=verb_pc14
 verb_pc14_order=suffix
 verb_pc14_lrt1_name=verb_pc14_lrt1
 verb_pc14_lrt1_lri1_inflecting=yes
-verb_pc14_lrt1_lri1_orth=-=\!aƛ
+verb_pc14_lrt1_lri1_orth==!aƛ
 verb_pc14_inputs=verb_pc135, verb13, verb_pc17, verb_pc18, verb_pc147, verb_pc21, verb_pc25, verb26, verb_pc32, verb_pc51, verb_pc55, verb_pc62, verb69, verb_pc95, verb_pc96, verb_pc97, verb_pc104, verb_pc115
 verb_pc15_name=verb_pc15
 verb_pc15_order=suffix
@@ -2525,13 +2525,13 @@ verb_pc15_lrt1_feat1_name=person
 verb_pc15_lrt1_feat1_value=3
 verb_pc15_lrt1_feat1_head=subj
 verb_pc15_lrt1_lri1_inflecting=yes
-verb_pc15_lrt1_lri1_orth=-=quu
+verb_pc15_lrt1_lri1_orth==quu
 verb_pc15_inputs=verb_pc11
 verb_pc16_name=verb_pc16
 verb_pc16_order=suffix
 verb_pc16_lrt1_name=verb_pc16_lrt1
 verb_pc16_lrt1_lri1_inflecting=yes
-verb_pc16_lrt1_lri1_orth=-=ƛaˑ
+verb_pc16_lrt1_lri1_orth==ƛaˑ
 verb_pc16_inputs=verb_pc40, verb_pc9
 verb_pc17_name=verb_pc17
 verb_pc17_order=suffix
@@ -2555,17 +2555,17 @@ verb_pc19_lrt1_feat2_name=number
 verb_pc19_lrt1_feat2_value=pl
 verb_pc19_lrt1_feat2_head=subj
 verb_pc19_lrt1_lri1_inflecting=yes
-verb_pc19_lrt1_lri1_orth=-=qun
+verb_pc19_lrt1_lri1_orth==qun
 verb_pc19_lrt1_lri2_inflecting=yes
-verb_pc19_lrt1_lri2_orth=-=niˑš
+verb_pc19_lrt1_lri2_orth==niˑš
 verb_pc19_lrt1_lri3_inflecting=yes
-verb_pc19_lrt1_lri3_orth=-=(y)in
+verb_pc19_lrt1_lri3_orth==(y)in
 verb_pc19_lrt2_name=verb_pc19_lrt2
 verb_pc19_lrt2_feat1_name=person
 verb_pc19_lrt2_feat1_value=3
 verb_pc19_lrt2_feat1_head=subj
 verb_pc19_lrt2_lri1_inflecting=yes
-verb_pc19_lrt2_lri1_orth=-=waˑʔš
+verb_pc19_lrt2_lri1_orth==waˑʔš
 verb_pc19_lrt3_name=verb_pc19_lrt3
 verb_pc19_lrt3_feat1_name=mood
 verb_pc19_lrt3_feat1_value=real
@@ -2574,7 +2574,7 @@ verb_pc19_lrt3_feat2_name=person
 verb_pc19_lrt3_feat2_value=3
 verb_pc19_lrt3_feat2_head=subj
 verb_pc19_lrt3_lri1_inflecting=yes
-verb_pc19_lrt3_lri1_orth=-=maˑ
+verb_pc19_lrt3_lri1_orth==maˑ
 verb_pc19_inputs=verb_pc37
 verb_pc20_name=verb_pc20
 verb_pc20_order=suffix
@@ -2586,13 +2586,13 @@ verb_pc20_lrt1_feat2_name=number
 verb_pc20_lrt1_feat2_value=sg
 verb_pc20_lrt1_feat2_head=subj
 verb_pc20_lrt1_lri1_inflecting=yes
-verb_pc20_lrt1_lri1_orth=-=qs
+verb_pc20_lrt1_lri1_orth==qs
 verb_pc20_inputs=verb_pc113, verb_pc14
 verb_pc21_name=verb_pc21
 verb_pc21_order=suffix
 verb_pc21_lrt1_name=verb_pc21_lrt1
 verb_pc21_lrt1_lri1_inflecting=yes
-verb_pc21_lrt1_lri1_orth=-\!aqstuƛ
+verb_pc21_lrt1_lri1_orth=-!aqstuƛ
 verb_pc21_inputs=verb11
 verb_pc22_name=verb_pc22
 verb_pc22_order=suffix
@@ -2604,7 +2604,7 @@ verb_pc22_lrt1_feat2_name=number
 verb_pc22_lrt1_feat2_value=sg
 verb_pc22_lrt1_feat2_head=subj
 verb_pc22_lrt1_lri1_inflecting=yes
-verb_pc22_lrt1_lri1_orth=-=(y)iis
+verb_pc22_lrt1_lri1_orth==(y)iis
 verb_pc22_inputs=verb_pc32
 verb_pc23_name=verb_pc23
 verb_pc23_order=suffix
@@ -2616,7 +2616,7 @@ verb_pc23_lrt1_feat2_name=number
 verb_pc23_lrt1_feat2_value=pl
 verb_pc23_lrt1_feat2_head=subj
 verb_pc23_lrt1_lri1_inflecting=yes
-verb_pc23_lrt1_lri1_orth=-=ʔał
+verb_pc23_lrt1_lri1_orth==ʔał
 verb_pc23_inputs=verb_pc40, verb_pc9, verb_pc42, verb_pc41, verb_pc19, verb_pc85, verb_pc57
 verb_pc24_name=verb_pc24
 verb_pc24_order=suffix
@@ -2634,12 +2634,12 @@ verb_pc25_lrt1_feat2_name=number
 verb_pc25_lrt1_feat2_value=pl
 verb_pc25_lrt1_feat2_head=subj
 verb_pc25_lrt1_lri1_inflecting=yes
-verb_pc25_lrt1_lri1_orth=-=quusuu
+verb_pc25_lrt1_lri1_orth==quusuu
 verb_pc25_lrt2_name=verb_pc25_lrt2
 verb_pc25_lrt2_lri1_inflecting=yes
-verb_pc25_lrt2_lri1_orth=-=w̓it̓s
+verb_pc25_lrt2_lri1_orth==w̓it̓s
 verb_pc25_lrt2_lri2_inflecting=yes
-verb_pc25_lrt2_lri2_orth=-=č̓aˑ
+verb_pc25_lrt2_lri2_orth==č̓aˑ
 verb_pc25_lrt2_lri3_inflecting=yes
 verb_pc25_lrt2_lri3_orth=-miḥsa
 verb_pc25_lrt2_lri4_inflecting=yes
@@ -2649,13 +2649,13 @@ verb_pc25_lrt3_feat1_name=person
 verb_pc25_lrt3_feat1_value=2
 verb_pc25_lrt3_feat1_head=subj
 verb_pc25_lrt3_lri1_inflecting=yes
-verb_pc25_lrt3_lri1_orth=-=\!iik
+verb_pc25_lrt3_lri1_orth==!iik
 verb_pc25_inputs=verb_pc24, verb_pc136
 verb_pc26_name=verb_pc26
 verb_pc26_order=suffix
 verb_pc26_lrt1_name=verb_pc26_lrt1
 verb_pc26_lrt1_lri1_inflecting=yes
-verb_pc26_lrt1_lri1_orth=-=w̓it̓as
+verb_pc26_lrt1_lri1_orth==w̓it̓as
 verb_pc26_inputs=verb_pc10, verb13, verb_pc24, verb_pc62
 verb_pc27_name=verb_pc27
 verb_pc27_order=suffix
@@ -2673,7 +2673,7 @@ verb_pc29_name=verb_pc29
 verb_pc29_order=suffix
 verb_pc29_lrt1_name=verb_pc29_lrt1
 verb_pc29_lrt1_lri1_inflecting=yes
-verb_pc29_lrt1_lri1_orth=-=ʔaała
+verb_pc29_lrt1_lri1_orth==ʔaała
 verb_pc29_inputs=verb_pc69, verb_pc15
 verb_pc30_name=verb_pc30
 verb_pc30_order=suffix
@@ -2690,7 +2690,7 @@ verb_pc32_name=verb_pc32
 verb_pc32_order=suffix
 verb_pc32_lrt1_name=verb_pc32_lrt1
 verb_pc32_lrt1_lri1_inflecting=yes
-verb_pc32_lrt1_lri1_orth=-=ʔaqƛ
+verb_pc32_lrt1_lri1_orth==ʔaqƛ
 verb_pc32_inputs=verb_pc64, verb_pc102, verb_pc24
 verb_pc33_name=verb_pc33
 verb_pc33_order=suffix
@@ -2698,11 +2698,11 @@ verb_pc33_lrt1_name=verb_pc33_lrt1
 verb_pc33_lrt1_lri1_inflecting=yes
 verb_pc33_lrt1_lri1_orth=-in
 verb_pc33_lrt1_lri2_inflecting=yes
-verb_pc33_lrt1_lri2_orth=-\!iˑƛ
+verb_pc33_lrt1_lri2_orth=-!iˑƛ
 verb_pc33_lrt1_lri3_inflecting=yes
-verb_pc33_lrt1_lri3_orth=-\!aap
+verb_pc33_lrt1_lri3_orth=-!aap
 verb_pc33_lrt1_lri4_inflecting=yes
-verb_pc33_lrt1_lri4_orth=-\!aałuk
+verb_pc33_lrt1_lri4_orth=-!aałuk
 verb_pc33_lrt1_lri5_inflecting=yes
 verb_pc33_lrt1_lri5_orth=-(t)wii
 verb_pc33_lrt1_lri6_inflecting=yes
@@ -2712,13 +2712,13 @@ verb_pc33_lrt1_lri7_orth=-iiy̓ip
 verb_pc33_lrt1_lri8_inflecting=yes
 verb_pc33_lrt1_lri8_orth=-kłaˑ
 verb_pc33_lrt1_lri9_inflecting=yes
-verb_pc33_lrt1_lri9_orth=-l.\!iƛ
+verb_pc33_lrt1_lri9_orth=-l.!iƛ
 verb_pc33_lrt1_lri10_inflecting=yes
 verb_pc33_lrt1_lri10_orth=-l.simč
 verb_pc33_lrt1_lri11_inflecting=yes
 verb_pc33_lrt1_lri11_orth=-l.čiił
 verb_pc33_lrt1_lri12_inflecting=yes
-verb_pc33_lrt1_lri12_orth=-r.\!iiḥ
+verb_pc33_lrt1_lri12_orth=-r.!iiḥ
 verb_pc33_lrt1_lri13_inflecting=yes
 verb_pc33_lrt1_lri13_orth=-r.q
 verb_pc33_lrt1_lri14_inflecting=yes
@@ -2733,7 +2733,7 @@ verb_pc35_lrt1_feat1_name=person
 verb_pc35_lrt1_feat1_value=3
 verb_pc35_lrt1_feat1_head=subj
 verb_pc35_lrt1_lri1_inflecting=yes
-verb_pc35_lrt1_lri1_orth=-=weˑʔin
+verb_pc35_lrt1_lri1_orth==weˑʔin
 verb_pc35_inputs=verb_pc12, verb_pc15, verb_pc122
 verb_pc36_name=verb_pc36
 verb_pc36_order=suffix
@@ -2748,7 +2748,7 @@ verb_pc37_lrt1_feat1_name=tense
 verb_pc37_lrt1_feat1_value=pst
 verb_pc37_lrt1_feat1_head=verb
 verb_pc37_lrt1_lri1_inflecting=yes
-verb_pc37_lrt1_lri1_orth=-=int
+verb_pc37_lrt1_lri1_orth==int
 verb_pc37_inputs=verb_pc12, verb_pc46, verb_pc48, verb60
 verb_pc40_name=verb_pc40
 verb_pc40_order=suffix
@@ -2760,7 +2760,7 @@ verb_pc40_lrt1_feat2_name=number
 verb_pc40_lrt1_feat2_value=sg
 verb_pc40_lrt1_feat2_head=subj
 verb_pc40_lrt1_lri1_inflecting=yes
-verb_pc40_lrt1_lri1_orth=-=s
+verb_pc40_lrt1_lri1_orth==s
 verb_pc40_inputs=verb_pc37, verb_pc8, verb43
 verb_pc41_name=verb_pc41
 verb_pc41_order=suffix
@@ -2769,7 +2769,7 @@ verb_pc41_lrt1_feat1_name=person
 verb_pc41_lrt1_feat1_value=3
 verb_pc41_lrt1_feat1_head=subj
 verb_pc41_lrt1_lri1_inflecting=yes
-verb_pc41_lrt1_lri1_orth=-=ʔiˑq
+verb_pc41_lrt1_lri1_orth==ʔiˑq
 verb_pc41_inputs=verb_pc37, verb_pc8, verb72, verb_pc92
 verb_pc42_name=verb_pc42
 verb_pc42_order=suffix
@@ -2778,13 +2778,13 @@ verb_pc42_lrt1_feat1_name=person
 verb_pc42_lrt1_feat1_value=3
 verb_pc42_lrt1_feat1_head=subj
 verb_pc42_lrt1_lri1_inflecting=yes
-verb_pc42_lrt1_lri1_orth=-=ʔiˑš
+verb_pc42_lrt1_lri1_orth==ʔiˑš
 verb_pc42_inputs=verb_pc37, verb_pc8
 verb_pc44_name=verb_pc44
 verb_pc44_order=suffix
 verb_pc44_lrt1_name=verb_pc44_lrt1
 verb_pc44_lrt1_lri1_inflecting=yes
-verb_pc44_lrt1_lri1_orth=-\!atḥ
+verb_pc44_lrt1_lri1_orth=-!atḥ
 verb_pc44_inputs=verb20, verb7
 verb_pc45_name=verb_pc45
 verb_pc45_order=suffix
@@ -2816,7 +2816,7 @@ verb_pc51_name=verb_pc51
 verb_pc51_order=suffix
 verb_pc51_lrt1_name=verb_pc51_lrt1
 verb_pc51_lrt1_lri1_inflecting=yes
-verb_pc51_lrt1_lri1_orth=-=\!ap
+verb_pc51_lrt1_lri1_orth==!ap
 verb_pc51_inputs=verb_pc64, verb_pc66, verb_pc99, verb_pc74, verb_pc138, verb23, verb_pc156
 verb_pc53_name=verb_pc53
 verb_pc53_order=suffix
@@ -2831,7 +2831,7 @@ verb_pc53_lrt1_feat3_name=number
 verb_pc53_lrt1_feat3_value=sg
 verb_pc53_lrt1_feat3_head=subj
 verb_pc53_lrt1_lri1_inflecting=yes
-verb_pc53_lrt1_lri1_orth=-=\!iˑs
+verb_pc53_lrt1_lri1_orth==!iˑs
 verb_pc53_inputs=verb24, verb_pc51
 verb_pc54_name=verb_pc54
 verb_pc54_order=suffix
@@ -2846,7 +2846,7 @@ verb_pc54_lrt1_feat3_name=number
 verb_pc54_lrt1_feat3_value=sg
 verb_pc54_lrt1_feat3_head=subj
 verb_pc54_lrt1_lri1_inflecting=yes
-verb_pc54_lrt1_lri1_orth=-=suuk
+verb_pc54_lrt1_lri1_orth==suuk
 verb_pc54_inputs=verb_pc130, verb_pc11, verb_pc113, verb24
 verb_pc55_name=verb_pc55
 verb_pc55_order=suffix
@@ -2861,13 +2861,13 @@ verb_pc56_lrt1_feat1_name=person
 verb_pc56_lrt1_feat1_value=3
 verb_pc56_lrt1_feat1_head=subj
 verb_pc56_lrt1_lri1_inflecting=yes
-verb_pc56_lrt1_lri1_orth=-=(y)ii
+verb_pc56_lrt1_lri1_orth==(y)ii
 verb_pc56_inputs=verb_pc14
 verb_pc57_name=verb_pc57
 verb_pc57_order=suffix
 verb_pc57_lrt1_name=verb_pc57_lrt1
 verb_pc57_lrt1_lri1_inflecting=yes
-verb_pc57_lrt1_lri1_orth=-=č
+verb_pc57_lrt1_lri1_orth==č
 verb_pc57_inputs=verb_pc56
 verb_pc58_name=verb_pc58
 verb_pc58_order=suffix
@@ -2876,7 +2876,7 @@ verb_pc58_lrt1_feat1_name=person
 verb_pc58_lrt1_feat1_value=3
 verb_pc58_lrt1_feat1_head=subj
 verb_pc58_lrt1_lri1_inflecting=yes
-verb_pc58_lrt1_lri1_orth=-=ʔiˑtq
+verb_pc58_lrt1_lri1_orth==ʔiˑtq
 verb_pc58_inputs=verb_pc14
 verb_pc59_name=verb_pc59
 verb_pc59_order=suffix
@@ -2888,19 +2888,19 @@ verb_pc59_lrt1_feat2_name=number
 verb_pc59_lrt1_feat2_value=pl
 verb_pc59_lrt1_feat2_head=subj
 verb_pc59_lrt1_lri1_inflecting=yes
-verb_pc59_lrt1_lri1_orth=-=ʔiˑtqsuu
+verb_pc59_lrt1_lri1_orth==ʔiˑtqsuu
 verb_pc59_inputs=verb26
 verb_pc60_name=verb_pc60
 verb_pc60_order=suffix
 verb_pc60_lrt1_name=verb_pc60_lrt1
 verb_pc60_lrt1_lri1_inflecting=yes
-verb_pc60_lrt1_lri1_orth=-\!iˑ
+verb_pc60_lrt1_lri1_orth=-!iˑ
 verb_pc60_inputs=verb27
 verb_pc61_name=verb_pc61
 verb_pc61_order=suffix
 verb_pc61_lrt1_name=verb_pc61_lrt1
 verb_pc61_lrt1_lri1_inflecting=yes
-verb_pc61_lrt1_lri1_orth=-\!as
+verb_pc61_lrt1_lri1_orth=-!as
 verb_pc61_inputs=verb_pc60, verb_pc13, verb39
 verb_pc62_name=verb_pc62
 verb_pc62_order=suffix
@@ -2918,7 +2918,7 @@ verb_pc65_name=verb_pc65
 verb_pc65_order=suffix
 verb_pc65_lrt1_name=verb_pc65_lrt1
 verb_pc65_lrt1_lri1_inflecting=yes
-verb_pc65_lrt1_lri1_orth=-l.\!iiḥ
+verb_pc65_lrt1_lri1_orth=-l.!iiḥ
 verb_pc65_inputs=verb_pc64
 verb_pc66_name=verb_pc66
 verb_pc66_order=suffix
@@ -2933,7 +2933,7 @@ verb_pc67_lrt1_feat1_name=person
 verb_pc67_lrt1_feat1_value=3
 verb_pc67_lrt1_feat1_head=subj
 verb_pc67_lrt1_lri1_inflecting=yes
-verb_pc67_lrt1_lri1_orth=-=\!aat
+verb_pc67_lrt1_lri1_orth==!aat
 verb_pc67_lrt2_name=verb_pc67_lrt2
 verb_pc67_lrt2_feat1_name=person
 verb_pc67_lrt2_feat1_value=2
@@ -2942,7 +2942,7 @@ verb_pc67_lrt2_feat2_name=number
 verb_pc67_lrt2_feat2_value=pl
 verb_pc67_lrt2_feat2_head=subj
 verb_pc67_lrt2_lri1_inflecting=yes
-verb_pc67_lrt2_lri1_orth=-=\!iˑč
+verb_pc67_lrt2_lri1_orth==!iˑč
 verb_pc67_inputs=verb_pc10
 verb_pc68_name=verb_pc68
 verb_pc68_order=suffix
@@ -2957,7 +2957,7 @@ verb_pc69_lrt1_feat1_name=person
 verb_pc69_lrt1_feat1_value=3
 verb_pc69_lrt1_feat1_head=subj
 verb_pc69_lrt1_lri1_inflecting=yes
-verb_pc69_lrt1_lri1_orth=-=qaˑ
+verb_pc69_lrt1_lri1_orth==qaˑ
 verb_pc69_inputs=verb_pc84, verb_pc11
 verb_pc71_name=verb_pc71
 verb_pc71_order=suffix
@@ -2975,7 +2975,7 @@ verb_pc72_lrt1_feat2_name=number
 verb_pc72_lrt1_feat2_value=sg
 verb_pc72_lrt1_feat2_head=subj
 verb_pc72_lrt1_lri1_inflecting=yes
-verb_pc72_lrt1_lri1_orth=-=(y)iˑk
+verb_pc72_lrt1_lri1_orth==(y)iˑk
 verb_pc72_inputs=verb_pc37
 verb_pc73_name=verb_pc73
 verb_pc73_order=suffix
@@ -2993,7 +2993,7 @@ verb_pc75_name=verb_pc75
 verb_pc75_order=suffix
 verb_pc75_lrt1_name=verb_pc75_lrt1
 verb_pc75_lrt1_lri1_inflecting=yes
-verb_pc75_lrt1_lri1_orth=-=ʔiˑ
+verb_pc75_lrt1_lri1_orth==ʔiˑ
 verb_pc75_inputs=verb_pc96, verb_pc33, verb_pc61
 verb_pc76_name=verb_pc76
 verb_pc76_order=suffix
@@ -3014,7 +3014,7 @@ verb_pc78_lrt1_feat3_name=number
 verb_pc78_lrt1_feat3_value=sg
 verb_pc78_lrt1_feat3_head=subj
 verb_pc78_lrt1_lri1_inflecting=yes
-verb_pc78_lrt1_lri1_orth=-=siˑ
+verb_pc78_lrt1_lri1_orth==siˑ
 verb_pc78_lrt2_name=verb_pc78_lrt2
 verb_pc78_lrt2_lri1_inflecting=yes
 verb_pc78_lrt2_lri1_orth=-l.api
@@ -3038,7 +3038,7 @@ verb_pc83_lrt1_feat3_name=number
 verb_pc83_lrt1_feat3_value=pl
 verb_pc83_lrt1_feat3_head=subj
 verb_pc83_lrt1_lri1_inflecting=yes
-verb_pc83_lrt1_lri1_orth=-=niˑ
+verb_pc83_lrt1_lri1_orth==niˑ
 verb_pc83_lrt2_name=verb_pc83_lrt2
 verb_pc83_lrt2_feat1_name=person
 verb_pc83_lrt2_feat1_value=1
@@ -3047,7 +3047,7 @@ verb_pc83_lrt2_feat2_name=number
 verb_pc83_lrt2_feat2_value=sg
 verb_pc83_lrt2_feat2_head=subj
 verb_pc83_lrt2_lri1_inflecting=yes
-verb_pc83_lrt2_lri1_orth=-=quˑs
+verb_pc83_lrt2_lri1_orth==quˑs
 verb_pc83_inputs=verb_pc8
 verb_pc84_name=verb_pc84
 verb_pc84_order=suffix
@@ -3062,9 +3062,9 @@ verb_pc85_lrt1_feat1_name=person
 verb_pc85_lrt1_feat1_value=3
 verb_pc85_lrt1_feat1_head=subj
 verb_pc85_lrt1_lri1_inflecting=yes
-verb_pc85_lrt1_lri1_orth=-=\!aaḥa
+verb_pc85_lrt1_lri1_orth==!aaḥa
 verb_pc85_lrt1_lri2_inflecting=yes
-verb_pc85_lrt1_lri2_orth=-=\!aaḥii
+verb_pc85_lrt1_lri2_orth==!aaḥii
 verb_pc85_inputs=verb_pc48
 verb_pc87_name=verb_pc87
 verb_pc87_order=suffix
@@ -3076,13 +3076,13 @@ verb_pc87_lrt1_feat2_name=number
 verb_pc87_lrt1_feat2_value=pl
 verb_pc87_lrt1_feat2_head=subj
 verb_pc87_lrt1_lri1_inflecting=yes
-verb_pc87_lrt1_lri1_orth=-=qin
+verb_pc87_lrt1_lri1_orth==qin
 verb_pc87_inputs=verb_pc37
 verb_pc88_name=verb_pc88
 verb_pc88_order=suffix
 verb_pc88_lrt1_name=verb_pc88_lrt1
 verb_pc88_lrt1_lri1_inflecting=yes
-verb_pc88_lrt1_lri1_orth=-=ʔaał
+verb_pc88_lrt1_lri1_orth==ʔaał
 verb_pc88_inputs=verb_pc40, verb_pc58
 verb_pc90_name=verb_pc90
 verb_pc90_order=suffix
@@ -3094,9 +3094,9 @@ verb_pc90_lrt1_feat2_name=number
 verb_pc90_lrt1_feat2_value=sg
 verb_pc90_lrt1_feat2_head=subj
 verb_pc90_lrt1_lri1_inflecting=yes
-verb_pc90_lrt1_lri1_orth=-=ʔiˑk
+verb_pc90_lrt1_lri1_orth==ʔiˑk
 verb_pc90_lrt1_lri2_inflecting=yes
-verb_pc90_lrt1_lri2_orth=-=ʔiˑc
+verb_pc90_lrt1_lri2_orth==ʔiˑc
 verb_pc90_inputs=verb_pc32, verb_pc25
 verb_pc92_name=verb_pc92
 verb_pc92_order=suffix
@@ -3105,7 +3105,7 @@ verb_pc92_lrt1_feat1_name=tense
 verb_pc92_lrt1_feat1_value=pst
 verb_pc92_lrt1_feat1_head=verb
 verb_pc92_lrt1_lri1_inflecting=yes
-verb_pc92_lrt1_lri1_orth=-=muˑt
+verb_pc92_lrt1_lri1_orth==muˑt
 verb_pc92_inputs=verb124, verb7
 verb_pc93_name=verb_pc93
 verb_pc93_order=prefix
@@ -3138,7 +3138,7 @@ verb_pc96_lrt2_feat2_name=number
 verb_pc96_lrt2_feat2_value=sg
 verb_pc96_lrt2_feat2_head=subj
 verb_pc96_lrt2_lri1_inflecting=yes
-verb_pc96_lrt2_lri1_orth=-=ʔiˑck
+verb_pc96_lrt2_lri1_orth==ʔiˑck
 verb_pc96_inputs=verb_pc125, verb7
 verb_pc97_name=verb_pc97
 verb_pc97_order=suffix
@@ -3166,13 +3166,13 @@ verb_pc101_lrt1_feat2_name=number
 verb_pc101_lrt1_feat2_value=sg
 verb_pc101_lrt1_feat2_head=subj
 verb_pc101_lrt1_lri1_inflecting=yes
-verb_pc101_lrt1_lri1_orth=-=quuk
+verb_pc101_lrt1_lri1_orth==quuk
 verb_pc101_lrt2_name=verb_pc101_lrt2
 verb_pc101_lrt2_feat1_name=person
 verb_pc101_lrt2_feat1_value=2
 verb_pc101_lrt2_feat1_head=subj
 verb_pc101_lrt2_lri1_inflecting=yes
-verb_pc101_lrt2_lri1_orth=-=\!im
+verb_pc101_lrt2_lri1_orth==!im
 verb_pc101_inputs=verb_pc14
 verb_pc102_name=verb_pc102
 verb_pc102_order=suffix
@@ -3207,13 +3207,13 @@ verb_pc106_lrt1_feat3_name=number
 verb_pc106_lrt1_feat3_value=sg
 verb_pc106_lrt1_feat3_head=subj
 verb_pc106_lrt1_lri1_inflecting=yes
-verb_pc106_lrt1_lri1_orth=-=(m)eˑʔic
+verb_pc106_lrt1_lri1_orth==(m)eˑʔic
 verb_pc106_inputs=verb_pc11
 verb_pc108_name=verb_pc108
 verb_pc108_order=suffix
 verb_pc108_lrt1_name=verb_pc108_lrt1
 verb_pc108_lrt1_lri1_inflecting=yes
-verb_pc108_lrt1_lri1_orth=-=ƛaa
+verb_pc108_lrt1_lri1_orth==ƛaa
 verb_pc108_inputs=verb_pc35
 verb_pc112_name=verb_pc112
 verb_pc112_order=suffix
@@ -3225,19 +3225,19 @@ verb_pc112_lrt1_feat2_name=number
 verb_pc112_lrt1_feat2_value=sg
 verb_pc112_lrt1_feat2_head=subj
 verb_pc112_lrt1_lri1_inflecting=yes
-verb_pc112_lrt1_lri1_orth=-=k
+verb_pc112_lrt1_lri1_orth==k
 verb_pc112_inputs=verb_pc12
 verb_pc113_name=verb_pc113
 verb_pc113_order=suffix
 verb_pc113_lrt1_name=verb_pc113_lrt1
 verb_pc113_lrt1_lri1_inflecting=yes
-verb_pc113_lrt1_lri1_orth=-=\!aqƛ
+verb_pc113_lrt1_lri1_orth==!aqƛ
 verb_pc113_inputs=verb88, verb_pc10
 verb_pc115_name=verb_pc115
 verb_pc115_order=suffix
 verb_pc115_lrt1_name=verb_pc115_lrt1
 verb_pc115_lrt1_lri1_inflecting=yes
-verb_pc115_lrt1_lri1_orth=-\!aḥs
+verb_pc115_lrt1_lri1_orth=-!aḥs
 verb_pc115_inputs=verb77
 verb_pc116_name=verb_pc116
 verb_pc116_order=suffix
@@ -3295,7 +3295,7 @@ verb_pc125_lrt1_lri2_orth=-l.mac̓uk
 verb_pc125_lrt1_lri3_inflecting=yes
 verb_pc125_lrt1_lri3_orth=-naˑk
 verb_pc125_lrt1_lri4_inflecting=yes
-verb_pc125_lrt1_lri4_orth=-\!iis
+verb_pc125_lrt1_lri4_orth=-!iis
 verb_pc125_lrt1_lri5_inflecting=yes
 verb_pc125_lrt1_lri5_orth=-l.snaˑʕał
 verb_pc125_inputs=verb84, verb_pc30
@@ -3309,7 +3309,7 @@ verb_pc130_name=verb_pc130
 verb_pc130_order=suffix
 verb_pc130_lrt1_name=verb_pc130_lrt1
 verb_pc130_lrt1_lri1_inflecting=yes
-verb_pc130_lrt1_lri1_orth=-=cum
+verb_pc130_lrt1_lri1_orth==cum
 verb_pc130_inputs=verb87
 verb_pc131_name=verb_pc131
 verb_pc131_order=suffix
@@ -3336,7 +3336,7 @@ verb_pc133_lrt1_feat3_name=number
 verb_pc133_lrt1_feat3_value=pl
 verb_pc133_lrt1_feat3_head=subj
 verb_pc133_lrt1_lri1_inflecting=yes
-verb_pc133_lrt1_lri1_orth=-=suu
+verb_pc133_lrt1_lri1_orth==suu
 verb_pc133_lrt2_name=verb_pc133_lrt2
 verb_pc133_lrt2_feat1_name=person
 verb_pc133_lrt2_feat1_value=2
@@ -3345,13 +3345,13 @@ verb_pc133_lrt2_feat2_name=number
 verb_pc133_lrt2_feat2_value=pl
 verb_pc133_lrt2_feat2_head=subj
 verb_pc133_lrt2_lri1_inflecting=yes
-verb_pc133_lrt2_lri1_orth=-=ʔiˑcuuš
+verb_pc133_lrt2_lri1_orth==ʔiˑcuuš
 verb_pc133_inputs=verb_pc26
 verb_pc134_name=verb_pc134
 verb_pc134_order=suffix
 verb_pc134_lrt1_name=verb_pc134_lrt1
 verb_pc134_lrt1_lri1_inflecting=yes
-verb_pc134_lrt1_lri1_orth=-=ʔak
+verb_pc134_lrt1_lri1_orth==ʔak
 verb_pc134_inputs=verb100
 verb_pc135_name=verb_pc135
 verb_pc135_order=suffix
@@ -3369,7 +3369,7 @@ verb_pc138_name=verb_pc138
 verb_pc138_order=suffix
 verb_pc138_lrt1_name=verb_pc138_lrt1
 verb_pc138_lrt1_lri1_inflecting=yes
-verb_pc138_lrt1_lri1_orth=-\!in
+verb_pc138_lrt1_lri1_orth=-!in
 verb_pc138_lrt1_lri2_inflecting=yes
 verb_pc138_lrt1_lri2_orth=-c̓ał
 verb_pc138_lrt1_lri3_inflecting=yes
@@ -3391,19 +3391,19 @@ verb_pc146_lrt1_feat2_name=number
 verb_pc146_lrt1_feat2_value=sg
 verb_pc146_lrt1_feat2_head=subj
 verb_pc146_lrt1_lri1_inflecting=yes
-verb_pc146_lrt1_lri1_orth=-=weˑʔincuk
+verb_pc146_lrt1_lri1_orth==weˑʔincuk
 verb_pc146_inputs=verb_pc14
 verb_pc147_name=verb_pc147
 verb_pc147_order=suffix
 verb_pc147_lrt1_name=verb_pc147_lrt1
 verb_pc147_lrt1_lri1_inflecting=yes
-verb_pc147_lrt1_lri1_orth=-=ʔaaqƛ
+verb_pc147_lrt1_lri1_orth==ʔaaqƛ
 verb_pc147_lrt2_name=verb_pc147_lrt2
 verb_pc147_lrt2_feat1_name=tense
 verb_pc147_lrt2_feat1_value=pst
 verb_pc147_lrt2_feat1_head=verb
 verb_pc147_lrt2_lri1_inflecting=yes
-verb_pc147_lrt2_lri1_orth=-=(m)it
+verb_pc147_lrt2_lri1_orth==(m)it
 verb_pc147_inputs=verb_pc24, verb_pc33, verb_pc125
 verb_pc148_name=verb_pc148
 verb_pc148_order=suffix
@@ -3421,13 +3421,13 @@ verb_pc156_lrt1_lri2_orth=-nup
 verb_pc156_lrt1_lri3_inflecting=yes
 verb_pc156_lrt1_lri3_orth=-nuƛ
 verb_pc156_lrt1_lri4_inflecting=yes
-verb_pc156_lrt1_lri4_orth=-l+s.\!aał
+verb_pc156_lrt1_lri4_orth=-l+s.!aał
 verb_pc156_lrt2_name=verb_pc156_lrt2
 verb_pc156_lrt2_feat1_name=tense
 verb_pc156_lrt2_feat1_value=pst
 verb_pc156_lrt2_feat1_head=verb
 verb_pc156_lrt2_lri1_inflecting=yes
-verb_pc156_lrt2_lri1_orth=-=nit
+verb_pc156_lrt2_lri1_orth==nit
 verb_pc156_inputs=verb_pc33, verb_pc36
 verb_pc161_name=verb_pc161
 verb_pc161_order=suffix
@@ -3442,7 +3442,7 @@ verb_pc161_lrt1_feat3_name=number
 verb_pc161_lrt1_feat3_value=sg
 verb_pc161_lrt1_feat3_head=subj
 verb_pc161_lrt1_lri1_inflecting=yes
-verb_pc161_lrt1_lri1_orth=-=\(m\)aˑḥ
+verb_pc161_lrt1_lri1_orth==(m)aˑḥ
 verb_pc161_inputs=verb_pc14
 verb_pc169_name=verb_pc169
 verb_pc169_order=suffix

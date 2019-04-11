@@ -2,9 +2,9 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Nuuchahnulth
 ;;; created at:
-;;;     Wed Apr 10 21:40:44 UTC 2019
+;;;     Thu Apr 11 22:27:28 UTC 2019
 ;;; based on Matrix customization system version of:
-;;;     unknown time
+;;;     Tue Nov 13 21:13:22 UTC 2018
 ;;;
 ;;; 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -433,91 +433,91 @@ verb130-verb-lex := transitive-verb-lex.
 
 ;;; Intermediate rule types
 
-noun-pc65-rule-dtr := word-or-lexrule.
+noun-pc76-rule-dtr := word-or-lexrule.
 noun-pc20-rule-dtr := word-or-lexrule.
-noun-pc85-rule-dtr := word-or-lexrule.
-noun-pc26-rule-dtr := word-or-lexrule.
+noun-pc49-rule-dtr := word-or-lexrule.
+noun-pc125-rule-dtr := word-or-lexrule.
+noun-pc14-rule-dtr := word-or-lexrule.
 noun-pc64-rule-dtr := word-or-lexrule.
 noun-pc102-rule-dtr := word-or-lexrule.
-noun-pc7-rule-dtr := word-or-lexrule.
+noun-pc116-rule-dtr := word-or-lexrule.
 noun-pc30-rule-dtr := word-or-lexrule.
 noun-pc31-rule-dtr := word-or-lexrule.
-noun-pc14-rule-dtr := word-or-lexrule.
+noun-pc101-or-noun-pc151-rule-dtr := word-or-lexrule.
 noun-pc60-rule-dtr := word-or-lexrule.
-noun-pc115-rule-dtr := word-or-lexrule.
-noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr := word-or-lexrule.
-noun-pc70-rule-dtr := word-or-lexrule.
+noun-pc103-rule-dtr := word-or-lexrule.
+noun-pc67-rule-dtr := word-or-lexrule.
 noun-pc2-rule-dtr := word-or-lexrule.
+noun-pc84-rule-dtr := word-or-lexrule.
 noun-pc157-rule-dtr := word-or-lexrule.
-noun-pc82-or-noun-pc86-rule-dtr := word-or-lexrule.
-noun-pc49-rule-dtr := word-or-lexrule.
+noun-pc85-rule-dtr := word-or-lexrule.
 noun-pc52-rule-dtr := word-or-lexrule.
-noun-pc18-rule-dtr := word-or-lexrule.
+noun-pc87-rule-dtr := word-or-lexrule.
 noun-pc118-rule-dtr := word-or-lexrule.
 noun-pc36-rule-dtr := word-or-lexrule.
-noun-pc9-rule-dtr := word-or-lexrule.
 noun-pc17-rule-dtr := word-or-lexrule.
 noun-pc29-rule-dtr := word-or-lexrule.
 noun-pc28-rule-dtr := word-or-lexrule.
+noun-pc16-rule-dtr := word-or-lexrule.
 noun-pc106-rule-dtr := word-or-lexrule.
 noun-pc50-rule-dtr := word-or-lexrule.
 noun-pc148-rule-dtr := word-or-lexrule.
 noun-pc113-rule-dtr := word-or-lexrule.
 noun-pc66-rule-dtr := word-or-lexrule.
 noun-pc51-rule-dtr := word-or-lexrule.
-noun-pc39-rule-dtr := word-or-lexrule.
-noun-pc16-rule-dtr := word-or-lexrule.
+noun-pc70-rule-dtr := word-or-lexrule.
 noun-pc56-rule-dtr := word-or-lexrule.
-noun-pc57-rule-dtr := word-or-lexrule.
+noun-pc82-or-noun-pc86-rule-dtr := word-or-lexrule.
+noun-pc39-rule-dtr := word-or-lexrule.
 noun-pc5-rule-dtr := word-or-lexrule.
-noun-pc98-rule-dtr := word-or-lexrule.
+noun-pc26-rule-dtr := word-or-lexrule.
+noun-pc105-rule-dtr := word-or-lexrule.
 noun-pc117-or-noun-pc142-rule-dtr := word-or-lexrule.
 noun-pc8-rule-dtr := word-or-lexrule.
-noun-pc42-rule-dtr := word-or-lexrule.
 noun-pc167-rule-dtr := word-or-lexrule.
 noun-pc24-rule-dtr := word-or-lexrule.
+noun-pc93-rule-dtr := word-or-lexrule.
 noun-pc111-rule-dtr := word-or-lexrule.
-noun-pc105-rule-dtr := word-or-lexrule.
+noun-pc98-rule-dtr := word-or-lexrule.
+noun-pc38-rule-dtr := word-or-lexrule.
 noun-pc23-rule-dtr := word-or-lexrule.
-noun-pc103-rule-dtr := word-or-lexrule.
+noun-pc42-rule-dtr := word-or-lexrule.
 noun-pc15-rule-dtr := word-or-lexrule.
 noun-pc4-rule-dtr := word-or-lexrule.
 noun-pc191-rule-dtr := word-or-lexrule.
 noun-pc141-rule-dtr := word-or-lexrule.
-noun-pc38-rule-dtr := word-or-lexrule.
-noun-pc47-rule-dtr := word-or-lexrule.
+noun-pc74-rule-dtr := word-or-lexrule.
+noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr := word-or-lexrule.
+noun-pc7-rule-dtr := word-or-lexrule.
 noun-pc104-rule-dtr := word-or-lexrule.
-noun-pc125-rule-dtr := word-or-lexrule.
-noun-pc87-rule-dtr := word-or-lexrule.
-noun-pc101-or-noun-pc151-rule-dtr := word-or-lexrule.
+noun-pc21-rule-dtr := word-or-lexrule.
 noun-pc6-rule-dtr := word-or-lexrule.
 noun-pc160-rule-dtr := word-or-lexrule.
+noun-pc114-or-noun-pc143-rule-dtr := word-or-lexrule.
 noun-pc139-rule-dtr := word-or-lexrule.
 noun-pc97-rule-dtr := word-or-lexrule.
 noun-pc138-rule-dtr := word-or-lexrule.
-noun-pc67-rule-dtr := word-or-lexrule.
-noun-pc114-or-noun-pc143-rule-dtr := word-or-lexrule.
-noun-pc84-rule-dtr := word-or-lexrule.
-noun-pc69-rule-dtr := word-or-lexrule.
+noun-pc65-rule-dtr := word-or-lexrule.
+noun-pc9-rule-dtr := word-or-lexrule.
+noun-pc25-rule-dtr := word-or-lexrule.
 noun-pc95-rule-dtr := word-or-lexrule.
 noun-pc81-rule-dtr := word-or-lexrule.
 noun-pc62-rule-dtr := word-or-lexrule.
-noun-pc76-rule-dtr := word-or-lexrule.
+noun-pc69-rule-dtr := word-or-lexrule.
+noun-pc18-rule-dtr := word-or-lexrule.
 noun-pc92-rule-dtr := word-or-lexrule.
-noun-pc93-rule-dtr := word-or-lexrule.
+noun-pc115-rule-dtr := word-or-lexrule.
 noun-pc10-rule-dtr := word-or-lexrule.
 noun-pc3-rule-dtr := word-or-lexrule.
 noun-pc78-rule-dtr := word-or-lexrule.
 noun-pc88-rule-dtr := word-or-lexrule.
-noun-pc25-rule-dtr := word-or-lexrule.
 noun-pc100-rule-dtr := word-or-lexrule.
-noun-pc21-rule-dtr := word-or-lexrule.
+noun-pc57-rule-dtr := word-or-lexrule.
 noun-pc13-rule-dtr := word-or-lexrule.
 noun-pc46-rule-dtr := word-or-lexrule.
 noun-pc63-rule-dtr := word-or-lexrule.
-noun-pc116-rule-dtr := word-or-lexrule.
 noun-pc40-rule-dtr := word-or-lexrule.
-noun-pc74-rule-dtr := word-or-lexrule.
+noun-pc47-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
