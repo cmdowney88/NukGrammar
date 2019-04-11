@@ -214,7 +214,7 @@ noun-pc30_lrt1-suffix12 :=
 noun-pc30_lrt1-lex-rule.
 
 noun-pc30_lrt1-suffix13 :=
-%suffix (* -r\.!iiḥ)
+%suffix (* -r\.\!iiḥ)
 noun-pc30_lrt1-lex-rule.
 
 noun-pc30_lrt1-suffix14 :=
