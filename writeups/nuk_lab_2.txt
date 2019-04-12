@@ -7,13 +7,19 @@ Yes, please share our work with Kristen.
 
 2. Description the steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
 Our choice file was too large to customize with the web interface but we were able to manually modify the choices file and download the command line validation script to check those changes. We made the following changes to the choice file in order to get it to compile:
-A. Cleared out English choices
-B. Added lines to correctly handle puncutation such as the clitic marking = in our lexicon.
-C. Added information about basic word order.
-D. Added optional determiners for all nouns.
-E. Incorporated Kristen's additional information about PNG, tense, and mood.
-F. For some reason, verb-pc## was throwing errors about varible names so they were renamed verb_pc##.
-G. Remove erroneous morpheme delimiters. The clitic suffixes which were supposed to begin with = instead began with -= leading to parsing errors.
+     -The original choices file was taken from the Google Drive
+     -The choices file initially only had the "Lexicon" section, and so it was rejected as invalid by the grammar customization system
+     -We added the necessary lines from our "toy" English choices file from the beginning of class to allow compilation.
+     -We adjusted the Word Order section to fit with the "Verb-Initial" description in the Davidson grammar
+          -(Subject and Object can occur in either order after the verb)
+          -(There also don't appear to be determiners or auxiliaries)
+     -The grammar at this stage was still not validating due to the status of Determiners being left unspecified for each noun class
+     	  -To fix this we added "noun##_det=opt" to every noun class
+
+     ### David, probably add something here about how you got the Morphology Section to validate ###
+
+     -Initial tsdb runs showed 0 coverage, so we went back to the Grammar Customization to add argument optionality
+          -At this point, we allow both the subject and object to be optional everywhere
 
 With these coices we were able to generate our initial grammar. However, we still had to make a few manual changes to the grammar.
 A. Escaped ! ( ) . in irules.tdl so that they would parse correctly.
