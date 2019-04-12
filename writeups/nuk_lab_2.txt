@@ -17,7 +17,6 @@ Our choice file was too large to customize with the web interface but we were ab
      	  -To fix this we added "noun##_det=opt" to every noun class
      -The grammar was now validating for everything except the Morphology tab.
      	  -To address this, we used the manual validator which told us that the grammar. This gave the error "You have selected an invalid feature value" for a large number of verbs. After trying a few tweeks, we found that the grammar compiled when the - in the value name was replaced with _. 
-
      -Initial tsdb runs showed 0 coverage, so we went back to the Grammar Customization to add argument optionality
           -At this point, we allow both the subject and object to be optional everywhere
 
@@ -27,9 +26,13 @@ With these coices we were able to generate our initial grammar. However, we stil
 
 3. Your answers to the questions about the [incr tsdb()] run, repeated here.
         1. How many items parsed?
+	     -In our only run with parsing items, one item parsed. :)
         2. What is the average number of parses per parsed item?
+	     -The sentence in question had two parses
         3. How many parses did the most ambiguous item receive?
+	     -Since there was only one parsed sentence, two was the max ambiguity
         4. What sources of ambiguity can you identify?
+	     -
         5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
 
 4. If you have identified ways in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 
