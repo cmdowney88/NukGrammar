@@ -15,15 +15,15 @@ Our choice file was too large to customize with the web interface but we were ab
           -(There also don't appear to be determiners or auxiliaries)
      -The grammar at this stage was still not validating due to the status of Determiners being left unspecified for each noun class
      	  -To fix this we added "noun##_det=opt" to every noun class
-
-     ### David, probably add something here about how you got the Morphology Section to validate ###
+     -The grammar was now validating for everything except the Morphology tab.
+     	  -To address this, we used the manual validator which told us that the grammar. This gave the error "You have selected an invalid feature value" for a large number of verbs. After trying a few tweeks, we found that the grammar compiled when the - in the value name was replaced with _. 
 
      -Initial tsdb runs showed 0 coverage, so we went back to the Grammar Customization to add argument optionality
           -At this point, we allow both the subject and object to be optional everywhere
 
 With these coices we were able to generate our initial grammar. However, we still had to make a few manual changes to the grammar.
-A. Escaped ! ( ) . in irules.tdl so that they would parse correctly.
-B. Because . is used intra-word, we were having issues with the sentence ending periods. We stripped these from our corpus for now so that we can parse the sentences without errors based off trying to treat sentence ending periods as words.
+     -Escaped ! ( ) . in irules.tdl so that they would parse correctly.
+     -Because . is used intra-word, we were having issues with the sentence ending periods. We stripped these from our corpus for now so that we can parse the sentences without errors based off trying to treat sentence ending periods as words.
 
 3. Your answers to the questions about the [incr tsdb()] run, repeated here.
         1. How many items parsed?
