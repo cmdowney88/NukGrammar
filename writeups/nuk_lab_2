@@ -18,7 +18,7 @@ G. Remove erroneous morpheme delimiters. The clitic suffixes which were supposed
 With these coices we were able to generate our initial grammar. However, we still had to make a few manual changes to the grammar.
 A. Escaped ! ( ) . in irules.tdl so that they would parse correctly.
 B. Since we could not use the web customization interface due to file size, manually adjusted the grammar to add subject and object dropping (Agatha -- feel free to correct me if I'm off here).
-
+C. Because . is used intra-word, we were having issues with the sentence ending periods. We stripped these from our corpus for now so that we can parse the sentences without errors based off trying to treat sentence ending periods as words.
 
 3. Your answers to the questions about the [incr tsdb()] run, repeated here.
         1. How many items parsed?
