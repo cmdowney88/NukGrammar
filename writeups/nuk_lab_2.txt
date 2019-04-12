@@ -23,8 +23,7 @@ Our choice file was too large to customize with the web interface but we were ab
 
 With these coices we were able to generate our initial grammar. However, we still had to make a few manual changes to the grammar.
 A. Escaped ! ( ) . in irules.tdl so that they would parse correctly.
-B. Since we could not use the web customization interface due to file size, manually adjusted the grammar to add subject and object dropping (Agatha -- feel free to correct me if I'm off here).
-C. Because . is used intra-word, we were having issues with the sentence ending periods. We stripped these from our corpus for now so that we can parse the sentences without errors based off trying to treat sentence ending periods as words.
+B. Because . is used intra-word, we were having issues with the sentence ending periods. We stripped these from our corpus for now so that we can parse the sentences without errors based off trying to treat sentence ending periods as words.
 
 3. Your answers to the questions about the [incr tsdb()] run, repeated here.
         1. How many items parsed?
@@ -34,5 +33,3 @@ C. Because . is used intra-word, we were having issues with the sentence ending 
         5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
 
 4. If you have identified ways in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 
-
-
