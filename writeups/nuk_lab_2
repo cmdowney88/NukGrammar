@@ -2,3 +2,31 @@ Agatha Downey and David Nielsen
 Ling 567, Lab 2 Writeup
 12 April 2019
 
+1. May I share this and future write ups with Kristen for her dissertation work?
+Yes, please share our work with Kristen.
+
+2. Description the steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
+Our choice file was too large to customize with the web interface but we were able to manually modify the choices file and download the command line validation script to check those changes. We made the following changes to the choice file in order to get it to compile:
+A. Cleared out English choices
+B. Added lines to correctly handle puncutation such as the clitic marking = in our lexicon.
+C. Added information about basic word order.
+D. Added optional determiners for all nouns.
+E. Incorporated Kristen's additional information about PNG, tense, and mood.
+F. For some reason, verb-pc## was throwing errors about varible names so they were renamed verb_pc##.
+G. Remove erroneous morpheme delimiters. The clitic suffixes which were supposed to begin with = instead began with -= leading to parsing errors.
+
+With these coices we were able to generate our initial grammar. However, we still had to make a few manual changes to the grammar.
+A. Escaped ! ( ) . in irules.tdl so that they would parse correctly.
+B. Since we could not use the web customization interface due to file size, manually adjusted the grammar to add subject and object dropping (Agatha -- feel free to correct me if I'm off here).
+
+
+3. Your answers to the questions about the [incr tsdb()] run, repeated here.
+        1. How many items parsed?
+        2. What is the average number of parses per parsed item?
+        3. How many parses did the most ambiguous item receive?
+        4. What sources of ambiguity can you identify?
+        5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
+
+4. If you have identified ways in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 
+
+
