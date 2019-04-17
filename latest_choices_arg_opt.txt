@@ -31,6 +31,7 @@ section=tense-aspect
 tense-definition=build
 tense1_supertype1_name=tense
 tense1_name=pst
+mood1_name=real
 
 section=person
 person=1-2-3

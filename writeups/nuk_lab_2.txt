@@ -36,8 +36,9 @@ With these coices we were able to generate our initial grammar. However, we stil
               be parsed as a saturated VP that becomes a sentence via the decl-head-opt-subj-phrase, or it can be
 	      parsed as a non-saturated V that enters into the basic-head-opt-comp-phrase to become a VP
 	      and then becomes a sentence
-        5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
+
+4. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
 	     -This item appears to generate somewhat reasonable semantics, in that there is a "say" relation included
 	      which indexes three arguments for the transitive version (one being the event), and two for the intransitive
 
-4. If you have identified ways in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 
+5. If you have identified ways in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better.
