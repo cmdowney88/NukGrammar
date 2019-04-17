@@ -2,5 +2,10 @@ Source: Davidson
 Vetted: f
 Judgment: g
 weʔič-šiƛ=ʔał
-sleep.3sg
+sleep-PERF=TEMP
 `He/she/it slept' 
+
+Source: Davidson
+Vetted: f
+Judgement: g
+weʔič=ma
