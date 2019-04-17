@@ -1,11 +1,14 @@
 Source: Davidson
 Vetted: f
 Judgment: g
-weʔič-šiƛ=ʔał
-sleep-PERF=TEMP
-`He/she/it slept' 
+weʔič=ʔał
+sleep=3pl
+`they slept' 
 
 Source: Davidson
 Vetted: f
 Judgement: g
-weʔič=ma
+weʔič=maˑ
+sleep=REAL.3
+`he/she/it slept'
+`
