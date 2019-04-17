@@ -1,11 +1,18 @@
-Source: Davidson
+Language: Nuuchahnulth
+Language code: nuk
+Lines: <orth  gloss translat>
+Author: Agatha Downey and David Nielsen
+Date: April 17, 2019
+Source a: Davidson Nootkan Grammar
+
+Source: a
 Vetted: f
 Judgment: g
 weʔič-šiƛ=ʔał
 sleep-PERF=TEMP
 `He/she/it slept' 
 
-Source: Davidson
+Source: a
 Vetted: f
 Judgement: g
 weʔič=ma
