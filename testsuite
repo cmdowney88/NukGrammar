@@ -3,19 +3,36 @@ Language code: nuk
 Lines: orth gloss translat
 Author: Agatha Downey and David Nielsen
 Date: April 17, 2019
+Source a: Davidson
 
-Source: author
-Vetted: f
-Judgment: g
-Phenomena: {aspect}
-weʔič=ʔał
-sleep=3pl
-`they slept' 
-
-Source: author
+Source: a:98
 Vetted: f
 Judgement: g
 Phenomena: {aspect}
 weʔič=maˑ
 sleep=REAL.3
-`he/she/it slept'
+`he/she/it/they are sleeping'
+
+Source: a:102
+Vetted: f
+Judgement: g
+Phenomena: {aspect}
+nunuˑk=!aƛ=maˑ
+sing=NOW=REAL.3
+`he/she/it/they are singing'
+
+Source: a:105
+Vetted: f
+Judgement: g
+Phenomena: {tense}
+nunuˑk=!aƛ=mit=siˑ
+sing=NOW=PAST=1sg
+`I was singing'
+
+Source: a:109
+Vetted: f
+Judgement: g
+Phenomena: {tense, aspect, agreement}
+ciq-šiƛ=!aƛ=maˑ=aḥ
+speak-PERF=NOW=REAL.3=1sg
+`I spoke'
