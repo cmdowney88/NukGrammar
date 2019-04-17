@@ -1365,7 +1365,7 @@ verb-pc2-lex-rule-super := add-only-no-ccont-rule & verb-pc101-or-verb-pc146-or-
 verb-pc2_lrt1-lex-rule := infl-lex-rule & verb-pc2-lex-rule-super.
 
 verb-pc2_lrt2-lex-rule := infl-lex-rule & verb-pc2-lex-rule-super &
-  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd & 1st,
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
                                                                 NUM pl ] ].
 
 verb-pc2_lrt3-lex-rule := infl-lex-rule & verb-pc2-lex-rule-super &
@@ -1617,7 +1617,7 @@ verb-pc53-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ DTR verb-pc53-rule-dtr ].
 
 verb-pc53_lrt1-lex-rule := verb-pc53-lex-rule-super &
-  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd & 1st,
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
                                                                 NUM sg ] ].
 
 verb-pc54-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
