@@ -1,21 +1,21 @@
 Language: Nuuchahnulth
 Language code: nuk
-Lines: <orth  gloss translat>
+Lines: orth gloss translat
 Author: Agatha Downey and David Nielsen
 Date: April 17, 2019
-Source a: Davidson Nootkan Grammar
 
-Source: a
+Source: author
 Vetted: f
 Judgment: g
+Phenomena: {aspect}
 weʔič=ʔał
 sleep=3pl
 `they slept' 
 
-Source: a
+Source: author
 Vetted: f
 Judgement: g
+Phenomena: {aspect}
 weʔič=maˑ
 sleep=REAL.3
 `he/she/it slept'
-`

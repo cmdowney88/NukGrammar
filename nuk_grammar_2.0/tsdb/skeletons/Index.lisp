@@ -25,5 +25,6 @@
 ; ((:path . "new-test-suite") (:content . "New Test Suite: A description of the new test suite located at the subdirectory new-test-suite."))
 ((:path . "corpus") (:content . "Original IGT from pipeline"))
 ((:path . "corpus_no_punc") (:content . "IGT with sentential punctuation removed"))
+((:path . "testsuite") (:content . "Constructed Testsuite for Lab 3"))
 )
 
