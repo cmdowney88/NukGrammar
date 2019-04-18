@@ -1,4 +1,3 @@
-
 version=32
 
 section=general
@@ -1477,6 +1476,7 @@ section=morphology
       noun-pc26_lrt1_lri1_inflecting=yes
       noun-pc26_lrt1_lri1_orth==ʔiˑc
   noun-pc27_name=noun-pc27
+  noun-pc27_obligatory=on
   noun-pc27_order=suffix
   noun-pc27_inputs=noun13
     noun-pc27_lrt1_name=noun-pc27_lrt1
@@ -2070,6 +2070,7 @@ section=morphology
       noun-pc121_lrt1_lri1_inflecting=yes
       noun-pc121_lrt1_lri1_orth=-aˑcyin
   noun-pc122_name=noun-pc122
+  noun-pc122_obligatory=on
   noun-pc122_order=suffix
   noun-pc122_inputs=noun82
     noun-pc122_lrt1_name=noun-pc122_lrt1
@@ -2326,6 +2327,7 @@ section=morphology
       verb-pc1_lrt1_lri1_inflecting=yes
       verb-pc1_lrt1_lri1_orth=-w̓it̓as
   verb-pc2_name=verb-pc2
+  verb-pc2_obligatory=on
   verb-pc2_order=suffix
   verb-pc2_inputs=verb2, verb7
     verb-pc2_lrt1_name=verb-pc2_lrt1
@@ -2345,12 +2347,9 @@ section=morphology
       verb-pc2_lrt2_feat1_name=person
       verb-pc2_lrt2_feat1_value=2nd
       verb-pc2_lrt2_feat1_head=subj
-      verb-pc2_lrt2_feat2_name=person
-      verb-pc2_lrt2_feat2_value=1st
+      verb-pc2_lrt2_feat2_name=number
+      verb-pc2_lrt2_feat2_value=pl
       verb-pc2_lrt2_feat2_head=subj
-      verb-pc2_lrt2_feat3_name=number
-      verb-pc2_lrt2_feat3_value=pl
-      verb-pc2_lrt2_feat3_head=subj
       verb-pc2_lrt2_lri1_inflecting=yes
       verb-pc2_lrt2_lri1_orth==\!in
     verb-pc2_lrt3_name=verb-pc2_lrt3
@@ -2602,6 +2601,7 @@ section=morphology
       verb-pc29_lrt1_lri1_inflecting=yes
       verb-pc29_lrt1_lri1_orth==ʔaała
   verb-pc30_name=verb-pc30
+  verb-pc30_obligatory=on
   verb-pc30_order=suffix
   verb-pc30_inputs=verb16
     verb-pc30_lrt1_name=verb-pc30_lrt1
@@ -2751,12 +2751,9 @@ section=morphology
       verb-pc53_lrt1_feat1_name=person
       verb-pc53_lrt1_feat1_value=2nd
       verb-pc53_lrt1_feat1_head=subj
-      verb-pc53_lrt1_feat2_name=person
-      verb-pc53_lrt1_feat2_value=1st
+      verb-pc53_lrt1_feat2_name=number
+      verb-pc53_lrt1_feat2_value=sg
       verb-pc53_lrt1_feat2_head=subj
-      verb-pc53_lrt1_feat3_name=number
-      verb-pc53_lrt1_feat3_value=sg
-      verb-pc53_lrt1_feat3_head=subj
       verb-pc53_lrt1_lri1_inflecting=yes
       verb-pc53_lrt1_lri1_orth==\!iˑs
   verb-pc54_name=verb-pc54
@@ -3166,6 +3163,7 @@ section=morphology
       verb-pc115_lrt1_lri1_inflecting=yes
       verb-pc115_lrt1_lri1_orth=-\!aḥs
   verb-pc116_name=verb-pc116
+  verb-pc116_obligatory=on
   verb-pc116_order=suffix
   verb-pc116_inputs=verb78
     verb-pc116_lrt1_name=verb-pc116_lrt1
