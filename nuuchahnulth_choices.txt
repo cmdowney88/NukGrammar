@@ -2397,7 +2397,7 @@ section=morphology
       verb-pc5_lrt1_lri1_orth=-lr2l.a
   verb-pc8_name=verb-pc8
   verb-pc8_order=suffix
-  verb-pc8_inputs=verb-pc12, verb-pc78, verb113
+  verb-pc8_inputs=verb-pc12, verb113, verb-pc14
     verb-pc8_lrt1_name=verb-pc8_lrt1
       verb-pc8_lrt1_feat1_name=tense
       verb-pc8_lrt1_feat1_value=pst
@@ -2412,7 +2412,7 @@ section=morphology
       verb-pc9_lrt1_feat1_value=3rd
       verb-pc9_lrt1_feat1_head=subj
       verb-pc9_lrt1_lri1_inflecting=yes
-      verb-pc9_lrt1_lri1_orth==waˑʔiš
+      verb-pc9_lrt1_lri1_orth==waˑʔi
   verb-pc10_name=verb-pc10
   verb-pc10_order=suffix
   verb-pc10_inputs=verb-pc125, verb2, verb4, verb7, verb-pc142, verb25, verb29, verb-pc31, verb32, verb-pc33, verb35, verb81, verb-pc117
@@ -2926,7 +2926,7 @@ section=morphology
       verb-pc76_lrt1_lri1_orth=-ḥiˑ
   verb-pc78_name=verb-pc78
   verb-pc78_order=suffix
-  verb-pc78_inputs=verb-pc2
+  verb-pc78_inputs=verb-pc2, verb-pc8
     verb-pc78_lrt1_name=verb-pc78_lrt1
       verb-pc78_lrt1_feat1_name=gender
       verb-pc78_lrt1_feat1_value=n
