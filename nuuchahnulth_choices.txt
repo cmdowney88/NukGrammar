@@ -3355,7 +3355,7 @@ section=morphology
       verb-pc156_lrt2_lri1_orth==nit
   verb-pc161_name=verb-pc161
   verb-pc161_order=suffix
-  verb-pc161_inputs=verb-pc14
+  verb-pc161_inputs=verb-pc14, verb-pc19
     verb-pc161_lrt1_name=verb-pc161_lrt1
       verb-pc161_lrt1_feat1_name=mood
       verb-pc161_lrt1_feat1_value=real
