@@ -29,7 +29,7 @@ Phenomena: {aspect}
 weʔič=!aƛ=maˑ
 sleep=NOW=REAL.3
 `he/she/it/they are sleeping'
-
+### REAL.3 is from verb-pc19_lrt3-lex-rule
 Source: a:105
 Vetted: f
 Judgement: g
@@ -37,6 +37,7 @@ Phenomena: {tense}
 weʔič=!aƛ=mit=siˑ
 sleep=NOW=PAST=1sg
 `I was sleeping'
+### this one should work, we have verb77-verb-lex=verb-pc14_lrt1-suffix=verb-pc8_lrt1-suffix =verb-pc78_lrt1-suffix
 
 Source: a:109
 Vetted: f
@@ -61,3 +62,11 @@ Phenomena: {adverbial modification}
 ciq-šiƛ=!aƛ=maˑ=aḥ kuʔał=ʔiˑ
 speak-PERF=NOW=REAL.3=1sg
 `I spoke in the morning'
+
+Source: a:97
+Vetted: f
+Judgement: g
+Phenomena: {aspect}
+su=!aƛ=maˑ
+hold-[L]=CONT=TEMP=INDC
+'He/she/it/they are holding it'
