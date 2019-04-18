@@ -33,7 +33,7 @@ sleep=NOW=REAL.3
 Source: a:105
 Vetted: f
 Judgement: g
-Phenomena: {tense}
+Phenomena: {tense, agreement}
 weʔič=!aƛ=mit=siˑ
 sleep=NOW=PAST=1sg
 `I was sleeping'
@@ -42,7 +42,16 @@ Source: a:109
 Vetted: f
 Judgement: g
 Phenomena: {tense, aspect, agreement}
-ciq-šiƛ=!aƛ=maˑ=aḥ
+ciq-šiƛ=!aƛ=maˑ
+speak-PERF=NOW=REAL.3=1sg
+`I spoke'
+
+
+Source: a:109
+Vetted: f
+Judgement: g
+Phenomena: {tense, aspect, agreement}
+ciq-šiƛ=!aƛ=maˑ=aˑḥ
 speak-PERF=NOW=REAL.3=1sg
 `I spoke'
 
@@ -50,7 +59,7 @@ Source: a:110
 Vetted: f
 Judgement: g
 Phenomena: {agreement, argument presence}
-n̓aˑcsaˑ=!aƛ=maˑ=aḥ suw̓a
+n̓aˑcsaˑ=!aƛ=maˑ=aˑḥ suw̓a
 see=TEMP=INDIC=1sg you.sg
 `I see you'
 
@@ -58,7 +67,7 @@ Source: a:113
 Vetted: f
 Judgement: g
 Phenomena: {adverbial modification}
-ciq-šiƛ=!aƛ=maˑ=aḥ kuʔał=ʔiˑ
+ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
 speak-PERF=NOW=REAL.3=1sg
 `I spoke in the morning'
 
