@@ -17,7 +17,7 @@ Source: a:102
 Vetted: f
 Judgement: g
 Phenomena: {aspect}
-nunuˑk='aƛ=maˑ
+nunuˑk=!aƛ=maˑ
 sing=NOW=REAL.3
 `he/she/it/they are singing'
 
@@ -26,7 +26,7 @@ Source: author
 Vetted: f
 Judgement: g
 Phenomena: {aspect}
-weʔič='aƛ=maˑ
+weʔič=!aƛ=maˑ
 sleep=NOW=REAL.3
 `he/she/it/they are sleeping'
 
@@ -34,7 +34,7 @@ Source: a:105
 Vetted: f
 Judgement: g
 Phenomena: {tense}
-weʔič='aƛ=mit=siˑ
+weʔič=!aƛ=mit=siˑ
 sleep=NOW=PAST=1sg
 `I was sleeping'
 
@@ -42,7 +42,7 @@ Source: a:109
 Vetted: f
 Judgement: g
 Phenomena: {tense, aspect, agreement}
-ciq-šiƛ='aƛ=maˑ=aḥ
+ciq-šiƛ=!aƛ=maˑ=aḥ
 speak-PERF=NOW=REAL.3=1sg
 `I spoke'
 
@@ -50,7 +50,7 @@ Source: a:110
 Vetted: f
 Judgement: g
 Phenomena: {agreement, argument presence}
-n̓aˑcsaˑ='aƛ=maˑ=aḥ suw̓a
+n̓aˑcsaˑ=!aƛ=maˑ=aḥ suw̓a
 see=TEMP=INDIC=1sg you.sg
 `I see you'
 
@@ -58,7 +58,7 @@ Source: a:113
 Vetted: f
 Judgement: g
 Phenomena: {adverbial modification}
-ciq-šiƛ='aƛ=maˑ=aḥ kuʔał=ʔiˑ
+ciq-šiƛ=!aƛ=maˑ=aḥ kuʔał=ʔiˑ
 speak-PERF=NOW=REAL.3=1sg
 `I spoke in the morning'
 
@@ -66,6 +66,6 @@ Source: a:97
 Vetted: f
 Judgement: g
 Phenomena: {aspect}
-su='aƛ=maˑ
+su=!aƛ=maˑ
 hold-[L]=CONT=TEMP=INDC
 'He/she/it/they are holding it'
