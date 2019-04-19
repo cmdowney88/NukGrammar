@@ -2435,7 +2435,7 @@ section=morphology
       verb-pc13_lrt1_lri1_orth=-swii
   verb-pc14_name=verb-pc14
   verb-pc14_order=suffix
-  verb-pc14_inputs=verb-pc135, verb13, verb-pc17, verb-pc18, verb-pc147, verb-pc21, verb-pc25, verb26, verb-pc32, verb-pc51, verb-pc55, verb-pc62, verb69, verb-pc95, verb-pc96, verb-pc97, verb-pc104, verb-pc115
+  verb-pc14_inputs=verb-pc135, verb13, verb-pc17, verb-pc18, verb-pc147, verb-pc21, verb-pc25, verb26, verb-pc32, verb-pc51, verb-pc55, verb-pc62, verb69, verb-pc95, verb-pc96, verb-pc97, verb-pc104, verb-pc115, verb43
     verb-pc14_lrt1_name=verb-pc14_lrt1
       verb-pc14_lrt1_lri1_inflecting=yes
       verb-pc14_lrt1_lri1_orth==\!aƛ
