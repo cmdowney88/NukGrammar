@@ -1413,13 +1413,13 @@ verb-pc156_lrt2-suffix :=
 %suffix (* =nit)
 verb-pc156_lrt2-lex-rule.
 
-verb-pc161_lrt1-suffix :=
+verb-pc161_lrt1-suffix1 :=
 %suffix (* =\(m\)aˑḥ)
 verb-pc161_lrt1-lex-rule.
 
-verb-pc161_lrt2-suffix :=
+verb-pc161_lrt1-suffix2 :=
 %suffix (* =aˑḥ)
-verb-pc161_lrt2-lex-rule.
+verb-pc161_lrt1-lex-rule.
 
 verb-pc169_lrt1-suffix :=
 %suffix (* -p̓iq)

@@ -2496,9 +2496,6 @@ section=morphology
       verb-pc19_lrt3_feat1_name=mood
       verb-pc19_lrt3_feat1_value=real
       verb-pc19_lrt3_feat1_head=verb
-      verb-pc19_lrt3_feat2_name=person
-      verb-pc19_lrt3_feat2_value=3rd
-      verb-pc19_lrt3_feat2_head=subj
       verb-pc19_lrt3_lri1_inflecting=yes
       verb-pc19_lrt3_lri1_orth==maˑ
   verb-pc20_name=verb-pc20
@@ -3368,6 +3365,8 @@ section=morphology
       verb-pc161_lrt1_feat3_head=subj
       verb-pc161_lrt1_lri1_inflecting=yes
       verb-pc161_lrt1_lri1_orth==\(m\)aˑḥ
+      verb-pc161_lrt1_lri2_inflecting=yes
+      verb-pc161_lrt1_lri2_orth==aˑḥ
   verb-pc169_name=verb-pc169
   verb-pc169_order=suffix
   verb-pc169_inputs=verb122
