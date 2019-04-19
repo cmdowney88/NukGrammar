@@ -21,12 +21,14 @@
         -Example #5: weʔič=!aƛ=mit=siˑ ~ sleep=TEMP=PAST=1sg ~ `I was sleeping'
     -Aspect: Perfective, Durative, and Continuative
         -Example #6: ciq-šiƛ=!aƛ=maˑ ~ speak-PER=TEMP=INDIC ~ `he/she/it/they spoke'
-        -Example #15: qaḥ=ak ~ die=DUR ~ 'dead'
+        -Example #15: qaḥ=ak ~ die=DUR ~ `dead'
         -Example #17: mat-aˑ ~ fly-CONT ~ `flying'
 
 4. Documentation of the choices you made in the customization system, illustrated with examples from your test suite.
         This can be interleaved with the documentation of the phenomena (so you describe each phenomenon and then the choices you used to add an analysis of it to the grammar), but the documentation of the phenomenon and choices should be logically separate. Here's an example of what this should look like.
-
+    -### Similarly here. You were able to replicate the changes I made
+        to the tdl through changes to the choices file, but you know
+        best how you did that
 5. Descriptions of any properties of your language illustrated in your test suite but not covered by your starter grammar and/or the customization system.
 
 6. If you have identified ways (other than those you reported last week) in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 
