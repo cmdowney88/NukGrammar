@@ -1,3 +1,4 @@
+
 version=32
 
 section=general
@@ -34,6 +35,10 @@ section=tense-aspect-mood
 tense-definition=build
   tense1_name=pst
     tense1_supertype1_name=tense
+  aspect1_name=cont
+    aspect1_supertype1_name=aspect
+  aspect2_name=dur
+    aspect2_supertype1_name=aspect
   mood1_name=real
     mood1_supertype1_name=mood
 
@@ -2369,15 +2374,13 @@ section=morphology
       verb-pc2_lrt4_lri1_orth==siˑš
     verb-pc2_lrt5_name=verb-pc2_lrt5
       verb-pc2_lrt5_feat1_name=person
-      verb-pc2_lrt5_feat1_value=2nd
+      verb-pc2_lrt5_feat1_value=3rd
       verb-pc2_lrt5_feat1_head=subj
       verb-pc2_lrt5_lri1_inflecting=yes
       verb-pc2_lrt5_lri1_orth==či
       verb-pc2_lrt5_lri2_inflecting=yes
       verb-pc2_lrt5_lri2_orth==\!iˑk
     verb-pc2_lrt6_name=verb-pc2_lrt6
-      verb-pc2_lrt5_feat1_name=person
-      verb-pc2_lrt5_feat1_value=3rd
       verb-pc2_lrt6_lri1_inflecting=no
   verb-pc3_name=verb-pc3
   verb-pc3_order=suffix
@@ -2464,6 +2467,9 @@ section=morphology
   verb-pc18_order=suffix
   verb-pc18_inputs=verb35, verb109
     verb-pc18_lrt1_name=verb-pc18_lrt1
+      verb-pc18_lrt1_feat1_name=aspect
+      verb-pc18_lrt1_feat1_value=cont
+      verb-pc18_lrt1_feat1_head=verb
       verb-pc18_lrt1_lri1_inflecting=yes
       verb-pc18_lrt1_lri1_orth=-aˑ
   verb-pc19_name=verb-pc19
@@ -3266,6 +3272,9 @@ section=morphology
   verb-pc134_order=suffix
   verb-pc134_inputs=verb100
     verb-pc134_lrt1_name=verb-pc134_lrt1
+      verb-pc134_lrt1_feat1_name=aspect
+      verb-pc134_lrt1_feat1_value=dur
+      verb-pc134_lrt1_feat1_head=verb
       verb-pc134_lrt1_lri1_inflecting=yes
       verb-pc134_lrt1_lri1_orth==ʔak
   verb-pc135_name=verb-pc135
@@ -3371,6 +3380,9 @@ section=morphology
   verb-pc170_order=suffix
   verb-pc170_inputs=verb29
     verb-pc170_lrt1_name=verb-pc170_lrt1
+      verb-pc170_lrt1_feat1_name=aspect
+      verb-pc170_lrt1_feat1_value=dur
+      verb-pc170_lrt1_feat1_head=verb
       verb-pc170_lrt1_lri1_inflecting=yes
       verb-pc170_lrt1_lri1_orth==ak
 
