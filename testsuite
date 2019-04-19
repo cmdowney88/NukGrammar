@@ -8,26 +8,34 @@ Source a: Davidson
 Source: a:98
 Vetted: f
 Judgement: g
-Phenomena: {aspect}
+Phenomena: {mood}
 weʔič=maˑ
-sleep=REAL.3
-`he/she/it/they are sleeping'
+sleep=INDIC.3
+`he/she/it/they sleep'
+
+Source: a:98
+Vetted: f
+Judgement: u
+Phenomena: {affix-order}
+maˑ=weʔič
+INDIC.3=sleep
+`he/she/it/they sleep'
 
 Source: a:102
 Vetted: f
 Judgement: g
-Phenomena: {aspect}
+Phenomena: {aspect, mood}
 nunuˑk=!aƛ=maˑ
-sing=NOW=REAL.3
+sing=TEMP=INDIC.3
 `he/she/it/they are singing'
 
 ### This one was originally "sing", but we don't have that lexical entry
 Source: author
 Vetted: f
 Judgement: g
-Phenomena: {aspect}
+Phenomena: {aspect, mood}
 weʔič=!aƛ=maˑ
-sleep=NOW=REAL.3
+sleep=TEMP=INDIC.3
 `he/she/it/they are sleeping'
 
 Source: a:105
@@ -35,24 +43,23 @@ Vetted: f
 Judgement: g
 Phenomena: {tense, agreement}
 weʔič=!aƛ=mit=siˑ
-sleep=NOW=PAST=1sg
+sleep=TEMP=PAST=1sg
 `I was sleeping'
 
 Source: a:109
 Vetted: f
 Judgement: g
-Phenomena: {tense, aspect, agreement}
+Phenomena: {aspect, mood, agreement}
 ciq-šiƛ=!aƛ=maˑ
-speak-PERF=NOW=REAL.3=1sg
+speak-PER=TEMP=INDIC.3=1sg
 `I spoke'
-
 
 Source: a:109
 Vetted: f
 Judgement: g
-Phenomena: {tense, aspect, agreement}
+Phenomena: {aspect, mood, agreement}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ
-speak-PERF=NOW=REAL.3=1sg
+speak-PERF=TEMP=INDIC.3=1sg
 `I spoke'
 
 Source: a:110
@@ -60,7 +67,7 @@ Vetted: f
 Judgement: g
 Phenomena: {agreement, argument presence}
 n̓aˑcsaˑ=!aƛ=maˑ=aˑḥ suw̓a
-see=TEMP=INDIC=1sg you.sg
+see=TEMP=INDIC.3=1sg you.sg
 `I see you'
 
 Source: a:113
@@ -68,7 +75,7 @@ Vetted: f
 Judgement: g
 Phenomena: {adverbial modification}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
-speak-PERF=NOW=REAL.3=1sg
+speak-PERF=TEMP=INDIC.3=1sg
 `I spoke in the morning'
 
 Source: a:97
@@ -76,5 +83,23 @@ Vetted: f
 Judgement: g
 Phenomena: {aspect}
 su=!aƛ=maˑ
-hold-[L]=CONT=TEMP=INDC
-'He/she/it/they are holding it'
+hold-[L]=TEMP=INDIC.3
+`He/she/it/they are holding it'
+
+### modified from the origianl root which was "sing"
+Source: a:101
+Vetted: f
+Judgement: g
+Phenomena: {mood, agreement}
+weʔič=!aƛ=maˑ=aḥ
+sleep=TEMP=INDIC.3=1sg
+`I am sleeping'
+
+### making sure agreement clitic cannot come before mood
+Source: a:101
+Vetted: f
+Judgement: u
+Phenomena: {mood, agreement}
+weʔič=!aƛ=aḥ=maˑ
+sleep=TEMP=1sg=INDIC.3
+`I am sleeping'
