@@ -1673,6 +1673,10 @@ weʔič_2 := verb77-verb-lex &
   [ STEM < "weʔič" >,
     SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
 
+nunuˑk := verb77-verb-lex &
+  [ STEM < "nunuˑk" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_sing_v_rel" ].
+
 wit := verb78-verb-lex &
   [ STEM < "wit" >,
     SYNSEM.LKEYS.KEYREL.PRED "_neg_v_rel" ].
