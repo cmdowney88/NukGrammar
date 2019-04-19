@@ -3264,12 +3264,10 @@ section=morphology
       verb-pc133_lrt2_lri1_orth==ʔiˑcuuš
   verb-pc134_name=verb-pc134
   verb-pc134_order=suffix
-  verb-pc134_inputs=verb100, verb29
+  verb-pc134_inputs=verb100
     verb-pc134_lrt1_name=verb-pc134_lrt1
       verb-pc134_lrt1_lri1_inflecting=yes
       verb-pc134_lrt1_lri1_orth==ʔak
-      verb-pc134_lrt1_lri2_inflecting=yes
-      verb-pc134_lrt1_lri2_orth==ak
   verb-pc135_name=verb-pc135
   verb-pc135_order=suffix
   verb-pc135_inputs=verb42
@@ -3369,6 +3367,12 @@ section=morphology
     verb-pc169_lrt1_name=verb-pc169_lrt1
       verb-pc169_lrt1_lri1_inflecting=yes
       verb-pc169_lrt1_lri1_orth=-p̓iq
+  verb-pc170_name=verb-pc170
+  verb-pc170_order=suffix
+  verb-pc170_inputs=verb29
+    verb-pc170_lrt1_name=verb-pc170_lrt1
+      verb-pc170_lrt1_lri1_inflecting=yes
+      verb-pc170_lrt1_lri1_orth==ak
 
 section=toolbox-import
 
