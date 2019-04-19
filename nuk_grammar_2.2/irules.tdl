@@ -1417,6 +1417,10 @@ verb-pc161_lrt1-suffix :=
 %suffix (* =\(m\)aˑḥ)
 verb-pc161_lrt1-lex-rule.
 
+verb-pc161_lrt2-suffix :=
+%suffix (* =aḥ)
+verb-pc161_lrt2-lex-rule.
+
 verb-pc169_lrt1-suffix :=
 %suffix (* -p̓iq)
 verb-pc169_lrt1-lex-rule.
