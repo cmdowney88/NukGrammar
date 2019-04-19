@@ -7,8 +7,11 @@
 7@a:113@@@1@aspect,repetition@weʔič-šiƛ=!aƛ=ƛaa@@@@1@1@sleep-PER=TEMP=AGAIN`he/she/it/they slept again'@agatha downey and david nielsen@april 17, 2019
 8@author@@@1@agr,repetition@weʔič-šiƛ=!aƛ=aˑḥ=ƛaa@@@@1@1@sleep-PER=TEMP=1sg=AGAIN`I slept again'@agatha downey and david nielsen@april 17, 2019
 9@a:109@@@1@aspect,mood,agr@ciq-šiƛ=!aƛ=maˑ=aˑḥ@@@@1@1@speak-PERF=TEMP=INDIC=1sg`I spoke'@agatha downey and david nielsen@april 17, 2019
-10@a:110@@@1@agr,argumentpresence@n̓aˑcsaˑ=!aƛ=maˑ=aˑḥ suw̓a@@@@1@2@see=TEMP=INDIC=1sg you.sg`I see you'@agatha downey and david nielsen@april 17, 2019
+10@a:110@@@1@agr,argumentpresence@n̓aacsa=!aƛ=maˑ=aˑḥ suw̓a@@@@1@2@see=TEMP=INDIC=1sg you.sg`I see you'@agatha downey and david nielsen@april 17, 2019
 11@a:113@@@1@adverbialmodification@ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ@@@@1@2@speak-PERF=TEMP=INDIC=1sg`I spoke in the morning'@agatha downey and david nielsen@april 17, 2019
 12@a:97@@@1@aspect@su=!aƛ=maˑ@@@@1@1@hold-[L]=TEMP=INDIC`He/she/it/they are holding it'@agatha downey and david nielsen@april 17, 2019
 13@a:101@@@1@mood,agr@weʔič=!aƛ=maˑ=aˑḥ@@@@1@1@sleep=TEMP=INDIC=1sg`I am sleeping'@agatha downey and david nielsen@april 17, 2019
 14@a:101@@@1@mood,agr@weʔič=!aƛ=aˑḥ=maˑ@@@@0@1@sleep=TEMP=1sg=INDIC`I am sleeping'@agatha downey and david nielsen@april 17, 2019
+15@b:26@@@1@aspect,durative@qaḥ=ak@@@@1@1@die=DUR`dead'@agatha downey and david nielsen@april 17, 2019
+16@b:26@@@1@aspect,durative@qaḥ=ʔak@@@@0@1@die=DUR`dead'@agatha downey and david nielsen@april 17, 2019
+17@b:26@@@1@aspect,continous@mat-aˑ@@@@0@1@fly-CONT`flying'@agatha downey and david nielsen@april 17, 2019

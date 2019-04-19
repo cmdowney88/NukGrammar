@@ -3,9 +3,22 @@
 
 2. Your answers to the questions about the initial and final [incr tsdb()] runs, for both test corpus and test suite, repeated here:
    1. How many items parsed?
+        -Corpus Initial: 32/649
+        -Corpus Final: 30/649
+        -Testsuite Initial: 5/17
+        -Testsuite Final: 9/17
    2. What is the average number of parses per parsed item?
+        -Corpus Initial: 2.25
+        -Corpus Final: 2.23
+        -Testsuite Initial: 1.2
+        -Testsuite Final: 1.11
    3. How many parses did the most ambiguous item receive?
+        -Corpus Initial: 6
+        -Corpus Final: 6
+        -Testsuite Initial: 2
+        -Testsuite Final: 2
    4. What sources of ambiguity can you identify?
+
    5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
 
 3. Documentation of the phenomena you have added to your testsuite, illustrated with examples from the testsuite.
