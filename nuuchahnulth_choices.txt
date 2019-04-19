@@ -39,6 +39,8 @@ tense-definition=build
     aspect1_supertype1_name=aspect
   aspect2_name=dur
     aspect2_supertype1_name=aspect
+  aspect3_name=temp
+    aspect3_supertype1_name=aspect  
   mood1_name=real
     mood1_supertype1_name=mood
 
@@ -2440,6 +2442,9 @@ section=morphology
   verb-pc14_order=suffix
   verb-pc14_inputs=verb-pc135, verb13, verb-pc17, verb-pc18, verb-pc147, verb-pc21, verb-pc25, verb26, verb-pc32, verb-pc51, verb-pc55, verb-pc62, verb69, verb-pc95, verb-pc96, verb-pc97, verb-pc104, verb-pc115, verb43
     verb-pc14_lrt1_name=verb-pc14_lrt1
+      verb-pc14_lrt1_feat1_head=verb
+      verb-pc14_lrt1_feat1_name=aspect
+      verb-pc14_lrt1_feat1_value=temp
       verb-pc14_lrt1_lri1_inflecting=yes
       verb-pc14_lrt1_lri1_orth==\!aƛ
   verb-pc15_name=verb-pc15
