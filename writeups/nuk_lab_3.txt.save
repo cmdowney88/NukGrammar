@@ -1,5 +1,4 @@
-1.  Description of any further steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
-    -### David, I think you did most of the stuff with the customization system this week
+1. Description of any further steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
 
 2. Your answers to the questions about the initial and final [incr tsdb()] runs, for both test corpus and test suite, repeated here:
    1. How many items parsed?
@@ -9,20 +8,6 @@
    5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
 
 3. Documentation of the phenomena you have added to your testsuite, illustrated with examples from the testsuite.
-    -Basic Indicative Mood, marked by the clitic "=maˑ"
-        -Example #1: weʔič=maˑ ~ sleep=INDIC ~ `he/she/it/they sleep'
-    -Temporal Marker (aspect-ish), marked by clitic "=!aƛ"
-        -Example #3: nunuˑk=!aƛ=maˑ ~ sing=TEMP=INDIC ~ `he/she/it/they are singing'
-        -(note: David glosses this as =NOW; it seems to add a sort of definiteness to the time, but not necessarily perfective or imperfective)
-    -Agreement, mostly 1sg, marked by the clitic "=aˑḥ" or "siˑ"
-        -Example #13: weʔič=!aƛ=maˑ=aˑḥ ~ sleep=TEMP=INDIC=1sg ~ `I am sleeping'
-        -Example #5: weʔič=!aƛ=mit=siˑ ~ sleep=TEMP=PAST=1sg ~ `I was sleeping'
-    -Past Tense, marked by the clitic "=mit"
-        -Example #5: weʔič=!aƛ=mit=siˑ ~ sleep=TEMP=PAST=1sg ~ `I was sleeping'
-    -Aspect: Perfective, Durative, and Continuative
-        -Example #6: ciq-šiƛ=!aƛ=maˑ ~ speak-PER=TEMP=INDIC ~ `he/she/it/they spoke'
-        -Example #15: qaḥ=ak ~ die=DUR ~ 'dead'
-        -Example #17: mat-aˑ ~ fly-CONT ~ `flying'
 
 4. Documentation of the choices you made in the customization system, illustrated with examples from your test suite.
         This can be interleaved with the documentation of the phenomena (so you describe each phenomenon and then the choices you used to add an analysis of it to the grammar), but the documentation of the phenomenon and choices should be logically separate. Here's an example of what this should look like.
