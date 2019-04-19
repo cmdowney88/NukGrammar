@@ -2597,7 +2597,6 @@ verb-pc161_lrt2-lex-rule := verb-pc161-lex-rule-super &
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
                                                                   NUM sg ] ] ].
 
-
 verb-pc169-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
     DTR verb122-verb-lex &

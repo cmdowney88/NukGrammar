@@ -26,7 +26,7 @@ Vetted: f
 Judgement: g
 Phenomena: {aspect, mood}
 nunuˑk=!aƛ=maˑ
-sing=TEMP=INDIC.3
+sing=TEMP=INDIC
 `he/she/it/they are singing'
 
 ### This one was originally "sing", but we don't have that lexical entry
@@ -35,7 +35,7 @@ Vetted: f
 Judgement: g
 Phenomena: {aspect, mood}
 weʔič=!aƛ=maˑ
-sleep=TEMP=INDIC.3
+sleep=TEMP=INDIC
 `he/she/it/they are sleeping'
 
 Source: a:105
@@ -51,7 +51,7 @@ Vetted: f
 Judgement: g
 Phenomena: {aspect, mood, agreement}
 ciq-šiƛ=!aƛ=maˑ
-speak-PER=TEMP=INDIC.3
+speak-PER=TEMP=INDIC
 `he/she/it/they spoke'
 
 Source: a:109
@@ -59,7 +59,7 @@ Vetted: f
 Judgement: g
 Phenomena: {aspect, mood, agreement}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ
-speak-PERF=TEMP=INDIC.3=1sg
+speak-PERF=TEMP=INDIC=1sg
 `I spoke'
 
 Source: a:110
@@ -67,7 +67,7 @@ Vetted: f
 Judgement: g
 Phenomena: {agreement, argument presence}
 n̓aˑcsaˑ=!aƛ=maˑ=aˑḥ suw̓a
-see=TEMP=INDIC.3=1sg you.sg
+see=TEMP=INDIC=1sg you.sg
 `I see you'
 
 Source: a:113
@@ -75,7 +75,7 @@ Vetted: f
 Judgement: g
 Phenomena: {adverbial modification}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
-speak-PERF=TEMP=INDIC.3=1sg
+speak-PERF=TEMP=INDIC=1sg
 `I spoke in the morning'
 
 Source: a:97
@@ -83,7 +83,7 @@ Vetted: f
 Judgement: g
 Phenomena: {aspect}
 su=!aƛ=maˑ
-hold-[L]=TEMP=INDIC.3
+hold-[L]=TEMP=INDIC
 `He/she/it/they are holding it'
 
 ### modified from the origianl root which was "sing"
@@ -92,7 +92,7 @@ Vetted: f
 Judgement: g
 Phenomena: {mood, agreement}
 weʔič=!aƛ=maˑ=aˑḥ
-sleep=TEMP=INDIC.3=1sg
+sleep=TEMP=INDIC=1sg
 `I am sleeping'
 
 ### making sure agreement clitic cannot come before mood
@@ -101,5 +101,5 @@ Vetted: f
 Judgement: u
 Phenomena: {mood, agreement}
 weʔič=!aƛ=aˑḥ=maˑ
-sleep=TEMP=1sg=INDIC.3
+sleep=TEMP=1sg=INDIC
 `I am sleeping'
