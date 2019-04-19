@@ -1349,8 +1349,12 @@ verb-pc133_lrt2-suffix :=
 %suffix (* =ʔiˑcuuš)
 verb-pc133_lrt2-lex-rule.
 
-verb-pc134_lrt1-suffix :=
+verb-pc134_lrt1-suffix1 :=
 %suffix (* =ʔak)
+verb-pc134_lrt1-lex-rule.
+
+verb-pc134_lrt1-suffix2 :=
+%suffix (* =ak)
 verb-pc134_lrt1-lex-rule.
 
 verb-pc135_lrt1-suffix :=

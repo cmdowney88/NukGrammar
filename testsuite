@@ -4,6 +4,7 @@ Lines: orth gloss translat
 Author: Agatha Downey and David Nielsen
 Date: April 17, 2019
 Source a: Davidson
+Source b: Nakayama
 
 Source: a:98
 Vetted: f
@@ -120,3 +121,20 @@ Phenomena: {mood, agreement}
 weʔič=!aƛ=aˑḥ=maˑ
 sleep=TEMP=1sg=INDIC
 `I am sleeping'
+
+Source: b:26
+Vetted: s
+Judgement: g
+Phenomena: {aspect durative}
+qaḥ=ak
+die=DUR
+'dead'
+
+#the suffix should only begin with ʔ following a vowel
+Source: b:26
+Vetted: f
+Judgement: u
+Phenomena: {aspect durative}
+qaḥ=ʔak
+die=DUR
+'dead'

@@ -2,7 +2,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; Grammar of Nuuchahnulth
 ;;; created at:
-;;;     Fri Apr 19 16:49:01 UTC 2019
+;;;     Fri Apr 19 17:44:48 UTC 2019
 ;;; based on Matrix customization system version of:
 ;;;     unknown time
 ;;;
@@ -336,7 +336,7 @@ verb27-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc146-or-verb-pc56
 
 verb28-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc106-or-verb-pc15-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc16-rule-dtr & verb-pc161-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc62-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr.
 
-verb29-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc106-or-verb-pc15-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc16-rule-dtr & verb-pc161-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr.
+verb29-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc106-or-verb-pc15-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc134-rule-dtr & verb-pc14-rule-dtr & verb-pc16-rule-dtr & verb-pc161-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr.
 
 verb32-verb-lex := transitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc106-or-verb-pc15-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc13-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc16-rule-dtr & verb-pc161-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc61-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr.
 
@@ -412,7 +412,7 @@ verb91-verb-lex := intransitive-verb-lex.
 
 verb92-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc104-rule-dtr & verb-pc106-or-verb-pc15-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc16-rule-dtr & verb-pc161-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr.
 
-verb100-verb-lex := transitive-verb-lex.
+verb100-verb-lex := transitive-verb-lex & verb-pc134-rule-dtr.
 
 verb103-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc106-or-verb-pc15-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc16-rule-dtr & verb-pc161-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc79-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr.
 
@@ -447,10 +447,12 @@ verb-pc112-rule-dtr := word-or-lexrule.
 verb-pc85-rule-dtr := word-or-lexrule.
 verb-pc92-rule-dtr := word-or-lexrule.
 noun-pc17-rule-dtr := word-or-lexrule.
-verb-pc46-rule-dtr := word-or-lexrule.
+noun-pc65-rule-dtr := word-or-lexrule.
 noun-pc28-rule-dtr := word-or-lexrule.
+verb-pc33-rule-dtr := word-or-lexrule.
 verb-pc48-rule-dtr := word-or-lexrule.
-noun-pc42-rule-dtr := word-or-lexrule.
+verb-pc65-rule-dtr := word-or-lexrule.
+verb-pc61-rule-dtr := word-or-lexrule.
 noun-pc66-rule-dtr := word-or-lexrule.
 noun-pc82-or-noun-pc86-rule-dtr := word-or-lexrule.
 verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr := word-or-lexrule.
@@ -466,7 +468,6 @@ verb-pc51-rule-dtr := word-or-lexrule.
 noun-pc97-rule-dtr := word-or-lexrule.
 verb-pc28-rule-dtr := word-or-lexrule.
 noun-pc69-rule-dtr := word-or-lexrule.
-verb-pc117-rule-dtr := word-or-lexrule.
 noun-pc78-rule-dtr := word-or-lexrule.
 verb-pc8-rule-dtr := word-or-lexrule.
 noun-pc62-rule-dtr := word-or-lexrule.
@@ -483,15 +484,14 @@ verb-pc79-rule-dtr := word-or-lexrule.
 noun-pc18-rule-dtr := word-or-lexrule.
 noun-pc36-rule-dtr := word-or-lexrule.
 verb-pc20-rule-dtr := word-or-lexrule.
-noun-pc24-rule-dtr := word-or-lexrule.
+noun-pc148-rule-dtr := word-or-lexrule.
 verb-pc23-rule-dtr := word-or-lexrule.
 verb-pc122-rule-dtr := word-or-lexrule.
-verb-pc104-rule-dtr := word-or-lexrule.
 noun-pc26-rule-dtr := word-or-lexrule.
 noun-pc8-rule-dtr := word-or-lexrule.
 noun-pc23-rule-dtr := word-or-lexrule.
 verb-pc57-rule-dtr := word-or-lexrule.
-noun-pc47-rule-dtr := word-or-lexrule.
+noun-pc63-rule-dtr := word-or-lexrule.
 noun-pc87-rule-dtr := word-or-lexrule.
 noun-pc21-rule-dtr := word-or-lexrule.
 noun-pc84-rule-dtr := word-or-lexrule.
@@ -500,13 +500,14 @@ noun-pc95-rule-dtr := word-or-lexrule.
 noun-pc81-rule-dtr := word-or-lexrule.
 verb-pc18-rule-dtr := word-or-lexrule.
 verb-pc66-rule-dtr := word-or-lexrule.
-noun-pc4-rule-dtr := word-or-lexrule.
+noun-pc88-rule-dtr := word-or-lexrule.
 noun-pc13-rule-dtr := word-or-lexrule.
-noun-pc65-rule-dtr := word-or-lexrule.
+verb-pc134-rule-dtr := word-or-lexrule.
+verb-pc46-rule-dtr := word-or-lexrule.
 noun-pc49-rule-dtr := word-or-lexrule.
 verb-pc32-rule-dtr := word-or-lexrule.
 noun-pc102-rule-dtr := word-or-lexrule.
-noun-pc116-rule-dtr := word-or-lexrule.
+noun-pc47-rule-dtr := word-or-lexrule.
 verb-pc35-rule-dtr := word-or-lexrule.
 noun-pc31-rule-dtr := word-or-lexrule.
 verb-pc25-rule-dtr := word-or-lexrule.
@@ -521,21 +522,21 @@ noun-pc118-rule-dtr := word-or-lexrule.
 noun-pc29-rule-dtr := word-or-lexrule.
 noun-pc64-rule-dtr := word-or-lexrule.
 noun-pc16-rule-dtr := word-or-lexrule.
-verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr := word-or-lexrule.
 verb-pc14-rule-dtr := word-or-lexrule.
 noun-pc51-rule-dtr := word-or-lexrule.
-verb-pc65-rule-dtr := word-or-lexrule.
+verb-pc104-rule-dtr := word-or-lexrule.
 verb-pc125-rule-dtr := word-or-lexrule.
 noun-pc57-rule-dtr := word-or-lexrule.
 verb-pc10-rule-dtr := word-or-lexrule.
 verb-pc45-rule-dtr := word-or-lexrule.
 noun-pc105-rule-dtr := word-or-lexrule.
+noun-pc42-rule-dtr := word-or-lexrule.
 noun-pc139-rule-dtr := word-or-lexrule.
 verb-pc73-rule-dtr := word-or-lexrule.
 noun-pc38-rule-dtr := word-or-lexrule.
 verb-pc53-rule-dtr := word-or-lexrule.
 noun-pc113-rule-dtr := word-or-lexrule.
-noun-pc9-rule-dtr := word-or-lexrule.
+noun-pc114-or-noun-pc143-rule-dtr := word-or-lexrule.
 noun-pc25-rule-dtr := word-or-lexrule.
 verb-pc41-rule-dtr := word-or-lexrule.
 noun-pc76-rule-dtr := word-or-lexrule.
@@ -544,29 +545,30 @@ noun-pc115-rule-dtr := word-or-lexrule.
 verb-pc31-rule-dtr := word-or-lexrule.
 noun-pc100-rule-dtr := word-or-lexrule.
 noun-pc39-rule-dtr := word-or-lexrule.
-noun-pc63-rule-dtr := word-or-lexrule.
+verb-pc117-rule-dtr := word-or-lexrule.
+noun-pc116-rule-dtr := word-or-lexrule.
 verb-pc16-rule-dtr := word-or-lexrule.
-verb-pc55-rule-dtr := word-or-lexrule.
+noun-pc10-rule-dtr := word-or-lexrule.
 verb-pc78-or-verb-pc83-rule-dtr := word-or-lexrule.
 verb-pc13-rule-dtr := word-or-lexrule.
 verb-pc12-rule-dtr := word-or-lexrule.
 verb-pc22-rule-dtr := word-or-lexrule.
 noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr := word-or-lexrule.
-noun-pc117-or-noun-pc142-rule-dtr := word-or-lexrule.
+verb-pc101-or-verb-pc146-or-verb-pc56-or-verb-pc58-rule-dtr := word-or-lexrule.
 verb-pc2-rule-dtr := word-or-lexrule.
 verb-pc75-rule-dtr := word-or-lexrule.
 verb-pc11-rule-dtr := word-or-lexrule.
-noun-pc88-rule-dtr := word-or-lexrule.
+noun-pc117-or-noun-pc142-rule-dtr := word-or-lexrule.
 noun-pc106-rule-dtr := word-or-lexrule.
 noun-pc7-rule-dtr := word-or-lexrule.
 verb-pc113-rule-dtr := word-or-lexrule.
 noun-pc56-rule-dtr := word-or-lexrule.
 noun-pc5-rule-dtr := word-or-lexrule.
-noun-pc148-rule-dtr := word-or-lexrule.
+noun-pc24-rule-dtr := word-or-lexrule.
 noun-pc111-rule-dtr := word-or-lexrule.
 noun-pc98-rule-dtr := word-or-lexrule.
 verb-pc24-rule-dtr := word-or-lexrule.
-verb-pc61-rule-dtr := word-or-lexrule.
+noun-pc4-rule-dtr := word-or-lexrule.
 noun-pc191-rule-dtr := word-or-lexrule.
 noun-pc141-rule-dtr := word-or-lexrule.
 noun-pc104-rule-dtr := word-or-lexrule.
@@ -577,13 +579,12 @@ verb-pc62-rule-dtr := word-or-lexrule.
 verb-pc40-or-verb-pc42-rule-dtr := word-or-lexrule.
 noun-pc138-rule-dtr := word-or-lexrule.
 noun-pc30-rule-dtr := word-or-lexrule.
-noun-pc114-or-noun-pc143-rule-dtr := word-or-lexrule.
-verb-pc33-rule-dtr := word-or-lexrule.
+noun-pc9-rule-dtr := word-or-lexrule.
+verb-pc55-rule-dtr := word-or-lexrule.
 verb-pc54-rule-dtr := word-or-lexrule.
 noun-pc92-rule-dtr := word-or-lexrule.
 noun-pc93-rule-dtr := word-or-lexrule.
 noun-pc3-rule-dtr := word-or-lexrule.
-noun-pc10-rule-dtr := word-or-lexrule.
 verb-pc67-rule-dtr := word-or-lexrule.
 noun-pc46-rule-dtr := word-or-lexrule.
 verb-pc26-rule-dtr := word-or-lexrule.
@@ -1978,7 +1979,7 @@ verb-pc133_lrt2-lex-rule := verb-pc133-lex-rule-super &
                                                                 NUM pl ] ].
 
 verb-pc134-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
-  [ DTR verb100-verb-lex ].
+  [ DTR verb-pc134-rule-dtr ].
 
 verb-pc134_lrt1-lex-rule := verb-pc134-lex-rule-super.
 
