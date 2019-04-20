@@ -1,31 +1,33 @@
 1.  Description of any further steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
-    -### David, I think you did most of the stuff with the customization system this week
+    -### David ###, I think you did most of the stuff with the customization system this week
     -Early on, we had a grammar that would compile correctly, but could not be loaded into LKB
         -We discovered that this was because of two Verb Position Classes that specified both 1st and 2nd Person values
         -These seem to be 2ndSub, 1stObj
         -To fix this, we modified the choices file to take away the conflicting Person constraints
 
 2. Your answers to the questions about the initial and final [incr tsdb()] runs, for both test corpus and test suite, repeated here:
-   1. How many items parsed?
+    -For these answers, the "Initial" figures correspond to Grammar 2.0 (beginning of this week), and the "Final" figures correspond to Grammar 2.2
+
+    a. How many items parsed?
         -Corpus Initial: 32/649
         -Corpus Final: 30/649
         -Testsuite Initial: 5/17
         -Testsuite Final: 9/17
-   2. What is the average number of parses per parsed item?
+    b. What is the average number of parses per parsed item?
         -Corpus Initial: 2.25
         -Corpus Final: 2.23
         -Testsuite Initial: 1.2
         -Testsuite Final: 1.11
-   3. How many parses did the most ambiguous item receive?
+    c. How many parses did the most ambiguous item receive?
         -Corpus Initial: 6
         -Corpus Final: 6
         -Testsuite Initial: 2
         -Testsuite Final: 2
-    4. What sources of ambiguity can you identify?
+    d. What sources of ambiguity can you identify?
         -From what I can make out, it seems like there are several different ways a verb-y cluster can make it through the lexicon having the exact same form. This may be due to optional lexical rules that can apply and not add any morpheme. For instance hiniiʔas=!aƛ=weˑʔin (go outside) can go through either 2->14->35 or just 14->35 in terms of PC irules. In fact, another parse also shows PC2_LRT6 as being optional, so that specific position class may need to be made mandatory. We can put that on our to-do list for next week.
         -Another way verbs can be ambiguous is that they seem to be able to be parsed either as a transitive verb that goes through the lexicon as a V and then become a VP courtesy of the BASIC-HEAD-OPT-COMP rule, or as an intransitive VP that is a VP even before it goes through the lexicon.
 
-    5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
+    e. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
         -#1590: ʔaƛakʷał-iip, glossed 'eight-get' / "he was the one who got eight"; the _eight_v_rel is present, but nothing for "get"
         -#940: ƛupk-šiƛ k̓ʷalsic, 'wake-MO Kwalisits' / "Kwalisits woke up", there is both a _wake_v_rel and _Kwalisits_n_rel, the ARG1 of the first seems to be properly identified with the ARG0 of the second
         -#970: tux-cpaˑ k̓ʷalsic 'jump-on.side Kwalisits' / "Kwalisits jumped over him" also has a _jump_v_rel whose ARG1 is Kwalisits, but there doesn't seem to be anything about another person being jumped over
@@ -58,8 +60,17 @@
         -We found this was because the rule for the Indicative suffix was also adding the value of 3rd-person, which was incompatible with any other Person value
         -This seems to be because the IGT analyzes the the Indicative as adding 3rd person "by default" if no other agreement occurs. However, this cannot be overridden in our grammar.
         -We confirmed this hypothesis by modifying the tdl files to not at the 3rd person value
-	-We then fixed this in the choices file by ... ###David###
+	-We then fixed this in the choices file by removing the following lines so that the affix doesn't give a Person value at all
+            verb-pc19_lrt3_feat2_name=person / verb-pc19_lrt3_feat2_value=3rd/ verb-pc19_lrt3_feat2_head=subj
+    -### David ### what did you do to incorporate Durative in the grammar?
+
 
 5. Descriptions of any properties of your language illustrated in your test suite but not covered by your starter grammar and/or the customization system.
+    -Our testsuite incorporates several notable phenomena from our descriptive grammar that aren't covered by the customization system.
+        -Temporal Adjectives: ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ ~ speak-PERF=TEMP=INDIC=1sg ~ "I spoke in the morning"
+            -When we incorporated this I thought that the matrix did adverbs, but this example might not be useful
+        -Various bits of information added by suffixes:
+            -Repetition Suffix: weʔič-šiƛ=!aƛ=aˑḥ=ƛaa ~ sleep-PERF=TEMP=1sg=AGAIN ~ "I slept again"
+        -Overall, the fact that verbs are 3rd-person "by default", and this information is overridden by other suffixes that specifiy otherwise, is very hard to model given the "non-destructive" nature of the Grammar Architecture
 
 6. If you have identified ways (other than those you reported last week) in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 

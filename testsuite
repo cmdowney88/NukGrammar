@@ -12,7 +12,7 @@ Vetted: f
 Judgement: g
 Phenomena: {mood}
 weʔič=maˑ
-sleep=INDIC.3
+sleep=INDIC
 `he/she/it/they sleep'
 
 #EXAMPLE 2
@@ -21,7 +21,7 @@ Vetted: f
 Judgement: u
 Phenomena: {affix-order}
 maˑ=weʔič
-INDIC.3=sleep
+INDIC=sleep
 `he/she/it/they sleep'
 
 #EXAMPLE 3
