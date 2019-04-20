@@ -1,6 +1,6 @@
 1.  Description of any further steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
-    -### David ###, I think you did most of the stuff with the customization system this week
-    -Early on, we had a grammar that would compile correctly, but could not be loaded into LKB
+    -Initially, our grammar would not validate because verb-pc116 is used for negation. In order to fix this we followed Kristen's advice and added inflectional negation to our choice file using the Grammar Matrix.
+    -After this, we had a grammar that would compile correctly, but could not be loaded into LKB
         -We discovered that this was because of two Verb Position Classes that specified both 1st and 2nd Person values
         -These seem to be 2ndSub, 1stObj
         -To fix this, we modified the choices file to take away the conflicting Person constraints
@@ -56,13 +56,37 @@
         -Example #17: mat-aˑ ~ fly-CONT ~ `flying'
 
 4. Documentation of the choices you made in the customization system, illustrated with examples from your test suite.
+    -The most common problem we worked on this week was adding missing inputs to the verb-pcs. Many of the grammatical examples were not parsing simply because the stem or one of the suffixes was not a valid input to the next suffix. This was easy to fix by adding the inputs to each verb-pc class in the choices file.
+        -For example, n̓aacsa, type verb43, was not a valid input to =\!aƛ, verb-pc14, despite being found in our sources as a grammatical combination. I simply added verb43 to verb-pc14_inputs in the choice file in order to allow this combinatin:
+	
+    -We had to address suffixes that attach only to vowel ending or non-vowel ending strings
+    	-From our sources the durative suffix is  =ʔak following a vowel but drops the glottal stop following a non-vowel:  =ak. 
+        -In our grammar, verb-pc134 attaches the suffix =ʔak ~ DUR to verb100 (only example łiʔaa 'miss'). this correctly begins with glottal stop because the stem ends in a vowel.
+	- However, there was no suffix for  =ak. In order to fix this, I created verb-pc170 in the choice file modeled directly off verb-pc134 but taking verb29 as input because those are the equivalent class but ending with consonates. This allowed us to include both the grammatical
+	    qaḥ=ak ~ die=DUR ~ 'dead'
+	and the ungramatical
+	    qaḥ=ʔak ~ die=DUR ~ `dead'
+	to our testsuite.
+	
     -One problem we came across was that the Indicitive suffix "=maˑ" and the 1sg agreement suffix "=aˑḥ" were in conflict in our grammar even though they occur together in the natural language
         -We found this was because the rule for the Indicative suffix was also adding the value of 3rd-person, which was incompatible with any other Person value
         -This seems to be because the IGT analyzes the the Indicative as adding 3rd person "by default" if no other agreement occurs. However, this cannot be overridden in our grammar.
         -We confirmed this hypothesis by modifying the tdl files to not at the 3rd person value
 	-We then fixed this in the choices file by removing the following lines so that the affix doesn't give a Person value at all
             verb-pc19_lrt3_feat2_name=person / verb-pc19_lrt3_feat2_value=3rd/ verb-pc19_lrt3_feat2_head=subj
-    -### David ### what did you do to incorporate Durative in the grammar?
+	    
+    -One attempted fix that ended up not working but is worth noting is the use of the obligotory flag for the posistion classes with non-inflecting suffixes. I initially tried to mark all such pcs as obligatory following the discussion in class but that led to problems.
+        -Nuuchahnulth has no marking for 3rd person an uniflected stem is either default 3rd person or a later suffix will attach to specify another value for person.
+        -By making the non-inflected stemp obligatory, the uniflected stem was forced to be marked as 3rd person and as a daughter of the obligatory pc.
+        -Both these changes made the stems incompatible with later PER suffixes attaching so I removed the obligatory flag I had added.
+	-For example this caused weʔič=!aƛ=maˑ=aˑḥ "I am sleeping" to be unparsable because the stem weʔič was forced to have PER 3rd and became an incompatible verb-pc with the first suffix =!aƛ.
+	
+    -The other substantive change was fleshing out the aspect features for Nuuchahnulth.
+        -Nuuchanulth has many ascpects but the aspects for which we were able to find the corresponding suffixes were continuous, durative, and temp (NOW as Inman calls it). 
+        -However, there were no actual aspect features and therefore these suffixes attached without adding any actual feature values.
+        -In order to enable the aspect features, I used the Grammar matrix to add the three aspects in our testsuite, TEMP, CONT, and DUR. These were added as direct daughters of aspect but should be included under imperfect in once we have perfect aspects as well.
+        -Next, I modified the choice file so that the feature aspect would be set to the desired value for each aspect suffix. Since these directly modify the stem verb, the head value was set to 'verb' as well.
+	-This allowed the examples like mat-aˑ ~ fly-CONT that were already parsing to actually contain the desired feature and value.
 
 
 5. Descriptions of any properties of your language illustrated in your test suite but not covered by your starter grammar and/or the customization system.
