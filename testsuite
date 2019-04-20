@@ -10,7 +10,7 @@ Source b: Nakayama
 Source: a:98
 Vetted: f
 Judgement: g
-Phenomena: {mood}
+Phenomena: {tam}
 weʔič=maˑ
 sleep=INDIC
 `he/she/it/they sleep'
@@ -19,7 +19,7 @@ sleep=INDIC
 Source: a:98
 Vetted: f
 Judgement: u
-Phenomena: {affix-order}
+Phenomena: {word order}
 maˑ=weʔič
 INDIC=sleep
 `he/she/it/they sleep'
@@ -28,7 +28,7 @@ INDIC=sleep
 Source: a:102
 Vetted: f
 Judgement: g
-Phenomena: {aspect, mood}
+Phenomena: {tam}
 nunuˑk=!aƛ=maˑ
 sing=TEMP=INDIC
 `he/she/it/they are singing'
@@ -38,7 +38,7 @@ sing=TEMP=INDIC
 Source: author
 Vetted: f
 Judgement: g
-Phenomena: {aspect, mood}
+Phenomena: {tam}
 weʔič=!aƛ=maˑ
 sleep=TEMP=INDIC
 `he/she/it/they are sleeping'
@@ -47,7 +47,7 @@ sleep=TEMP=INDIC
 Source: a:105
 Vetted: f
 Judgement: g
-Phenomena: {tense, agreement}
+Phenomena: {tam, agreement}
 weʔič=!aƛ=mit=siˑ
 sleep=TEMP=PAST=1sg
 `I was sleeping'
@@ -56,7 +56,7 @@ sleep=TEMP=PAST=1sg
 Source: a:109
 Vetted: f
 Judgement: g
-Phenomena: {aspect, mood, agreement}
+Phenomena: {tam, agreement}
 ciq-šiƛ=!aƛ=maˑ
 speak-PER=TEMP=INDIC
 `he/she/it/they spoke'
@@ -65,7 +65,7 @@ speak-PER=TEMP=INDIC
 Source: a:113
 Vetted: f
 Judgement: g
-Phenomena: {aspect, repetition}
+Phenomena: {tam}
 weʔič-šiƛ=!aƛ=ƛaa
 sleep-PER=TEMP=AGAIN
 `he/she/it/they slept again'
@@ -75,7 +75,7 @@ sleep-PER=TEMP=AGAIN
 Source: author
 Vetted: f
 Judgement: g
-Phenomena: {agreement, repetition}
+Phenomena: {agreement, tam}
 weʔič-šiƛ=!aƛ=aˑḥ=ƛaa
 sleep-PER=TEMP=1sg=AGAIN
 `I slept again'
@@ -84,7 +84,7 @@ sleep-PER=TEMP=1sg=AGAIN
 Source: a:109
 Vetted: f
 Judgement: g
-Phenomena: {aspect, mood, agreement}
+Phenomena: {tam, agreement}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ
 speak-PERF=TEMP=INDIC=1sg
 `I spoke'
@@ -93,7 +93,7 @@ speak-PERF=TEMP=INDIC=1sg
 Source: a:110
 Vetted: f
 Judgement: g
-Phenomena: {agreement, argument presence}
+Phenomena: {agreement, pronouns}
 n̓aacsa=!aƛ=maˑ=aˑḥ suw̓a
 see=TEMP=INDIC=1sg you.sg
 `I see you'
@@ -102,7 +102,7 @@ see=TEMP=INDIC=1sg you.sg
 Source: a:113
 Vetted: f
 Judgement: g
-Phenomena: {adverbial modification}
+Phenomena: {adverbs}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
 speak-PERF=TEMP=INDIC=1sg
 `I spoke in the morning'
@@ -111,7 +111,7 @@ speak-PERF=TEMP=INDIC=1sg
 Source: a:97
 Vetted: f
 Judgement: g
-Phenomena: {aspect}
+Phenomena: {tam}
 su=!aƛ=maˑ
 hold-[L]=TEMP=INDIC
 `He/she/it/they are holding it'
@@ -121,7 +121,7 @@ hold-[L]=TEMP=INDIC
 Source: a:101
 Vetted: f
 Judgement: g
-Phenomena: {mood, agreement}
+Phenomena: {tam, agreement}
 weʔič=!aƛ=maˑ=aˑḥ
 sleep=TEMP=INDIC=1sg
 `I am sleeping'
@@ -131,7 +131,7 @@ sleep=TEMP=INDIC=1sg
 Source: a:101
 Vetted: f
 Judgement: u
-Phenomena: {mood, agreement}
+Phenomena: {tam, agreement}
 weʔič=!aƛ=aˑḥ=maˑ
 sleep=TEMP=1sg=INDIC
 `I am sleeping'
@@ -140,7 +140,7 @@ sleep=TEMP=1sg=INDIC
 Source: b:26
 Vetted: s
 Judgement: g
-Phenomena: {aspect, durative}
+Phenomena: {tam}
 qaḥ=ak
 die=DUR
 `dead'
@@ -150,7 +150,7 @@ die=DUR
 Source: b:26
 Vetted: f
 Judgement: u
-Phenomena: {aspect, durative}
+Phenomena: {tam}
 qaḥ=ʔak
 die=DUR
 `dead'
@@ -160,7 +160,7 @@ die=DUR
 Source: b:26
 Vetted: f
 Judgement: u
-Phenomena: {aspect, continous}
+Phenomena: {tam}
 mat-aˑ
 fly-CONT
 `flying'
