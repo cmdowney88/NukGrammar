@@ -22,6 +22,8 @@
         -Testsuite Initial: 2
         -Testsuite Final: 2
     4. What sources of ambiguity can you identify?
+        -From what I can make out, it seems like there are several different ways a verb-y cluster can make it through the lexicon having the exact same form. This may be due to optional lexical rules that can apply and not add any morpheme. For instance hiniiʔas=!aƛ=weˑʔin (go outside) can go through either 2->14->35 or just 14->35 in terms of PC irules. In fact, another parse also shows PC2_LRT6 as being optional, so that specific position class may need to be made mandatory. We can put that on our to-do list for next week.
+        -Another way verbs can be ambiguous is that they seem to be able to be parsed either as a transitive verb that goes through the lexicon as a V and then become a VP courtesy of the BASIC-HEAD-OPT-COMP rule, or as an intransitive VP that is a VP even before it goes through the lexicon.
 
     5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
         -#1590: ʔaƛakʷał-iip, glossed 'eight-get' / "he was the one who got eight"; the _eight_v_rel is present, but nothing for "get"
