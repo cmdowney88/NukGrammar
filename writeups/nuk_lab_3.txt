@@ -1,5 +1,9 @@
 1.  Description of any further steps you had to take to get from the automatically constructed choice file to one that would both (a) customize and (b) compile.
     -### David, I think you did most of the stuff with the customization system this week
+    -Early on, we had a grammar that would compile correctly, but could not be loaded into LKB
+        -We discovered that this was because of two Verb Position Classes that specified both 1st and 2nd Person values
+        -These seem to be 2ndSub, 1stObj
+        -To fix this, we modified the choices file to take away the conflicting Person constraints
 
 2. Your answers to the questions about the initial and final [incr tsdb()] runs, for both test corpus and test suite, repeated here:
    1. How many items parsed?
@@ -48,10 +52,12 @@
         -Example #17: mat-aˑ ~ fly-CONT ~ `flying'
 
 4. Documentation of the choices you made in the customization system, illustrated with examples from your test suite.
-        This can be interleaved with the documentation of the phenomena (so you describe each phenomenon and then the choices you used to add an analysis of it to the grammar), but the documentation of the phenomenon and choices should be logically separate. Here's an example of what this should look like.
-    -### Similarly here. You were able to replicate the changes I made
-        to the tdl through changes to the choices file, but you know
-        best how you did that
+    -One problem we came across was that the Indicitive suffix "=maˑ" and the 1sg agreement suffix "=aˑḥ" were in conflict in our grammar even though they occur together in the natural language
+        -We found this was because the rule for the Indicative suffix was also adding the value of 3rd-person, which was incompatible with any other Person value
+        -This seems to be because the IGT analyzes the the Indicative as adding 3rd person "by default" if no other agreement occurs. However, this cannot be overridden in our grammar.
+        -We confirmed this hypothesis by modifying the tdl files to not at the 3rd person value
+	-We then fixed this in the choices file by ... ###David###
+
 5. Descriptions of any properties of your language illustrated in your test suite but not covered by your starter grammar and/or the customization system.
 
 6. If you have identified ways (other than those you reported last week) in which the automatically created choices file is particularly off-base, please report them here. If you can include IGT from the testsuite or your descriptive materials illustrating the problem, that is even better. 
