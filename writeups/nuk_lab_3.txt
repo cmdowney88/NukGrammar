@@ -17,9 +17,19 @@
         -Corpus Final: 6
         -Testsuite Initial: 2
         -Testsuite Final: 2
-   4. What sources of ambiguity can you identify?
+    4. What sources of ambiguity can you identify?
 
-   5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
+    5. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
+        -#1590: ʔaƛakʷał-iip, glossed 'eight-get' / "he was the one who got eight"; the _eight_v_rel is present, but nothing for "get"
+        -#940: ƛupk-šiƛ k̓ʷalsic, 'wake-MO Kwalisits' / "Kwalisits woke up", there is both a _wake_v_rel and _Kwalisits_n_rel, the ARG1 of the first seems to be properly identified with the ARG0 of the second
+        -#970: tux-cpaˑ k̓ʷalsic 'jump-on.side Kwalisits' / "Kwalisits jumped over him" also has a _jump_v_rel whose ARG1 is Kwalisits, but there doesn't seem to be anything about another person being jumped over
+        -#990: ḥis-šiƛ 'bleed-PERF' / "It bled", the bleed relation is in place but the aspect information is not included
+        -#4050: ʕatiq-šiƛ=suuk 'thank-PERF=NEUT.2SG' / "you thank them"; there is a thank relation, and the ARG1 of this is correctly identified with the 2nd Person Sg index corresponding to XARG
+        -#6410: hił=int=waˑʔš maḥt̓aʕs 'at=PST=HRSY.3 Queens.Cove' / "he was at Queens Cove"; there is an _at_v_rel that correctly has an ARG1 identified with XARG, however the _queens.cove_n_rel also identifies its ARG0 witht his index, which seems to be giving the incorrect reading that it is Queen's Cove that is at something
+       -#4400: t̓aamuux-ʔatu 'dive.like.a.kingfisher-downward' / "Dive down like a Kingfisher"; most of this word is one morpheme, and the dive relation is present, but there is nothing expressing the "down" relation
+       -#110: wawaa 'say.CT' / "he said"; the semantics for this one are surprisingly complex, and the ARG2 of the say relation seems to have an embedded mrs of its own, including something about Focus it seems...although it seems reasonable for the predication of "he said (that) ___"
+       -#4150: hupii=suuk 'help=NEUT.2SG' / "Help them"; the _help_v_reln is properly indexed with the 2sg XARG; again there doesn't seem to be a relation for the object
+       -#3660:wał-šiƛ-LS=!aƛ=ʔał 'go.home-PERF-GR=TEMP=3PL' / "they were going home"; the _go.home_v_rel is properly indexed with a 3pl XARG; as with other examples, no TAM information seems to be being incorporated
 
 3. Documentation of the phenomena you have added to your testsuite, illustrated with examples from the testsuite.
     -Basic Indicative Mood, marked by the clitic "=maˑ"
