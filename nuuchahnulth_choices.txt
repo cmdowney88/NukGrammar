@@ -51,6 +51,14 @@ section=other-features
 section=sentential-negation
 neg-exp=1
 infl-neg=on
+neg-order=either
+adv-neg-orth=wik
+aux1_sem=add-pred
+aux1_name=neg
+aux1_stem1_pred=neg_rel
+aux1_stem1_orth=wik
+neg-aux=on
+neg-mod=vp
 
 section=coordination
 
