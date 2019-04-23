@@ -11,7 +11,7 @@ archive=no
 section=word-order
 word-order=v-initial
 has-dets=no
-has-aux=no
+has-aux=yes
 
 section=number
   number1_name=pl
