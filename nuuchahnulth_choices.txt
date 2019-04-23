@@ -1,4 +1,3 @@
-
 version=32
 
 section=general
@@ -12,6 +11,8 @@ section=word-order
 word-order=v-initial
 has-dets=no
 has-aux=yes
+aux-comp-order=before
+aux-comp=vp
 
 section=number
   number1_name=pl
@@ -40,25 +41,21 @@ tense-definition=build
   aspect2_name=dur
     aspect2_supertype1_name=aspect
   aspect3_name=temp
-    aspect3_supertype1_name=aspect  
+    aspect3_supertype1_name=aspect
   mood1_name=real
     mood1_supertype1_name=mood
 
 section=evidentials
 
 section=other-features
+form-fin-nf=on
 
 section=sentential-negation
 neg-exp=1
 infl-neg=on
-neg-order=either
-adv-neg-orth=wik
-aux1_sem=add-pred
-aux1_name=neg
-aux1_stem1_pred=neg_rel
-aux1_stem1_orth=wik
 neg-aux=on
 neg-mod=vp
+neg-order=either
 
 section=coordination
 
