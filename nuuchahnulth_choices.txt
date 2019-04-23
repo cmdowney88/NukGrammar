@@ -78,6 +78,11 @@ section=clausal-comp
 section=clausalmods
 
 section=lexicon
+  adv-neg-orth=wik
+  aux1_sem=add-pred
+  aux1_name=neg
+  aux1_stem1_pred=neg_rel
+  aux1_stem1_orth=wik
   noun1_name=noun1
   noun1_det=opt
     noun1_stem1_orth=ʕumt
