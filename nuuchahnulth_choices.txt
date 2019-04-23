@@ -52,7 +52,7 @@ form-fin-nf=on
 
 section=sentential-negation
 neg-exp=1
-infl-neg=on
+infl-neg=off
 neg-aux=on
 neg-mod=vp
 neg-order=either
@@ -78,11 +78,14 @@ section=clausal-comp
 section=clausalmods
 
 section=lexicon
-  adv-neg-orth=wik
-  aux1_sem=add-pred
   aux1_name=neg
-  aux1_stem1_pred=neg_rel
-  aux1_stem1_orth=wik
+  aux1_sem=add-pred
+  aux1_subj=np
+   aux1_compfeature1_name=negation
+   aux1_compfeature1_value=plus
+   aux1_stem1_orth=wik
+   aux1_stem1_pred=neg_rel
+   aux1_complabel=fin
   noun1_name=noun1
   noun1_det=opt
     noun1_stem1_orth=ʕumt
