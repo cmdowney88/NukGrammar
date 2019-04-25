@@ -67,11 +67,10 @@ Vetted: f
 Judgement: g
 Phenomena: {tam}
 weʔič-šiƛ=!aƛ=ƛaa
-sleep-PER=TEMP=AGAIN
+sleep-PERF=TEMP=AGAIN
 `he/she/it/they slept again'
 
 #EXAMPLE 8
-### I don't actually know if this one is grammatical or not...
 Source: author
 Vetted: f
 Judgement: g
@@ -173,3 +172,12 @@ Phenomena: {neg}
 wik=!aƛ=quu=s weʔič ʔatḥii
 not=TEMP=COND=1sg sleep night
 `I did not sleep nights'
+
+#EXAMPLE 19
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {neg}
+wik-šiƛ=!aƛ=maˑ=aˑḥ
+not-PERF=TEMP=INDIC=1sg
+`I did not speak'
