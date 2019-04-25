@@ -58,6 +58,11 @@ neg-mod=vp
 neg-order=either
 
 section=coordination
+  cs1_np=on
+  cs1_pat=poly
+  cs1_mark=word
+  cs1_orth=ʔuḥʔiš
+  cs1_order=before
 
 section=matrix-yes-no
 

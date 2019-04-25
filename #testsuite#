@@ -1,0 +1,191 @@
+Language: Nuuchahnulth
+Language code: nuk
+Lines: orth gloss translat
+Author: Agatha Downey and David Nielsen
+Date: April 17, 2019
+Source a: Davidson
+Source b: Nakayama
+Source c: Inman_Corpus
+
+#EXAMPLE 1
+Source: a:98
+Vetted: f
+Judgement: g
+Phenomena: {tam}
+weʔič=maˑ
+sleep=INDIC
+`he/she/it/they sleep'
+
+#EXAMPLE 2
+Source: a:98
+Vetted: f
+Judgement: u
+Phenomena: {word order}
+maˑ=weʔič
+INDIC=sleep
+`he/she/it/they sleep'
+
+#EXAMPLE 3
+Source: a:102
+Vetted: f
+Judgement: g
+Phenomena: {tam}
+nunuˑk=!aƛ=maˑ
+sing=TEMP=INDIC
+`he/she/it/they are singing'
+
+#EXAMPLE 4
+### This one was originally "sing", but we don't have that lexical entry
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {tam}
+weʔič=!aƛ=maˑ
+sleep=TEMP=INDIC
+`he/she/it/they are sleeping'
+
+#EXAMPLE 5
+Source: a:105
+Vetted: f
+Judgement: g
+Phenomena: {tam, agreement}
+weʔič=!aƛ=mit=siˑ
+sleep=TEMP=PAST=1sg
+`I was sleeping'
+
+#EXAMPLE 6
+Source: a:109
+Vetted: f
+Judgement: g
+Phenomena: {tam, agreement}
+ciq-šiƛ=!aƛ=maˑ
+speak-PER=TEMP=INDIC
+`he/she/it/they spoke'
+
+#EXAMPLE 7
+Source: a:113
+Vetted: f
+Judgement: g
+Phenomena: {tam}
+weʔič-šiƛ=!aƛ=ƛaa
+sleep-PERF=TEMP=AGAIN
+`he/she/it/they slept again'
+
+#EXAMPLE 8
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {agreement, tam}
+weʔič-šiƛ=!aƛ=aˑḥ=ƛaa
+sleep-PER=TEMP=1sg=AGAIN
+`I slept again'
+
+#EXAMPLE 9
+Source: a:109
+Vetted: f
+Judgement: g
+Phenomena: {tam, agreement}
+ciq-šiƛ=!aƛ=maˑ=aˑḥ
+speak-PERF=TEMP=INDIC=1sg
+`I spoke'
+
+#EXAMPLE 10
+Source: a:110
+Vetted: f
+Judgement: g
+Phenomena: {agreement, pronouns}
+n̓aacsa=!aƛ=maˑ=aˑḥ suw̓a
+see=TEMP=INDIC=1sg you.sg
+`I see you'
+
+#EXAMPLE 11
+Source: a:113
+Vetted: f
+Judgement: g
+Phenomena: {adverbs}
+ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
+speak-PERF=TEMP=INDIC=1sg
+`I spoke in the morning'
+
+#EXAMPLE 12
+Source: a:97
+Vetted: f
+Judgement: g
+Phenomena: {tam}
+su=!aƛ=maˑ
+hold-[L]=TEMP=INDIC
+`He/she/it/they are holding it'
+
+#EXAMPLE 13
+### modified from the origianl root which was "sing"
+Source: a:101
+Vetted: f
+Judgement: g
+Phenomena: {tam, agreement}
+weʔič=!aƛ=maˑ=aˑḥ
+sleep=TEMP=INDIC=1sg
+`I am sleeping'
+
+#EXAMPLE 14
+### making sure agreement clitic cannot come before mood
+Source: a:101
+Vetted: f
+Judgement: u
+Phenomena: {tam, agreement}
+weʔič=!aƛ=aˑḥ=maˑ
+sleep=TEMP=1sg=INDIC
+`I am sleeping'
+
+#EXAMPLE 15
+Source: b:26
+Vetted: s
+Judgement: g
+Phenomena: {tam}
+qaḥ=ak
+die=DUR
+`dead'
+
+#EXAMPLE 16
+#the suffix should only begin with ʔ following a vowel
+Source: b:26
+Vetted: f
+Judgement: u
+Phenomena: {tam}
+qaḥ=ʔak
+die=DUR
+`dead'
+
+#EXAMPLE 17
+#constructing example from our lexicon.
+Source: b:26
+Vetted: f
+Judgement: u
+Phenomena: {tam}
+mat-aˑ
+fly-CONT
+`flying'
+
+#EXAMPLE 18
+Source: a:155
+Vetted: s
+Judgement: g
+Phenomena: {neg}
+wik=!aƛ=quu=s weʔič ʔatḥii
+not=TEMP=COND=1sg sleep night
+`I did not sleep nights'
+
+#EXAMPLE 19
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {neg}
+wik-šiƛ=!aƛ=maˑ=aˑḥ
+not-PERF=TEMP=INDIC=1sg
+`I did not speak'
+
+#EXAMPLE 20
+Source: c
+Vetted: f
+Judgement: g
+Phenomena: {coord}
+!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
