@@ -3180,6 +3180,7 @@ section=morphology
   verb-pc116_name=verb-pc116
   verb-pc116_order=suffix
   verb-pc116_inputs=verb78
+  verb-pc116_obligatory=on
     verb-pc116_lrt1_name=verb-pc116_lrt1
       verb-pc116_lrt1_feat1_name=negation
       verb-pc116_lrt1_feat1_value=plus
