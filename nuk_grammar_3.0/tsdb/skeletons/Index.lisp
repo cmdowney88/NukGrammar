@@ -26,5 +26,6 @@
 ((:path . "corpus") (:content . "Original IGT from pipeline"))
 ((:path . "corpus_no_punc") (:content . "IGT with sentential punctuation removed"))
 ((:path . "testsuite") (:content . "Constructed Testsuite for Lab 3"))
+((:path . "lab4_testsuite") (:content . "Constructed Testsuite for Lab 4"))
 )
 
