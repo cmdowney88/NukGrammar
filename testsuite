@@ -5,6 +5,7 @@ Author: Agatha Downey and David Nielsen
 Date: April 17, 2019
 Source a: Davidson
 Source b: Nakayama
+Source c: Inman_Corpus
 
 #EXAMPLE 1
 Source: a:98
@@ -181,3 +182,10 @@ Phenomena: {neg}
 wik-šiƛ=!aƛ=maˑ=aˑḥ
 not-PERF=TEMP=INDIC=1sg
 `I did not speak'
+
+#EXAMPLE 20
+Source: c
+Vetted: f
+Judgement: g
+Phenomena: {coord}
+!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
