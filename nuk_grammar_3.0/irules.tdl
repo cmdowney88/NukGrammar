@@ -1428,3 +1428,7 @@ verb-pc169_lrt1-lex-rule.
 verb-pc170_lrt1-suffix :=
 %suffix (* =ak)
 verb-pc170_lrt1-lex-rule.
+
+verb-pc171_lrt1-suffix :=
+%suffix (* =quu)
+verb-pc171_lrt1-lex-rule.
