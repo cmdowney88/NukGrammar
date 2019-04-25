@@ -2693,7 +2693,7 @@ section=morphology
       verb-pc37_lrt1_lri1_orth==int
   verb-pc40_name=verb-pc40
   verb-pc40_order=suffix
-  verb-pc40_inputs=verb-pc37, verb-pc8, verb43, verb-pc15
+  verb-pc40_inputs=verb-pc37, verb-pc8, verb43
     verb-pc40_lrt1_name=verb-pc40_lrt1
       verb-pc40_lrt1_feat1_name=person
       verb-pc40_lrt1_feat1_value=1st
