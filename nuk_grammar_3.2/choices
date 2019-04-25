@@ -28,14 +28,6 @@ section=case
 case-marking=none
 
 section=adnom-poss
-  poss-strat1_order=head-initial
-  poss-strat1_mod-spec=mod
-  poss-strat1_mark-loc=possessum
-  poss-strat1_possessum-type=affix
-  poss-strat1_possessum-affix-agr=non-agree
-  poss-pron1_type=affix
-  poss-pron1_agr=non-agree
-  poss-pron1_mod-spec=mod
 
 section=direct-inverse
 
@@ -1335,9 +1327,6 @@ section=morphology
   noun-pc3_order=suffix
   noun-pc3_inputs=noun2, noun-pc5, noun-pc106, noun-pc75, noun-pc88
     noun-pc3_lrt1_name=noun-pc3_lrt1
-      noun-pc3_lrt1_feat1_name=poss-strat1
-      noun-pc3_lrt1_feat1_value=possessum
-      noun-pc3_lrt1_feat1_head=itself
       noun-pc3_lrt1_lri1_inflecting=yes
       noun-pc3_lrt1_lri1_orth==ʔak
   noun-pc4_name=noun-pc4
@@ -1780,9 +1769,6 @@ section=morphology
   noun-pc67_order=suffix
   noun-pc67_inputs=noun-pc66, noun-pc98, noun-pc5, noun-pc76, noun112, noun-pc25, noun29
     noun-pc67_lrt1_name=noun-pc67_lrt1
-      noun-pc67_lrt1_feat1_name=poss-strat1
-      noun-pc67_lrt1_feat1_value=possessum
-      noun-pc67_lrt1_feat1_head=itself
       noun-pc67_lrt1_lri1_inflecting=yes
       noun-pc67_lrt1_lri1_orth==uk
   noun-pc68_name=noun-pc68
@@ -2357,24 +2343,6 @@ section=morphology
     noun-pc191_lrt1_name=noun-pc191_lrt1
       noun-pc191_lrt1_lri1_inflecting=yes
       noun-pc191_lrt1_lri1_orth=-\!aaḥ
-  noun-pc192_name=poss1
-  noun-pc192_order=suffix
-  noun-pc192_inputs=noun2, noun-pc5, noun-pc106, noun-pc75, noun-pc88
-    noun-pc192_lrt1_name=poss1_lrt1
-      noun-pc192_lrt1_feat1_name=poss-strat1
-      noun-pc192_lrt1_feat1_value=possessum
-      noun-pc192_lrt1_feat1_head=itself
-      noun-pc192_lrt1_lri1_inflecting=yes
-      noun-pc192_lrt1_lri1_orth==ʔak
-  noun-pc193_name=poss2
-  noun-pc193_order=suffix
-  noun-pc193_inputs=noun-pc66, noun-pc98, noun-pc5, noun-pc76, noun112, noun-pc25, noun29
-    noun-pc193_lrt1_name=poss2_ltr1
-      noun-pc193_lrt1_feat1_name=poss-strat1
-      noun-pc193_lrt1_feat1_value=possessum
-      noun-pc193_lrt1_feat1_head=itself
-      noun-pc193_lrt1_lri1_inflecting=yes
-      noun-pc193_lrt1_lri1_orth=uk
   verb-pc1_name=verb-pc1
   verb-pc1_order=suffix
   verb-pc1_inputs=verb1
