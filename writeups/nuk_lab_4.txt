@@ -1,0 +1,32 @@
+1. (TSDB Results)
+    a. How many items parsed?
+    b. What is the average number of parses per parsed item?
+    c. How many parses did the most ambiguous item receive?
+    d. What sources of ambiguity can you identify?
+    e. For 10 items (if you have at least that many parsing), do any of the parses look reasonable in the semantics? (Emily will demo in class on Tuesday.) 
+
+2/3 (Documentation of Choices File and Testsuite)
+
+Future tense in Wambaya is marked with an affix on the auxiliary and an optional affix on the verb. That is, if the future tense marker is on the auxiliary, the sentence is interpreted in future tense. The verb can also have a future tense marker, but it is not required. The future tense marker on the verb is not compatible with non-future-tense marked auxiliaries, except when it is used instead as the imperative form.
+
+Here are some examples:
+
+Source: a
+Vetted: t
+Judgment: g
+Phenomena: tense
+Gurinymi ngu gulugba.
+Guriny-mi ng-u gulug-ba.
+good-FAC 1.SG.S-FUT sleep-FUT
+I will sleep well.
+
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: tense
+Gurinymi ngu gulugba.
+Guriny-mi ngi-ma gulug-ba.
+good-FAC 1.SG.S-PAST sleep-FUT
+intended: I will sleep well.
+
+In order to model this, I defined a tense inflection slot that takes auxiliary verbs as input. In this slot, one of the morphemes is the future marker ma. This marker constrains the TENSE to be "future" on the verb. I've also defined a tense inflection slot on the main verbs. It has only one morpheme: the future marker ba. Just like ma, ba constraints TENSE on the verb to be "future". This slot is optional, so verbs without ba are unmarked. Because the other things in the auxiliary tense slot specify TENSE values that inconsistent with "future", ba-marked verbs should only co-occur with ma-marked auxiliaries. 
