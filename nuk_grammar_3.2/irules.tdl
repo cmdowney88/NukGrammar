@@ -762,7 +762,7 @@ poss1_lrt1-suffix :=
 poss1_lrt1-lex-rule.
 
 poss2_ltr1-suffix :=
-%suffix (* uk)
+%suffix (* =uk)
 poss2_ltr1-lex-rule.
 
 verb-pc1_lrt1-suffix :=
