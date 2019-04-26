@@ -255,3 +255,30 @@ Phenomena: {poss}
 wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
 go.home=MO=NOW house=POSS=ARTL
 'He returned to his home'
+
+#EXAMPLE 28 -- failing because the bare-NP is of type ref-ind not event and args.first.synsem.local.cat.val.subj
+Source: c
+Vetted: s
+Judgement: g
+Phenomena: {poss}
+qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał
+three-round.chunky.DR=POSS=PAST=HRSY.3=3pl
+'they had three (hoops).'
+
+#EXAMPLE 29 -- interesting 3 ways to combine into S
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
+show-MO curtain=POSS=ARTL
+'He/she/they displayed their curtain'
+
+#EXAMPLE 29 -- wrong possessive suffix
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=uk=ʔiˑ
+show-MO curtain=POSS=ARTL
+'* He/she/they displayed their curtain'
