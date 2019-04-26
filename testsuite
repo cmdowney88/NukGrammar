@@ -187,7 +187,7 @@ not-PERF=TEMP=INDIC=1sg
 Source: c
 Vetted: f
 Judgement: g
-Phenomena: {coord}
+Phenomena: {coord, poss}
 ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
 X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
 `The women took care of the houses and children'
@@ -211,10 +211,29 @@ X-have=PST and PL-house and troll.boat
 `* They had their own homes and fishing boats'
 
 #EXAMPLE 23
+#I marked this as ungrammtical at first, but based on the corpus it seems this may also be possible
 Source: author
 Vetted: f
-Judgement: u
+Judgement: g
 Phenomena: {coord}
 ʔu-naˑk=(m)it LR-maḥt̓iˑ čiicsac
 X-have=PST PL-house troll.boat
-`* They had their own homes and fishing boats'
+`They had their own homes and fishing boats'
+
+#EXAMPLE 24
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {coord}
+ciq-šiƛ=!aƛ=maˑ=aˑḥ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
+speak-PERF=TEMP=INDIC=1sg and sleep-PER=TEMP=1sg=AGAIN
+`I spoke and I slept'
+
+#EXAMPLE 25
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {coord, poss}
+n̓aacsa-šiƛ=!aƛ=maˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
+see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg=AGAIN
+`I saw their children and slept'
