@@ -1906,7 +1906,7 @@ verb-pc14-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc101-
 verb-pc14_lrt1-lex-rule := verb-pc14-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT temp ].
 
-verb-pc15-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc108-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr &
+verb-pc15-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc108-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc8-rule-dtr &
   [ INFLECTED #infl,
     DTR verb-pc106-or-verb-pc15-rule-dtr &
         [ INFLECTED #infl ] ].
