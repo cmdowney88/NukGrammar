@@ -328,3 +328,12 @@ Phenomena: {neg, imp}
 wik=!iˑ qʷaa
 NEG=CMMD.2 how
 'Don't be like that'
+
+#EXAMPLE 36
+Source: c
+Vetted: f
+Judgement: g
+Phenomena: {neg, imp}
+wik=!iˑ č̓iiʕaqa
+NEG=CMMD.2 fight
+'Don't fight'
