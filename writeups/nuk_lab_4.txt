@@ -1,4 +1,4 @@
-1 (TSDB Results)
+#### 1 (TSDB Results) ####
 
 a. How many items parsed?
     -Initial: Testsuite-14, Corpus-30
@@ -18,7 +18,7 @@ d. What sources of ambiguity can you identify?
 e. For 10 items that parse, do the Semantics look reasonable?
     -
 
-2/3 (Documentation of Testsuite and Choices File Alterations)
+#### 2/3 (Documentation of Testsuite and Choices File Alterations) ####
 
 ## Coordination ##
 When Nuuchahnulth shows overt coordination, it does so with the separate word ʔuḥʔiš, glossed as 'and'. While we have not found a vetted example with more than two conjucts, this word seems to allow either Monosyndeton (A B and C) or Polysyndeton (A and B and C) type coordiantion, though it is unclear from the data. In the corpus, this word seems to be used mostly to coordinate NPs (see Examples 20 and 21). Omnisyndeton marking does not seem to be possible, and we have designed our grammar to rule it out (Example 22).
@@ -117,3 +117,8 @@ two-X.many.round.objects=POSS=DEF=1sg schooner
 'My two schooners'
 
 In order to capture this possesive system, we worked with Elizabeth Nielsen to create a possession strategy and possesive pronoun as needed. The possessive strategy was created to capture the above description: a head-initial, possessum marking, non-agreeing affix that functions as a modifier. The pronoun class further specified that is was also a modifiying, non-agreeing affix. The two suffixes already existed in the possition classes so we simply had to add the correct features to them--feat_name:possessum, feat_value:possessum, feat_head:itself. Then we created two possition classes that added the pronoun features instead (in class, David had incorrectly added the possession strategy features to both which resulted in no pronoun suffixes and much confusion). These pronoun classes tooke the same inputs and were in turn used as inputs to the same position classes as the existion possession suffixes. After that, we only had to add one noun as input to the POSS pcs and we were off and parsing; we now correctly parsed the coordination + possession example that was failing in class. 
+
+#### 4 Features in the Test Suite not Covered by the Customization System ####
+-Some of the examples of our testsuite exhibit imperative sentences, which came up when looking for negation examples, because they are negative imperatives like "don't fight" (see Examples 35,36). This sort of sentence in theory would be compatible with the radical dropping syntax of Nuuchahnulth, but it seems these sentences are not parsing right now for morphotactic reasons, specifically, wheter inflection is satisfied by the imperative.
+
+-There are also a couple examples of Evidentials (like Heresay), but I am unsure if phenomena like these are handled by the matrix in general yet. We seemt to have them morphotactically parsed well, but they don't add the Evidential information to our MRS
