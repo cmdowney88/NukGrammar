@@ -30,3 +30,65 @@ good-FAC 1.SG.S-PAST sleep-FUT
 intended: I will sleep well.
 
 In order to model this, I defined a tense inflection slot that takes auxiliary verbs as input. In this slot, one of the morphemes is the future marker ma. This marker constrains the TENSE to be "future" on the verb. I've also defined a tense inflection slot on the main verbs. It has only one morpheme: the future marker ba. Just like ma, ba constraints TENSE on the verb to be "future". This slot is optional, so verbs without ba are unmarked. Because the other things in the auxiliary tense slot specify TENSE values that inconsistent with "future", ba-marked verbs should only co-occur with ma-marked auxiliaries. 
+
+A. Negation: in Nuuchahlnulth sentenial negation is created by the verb 'wik' ~ 'not' which proceedes begins the sentence. It takes the usual inflectional suffixes for tense, aspect, mood, person, number. It can function as an auxilary verb as in example 18 bellow, negating the verb sleep or as a stand-alone negative verb as in example 19 with implied comliments.
+
+#EXAMPLE 18
+Source: a:155
+Vetted: s
+Judgement: g
+Phenomena: {neg}
+wik=!aƛ=quu=s weʔič ʔatḥii
+not=TEMP=COND=1sg sleep night
+`I did not sleep nights'
+
+#EXAMPLE 19
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {neg}
+wik-šiƛ=!aƛ=maˑ=aˑḥ
+not-PERF=TEMP=INDIC=1sg
+`I did not speak'
+
+To build this negation, we started with Kristen's specification in the choice file which enabled negating auxilary verbs and created the basic negative auxilary verb class with the desired neg_rel. This replaced the inflectional negation she had us use last week to get the grammar to compile. We then gave the negative auxilary the feature form with value finite along with the corresponding complabell=finite. This gave us the baic negative auxiliary we needed. Next, we noted that this auxiliary verb used the same suffixes as the non-auxialry 'wik'~'not' (verb78) which was already in the choice file. To take advantage of this, we added the neg-aux-lex as input to verb-pc116 which is the obligatory, non-inflecting, negation position class taking verb78 as input. This meant we could now attach to the desired suffixes execpt one which was easily done by adding verb-pc116 as input to verb-pc114. This allowed the examples to parse with the desired neg_rel.
+
+B. Possession: In Nuuchahnulth possession is marked with a suffix, either =uk or =ʔak, depending on whether it is proceeded by a vowel or not. Other suffixes handle PNG features so these are relatively simple suffixes simply adding the poss_rel. These suffixes usually appears on the possesum but there was one example in our source that showed the true possessive system involves second-posistion possession marking. However, the Grammar Matrix does not support this directly. Due to the scope of this class, we decided to simplify this to a possessum marking suffix since this captures most of the examples in our sources. We also note that the possesum can occure without the possessor so we need to create an additonal 'pronoun' version of the suffixes that fill the poss_rel when the possessor is not present.
+
+Examples:
+
+#EXAMPLE 26
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {poss}
+n̓aacsa=!aƛ t̓ašii=ʔak=ʔiˑ 
+see=NOW door=POSS=ARTL night
+'He/She/they was looking at their door now'
+
+#EXAMPLE 29
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
+show-MO curtain=POSS=ARTL
+'He/she/they displayed their curtain'
+
+#EXAMPLE 30 -- wrong possessive suffix
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=uk=ʔiˑ
+show-MO curtain=POSS=ARTL
+'* He/she/they displayed their curtain'
+
+#EXAMPLE 31 -- Second-position marking example we will not parse correctly
+Source: a:307
+Vetted: s
+Judgement: g
+Phenomena: {poss}
+ʔɑƛ-qimɬ=uk=qɑˑ=s kuˑnɑˑ
+two-X.many.round.objects=POSS=DEF=1sg schooner
+'My two schooners'
