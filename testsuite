@@ -208,7 +208,7 @@ Judgement: u
 Phenomena: {coord}
 ʔu-naˑk=(m)it ʔuḥʔiš LR-maḥt̓iˑ ʔuḥʔiš čiicsac
 X-have=PST and PL-house and troll.boat
-`* They had their own homes and fishing boats'
+intended: `They had their own homes and fishing boats'
 
 #EXAMPLE 23
 #I marked this as ungrammtical at first, but based on the corpus it seems this may also be possible
@@ -245,7 +245,7 @@ Judgement: g
 Phenomena: {poss}
 n̓aacsa=!aƛ t̓ašii=ʔak=ʔiˑ 
 see=NOW door=POSS=ARTL night
-'He/She/they was looking at their door now'
+`He/She/they was looking at their door now'
 
 #EXAMPLE 27
 Source: c
@@ -254,7 +254,7 @@ Judgement: g
 Phenomena: {poss}
 wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
 go.home=MO=NOW house=POSS=ARTL
-'He/she/they returned to their home'
+`He/she/they returned to their home'
 
 #EXAMPLE 28 -- failing because the bare-NP is of type ref-ind not event and args.first.synsem.local.cat.val.subj
 Source: c
@@ -263,7 +263,7 @@ Judgement: g
 Phenomena: {poss}
 qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał
 three-round.chunky.DR=POSS=PAST=HRSY.3=3pl
-'they had three (hoops).'
+`they had three (hoops).'
 
 #EXAMPLE 29 -- interesting 3 ways to combine into S
 Source: author
@@ -272,7 +272,7 @@ Judgement: g
 Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
 show-MO curtain=POSS=ARTL
-'He/she/they displayed their curtain'
+`He/she/they displayed their curtain'
 
 #EXAMPLE 30 -- wrong possessive suffix
 Source: author
@@ -281,7 +281,7 @@ Judgement: u
 Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=uk=ʔiˑ
 show-MO curtain=POSS=ARTL
-'* He/she/they displayed their curtain'
+intended: `He/she/they displayed their curtain'
 
 
 #EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
@@ -291,7 +291,7 @@ Judgement: g
 Phenomena: {poss}
 ʔɑƛ-qimɬ=uk=qɑˑ=s kuˑnɑˑ
 two-X.many.round.objects=POSS=DEF=1sg schooner
-'My two schooners'
+`My two schooners'
 
 #EXAMPLE 32
 Source: c
@@ -300,7 +300,7 @@ Judgement: g
 Phenomena: {neg}
 wik=!aƛ hina-iip t̓an̓a-ʔis=ʔiˑ
 not.NEG=NOW EMPTY-find child-DIM=ARTL
-'But they never found the boy'
+`But they never found the boy'
 
 #EXAMPLE 33
 Source: author
@@ -309,7 +309,7 @@ Judgement: g
 Phenomena: {neg}
 wik=weˑʔin
 not.NEG=HRSY.3
-'He/she/they says no'
+`He/she/they says no'
 
 #EXAMPLE 34
 Source: c:3810
@@ -318,7 +318,7 @@ Judgement: g
 Phenomena: {neg}
 wik-L.(w)aƛ=!aƛ=ʔał m̓aʔakƛ=qs puut
 NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
-'They did not find any boats'
+`They did not find any boats'
 
 #EXAMPLE 35
 Source: c:4210
@@ -327,7 +327,7 @@ Judgement: g
 Phenomena: {neg, imp}
 wik=!iˑ qʷaa
 NEG=CMMD.2 how
-'Don't be like that'
+`Don't be like that'
 
 #EXAMPLE 36
 Source: c:4250
@@ -336,7 +336,7 @@ Judgement: g
 Phenomena: {neg, imp}
 wik=!iˑ č̓iiʕaqa
 NEG=CMMD.2 fight
-'Don't fight'
+`Don't fight'
 
 #EXAMPLE 37
 Source: c:5440
@@ -345,7 +345,7 @@ Judgement: g
 Phenomena: {neg}
 wik=int taana huwaa
 NEG=PST money say.CT
-'They didn't mention money'
+`They didn't mention money'
 
 #EXAMPLE 38
 Source: author
@@ -354,7 +354,7 @@ Judgement: g
 Phenomena: {neg, coord}
 wik=(m)it ʔu-naˑk LR-maḥt̓iˑ ʔuḥʔiš čiicsac
 NEG=PST PL-house and troll.boat
-'They did not have their own homes and fishing boats'
+`They did not have their own homes and fishing boats'
 
 #EXAMPLE 39
 Source: author
@@ -363,13 +363,22 @@ Judgement: g
 Phenomena: {coord, poss, neg}
 wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
 NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
-`The women took care of the houses and children'
+`The women did not take care of the houses and children'
 
 #EXAMPLE 40 - the NEG marker is supposed to take all TAM markers, leaving the embedded verb bare
-Source: a:109
+Source: author
 Vetted: f
 Judgement: u
 Phenomena: {negation, tam}
 wik ciq-šiƛ=!aƛ=maˑ=aˑḥ
 NEG speak-PERF=TEMP=INDIC=1sg
+intended: `I did not speak'
+
+#EXAMPLE 41 - the NEG marker should come before the verb it modifies
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {negation, tam}
+ciq wik-šiƛ=!aƛ=maˑ=aˑḥ
+speak NEG-PERF=TEMP=INDIC=1sg
 intended: `I did not speak'
