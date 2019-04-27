@@ -16,7 +16,10 @@ d. What sources of ambiguity can you identify?
     -In general, the level that S immediately dominates seems oddly unconstrained. For example, the combination of a (fully inflected) verb and NP seems to be able to be parsed as (S -> VP -> VP NP), (S -> V -> V NP), (S -> VP NP), (S -> VP -> V NP), or (S -> VP NP). It seems like the ability to drop arguments leads to a somewhat wild diversity in how these two words can be parsed, and we aren't exactly sure how to constrain that at this point.
 
 e. For 10 items that parse, do the Semantics look reasonable?
-    -
+    -Example 21: Reasonable, there is a "have" relation whose ARG0 is identified with HOOK.INDEX, ARG1 with HOOK.XARG, which is unexpressed, and ARG2 identified with the coordinated phrase semantics. This in turn has an L-INDEX and R-INDEX identified with the ARG0s of a "house" relation and "troll-boat" relation respectively. There are three quantification (exist) relations, one for each of the nouns, and one for the whole coordinated phrase. We don't really know where these come from.
+        ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+        X-have=PST PL-house and troll.boat
+        `They had their own homes and fishing boats'
 
 #### 2/3 (Documentation of Testsuite and Choices File Alterations) ####
 
@@ -122,3 +125,25 @@ In order to capture this possesive system, we worked with Elizabeth Nielsen to c
 -Some of the examples of our testsuite exhibit imperative sentences, which came up when looking for negation examples, because they are negative imperatives like "don't fight" (see Examples 35,36). This sort of sentence in theory would be compatible with the radical dropping syntax of Nuuchahnulth, but it seems these sentences are not parsing right now for morphotactic reasons, specifically, wheter inflection is satisfied by the imperative.
 
 -There are also a couple examples of Evidentials (like Heresay), but I am unsure if phenomena like these are handled by the matrix in general yet. We seemt to have them morphotactically parsed well, but they don't add the Evidential information to our MRS
+
+#EXAMPLE 35
+Source: c:4210
+Vetted: f
+Judgement: g
+Phenomena: {neg, imp}
+wik=!iˑ qʷaa
+NEG=CMMD.2 how
+`Don't be like that'
+
+#EXAMPLE 36
+Source: c:4250
+Vetted: f
+Judgement: g
+Phenomena: {neg, imp}
+wik=!iˑ č̓iiʕaqa
+NEG=CMMD.2 fight
+`Don't fight'
+
+#### 5 Serious Problems with Automatic Choices File ####
+
+We did not have any serious problems with our choices file this week
