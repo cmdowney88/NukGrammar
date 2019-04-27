@@ -302,7 +302,6 @@ wik=!aƛ hina-iip t̓an̓a-ʔis=ʔiˑ
 not.NEG=NOW EMPTY-find child-DIM=ARTL
 'But they never found the boy'
 
-
 #EXAMPLE 33
 Source: author
 Vetted: f
@@ -311,3 +310,11 @@ Phenomena: {neg}
 wik=weˑʔin
 not.NEG=HRSY.3
 'He/she/they says no'
+
+#EXAMPLE 34
+Source: c
+Vetted: f
+Judgement: {neg}
+wik-L.(w)aƛ=!aƛ=ʔał m̓aʔakƛ=qs puut
+NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
+'They did not find any boats'

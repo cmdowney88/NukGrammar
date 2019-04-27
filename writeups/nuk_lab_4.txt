@@ -1,3 +1,9 @@
+1 (TSDB Results)
+
+a. How many items parsed?
+    -Initial
+    -Final
+
 2/3 (Documentation of Testsuite and Choices File Alterations)
 
 ## Coordination ##
@@ -30,7 +36,7 @@ Phenomena: {coord}
 X-have=PST and PL-house and troll.boat
 intended: `They had their own homes and fishing boats'
 
-In order to enable this type of coordination, we used the Grammar Matrix Customization System to add the correct coordination method: specified as a Polysyndeton method using as separate word whose orthography is ʔuḥʔiš, and that comes before the coordinand.
+In order to enable this type of coordination, we used the Grammar Matrix Customization System to add the correct coordination method: specified as a Polysyndeton method using as separate word whose orthography is ʔuḥʔiš, and that comes before the coordinand. Though we have not found a corpus example of two VPs or Ss linked by coordination in this way, we set this coordination strategy to be able to link NPs, VPs, or Ss, mainly because we know that VP and S can be coordinated, but we only see examples of this being done by juxtaposition, and juxtaposition is currently crashing the parser when we set it to allow juxtaposed coordinated S. (The process throughs a memory error and sometimes freezes up both the virtual and host computer.
 
 ## Negation ##
 In Nuuchahlnulth sentenial negation is created by the verb 'wik' ~ 'not' which proceeds begins the sentence. It takes the usual inflectional suffixes for tense, aspect, mood, person, number. It can function as an auxiliary verb as in example 18 bellow, negating the verb sleep or as a stand-alone negative verb as in example 19 with implied comliments.
