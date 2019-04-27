@@ -20,6 +20,7 @@ e. For 10 items that parse, do the Semantics look reasonable?
         ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
         X-have=PST PL-house and troll.boat
         `They had their own homes and fishing boats'
+    -Example 20: 
 
 #### 2/3 (Documentation of Testsuite and Choices File Alterations) ####
 
