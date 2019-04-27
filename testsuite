@@ -314,7 +314,17 @@ not.NEG=HRSY.3
 #EXAMPLE 34
 Source: c
 Vetted: f
-Judgement: {neg}
+Judgement: g
+Phenomena: {neg}
 wik-L.(w)aƛ=!aƛ=ʔał m̓aʔakƛ=qs puut
 NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
 'They did not find any boats'
+
+#EXAMPLE 35
+Source: c
+Vetted: f
+Judgement: g
+Phenomena: {neg, imp}
+wik=!iˑ qʷaa
+NEG=CMMD.2 how
+'Don't be like that'
