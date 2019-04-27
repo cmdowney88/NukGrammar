@@ -312,7 +312,7 @@ not.NEG=HRSY.3
 'He/she/they says no'
 
 #EXAMPLE 34
-Source: c
+Source: c:3810
 Vetted: f
 Judgement: g
 Phenomena: {neg}
@@ -321,7 +321,7 @@ NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
 'They did not find any boats'
 
 #EXAMPLE 35
-Source: c
+Source: c:4210
 Vetted: f
 Judgement: g
 Phenomena: {neg, imp}
@@ -330,10 +330,28 @@ NEG=CMMD.2 how
 'Don't be like that'
 
 #EXAMPLE 36
-Source: c
+Source: c:4250
 Vetted: f
 Judgement: g
 Phenomena: {neg, imp}
 wik=!iˑ č̓iiʕaqa
 NEG=CMMD.2 fight
 'Don't fight'
+
+#EXAMPLE 37
+Source: c:5440
+Vetted: f
+Judgement: g
+Phenomena: {neg}
+wik=int taana huwaa
+NEG=PST money say.CT
+'They didn't mention money'
+
+#EXAMPLE 38
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {neg, coord}
+wik=(m)it ʔu-naˑk LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+X-have=PST PL-house and troll.boat
+'They did not have their own homes and fishing boats'
