@@ -22,6 +22,75 @@ e. For 10 items that parse, do the Semantics look reasonable?
         `They had their own homes and fishing boats'
     -Example 20: 
 
+
+#test EXAMPLE 27
+Source: c
+Vetted: f
+Judgement: g
+Phenomena: {poss}
+wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
+go.home=MO=NOW house=POSS=ARTL
+'He/she/they returned to their home'
+We get the desired pron_rel because the possessor is not present. The pron_rel arg0 is coindexed with poss_rel arg2 and poss_rel arg1 is coindexed with house_n_rel arg0 which fits the desired intrepretation for 'their house' when 'their' is not explicitly in the sentence and the house is the possessum. We also get a go_home_v_rel whose arg1 is coindexed with house_n_rel arg0 which seems about right. Overall, those semantics look pretty good and we're seeing what I think we want for possession.
+
+#testsuite EXAMPLE 29
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
+show-MO curtain=POSS=ARTL
+'He/she/they displayed their curtain'
+
+The show_v_rel has arg1 corresponding to nothing and arg2 coindexed with curtain arg0 which fits the curtain being shown but the person they are being shown to is not present. Since the possessor is not directly in this sentence, we get a pron_rel as desired. For the poss_rel, we have the curtains as arg1 and the pron-rel as arg2. This is the desired usage of the pron_rel for this sentence which is great to see. The other rels are simple existence for the nouns and pron_rel so overall the semantics look sensible to me
+
+
+#testsuite EXAMPLE 25
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {coord, poss}
+n̓aacsa-šiƛ=!aƛ=maˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
+see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg
+`I saw their children and slept'
+
+We get a pron_rel because 'their' of 'their children' is not present in the Nuuchahlnulth. The pron_rel arg0 and poss_rel arg2 are coindexed again which is good. The poss_rel arg1 and the children_n_rel arg0 are coindexed so we're getting the desired semantics for 'their children'. children_n_rel arg0 is also see_v_rel arg1 so the semantics of the children being seen is also correct. The see_v_rel arg0 is coindexed with the and_coord_rel L-index as desired but there isn't a 1sg rel filling this reference. Similarly the and_coord_rel R-index corresponds with the sleep_v_rel arg0 but doesn't refer to anything. So we're seeing the indices handled correctly by coordination but the 1sg suffix isn't adding the needed semantics. The sleep_v_rel arg1 is also non-referential. Overall, the possesion semantics looks good and the coordination is correct, we're just not seeing 1sg semantics from the 1sg suffix in the absence of an explicit subject.
+
+#testsuite EXAMPLE 18
+Source: a:155
+Vetted: s
+Judgement: g
+Phenomena: {neg}
+wik=!aƛ=quu=s weʔič ʔatḥii
+not=TEMP=COND=1sg sleep night
+`I did not sleep nights'
+
+The neg_rel arg0 is co-indexed with the full sentence index as desired for sentential negation. Looks like the rules are negating correctly. The sleep_rel arg1 and night_rel arg0 are coindexed which makes sense for night as a complement of sleep. The arg0 of sleep_rel doesn't refer to anything which means the =1sg suffix isn't introducing anything semantically to fill the role of "I" which we may need to look at. The night_rel also shows up with an exist_q_rel because it's a noun. Looks like we're getting what we want for negation here and the words being negated make sense.
+
+
+#testsuite EXAMPLE 33
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {neg}
+wik=weˑʔin
+not.NEG=HRSY.3
+`He/she/they says no'
+
+This one is interesting. We get two parses, one giving a neg_rel co-indexed with the sentence and one with a neg_v_rel conindexed with the sentence. Both are getting the negation we desire but the 3rd person subject is implied so we don't get any semantics in our current analysis for them. Similarly, the examples in the corpus assign speaking/saying glosses to negation without compliments such as this but we don't have the mechanics in place to add these rels in the absence of compliments.
+
+
+#testsuite EXAMPLE 39
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {coord, poss, neg}
+wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
+`The women did not take care of the houses and children'
+
+We get two parses with the same semantics due to two ways to parse ʔu-!aałuk so we'll have to check for ways to reduce ambiguity. This example brings together all features we worked on this week and the semantics seem sensible. We start with a neg_rel arg0 coindexed with the sentence so negation looks correct. Next 'X-look.after' gives us a x_v_rel whos arg2 is coindexed with woman_pl_n_rel arg0 so we correctly have the women connected to the looking after semantics. We also have a pron_rel because 'children' is actually closer to 'their children' but it doesn't look like they are explicitly the children of the women in our semantics. Our semantics indexes the pron_rel and the children_n_rel in the poss_rel as a result. It's unclear to me if that is correct or not due to not knowing if the =POSS on children is supposed to imply they are the children of the women or not in Nuuchahnulth. For coordination, we correctly see children_n_rel coindexed with the L-index of the and_coord_rel and house_n_rel coindexed with the R-index.
+
 #### 2/3 (Documentation of Testsuite and Choices File Alterations) ####
 
 ## Coordination ##
