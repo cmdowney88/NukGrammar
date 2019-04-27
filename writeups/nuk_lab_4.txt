@@ -1,4 +1,4 @@
-#### 1 (TSDB Results) ####
+#### 1 (TSDB Results) ####----------------------------------------------------------------------------------------------
 
 a. How many items parsed?
     -Initial: Testsuite-14, Corpus-30
@@ -16,82 +16,110 @@ d. What sources of ambiguity can you identify?
     -In general, the level that S immediately dominates seems oddly unconstrained. For example, the combination of a (fully inflected) verb and NP seems to be able to be parsed as (S -> VP -> VP NP), (S -> V -> V NP), (S -> VP NP), (S -> VP -> V NP), or (S -> VP NP). It seems like the ability to drop arguments leads to a somewhat wild diversity in how these two words can be parsed, and we aren't exactly sure how to constrain that at this point.
 
 e. For 10 items that parse, do the Semantics look reasonable?
-    -Example 21: Reasonable, there is a "have" relation whose ARG0 is identified with HOOK.INDEX, ARG1 with HOOK.XARG, which is unexpressed, and ARG2 identified with the coordinated phrase semantics. This in turn has an L-INDEX and R-INDEX identified with the ARG0s of a "house" relation and "troll-boat" relation respectively. There are three quantification (exist) relations, one for each of the nouns, and one for the whole coordinated phrase. We don't really know where these come from.
+    -Example 21:
+        Source: c
+        Vetted: f
+        Judgement: g
+        Phenomena: {coord}
         ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
         X-have=PST PL-house and troll.boat
         `They had their own homes and fishing boats'
+	There is a "have" relation whose arg0 is identified with HOOK.INDEX, arg1 with HOOK.XARG, which is unexpressed, and arg2 identified with the coordinated phrase semantics. This in turn has an L-INDEX and R-INDEX identified with the ARG0s of a "house" relation and "troll-boat" relation respectively. There are three quantification (exist) relations, one for each of the nouns, and one for the whole coordinated phrase. We don't really know where these come from. Overall this seems to be doing most of what it's supposed to. One thing it's missing is the fact that the plural seems to be implied to extend to the second conjunct as per the free translation, and predictably it does not in our semantics, due to the lack of overt marking.
+
     -Example 20: 
+        Source: c
+        Vetted: f
+        Judgement: g
+        Phenomena: {coord, poss}
+        ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+        X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
+        `The women took care of the houses and children'
+	There is a woman_n_rel with its arg0 identified with HOOK.XARG. The "have" relation identifies its arg0 with HOOK.INDEX, and its arg1 with this woman index; the arg2 is identified with the coordination relation. The coordination relation takes the arg0 of children_n_rel and house_n_rel as its left and right indices. In addition, there is a poss_v_rel which takes children_n_rel as its arg2, and has an unexpressed arg1 identified with an unexpressed pronoun relation. This is because with our grammar so far, it is not explicit that the mothers are the ones who are the possessors of the children. In fact, this may be syntactically ambiguous.
+
+    -Example 9:
+        Source: a:109
+        Vetted: f
+        Judgement: g
+        Phenomena: {tam, agreement}
+        ciq-šiƛ=!aƛ=maˑ=aˑḥ
+        speak-PERF=TEMP=INDIC=1sg
+        `I spoke'
+        There is a speak_v_rel, the arg1 of which is properly identified with HOOK.XARG which is marked as 1sg but unexpressed in this sentence. Last week for some reason the -šiƛ affix was not adding its perfective Aspect value, but it is now doing so.
+
+    -Example 24:
+        Source: author
+        Vetted: f
+        Judgement: g
+        Phenomena: {coord}
+        ciq-šiƛ=!aƛ=maˑ=aˑḥ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
+        speak-PERF=TEMP=INDIC=1sg and sleep-PER=TEMP=1sg
+        `I spoke and I slept'
+        This example was attempting to test a simple coordination of two sentences, and it seems to have somewhat worked. There is a coordination relation, the c-arg of which is identified with HOOK.INDEX. There are also a speak_v_rel and sleep_v_rel, the arg0s of which are identified with the l- and r-index of the coordination. The arg1 of each of these verb relations is a 1sg index. However, these two 1sg indices are not identified with each other, even though theoretically any two occurences of 1sg are the same entity if they are used in the same sentence. Also, the HOOK.XARG of the sentence does not seem to be identified with either of these. We are not sure if it should be. Maybe when you are coordinating two full sentences there is not a consisten "subject" between the two of them.
+
+    -Example 27:
+        Source: c
+        Vetted: f
+        Judgement: g
+        Phenomena: {poss}
+        wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
+        go.home=MO=NOW house=POSS=ARTL
+        'He/she/they returned to their home'
+        We get the desired pron_rel because the possessor is not present. The pron_rel arg0 is coindexed with poss_rel arg2 and poss_rel arg1 is coindexed with house_n_rel arg0 which fits the desired intrepretation for 'their house' when 'their' is not explicitly in the sentence and the house is the possessum. We also get a go_home_v_rel whose arg1 is coindexed with house_n_rel arg0 which seems about right. Overall, those semantics look pretty good and we're seeing what I think we want for possession.
+
+    -Example 29
+        Source: author
+        Vetted: f
+        Judgement: g
+        Phenomena: {poss}
+        ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
+        show-MO curtain=POSS=ARTL
+        'He/she/they displayed their curtain'
+        The show_v_rel has arg1 corresponding to nothing and arg2 coindexed with curtain arg0 which fits the curtain being shown but the person they are being shown to is not present. Since the possessor is not directly in this sentence, we get a pron_rel as desired. For the poss_rel, we have the curtains as arg1 and the pron-rel as arg2. This is the desired usage of the pron_rel for this sentence which is great to see. The other rels are simple existence for the nouns and pron_rel so overall the semantics look sensible to me
 
 
-#test EXAMPLE 27
-Source: c
-Vetted: f
-Judgement: g
-Phenomena: {poss}
-wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
-go.home=MO=NOW house=POSS=ARTL
-'He/she/they returned to their home'
-We get the desired pron_rel because the possessor is not present. The pron_rel arg0 is coindexed with poss_rel arg2 and poss_rel arg1 is coindexed with house_n_rel arg0 which fits the desired intrepretation for 'their house' when 'their' is not explicitly in the sentence and the house is the possessum. We also get a go_home_v_rel whose arg1 is coindexed with house_n_rel arg0 which seems about right. Overall, those semantics look pretty good and we're seeing what I think we want for possession.
+    -Example 25
+        Source: author
+        Vetted: f
+        Judgement: g
+        Phenomena: {coord, poss}
+        n̓aacsa-šiƛ=!aƛ=maˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
+        see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg
+        `I saw their children and slept'
+        We get a pron_rel because 'their' of 'their children' is not present in the Nuuchahlnulth. The pron_rel arg0 and poss_rel arg2 are coindexed again which is good. The poss_rel arg1 and the children_n_rel arg0 are coindexed so we're getting the desired semantics for 'their children'. children_n_rel arg0 is also see_v_rel arg1 so the semantics of the children being seen is also correct. The see_v_rel arg0 is coindexed with the and_coord_rel L-index as desired but there isn't a 1sg rel filling this reference. Similarly the and_coord_rel R-index corresponds with the sleep_v_rel arg0 but doesn't refer to anything. So we're seeing the indices handled correctly by coordination but the 1sg suffix isn't adding the needed semantics. The sleep_v_rel arg1 is also non-referential. Overall, the possesion semantics looks good and the coordination is correct, we're just not seeing 1sg semantics from the 1sg suffix in the absence of an explicit subject.
 
-#testsuite EXAMPLE 29
-Source: author
-Vetted: f
-Judgement: g
-Phenomena: {poss}
-ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
-show-MO curtain=POSS=ARTL
-'He/she/they displayed their curtain'
-
-The show_v_rel has arg1 corresponding to nothing and arg2 coindexed with curtain arg0 which fits the curtain being shown but the person they are being shown to is not present. Since the possessor is not directly in this sentence, we get a pron_rel as desired. For the poss_rel, we have the curtains as arg1 and the pron-rel as arg2. This is the desired usage of the pron_rel for this sentence which is great to see. The other rels are simple existence for the nouns and pron_rel so overall the semantics look sensible to me
-
-
-#testsuite EXAMPLE 25
-Source: author
-Vetted: f
-Judgement: g
-Phenomena: {coord, poss}
-n̓aacsa-šiƛ=!aƛ=maˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
-see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg
-`I saw their children and slept'
-
-We get a pron_rel because 'their' of 'their children' is not present in the Nuuchahlnulth. The pron_rel arg0 and poss_rel arg2 are coindexed again which is good. The poss_rel arg1 and the children_n_rel arg0 are coindexed so we're getting the desired semantics for 'their children'. children_n_rel arg0 is also see_v_rel arg1 so the semantics of the children being seen is also correct. The see_v_rel arg0 is coindexed with the and_coord_rel L-index as desired but there isn't a 1sg rel filling this reference. Similarly the and_coord_rel R-index corresponds with the sleep_v_rel arg0 but doesn't refer to anything. So we're seeing the indices handled correctly by coordination but the 1sg suffix isn't adding the needed semantics. The sleep_v_rel arg1 is also non-referential. Overall, the possesion semantics looks good and the coordination is correct, we're just not seeing 1sg semantics from the 1sg suffix in the absence of an explicit subject.
-
-#testsuite EXAMPLE 18
-Source: a:155
-Vetted: s
-Judgement: g
-Phenomena: {neg}
-wik=!aƛ=quu=s weʔič ʔatḥii
-not=TEMP=COND=1sg sleep night
-`I did not sleep nights'
-
-The neg_rel arg0 is co-indexed with the full sentence index as desired for sentential negation. Looks like the rules are negating correctly. The sleep_rel arg1 and night_rel arg0 are coindexed which makes sense for night as a complement of sleep. The arg0 of sleep_rel doesn't refer to anything which means the =1sg suffix isn't introducing anything semantically to fill the role of "I" which we may need to look at. The night_rel also shows up with an exist_q_rel because it's a noun. Looks like we're getting what we want for negation here and the words being negated make sense.
+    -Example 18
+        Source: a:155
+        Vetted: s
+        Judgement: g
+        Phenomena: {neg}
+        wik=!aƛ=quu=s weʔič ʔatḥii
+        not=TEMP=COND=1sg sleep night
+        `I did not sleep nights'
+        The neg_rel arg0 is co-indexed with the full sentence index as desired for sentential negation. Looks like the rules are negating correctly. The sleep_rel arg1 and night_rel arg0 are coindexed which makes sense for night as a complement of sleep. The arg0 of sleep_rel doesn't refer to anything which means the =1sg suffix isn't introducing anything semantically to fill the role of "I" which we may need to look at. The night_rel also shows up with an exist_q_rel because it's a noun. Looks like we're getting what we want for negation here and the words being negated make sense.
 
 
-#testsuite EXAMPLE 33
-Source: author
-Vetted: f
-Judgement: g
-Phenomena: {neg}
-wik=weˑʔin
-not.NEG=HRSY.3
-`He/she/they says no'
+    -Example 33
+        Source: author
+        Vetted: f
+        Judgement: g
+        Phenomena: {neg}
+        wik=weˑʔin
+        not.NEG=HRSY.3
+        `He/she/they says no'
+        This one is interesting. We get two parses, one giving a neg_rel co-indexed with the sentence and one with a neg_v_rel conindexed with the sentence. Both are getting the negation we desire but the 3rd person subject is implied so we don't get any semantics in our current analysis for them. Similarly, the examples in the corpus assign speaking/saying glosses to negation without compliments such as this but we don't have the mechanics in place to add these rels in the absence of compliments.
 
-This one is interesting. We get two parses, one giving a neg_rel co-indexed with the sentence and one with a neg_v_rel conindexed with the sentence. Both are getting the negation we desire but the 3rd person subject is implied so we don't get any semantics in our current analysis for them. Similarly, the examples in the corpus assign speaking/saying glosses to negation without compliments such as this but we don't have the mechanics in place to add these rels in the absence of compliments.
 
+    -Example 39
+        Source: author
+        Vetted: f
+        Judgement: g
+        Phenomena: {coord, poss, neg}
+        wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+        NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
+        `The women did not take care of the houses and children'
+        We get two parses with the same semantics due to two ways to parse ʔu-!aałuk so we'll have to check for ways to reduce ambiguity. This example brings together all features we worked on this week and the semantics seem sensible. We start with a neg_rel arg0 coindexed with the sentence so negation looks correct. Next 'X-look.after' gives us a x_v_rel whos arg2 is coindexed with woman_pl_n_rel arg0 so we correctly have the women connected to the looking after semantics. We also have a pron_rel because 'children' is actually closer to 'their children' but it doesn't look like they are explicitly the children of the women in our semantics. Our semantics indexes the pron_rel and the children_n_rel in the poss_rel as a result. It's unclear to us if that is correct or not due to not knowing if the =POSS on children is supposed to imply they are the children of the women or not in Nuuchahnulth. For coordination, we correctly see children_n_rel coindexed with the L-index of the and_coord_rel and house_n_rel coindexed with the R-index.
 
-#testsuite EXAMPLE 39
-Source: author
-Vetted: f
-Judgement: g
-Phenomena: {coord, poss, neg}
-wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
-NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
-`The women did not take care of the houses and children'
-
-We get two parses with the same semantics due to two ways to parse ʔu-!aałuk so we'll have to check for ways to reduce ambiguity. This example brings together all features we worked on this week and the semantics seem sensible. We start with a neg_rel arg0 coindexed with the sentence so negation looks correct. Next 'X-look.after' gives us a x_v_rel whos arg2 is coindexed with woman_pl_n_rel arg0 so we correctly have the women connected to the looking after semantics. We also have a pron_rel because 'children' is actually closer to 'their children' but it doesn't look like they are explicitly the children of the women in our semantics. Our semantics indexes the pron_rel and the children_n_rel in the poss_rel as a result. It's unclear to me if that is correct or not due to not knowing if the =POSS on children is supposed to imply they are the children of the women or not in Nuuchahnulth. For coordination, we correctly see children_n_rel coindexed with the L-index of the and_coord_rel and house_n_rel coindexed with the R-index.
-
-#### 2/3 (Documentation of Testsuite and Choices File Alterations) ####
+#### 2/3 (Documentation of Testsuite and Choices File Alterations) ####-------------------------------------------------
 
 ## Coordination ##
 When Nuuchahnulth shows overt coordination, it does so with the separate word ʔuḥʔiš, glossed as 'and'. While we have not found a vetted example with more than two conjucts, this word seems to allow either Monosyndeton (A B and C) or Polysyndeton (A and B and C) type coordiantion, though it is unclear from the data. In the corpus, this word seems to be used mostly to coordinate NPs (see Examples 20 and 21). Omnisyndeton marking does not seem to be possible, and we have designed our grammar to rule it out (Example 22).
@@ -191,10 +219,10 @@ two-X.many.round.objects=POSS=DEF=1sg schooner
 
 In order to capture this possesive system, we worked with Elizabeth Nielsen to create a possession strategy and possesive pronoun as needed. The possessive strategy was created to capture the above description: a head-initial, possessum marking, non-agreeing affix that functions as a modifier. The pronoun class further specified that is was also a modifiying, non-agreeing affix. The two suffixes already existed in the possition classes so we simply had to add the correct features to them--feat_name:possessum, feat_value:possessum, feat_head:itself. Then we created two possition classes that added the pronoun features instead (in class, David had incorrectly added the possession strategy features to both which resulted in no pronoun suffixes and much confusion). These pronoun classes tooke the same inputs and were in turn used as inputs to the same position classes as the existion possession suffixes. After that, we only had to add one noun as input to the POSS pcs and we were off and parsing; we now correctly parsed the coordination + possession example that was failing in class. 
 
-#### 4 Features in the Test Suite not Covered by the Customization System ####
+#### 4 Features in the Test Suite not Covered by the Customization System ####------------------------------------------
 -Some of the examples of our testsuite exhibit imperative sentences, which came up when looking for negation examples, because they are negative imperatives like "don't fight" (see Examples 35,36). This sort of sentence in theory would be compatible with the radical dropping syntax of Nuuchahnulth, but it seems these sentences are not parsing right now for morphotactic reasons, specifically, wheter inflection is satisfied by the imperative.
 
--There are also a couple examples of Evidentials (like Heresay), but I am unsure if phenomena like these are handled by the matrix in general yet. We seemt to have them morphotactically parsed well, but they don't add the Evidential information to our MRS
+-There are also a couple examples of Evidentials (like Heresay), but we are unsure if phenomena like these are handled by the matrix in general yet. We seem to have them morphotactically parsed well, but they don't add the Evidential information to our MRS
 
 #EXAMPLE 35
 Source: c:4210
@@ -214,6 +242,6 @@ wik=!iˑ č̓iiʕaqa
 NEG=CMMD.2 fight
 `Don't fight'
 
-#### 5 Serious Problems with Automatic Choices File ####
+#### 5 Serious Problems with Automatic Choices File ####----------------------------------------------------------------
 
 We did not have any serious problems with our choices file this week
