@@ -353,5 +353,23 @@ Vetted: f
 Judgement: g
 Phenomena: {neg, coord}
 wik=(m)it ʔu-naˑk LR-maḥt̓iˑ ʔuḥʔiš čiicsac
-X-have=PST PL-house and troll.boat
+NEG=PST PL-house and troll.boat
 'They did not have their own homes and fishing boats'
+
+#EXAMPLE 39
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {coord, poss, neg}
+wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
+`The women took care of the houses and children'
+
+#EXAMPLE 40
+Source: a:109
+Vetted: f
+Judgement: u
+Phenomena: {negation, tam}
+wik ciq-šiƛ=!aƛ=maˑ=aˑḥ
+NEG speak-PERF=TEMP=INDIC=1sg
+intended: `I did not speak'
