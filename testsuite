@@ -254,7 +254,7 @@ Judgement: g
 Phenomena: {poss}
 wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
 go.home=MO=NOW house=POSS=ARTL
-'He returned to his home'
+'He/she/they returned to their home'
 
 #EXAMPLE 28 -- failing because the bare-NP is of type ref-ind not event and args.first.synsem.local.cat.val.subj
 Source: c
@@ -274,7 +274,7 @@ Phenomena: {poss}
 show-MO curtain=POSS=ARTL
 'He/she/they displayed their curtain'
 
-#EXAMPLE 29 -- wrong possessive suffix
+#EXAMPLE 30 -- wrong possessive suffix
 Source: author
 Vetted: f
 Judgement: u
@@ -282,3 +282,13 @@ Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=uk=ʔiˑ
 show-MO curtain=POSS=ARTL
 '* He/she/they displayed their curtain'
+
+
+#EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
+Source: a:307
+Vetted: s
+Judgement: g
+Phenomena: {poss}
+ʔɑƛ-qimɬ=uk=qɑˑ=s kuˑnɑˑ
+two-X.many.round.objects=POSS=DEF=1sg schooner
+'My two schooners'
