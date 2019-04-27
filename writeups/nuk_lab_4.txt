@@ -10,6 +10,8 @@ c. How many parses did the most ambiguous item receive?
     -Initial: Testsuite-4, Corpus-6
     -Final: Testsuite-6, Corpus-6
 d. What sources of ambiguity can you identify?
+    -In general, the level that S immediately dominates seems oddly unconstrained. For example, the combination of a (fully inflected) verb and NP seems to be able to be parsed as (S -> VP -> VP NP), (S -> V -> V NP), (S -> VP NP), (S -> VP -> V NP), or (S -> VP NP). It seems like the ability to drop arguments leads to a somewhat wild diversity in how these two words can be parsed, and we aren't exactly sure how to constrain that at this point.
+e. For 10 items that parse, do the Semantics look reasonable?
 
 2/3 (Documentation of Testsuite and Choices File Alterations)
 
