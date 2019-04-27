@@ -1,8 +1,15 @@
 1 (TSDB Results)
 
 a. How many items parsed?
-    -Initial
-    -Final
+    -Initial: Testsuite-14, Corpus-30
+    -Final: Testsuite-24, Corpus-37
+b. What was the average number of parses?
+    -Initial: Testsuite-1.5, Corpus-2.23
+    -Final: Testsuite-1.96, Corpus-2.41
+c. How many parses did the most ambiguous item receive?
+    -Initial: Testsuite-4, Corpus-6
+    -Final: Testsuite-6, Corpus-6
+d. What sources of ambiguity can you identify?
 
 2/3 (Documentation of Testsuite and Choices File Alterations)
 
