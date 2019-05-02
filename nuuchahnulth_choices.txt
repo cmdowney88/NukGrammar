@@ -53,6 +53,8 @@ tense-definition=build
     aspect4_supertype1_name=aspect
   mood1_name=real
     mood1_supertype1_name=mood
+  mood2_name=cond
+    mood2_supertype1_name=mood
 
 section=evidentials
 
@@ -92,6 +94,9 @@ obj-mark-no-drop=obj-mark-no-drop-opt
 section=nominalclause
 
 section=clausal-comp
+  comps1_clause-pos-same=on
+    comps1_feat1_name=mood
+    comps1_feat1_value=cond
 
 section=clausalmods
 
