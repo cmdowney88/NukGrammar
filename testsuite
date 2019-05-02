@@ -10,7 +10,7 @@ Source c: Inman_Corpus
 #EXAMPLE 1
 Source: a:98
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam}
 weʔič=maˑ
 sleep=INDIC
@@ -19,7 +19,7 @@ sleep=INDIC
 #EXAMPLE 2
 Source: a:98
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {word order}
 maˑ=weʔič
 INDIC=sleep
@@ -28,7 +28,7 @@ INDIC=sleep
 #EXAMPLE 3
 Source: a:102
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam}
 nunuˑk=!aƛ=maˑ
 sing=TEMP=INDIC
@@ -38,7 +38,7 @@ sing=TEMP=INDIC
 ### This one was originally "sing", but we don't have that lexical entry
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam}
 weʔič=!aƛ=maˑ
 sleep=TEMP=INDIC
@@ -47,7 +47,7 @@ sleep=TEMP=INDIC
 #EXAMPLE 5
 Source: a:105
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam, agreement}
 weʔič=!aƛ=mit=siˑ
 sleep=TEMP=PAST=1sg
@@ -56,7 +56,7 @@ sleep=TEMP=PAST=1sg
 #EXAMPLE 6
 Source: a:109
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam, agreement}
 ciq-šiƛ=!aƛ=maˑ
 speak-PER=TEMP=INDIC
@@ -65,7 +65,7 @@ speak-PER=TEMP=INDIC
 #EXAMPLE 7
 Source: a:113
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam}
 weʔič-šiƛ=!aƛ=ƛaa
 sleep-PERF=TEMP=AGAIN
@@ -74,7 +74,7 @@ sleep-PERF=TEMP=AGAIN
 #EXAMPLE 8
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {agreement, tam}
 weʔič-šiƛ=!aƛ=aˑḥ=ƛaa
 sleep-PER=TEMP=1sg=AGAIN
@@ -83,7 +83,7 @@ sleep-PER=TEMP=1sg=AGAIN
 #EXAMPLE 9
 Source: a:109
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam, agreement}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ
 speak-PERF=TEMP=INDIC=1sg
@@ -92,7 +92,7 @@ speak-PERF=TEMP=INDIC=1sg
 #EXAMPLE 10
 Source: a:110
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {agreement, pronouns}
 n̓aacsa=!aƛ=maˑ=aˑḥ suw̓a
 see=TEMP=INDIC=1sg you.sg
@@ -101,7 +101,7 @@ see=TEMP=INDIC=1sg you.sg
 #EXAMPLE 11
 Source: a:113
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {adverbs}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
 speak-PERF=TEMP=INDIC=1sg
@@ -110,7 +110,7 @@ speak-PERF=TEMP=INDIC=1sg
 #EXAMPLE 12
 Source: a:97
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam}
 su=!aƛ=maˑ
 hold-[L]=TEMP=INDIC
@@ -120,7 +120,7 @@ hold-[L]=TEMP=INDIC
 ### modified from the origianl root which was "sing"
 Source: a:101
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {tam, agreement}
 weʔič=!aƛ=maˑ=aˑḥ
 sleep=TEMP=INDIC=1sg
@@ -130,7 +130,7 @@ sleep=TEMP=INDIC=1sg
 ### making sure agreement clitic cannot come before mood
 Source: a:101
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {tam, agreement}
 weʔič=!aƛ=aˑḥ=maˑ
 sleep=TEMP=1sg=INDIC
@@ -139,7 +139,7 @@ sleep=TEMP=1sg=INDIC
 #EXAMPLE 15
 Source: b:26
 Vetted: s
-Judgement: g
+Judgment: g
 Phenomena: {tam}
 qaḥ=ak
 die=DUR
@@ -149,7 +149,7 @@ die=DUR
 #the suffix should only begin with ʔ following a vowel
 Source: b:26
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {tam}
 qaḥ=ʔak
 die=DUR
@@ -159,7 +159,7 @@ die=DUR
 #constructing example from our lexicon.
 Source: b:26
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {tam}
 mat-aˑ
 fly-CONT
@@ -168,7 +168,7 @@ fly-CONT
 #EXAMPLE 18
 Source: a:155
 Vetted: s
-Judgement: g
+Judgment: g
 Phenomena: {neg}
 wik=!aƛ=quu=s weʔič ʔatḥii
 not=TEMP=COND=1sg sleep night
@@ -177,7 +177,7 @@ not=TEMP=COND=1sg sleep night
 #EXAMPLE 19
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg}
 wik-šiƛ=!aƛ=maˑ=aˑḥ ciq
 not-PERF=TEMP=INDIC=1sg speak
@@ -186,7 +186,7 @@ not-PERF=TEMP=INDIC=1sg speak
 #EXAMPLE 20
 Source: c
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {coord, poss}
 ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
 X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
@@ -195,7 +195,7 @@ X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
 #EXAMPLE 21
 Source: c
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {coord}
 ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
 X-have=PST PL-house and troll.boat
@@ -204,7 +204,7 @@ X-have=PST PL-house and troll.boat
 #EXAMPLE 22
 Source: author
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {coord}
 ʔu-naˑk=(m)it ʔuḥʔiš LR-maḥt̓iˑ ʔuḥʔiš čiicsac
 X-have=PST and PL-house and troll.boat
@@ -214,7 +214,7 @@ intended: `They had their own homes and fishing boats'
 #I marked this as ungrammtical at first, but based on the corpus it seems this may also be possible
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {coord}
 ʔu-naˑk=(m)it LR-maḥt̓iˑ čiicsac
 X-have=PST PL-house troll.boat
@@ -223,7 +223,7 @@ X-have=PST PL-house troll.boat
 #EXAMPLE 24
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {coord}
 ciq-šiƛ=!aƛ=maˑ=aˑḥ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
 speak-PERF=TEMP=INDIC=1sg and sleep-PER=TEMP=1sg
@@ -232,7 +232,7 @@ speak-PERF=TEMP=INDIC=1sg and sleep-PER=TEMP=1sg
 #EXAMPLE 25
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {coord, poss}
 n̓aacsa-šiƛ=!aƛ=maˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
 see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg
@@ -241,7 +241,7 @@ see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg
 #EXAMPLE 26
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {poss}
 n̓aacsa=!aƛ t̓ašii=ʔak=ʔiˑ 
 see=NOW door=POSS=ARTL night
@@ -250,7 +250,7 @@ see=NOW door=POSS=ARTL night
 #EXAMPLE 27
 Source: c
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {poss}
 wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
 go.home=MO=NOW house=POSS=ARTL
@@ -259,7 +259,7 @@ go.home=MO=NOW house=POSS=ARTL
 #EXAMPLE 28 -- failing because the bare-NP is of type ref-ind not event and args.first.synsem.local.cat.val.subj
 Source: c
 Vetted: s
-Judgement: g
+Judgment: g
 Phenomena: {poss}
 qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał
 three-round.chunky.DR=POSS=PAST=HRSY.3=3pl
@@ -268,7 +268,7 @@ three-round.chunky.DR=POSS=PAST=HRSY.3=3pl
 #EXAMPLE 29 -- interesting 3 ways to combine into S
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
 show-MO curtain=POSS=ARTL
@@ -277,7 +277,7 @@ show-MO curtain=POSS=ARTL
 #EXAMPLE 30 -- wrong possessive suffix
 Source: author
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=uk=ʔiˑ
 show-MO curtain=POSS=ARTL
@@ -287,7 +287,7 @@ intended: `He/she/they displayed their curtain'
 #EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
 Source: a:307
 Vetted: s
-Judgement: g
+Judgment: g
 Phenomena: {poss}
 ʔɑƛ-qimɬ=uk=qɑˑ=s kuˑnɑˑ
 two-X.many.round.objects=POSS=DEF=1sg schooner
@@ -296,7 +296,7 @@ two-X.many.round.objects=POSS=DEF=1sg schooner
 #EXAMPLE 32
 Source: c
 Vetted: s
-Judgement: g
+Judgment: g
 Phenomena: {neg}
 wik=!aƛ hina-iip t̓an̓a-ʔis=ʔiˑ
 not.NEG=NOW EMPTY-find child-DIM=ARTL
@@ -305,7 +305,7 @@ not.NEG=NOW EMPTY-find child-DIM=ARTL
 #EXAMPLE 33
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg}
 wik=weˑʔin
 not.NEG=HRSY.3
@@ -314,7 +314,7 @@ not.NEG=HRSY.3
 #EXAMPLE 34
 Source: c:3810
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg}
 wik-L.(w)aƛ=!aƛ=ʔał m̓aʔakƛ=qs puut
 NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
@@ -323,7 +323,7 @@ NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
 #EXAMPLE 35
 Source: c:4210
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg, imp}
 wik=!iˑ qʷaa
 NEG=CMMD.2 how
@@ -332,7 +332,7 @@ NEG=CMMD.2 how
 #EXAMPLE 36
 Source: c:4250
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg, imp}
 wik=!iˑ č̓iiʕaqa
 NEG=CMMD.2 fight
@@ -341,7 +341,7 @@ NEG=CMMD.2 fight
 #EXAMPLE 37
 Source: c:5440
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg}
 wik=int taana huwaa
 NEG=PST money say.CT
@@ -350,7 +350,7 @@ NEG=PST money say.CT
 #EXAMPLE 38
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {neg, coord}
 wik=(m)it ʔu-naˑk LR-maḥt̓iˑ ʔuḥʔiš čiicsac
 NEG=PST PL-house and troll.boat
@@ -359,7 +359,7 @@ NEG=PST PL-house and troll.boat
 #EXAMPLE 39
 Source: author
 Vetted: f
-Judgement: g
+Judgment: g
 Phenomena: {coord, poss, neg}
 wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
 NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
@@ -368,7 +368,7 @@ NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
 #EXAMPLE 40 - the NEG marker is supposed to take all TAM markers, leaving the embedded verb bare
 Source: author
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {negation, tam}
 wik ciq-šiƛ=!aƛ=maˑ=aˑḥ
 NEG speak-PERF=TEMP=INDIC=1sg
@@ -377,8 +377,17 @@ intended: `I did not speak'
 #EXAMPLE 41 - the NEG marker should come before the verb it modifies
 Source: author
 Vetted: f
-Judgement: u
+Judgment: u
 Phenomena: {negation, tam}
 ciq wik-šiƛ=!aƛ=maˑ=aˑḥ
 speak NEG-PERF=TEMP=INDIC=1sg
 intended: `I did not speak'
+
+#EXAMPLE 42
+Source: a:158
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
+think-PERF=TEMP=QUOT girl=ART go.home-PERF=TEMP=PSSB
+'The girl decided to go home'
