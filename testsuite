@@ -387,7 +387,16 @@ intended: `I did not speak'
 Source: a:158
 Vetted: s
 Judgment: g
-Phenomena: {tam}
+Phenomena: {clausal-comp}
 t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
 think-PERF=TEMP=QUOT girl=ART go.home-PERF=TEMP=PSSB
 'The girl decided to go home'
+
+#EXAMPLE 43
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {clausal-mod}
+weʔič=!aƛ=maˑ=aˑḥ ʔani ciq=!aƛ=qaˑ
+sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR
+'I am sleeping because he/she is speaking'
