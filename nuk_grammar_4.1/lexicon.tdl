@@ -465,10 +465,6 @@ hita_1 := noun13-noun-lex &
   [ STEM < "hita" >,
     SYNSEM.LKEYS.KEYREL.PRED "_empty_n_rel" ].
 
-ʔani_1 := noun13-noun-lex &
-  [ STEM < "ʔani" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_comp_n_rel" ].
-
 ʔaḥʔaa := noun13-noun-lex &
   [ STEM < "ʔaḥʔaa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dtop_n_rel" ].
