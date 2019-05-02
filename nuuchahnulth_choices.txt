@@ -75,7 +75,6 @@ section=coordination
   cs1_mark=word
   cs1_orth=ʔuḥʔiš
   cs1_order=before
-  cs2_vp=on
   cs2_s=on
   cs2_pat=a
 
