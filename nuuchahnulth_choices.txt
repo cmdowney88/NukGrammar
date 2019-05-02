@@ -1114,9 +1114,11 @@ section=lexicon
     verb29_stem14_orth=c̓us
     verb29_stem14_pred=_dig_v_rel
   verb32_name=verb32
-  verb32_valence=trans
+  verb32_valence=trans,comps1
     verb32_stem1_orth=k̓ʷač
     verb32_stem1_pred=_hit.the.mark_v_rel
+    verb32_stem2_orth=t'apat
+    verb32_stem2_pred=_think_v_rel
   verb33_name=verb33
   verb33_valence=intrans
     verb33_stem1_orth=makʷ
@@ -1352,7 +1354,7 @@ section=morphology
       noun-pc3_lrt1_lri1_orth==ʔak
   noun-pc4_name=noun-pc4
   noun-pc4_order=suffix
-  noun-pc4_inputs=noun-pc14, noun38, noun-pc46, noun-pc52, noun-pc70, noun-pc71
+  noun-pc4_inputs=noun-pc14, noun38, noun-pc46, noun-pc52, noun-pc70, noun-pc71, noun3
     noun-pc4_lrt1_name=noun-pc4_lrt1
       noun-pc4_lrt1_lri1_inflecting=yes
       noun-pc4_lrt1_lri1_orth==ʔiˑ
@@ -2180,6 +2182,9 @@ section=morphology
   noun-pc138_order=suffix
   noun-pc138_inputs=noun140, noun-pc144, noun-pc20, noun-pc191
     noun-pc138_lrt1_name=noun-pc138_lrt1
+      noun-pc138_lrt1_feat1_name=tense
+      noun-pc138_lrt1_feat1_value=pst
+      noun-pc138_lrt1_feat1_head=noun
       noun-pc138_lrt1_lri1_inflecting=yes
       noun-pc138_lrt1_lri1_orth==\(m\)it
   noun-pc139_name=noun-pc139
@@ -2503,13 +2508,13 @@ section=morphology
       verb-pc13_lrt1_lri1_orth=-swii
   verb-pc14_name=verb-pc14
   verb-pc14_order=suffix
-  verb-pc14_inputs=verb-pc135, verb13, verb-pc17, verb-pc18, verb-pc147, verb-pc21, verb-pc25, verb26, verb-pc32, verb-pc51, verb-pc55, verb-pc62, verb69, verb-pc95, verb-pc96, verb-pc97, verb-pc104, verb-pc115, verb43, verb-pc116
+  verb-pc14_inputs=verb-pc135, verb13, verb-pc17, verb-pc18, verb-pc147, verb-pc21, verb-pc25, verb26, verb-pc32, verb-pc51, verb-pc55, verb-pc62, verb69, verb-pc95, verb-pc96, verb-pc97, verb-pc104, verb-pc115, verb43, verb-pc116, verb-pc10
     verb-pc14_lrt1_name=verb-pc14_lrt1
       verb-pc14_lrt1_lri1_inflecting=yes
       verb-pc14_lrt1_lri1_orth==\!aƛ
   verb-pc15_name=verb-pc15
   verb-pc15_order=suffix
-  verb-pc15_inputs=verb-pc11
+  verb-pc15_inputs=verb-pc11, verb-pc14
     verb-pc15_lrt1_name=verb-pc15_lrt1
       verb-pc15_lrt1_feat1_name=person
       verb-pc15_lrt1_feat1_value=3rd
@@ -2518,7 +2523,7 @@ section=morphology
       verb-pc15_lrt1_feat2_value=pssb
       verb-pc15_lrt1_feat2_head=verb
       verb-pc15_lrt1_lri1_inflecting=yes
-      verb-pc15_lrt1_lri1_orth==quub
+      verb-pc15_lrt1_lri1_orth==quu
   verb-pc16_name=verb-pc16
   verb-pc16_order=suffix
   verb-pc16_inputs=verb-pc40, verb-pc9
