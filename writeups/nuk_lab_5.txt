@@ -1,0 +1,25 @@
+#### 1 (TSDB Results) ####----------------------------------------------------------------------------------------------
+
+a. How many items parsed?
+
+b. What was the average number of parses?
+
+c. How many parses did the most ambiguous item receive?
+
+d. What sources of ambiguity can you identify?
+
+e. For 10 items that parse, do the Semantics look reasonable?
+
+#### 2/3 (Documentation of Testsuite and Choices File Alterations) ####-------------------------------------------------
+
+## Clausal Complements ##
+
+## Clausal Modifiers ##
+
+## Evidentials ##
+
+#### 4 (Features in the Test Suite not Covered by the Customization System) ####------------------------------------------
+
+#### 5 (Serious Problems with Automatic Choices File) ####----------------------------------------------------------------
+
+
