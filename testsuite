@@ -387,7 +387,7 @@ intended: `I did not speak'
 Source: a:158
 Vetted: s
 Judgment: g
-Phenomena: {clausal-comp}
+Phenomena: {clausal-comp, evidential}
 t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
 think-PERF=TEMP=QUOT girl=ART go.home-PERF=TEMP=PSSB
 'The girl decided to go home'
@@ -428,3 +428,21 @@ ciq=!aƛ=maˑ=aˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
 speak=TEMP=INDIC=1sg COMP many=NOW bad-NMLZ D1=ARTL
 'I am speaking because there is much evil here now'
 
+#EXAMPLE 47
+Source: c:34100
+Vetted: s
+Judgment: g
+Phenomena: {clausal-comp}
+nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=!aƛ=quuk
+immediately=NEUT.2sg sit-indoors.PERF wake=PERF=NOW=COND.2sg
+'Get up as soon as you wake up'
+
+#EXAMPLE 48 -- Corpus example simplified by author
+Source: c:34836
+Vetted: f
+Judgment: g
+Phenomena: {clausal-comp}
+hupii=suuk ʔuuš-(q)ḥ=!ap=w̓it̓as=!aƛ=quu=ʔał
+help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=PSSB.3
+verb-pc121=verb-pc51=verb-pc26
+'You help when they are going to make something'

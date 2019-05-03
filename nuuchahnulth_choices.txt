@@ -1070,7 +1070,7 @@ section=lexicon
     verb23_stem2_orth=hišimy̓uƛ
     verb23_stem2_pred=_gather.together.mo_v_rel
   verb24_name=verb24
-  verb24_valence=trans
+  verb24_valence=trans,comps1
     verb24_stem1_orth=hupii
     verb24_stem1_pred=_help_v_rel
   verb25_name=verb25
@@ -1228,7 +1228,7 @@ section=lexicon
     verb64_stem1_orth=t̓i
     verb64_stem1_pred=_throw_v_rel
   verb66_name=verb66
-  verb66_valence=trans
+  verb66_valence=trans,comps1
     verb66_stem1_orth=t̓iqʷ
     verb66_stem1_pred=_sit_v_rel
   verb67_name=verb67
@@ -1980,6 +1980,9 @@ section=morphology
     noun-pc93_lrt1_name=noun-pc93_lrt1
       noun-pc93_lrt1_feat1_name=number
       noun-pc93_lrt1_feat1_value=sg
+      noun-pc93_lrt1_feat2_name=person
+      noun-pc93_lrt1_feat2_value=2nd
+      noun-pc93_lrt1_feat2_head=noun
       noun-pc93_lrt1_lri1_inflecting=yes
       noun-pc93_lrt1_lri1_orth==suuk
   noun-pc95_name=noun-pc95
@@ -2652,8 +2655,11 @@ section=morphology
       verb-pc16_lrt1_lri1_orth==ƛaˑ
   verb-pc17_name=verb-pc17
   verb-pc17_order=suffix
-  verb-pc17_inputs=verb5
+  verb-pc17_inputs=verb5, verb66
     verb-pc17_lrt1_name=verb-pc17_lrt1
+      verb-pc17_lrt1_feat1_head=verb
+      verb-pc17_lrt1_feat1_name=aspect
+      verb-pc17_lrt1_feat1_value=perf
       verb-pc17_lrt1_lri1_inflecting=yes
       verb-pc17_lrt1_lri1_orth=-piƛ
   verb-pc18_name=verb-pc18
@@ -2725,7 +2731,7 @@ section=morphology
       verb-pc22_lrt1_lri1_orth==\(y\)iis
   verb-pc23_name=verb-pc23
   verb-pc23_order=suffix
-  verb-pc23_inputs=verb-pc40, verb-pc9, verb-pc42, verb-pc41, verb-pc19, verb-pc85, verb-pc57
+  verb-pc23_inputs=verb-pc40, verb-pc9, verb-pc42, verb-pc41, verb-pc19, verb-pc85, verb-pc57, verb-pc15
     verb-pc23_lrt1_name=verb-pc23_lrt1
       verb-pc23_lrt1_feat1_name=person
       verb-pc23_lrt1_feat1_value=3rd
@@ -2770,7 +2776,7 @@ section=morphology
       verb-pc25_lrt3_lri1_orth==\!iik
   verb-pc26_name=verb-pc26
   verb-pc26_order=suffix
-  verb-pc26_inputs=verb-pc10, verb13, verb-pc24, verb-pc62
+  verb-pc26_inputs=verb-pc10, verb13, verb-pc24, verb-pc62, verb-pc51
     verb-pc26_lrt1_name=verb-pc26_lrt1
       verb-pc26_lrt1_lri1_inflecting=yes
       verb-pc26_lrt1_lri1_orth==w̓it̓as
@@ -2982,7 +2988,7 @@ section=morphology
       verb-pc50_lrt1_lri1_orth=-naq
   verb-pc51_name=verb-pc51
   verb-pc51_order=suffix
-  verb-pc51_inputs=verb-pc64, verb-pc66, verb-pc99, verb-pc74, verb-pc138, verb23, verb-pc156
+  verb-pc51_inputs=verb-pc64, verb-pc66, verb-pc99, verb-pc74, verb-pc138, verb23, verb-pc156, verb-pc121
     verb-pc51_lrt1_name=verb-pc51_lrt1
       verb-pc51_lrt1_lri1_inflecting=yes
       verb-pc51_lrt1_lri1_orth==\!ap
