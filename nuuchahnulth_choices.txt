@@ -55,6 +55,8 @@ tense-definition=build
     mood1_supertype1_name=mood
   mood2_name=pssb
     mood2_supertype1_name=mood
+  mood3_name=quot
+    mood3_supertype1_name=mood
 
 section=evidentials
 
@@ -1495,8 +1497,6 @@ section=morphology
       noun-pc21_lrt1_lri1_orth==\(m\)eˑʔic
       noun-pc21_lrt1_lri2_inflecting=yes
       noun-pc21_lrt1_lri2_orth==ʔiˑtqak
-      noun-pc21_lrt1_lri3_inflecting=yes
-      noun-pc21_lrt1_lri3_orth==weˑʔincuk
   noun-pc22_name=noun-pc22
   noun-pc22_order=suffix
   noun-pc22_inputs=noun10
@@ -2736,6 +2736,9 @@ section=morphology
       verb-pc35_lrt1_feat1_name=person
       verb-pc35_lrt1_feat1_value=3rd
       verb-pc35_lrt1_feat1_head=subj
+      verb-pc35_lrt1_feat2_name=mood
+      verb-pc35_lrt1_feat2_value=quot
+      verb-pc35_lrt1_feat2_head=verb
       verb-pc35_lrt1_lri1_inflecting=yes
       verb-pc35_lrt1_lri1_orth==weˑʔin
   verb-pc36_name=verb-pc36
@@ -3395,6 +3398,9 @@ section=morphology
       verb-pc146_lrt1_feat2_name=number
       verb-pc146_lrt1_feat2_value=sg
       verb-pc146_lrt1_feat2_head=subj
+      verb-pc146_lrt1_feat3_name=mood
+      verb-pc146_lrt1_feat3_value=quot
+      verb-pc146_lrt1_feat3_head=verb
       verb-pc146_lrt1_lri1_inflecting=yes
       verb-pc146_lrt1_lri1_orth==weˑʔincuk
   verb-pc147_name=verb-pc147
