@@ -2734,7 +2734,7 @@ section=morphology
   verb-pc35_name=verb-pc35
   verb-pc35_order=suffix
   verb-pc35_inputs=verb-pc12, verb-pc15, verb-pc122
-    verb-pc35_lrt1_name=verb-pc35_lrt1
+    verb-pc35_lrt1_name=3Quot
       verb-pc35_lrt1_feat1_name=person
       verb-pc35_lrt1_feat1_value=3rd
       verb-pc35_lrt1_feat1_head=subj
@@ -2743,6 +2743,54 @@ section=morphology
       verb-pc35_lrt1_feat2_head=verb
       verb-pc35_lrt1_lri1_inflecting=yes
       verb-pc35_lrt1_lri1_orth==weˑʔin
+    verb-pc35_lrt2_name=1sgQuot
+      verb-pc35_lrt2_feat1_name=person
+      verb-pc35_lrt2_feat1_value=1st
+      verb-pc35_lrt2_feat1_head=subj
+      verb-pc35_lrt2_feat2_name=number
+      verb-pc35_lrt2_feat2_value=sg
+      verb-pc35_lrt2_feat2_head=subj
+      verb-pc35_lrt2_feat3_name=mood
+      verb-pc35_lrt2_feat3_value=quot
+      verb-pc35_lrt2_feat3_head=verb
+      verb-pc35_lrt2_lri1_inflecting=yes
+      verb-pc35_lrt2_lri1_orth==weˑʔinisi
+    verb-pc35_lrt3_name=1plQuot
+      verb-pc35_lrt3_feat1_name=person
+      verb-pc35_lrt3_feat1_value=1st
+      verb-pc35_lrt3_feat1_head=subj
+      verb-pc35_lrt3_feat2_name=number
+      verb-pc35_lrt3_feat2_value=pl
+      verb-pc35_lrt3_feat2_head=subj
+      verb-pc35_lrt3_feat3_name=mood
+      verb-pc35_lrt3_feat3_value=quot
+      verb-pc35_lrt3_feat3_head=verb
+      verb-pc35_lrt3_lri1_inflecting=yes
+      verb-pc35_lrt3_lri1_orth==weˑʔinni
+    verb-pc35_lrt4_name=2sgQuot
+      verb-pc35_lrt4_feat1_name=person
+      verb-pc35_lrt4_feat1_value=2nd
+      verb-pc35_lrt4_feat1_head=subj
+      verb-pc35_lrt4_feat2_name=number
+      verb-pc35_lrt4_feat2_value=sg
+      verb-pc35_lrt4_feat2_head=subj
+      verb-pc35_lrt4_feat3_name=mood
+      verb-pc35_lrt4_feat3_value=quot
+      verb-pc35_lrt4_feat3_head=verb
+      verb-pc35_lrt4_lri1_inflecting=yes
+      verb-pc35_lrt4_lri1_orth==weˑʔincuk
+    verb-pc35_lrt5_name=2plQuot
+      verb-pc35_lrt5_feat1_name=person
+      verb-pc35_lrt5_feat1_value=2nd
+      verb-pc35_lrt5_feat1_head=subj
+      verb-pc35_lrt5_feat2_name=number
+      verb-pc35_lrt5_feat2_value=pl
+      verb-pc35_lrt5_feat2_head=subj
+      verb-pc35_lrt5_feat3_name=mood
+      verb-pc35_lrt5_feat3_value=quot
+      verb-pc35_lrt5_feat3_head=verb
+      verb-pc35_lrt5_lri1_inflecting=yes
+      verb-pc35_lrt5_lri1_orth==weˑʔincuu
   verb-pc36_name=verb-pc36
   verb-pc36_order=suffix
   verb-pc36_inputs=verb18
@@ -3444,7 +3492,7 @@ section=morphology
   verb-pc161_name=verb-pc161
   verb-pc161_order=suffix
   verb-pc161_inputs=verb-pc14, verb-pc19
-    verb-pc161_lrt1_name=verb-pc161_lrt1
+    verb-pc161_lrt1_name=1sgReal
       verb-pc161_lrt1_feat1_name=mood
       verb-pc161_lrt1_feat1_value=real
       verb-pc161_lrt1_feat1_head=verb
@@ -3455,9 +3503,63 @@ section=morphology
       verb-pc161_lrt1_feat3_value=sg
       verb-pc161_lrt1_feat3_head=subj
       verb-pc161_lrt1_lri1_inflecting=yes
-      verb-pc161_lrt1_lri1_orth==\(m\)aˑḥ
+      verb-pc161_lrt1_lri1_orth==maˑḥ
       verb-pc161_lrt1_lri2_inflecting=yes
       verb-pc161_lrt1_lri2_orth==aˑḥ
+    verb-pc161_lrt2_name=1plReal
+      verb-pc161_lrt2_feat1_name=mood
+      verb-pc161_lrt2_feat1_value=real
+      verb-pc161_lrt2_feat1_head=verb
+      verb-pc161_lrt2_feat2_name=person
+      verb-pc161_lrt2_feat2_value=1st
+      verb-pc161_lrt2_feat2_head=subj
+      verb-pc161_lrt2_feat3_name=number
+      verb-pc161_lrt2_feat3_value=pl
+      verb-pc161_lrt2_feat3_head=subj
+      verb-pc161_lrt2_lri1_inflecting=yes
+      verb-pc161_lrt2_lri1_orth==min
+      verb-pc161_lrt2_lri2_inflecting=yes
+      verb-pc161_lrt2_lri2_orth==in
+    verb-pc161_lrt3_name=2sgReal
+      verb-pc161_lrt3_feat1_name=mood
+      verb-pc161_lrt3_feat1_value=real
+      verb-pc161_lrt3_feat1_head=verb
+      verb-pc161_lrt3_feat2_name=person
+      verb-pc161_lrt3_feat2_value=2nd
+      verb-pc161_lrt3_feat2_head=subj
+      verb-pc161_lrt3_feat3_name=number
+      verb-pc161_lrt3_feat3_value=sg
+      verb-pc161_lrt3_feat3_head=subj
+      verb-pc161_lrt3_lri1_inflecting=yes
+      verb-pc161_lrt3_lri1_orth==meˑʔic
+      verb-pc161_lrt3_lri2_inflecting=yes
+      verb-pc161_lrt3_lri2_orth==eˑʔic
+    verb-pc161_lrt4_name=2plReal
+      verb-pc161_lrt4_feat1_name=mood
+      verb-pc161_lrt4_feat1_value=real
+      verb-pc161_lrt4_feat1_head=verb
+      verb-pc161_lrt4_feat2_name=person
+      verb-pc161_lrt4_feat2_value=2nd
+      verb-pc161_lrt4_feat2_head=subj
+      verb-pc161_lrt4_feat3_name=number
+      verb-pc161_lrt4_feat3_value=pl
+      verb-pc161_lrt4_feat3_head=subj
+      verb-pc161_lrt4_lri1_inflecting=yes
+      verb-pc161_lrt4_lri1_orth==meˑʔicuu
+      verb-pc161_lrt4_lri2_inflecting=yes
+      verb-pc161_lrt4_lri2_orth==eˑʔicuu
+    verb-pc161_lrt5_name=3Real
+      verb-pc161_lrt5_feat1_name=mood
+      verb-pc161_lrt5_feat1_value=real
+      verb-pc161_lrt5_feat1_head=verb
+      verb-pc161_lrt5_feat2_name=person
+      verb-pc161_lrt5_feat2_value=2nd
+      verb-pc161_lrt5_feat2_head=subj
+      verb-pc161_lrt5_feat3_name=number
+      verb-pc161_lrt5_feat3_value=pl
+      verb-pc161_lrt5_feat3_head=subj
+      verb-pc161_lrt5_lri1_inflecting=yes
+      verb-pc161_lrt5_lri1_orth==maˑ
   verb-pc169_name=verb-pc169
   verb-pc169_order=suffix
   verb-pc169_inputs=verb122
