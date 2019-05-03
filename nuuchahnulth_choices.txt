@@ -2817,7 +2817,7 @@ section=morphology
       verb-pc32_lrt1_lri1_orth==ʔaqƛ
   verb-pc33_name=verb-pc33
   verb-pc33_order=suffix
-  verb-pc33_inputs=verb57, verb-pc30
+  verb-pc33_inputs=verb57, verb-pc30, verb-16
     verb-pc33_lrt1_name=verb-pc33_lrt1
       verb-pc33_lrt1_lri1_inflecting=yes
       verb-pc33_lrt1_lri1_orth=-in
@@ -2861,6 +2861,8 @@ section=morphology
       verb-pc35_lrt1_feat2_head=verb
       verb-pc35_lrt1_lri1_inflecting=yes
       verb-pc35_lrt1_lri1_orth==weˑʔin
+      verb-pc35_lrt1_lri2_inflecting=yes
+      verb-pc35_lrt1_lri2_orth==waˑʔiš
     verb-pc35_lrt2_name=1sgQuot
       verb-pc35_lrt2_feat1_name=person
       verb-pc35_lrt2_feat1_value=1st
