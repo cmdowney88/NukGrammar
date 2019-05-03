@@ -57,6 +57,8 @@ tense-definition=build
     mood2_supertype1_name=mood
   mood3_name=quot
     mood3_supertype1_name=mood
+  mood4_name=dub
+    mood4_supertype1_name=mood
 
 section=evidentials
 
@@ -3214,7 +3216,7 @@ section=morphology
       verb-pc106_lrt1_lri1_orth==\(m\)eˑʔic
   verb-pc108_name=verb-pc108
   verb-pc108_order=suffix
-  verb-pc108_inputs=verb-pc35
+  verb-pc108_inputs=verb-pc35, verb-pc172
     verb-pc108_lrt1_name=verb-pc108_lrt1
       verb-pc108_lrt1_lri1_inflecting=yes
       verb-pc108_lrt1_lri1_orth==ƛaa
@@ -3480,7 +3482,34 @@ section=morphology
       verb-pc15_lrt1_feat1_head=verb
       verb-pc171_lrt1_lri1_inflecting=yes
       verb-pc171_lrt1_lri1_orth==quu
-
+  verb-pc172_name=verb-pc172
+  verb-pc172_order=suffix
+  verb-pc172_inputs=verb-pc12, verb-pc15, verb-pc122, verb-pc35
+    verb-pc172_lrt1_name=verb-pc172_lrt1
+      verb-pc172_lrt1_feat1_name=person
+      verb-pc172_lrt1_feat1_value=3rd
+      verb-pc172_lrt1_feat1_head=subj
+      verb-pc172_lrt1_feat2_name=mood
+      verb-pc172_lrt1_feat2_value=dub
+      verb-pc172_lrt1_feat2_head=verb
+      verb-pc172_lrt1_lri1_inflecting=yes
+      verb-pc172_lrt1_lri1_orth==qaˑč̓a
+  verb-pc173_name=verb-pc173
+  verb-pc173_order=suffix
+  verb-pc173_inputs=verb-pc14, verb-pc146
+    verb-pc173_lrt1_name=verb-pc173_lrt1
+      verb-pc173_lrt1_feat1_name=person
+      verb-pc173_lrt1_feat1_value=2nd
+      verb-pc173_lrt1_feat1_head=subj
+      verb-pc173_lrt1_feat2_name=number
+      verb-pc173_lrt1_feat2_value=sg
+      verb-pc173_lrt1_feat2_head=subj
+      verb-pc173_lrt1_feat3_name=mood
+      verb-pc173_lrt1_feat3_value=dub
+      verb-pc173_lrt1_feat3_head=verb
+      verb-pc173_lrt1_lri1_inflecting=yes
+      verb-pc173_lrt1_lri1_orth==qaˑč̓ka
+      
 section=toolbox-import
 
 section=test-sentences
