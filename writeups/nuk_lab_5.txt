@@ -24,7 +24,7 @@ d. What sources of ambiguity can you identify?
         sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR.3
         'I am sleeping because he/she is speaking'
     
-    
+    One source of ambiguity for this item seems to be that the PP modifier (that's how the subordinate clause is parsed) can either modify a VP or a whole sentence. Since the matrix VP is fully saturated with a dropped Subject, it can be parsed either as a VP or an S and the PP can modify either one. Another source of ambiguity that we have discussed before is Verb Position Class 2, which seems to allow null affixing, because it is allowed to either apply or not apply to each VP present. Finally, it seems we accidentally included duplicate 3rd-Person Subordinate suffixes, leading to the third power of 2 in our ambiguity.
 
 e. For 4 items that parse, do the Semantics look reasonable?
 
