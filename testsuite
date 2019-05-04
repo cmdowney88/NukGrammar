@@ -13,7 +13,7 @@ Vetted: f
 Judgment: g
 Phenomena: {tam}
 weʔič=maˑ
-sleep=INDIC
+sleep=INDIC.3
 `he/she/it/they sleep'
 
 #EXAMPLE 2
@@ -22,7 +22,7 @@ Vetted: f
 Judgment: u
 Phenomena: {word order}
 maˑ=weʔič
-INDIC=sleep
+INDIC.3=sleep
 `he/she/it/they sleep'
 
 #EXAMPLE 3
@@ -31,7 +31,7 @@ Vetted: f
 Judgment: g
 Phenomena: {tam}
 nunuˑk=!aƛ=maˑ
-sing=TEMP=INDIC
+sing=TEMP=INDIC.3
 `he/she/it/they are singing'
 
 #EXAMPLE 4
@@ -41,7 +41,7 @@ Vetted: f
 Judgment: g
 Phenomena: {tam}
 weʔič=!aƛ=maˑ
-sleep=TEMP=INDIC
+sleep=TEMP=INDIC.3
 `he/she/it/they are sleeping'
 
 #EXAMPLE 5
@@ -59,7 +59,7 @@ Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
 ciq-šiƛ=!aƛ=maˑ
-speak-PER=TEMP=INDIC
+speak-PER=TEMP=INDIC.3
 `he/she/it/they spoke'
 
 #EXAMPLE 7
@@ -76,7 +76,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {agreement, tam}
-weʔič-šiƛ=!aƛ=aˑḥ=ƛaa
+weʔič-šiƛ=!aƛ=siˑ=ƛaa
 sleep-PER=TEMP=1sg=AGAIN
 `I slept again'
 
@@ -85,8 +85,8 @@ Source: a:109
 Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
-ciq-šiƛ=!aƛ=maˑ=aˑḥ
-speak-PERF=TEMP=INDIC=1sg
+ciq-šiƛ=!aƛ=maˑḥ
+speak-PERF=TEMP=INDIC.1sg
 `I spoke'
 
 #EXAMPLE 10
@@ -94,8 +94,8 @@ Source: a:110
 Vetted: f
 Judgment: g
 Phenomena: {agreement, pronouns}
-n̓aacsa=!aƛ=maˑ=aˑḥ suw̓a
-see=TEMP=INDIC=1sg you.sg
+n̓aacsa=!aƛ=maˑḥ suw̓a
+see=TEMP=INDIC.1sg you.sg
 `I see you'
 
 #EXAMPLE 11
@@ -103,8 +103,8 @@ Source: a:113
 Vetted: f
 Judgment: g
 Phenomena: {adverbs}
-ciq-šiƛ=!aƛ=maˑ=aˑḥ kuʔał=ʔiˑ
-speak-PERF=TEMP=INDIC=1sg
+ciq-šiƛ=!aƛ=maˑḥ kuʔał=ʔiˑ
+speak-PERF=TEMP=INDIC.1sg
 `I spoke in the morning'
 
 #EXAMPLE 12
@@ -113,7 +113,7 @@ Vetted: f
 Judgment: g
 Phenomena: {tam}
 su=!aƛ=maˑ
-hold-[L]=TEMP=INDIC
+hold-[L]=TEMP=INDIC.3
 `He/she/it/they are holding it'
 
 #EXAMPLE 13
@@ -122,8 +122,8 @@ Source: a:101
 Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
-weʔič=!aƛ=maˑ=aˑḥ
-sleep=TEMP=INDIC=1sg
+weʔič=!aƛ=maˑḥ
+sleep=TEMP=INDIC.1sg
 `I am sleeping'
 
 #EXAMPLE 14
@@ -179,8 +179,8 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {neg}
-wik-šiƛ=!aƛ=maˑ=aˑḥ ciq
-not-PERF=TEMP=INDIC=1sg speak
+wik-šiƛ=!aƛ=maˑḥ ciq
+not-PERF=TEMP=INDIC.1sg speak
 `I did not speak'
 
 #EXAMPLE 20
@@ -225,8 +225,8 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {coord}
-ciq-šiƛ=!aƛ=maˑ=aˑḥ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
-speak-PERF=TEMP=INDIC=1sg and sleep-PER=TEMP=1sg
+ciq-šiƛ=!aƛ=maˑḥ ʔuḥʔiš weʔič-šiƛ=!aƛ=siˑ
+speak-PERF=TEMP=INDIC.1sg and sleep-PER=TEMP=1sg
 `I spoke and I slept'
 
 #EXAMPLE 25
@@ -234,8 +234,8 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {coord, poss}
-n̓aacsa-šiƛ=!aƛ=maˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=aˑḥ
-see-PERF=TEMP=INDIC=1sg children=POSS=ARTL and sleep-PER=TEMP=1sg
+n̓aacsa-šiƛ=!aƛ=maˑḥ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=maˑḥ
+see-PERF=TEMP=INDIC.1sg children=POSS=ARTL and sleep-PER=TEMP=INDIC.1sg
 `I saw their children and slept'
 
 #EXAMPLE 26
@@ -370,8 +370,8 @@ Source: author
 Vetted: f
 Judgment: u
 Phenomena: {negation, tam}
-wik ciq-šiƛ=!aƛ=maˑ=aˑḥ
-NEG speak-PERF=TEMP=INDIC=1sg
+wik ciq-šiƛ=!aƛ=maˑḥ
+NEG speak-PERF=TEMP=INDIC.1sg
 intended: `I did not speak'
 
 #EXAMPLE 41 - the NEG marker should come before the verb it modifies
@@ -379,7 +379,7 @@ Source: author
 Vetted: f
 Judgment: u
 Phenomena: {negation, tam}
-ciq wik-šiƛ=!aƛ=maˑ=aˑḥ
+ciq wik-šiƛ=!aƛ=maˑḥ
 speak NEG-PERF=TEMP=INDIC=1sg
 intended: `I did not speak'
 
@@ -389,7 +389,7 @@ Vetted: s
 Judgment: g
 Phenomena: {clausal-comp, evidential}
 t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
-think-PERF=TEMP=QUOT girl=ART go.home-PERF=TEMP=PSSB
+think-PERF=TEMP=QUOT.3 girl=ART go.home-PERF=TEMP=COND.3
 'The girl decided to go home'
 
 #EXAMPLE 43
@@ -397,7 +397,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {clausal-mod}
-weʔič=!aƛ=maˑ=aˑḥ ʔani ciq=!aƛ=qaˑ
+weʔič=!aƛ=maˑḥ ʔani ciq=!aƛ=qaˑ.3
 sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR
 'I am sleeping because he/she is speaking'
 
@@ -407,7 +407,7 @@ Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
 hašił-°iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-!in=!ap=!at=qaˑ
-find.out.about-IN Kwalisits COMP laugh-make.a.soun=CAUS=PASS=SUBOR
+find.out.about-IN Kwalisits COMP laugh-make.a.soun=CAUS=PASS=SUBOR.3
 'Kwalisits heard about how he was being laughed at'
 
 #EXAMPLE 45
@@ -424,8 +424,8 @@ Source: c:2000
 Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
-ciq=!aƛ=maˑ=aˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
-speak=TEMP=INDIC=1sg COMP many=NOW bad-NMLZ D1=ARTL
+ciq=!aƛ=maˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
+speak=TEMP=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL
 'I am speaking because there is much evil here now'
 
 #EXAMPLE 47
