@@ -87,6 +87,14 @@ The basic steps to getting these Mood distinctions working in our grammar was ad
 There are a number of different types of clausal complements in Nuuchahnulth. To keep our scope reasonable, we decided to extend our work on Mood and focus on mood-marked conditional clausal complements. These clauses always include a COND marking suffix and then fill the complement role to a transitive verb. As discussed in class and on Canvas, there are some arguments to be made that these function as control verbs but that is dependant on the glosses. However, this analysis cannot be implemented from the choices file so we decided to use the conditional clausal complement analysis and simply choose our examples carefully as suggested by you.
 IGT examples of clausal comlements:
 
+#EXAMPLE 42
+Source: a:158
+Vetted: s
+Judgment: g
+Phenomena: {clausal-comp, evidential}
+t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
+think-PERF=TEMP=QUOT.3 girl=ART go.home-PERF=TEMP=COND.3
+'The girl decided to go home'
 
 #EXAMPLE 47
 Source: c:34100
@@ -97,16 +105,7 @@ nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=!aƛ=quuk
 immediately=NEUT.2sg sit-indoors.PERF wake=PERF=NOW=COND.2sg
 'Get up as soon as you wake up'
 
-#EXAMPLE 48 -- Corpus example simplified by author
-Source: c:34836
-Vetted: f
-Judgment: g
-Phenomena: {clausal-comp}
-hupii=suuk ʔuuš-(q)ḥ=!ap=w̓it̓as=!aƛ=quu=ʔał
-help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=COND.3
-'You help when they are going to make something'
-
-Using the choices file, we added a simple clausal-comp strategy with two requirements: the postion is the same as the non-clausal comp and the embedded verb must have the COND feature. Next, we modified the valence of the transitive verbs for which we found examples with clausal complements. With the previous work further developing mood, this was all that was needed for our desired examples to parse.
+Using the choices file, we added a simple clausal-comp strategy with two requirements: the postion is the same as the non-clausal comp and the embedded verb must have the COND feature. Next, we modified the valence of the transitive verbs for which we found examples with clausal complements. With the previous work further developing mood we were able to get the Davidson example to parse. However, even the simple examples from the corpus were giving us issues and are not fully parsing yet. It looks like there is addition work to be done make sure all the examples fit into the correct position classes in our grammar.
 
 #### 4 (Features in the Test Suite not Covered by the Customization System) ####------------------------------------------
 As noted in the Evidential section, Quotative and Dubitative clitics can both mark the same word so we have included examples of this for future work:
