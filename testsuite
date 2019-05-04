@@ -446,7 +446,7 @@ hupii=suuk ʔuuš-(q)ḥ=!ap=w̓it̓as=!aƛ=quu=ʔał
 help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=PSSB.3
 'You help when they are going to make something'
 
-#EXAMPLE 49-corpus example simplified by author
+#EXAMPLE 49 -- corpus example simplified by author
 Source: c:42026
 Vetted: f
 Judgment: g
@@ -455,7 +455,7 @@ Phenomena: {evidential}
 X-buy=PST=QUOT.3
 'He bought land (hearsay)'
 
-#EXAMPLE 50-corpus example simplified by author plus dubitative
+#EXAMPLE 50 -- corpus example simplified by author plus dubitative
 Source: c:42026
 Vetted: f
 Judgment: g
@@ -464,7 +464,7 @@ Phenomena: {evidential}
 X-buy=PST=QUOT.3=DUB.3 land
 'He bought land (hearsay, doubtful)'
 
-#EXAMPLE 51-corpus example simplified by author but dubitative proceeds quotative ungrammatically
+#EXAMPLE 51 -- corpus example simplified by author but dubitative proceeds quotative ungrammatically
 Source: c:42026
 Vetted: f
 Judgment: u
