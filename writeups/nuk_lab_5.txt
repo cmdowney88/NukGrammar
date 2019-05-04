@@ -28,6 +28,51 @@ d. What sources of ambiguity can you identify?
 
 e. For 4 items that parse, do the Semantics look reasonable?
 
+#EXAMPLE 42
+Source: a:158
+Vetted: s
+Judgment: g
+Phenomena: {clausal-comp, evidential}
+t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
+think-PERF=TEMP=QUOT.3 girl=ART go.home-PERF=TEMP=COND.3
+'The girl decided to go home'
+
+As discussed in class, this sentence gives us all the desired relations	(think_v_rel, girl_n_rel, exists_q_rel, go.home_v_rel), but there is no coindexing between them. This means we aren't really getting the full semantics we want. All the pieces present and accounted for but the rules aren't taking the next step and actually connecting the semantics as desired.
+
+#EXAMPLE 43
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {clausal-mod}
+weʔič=!aƛ=maˑḥ ʔani ciq=!aƛ=qaˑ
+sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR.3
+'I am sleeping because he/she is speaking'
+
+In the MRS, we have a sleep_v_rel, speak_v_rel and the new because_subord_rel. arg1 in the because_subord_rel is identified with the harg of a qeq whose larg is the lbl of sleep. The lbl of speak is similarly related to arg2 of because_subord_rel. This looks like the correct analysis where the sleepiness is caused by the speaking.
+
+
+#EXAMPLE 57 -- simplified by author
+Source: a:290
+Vetted: s
+Judgment: g
+Phenomena: {evidential}
+n̓aacsa=!aƛ=qaˑč̓a ḥaw̓ił=ʔiˑ
+see=TEMP=DUB  chief=ART
+'I think the chief now sees'
+
+As will be further discussed in section 2/3, evidentials are marked by mood in Nuuchahnulth. In our analysis this means the suffix '=qaˑč̓a' simply changes the value of MOOD to DUB on 'see'. This mood then appears in the agr0 of the see_v_rel as the event e2. As the head daughter, arg0 is then identified with the index of the sentence as desired setting the whole mood to be doubtful. We also have the see_v_rel arg1 coindexed with arg0 of a chief_n_rel as expected alongside an exisitence rel.
+
+#EXAMPLE 54
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, negation}
+wik=!aƛ=weˑʔisi ciq-šiƛ
+NEG=TEMP=QUOT.1sg speak-PERF
+'It is said that I didn't speak'
+
+Again, with our mood-based evidentials, we see the QUOT mood showing up in event e2 which is the index of the sentence and the arg0 of the neg_rel which means we have the desired mood alongside sentential negation. Changing the 1sg suffix as noted in the feedback from last week was a bit too much for us to fit in this week while trying to figure out modifiers, complements, and how moods worked in Nuuchahnulth.
+
 #### 2/3 (Documentation of Testsuite and Choices File Alterations) ####-------------------------------------------------
 
 ## Clausal Modifiers ##
