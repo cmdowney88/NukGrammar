@@ -526,7 +526,7 @@ n̓aacsa=!aƛ=qaˑč̓a ḥaw̓ił=ʔiˑ
 see=TEMP=DUB  chief=ART
 'I think the chief now sees'
 
-#EXAMPLE 60 -- modified by author to remove uncovered modifier and change mood
+#EXAMPLE 58 -- modified by author to remove uncovered modifier and change mood
 Source: c:53083
 Vetted: f
 Judgment: g
@@ -534,3 +534,21 @@ Phenomena: {evidential}
 čay̓ix=int=qaˑč̓a łuucsaamiiḥ 
 picking.berries=PST=DUB.3 woman.pl
 'Ladies were picking berries'
+
+#EXAMPLE 59
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, agreement, mood}
+ciq-šiƛ=!aƛ=weˑʔincuk
+speak-PERF=TEMP=QUOT.2sg
+'It is said that you spoke'
+
+#EXAMPLE 60
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, agreement, mood}
+ciq-šiƛ=!aƛ=weˑʔinni
+speak-PERF=TEMP=QUOT.1pl
+'It is said that we spoke'
