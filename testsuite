@@ -283,7 +283,6 @@ Phenomena: {poss}
 show-MO curtain=POSS=ARTL
 intended: `He/she/they displayed their curtain'
 
-
 #EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
 Source: a:307
 Vetted: s
@@ -486,6 +485,16 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {evidential}
-ciq-šiƛ=!aƛ=
-speak-PERF=TEMP=
+ciq-šiƛ=!aƛ=weˑʔisi
+speak-PERF=TEMP=QUOT.1sg
 'It is said that I spoke'
+
+#EXAMPLE 54
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, negation}
+wik=!aƛ=weˑʔisi ciq-šiƛ
+NEG=TEMP=QUOT.1sg speak-PERF
+
+#EXAMPLE 55
