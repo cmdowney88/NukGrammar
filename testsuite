@@ -514,6 +514,7 @@ Vetted: f
 Judgment: u
 Phenomena: {evidential}
 čay̓ix=int=weˑʔinisi łuucsaamiiḥ 
+picking.berries=PST=QUOT.1sg woman.pl
 'Ladies were picking berries'
 
 #EXAMPLE 57 -- simplified by author
@@ -525,7 +526,16 @@ n̓aacsa=!aƛ=qaˑč̓a ḥaw̓ił=ʔiˑ
 see=TEMP=DUB  chief=ART
 'I think the chief now sees'
 
-#EXAMPLE 58
+#EXAMPLE 58 -- modified by author to remove uncovered modifier and change mood
+Source: c:53083
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+čay̓ix=int=qaˑč̓a łuucsaamiiḥ 
+picking.berries=PST=DUB.3 woman.pl
+'Ladies were picking berries'
+
+#EXAMPLE 59
 Source: author
 Vetted: f
 Judgment: g
@@ -534,7 +544,7 @@ ciq-šiƛ=!aƛ=weˑʔincuk
 speak-PERF=TEMP=QUOT.2sg
 'It is said that you spoke'
 
-#EXAMPLE 59
+#EXAMPLE 60
 Source: author
 Vetted: f
 Judgment: g
