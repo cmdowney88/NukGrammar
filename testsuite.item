@@ -25,7 +25,7 @@
 25@author@@@1@coord,poss@n̓aacsa-šiƛ=!aƛ=maˑḥ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=maˑḥ@@@@1@4@see-PERF=TEMP=INDIC.1sg children=POSS=ARTL and sleep-PER=TEMP=INDIC.1sg`I saw their children and slept'@agatha downey and david nielsen@april 17, 2019
 26@author@@@1@poss@n̓aacsa=!aƛ t̓ašii=ʔak=ʔiˑ@@@@1@2@see=NOW door=POSS=ARTL night`He/She/they was looking at their door now'@agatha downey and david nielsen@april 17, 2019
 27@c@@@1@poss@wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ@@@@1@2@go.home=MO=NOW house=POSS=ARTL`He/she/they returned to their home'@agatha downey and david nielsen@april 17, 2019
-28@c@@@1@poss@qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał@@@@1@1@three-round.chunky.DR=POSS=PAST=HRSY.3=3pl`they had three (hoops).'@agatha downey and david nielsen@april 17, 2019
+28@c@@@1@poss,evidential@qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał@@@@1@1@three-round.chunky.DR=POSS=PAST=QUOT.3=3pl`they had three (hoops).'@agatha downey and david nielsen@april 17, 2019
 29@author@@@1@poss@ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ@@@@1@2@show-MO curtain=POSS=ARTL`He/she/they displayed their curtain'@agatha downey and david nielsen@april 17, 2019
 30@author@@@1@poss@ḥum-čiƛ muuyapiłum=uk=ʔiˑ@@@@0@2@show-MO curtain=POSS=ARTLintended: `He/she/they displayed their curtain'@agatha downey and david nielsen@april 17, 2019
 31@a:307@@@1@poss@ʔɑƛ-qimɬ=uk=qɑˑ=s kuˑnɑˑ@@@@1@2@two-X.many.round.objects=POSS=DEF=1sg schooner`My two schooners'@agatha downey and david nielsen@april 17, 2019
@@ -49,3 +49,7 @@
 49@c:42026@@@1@evidential@ʔu-!aap=nit=waˑʔiš nism̓a@@@@1@2@X-buy=PST=QUOT.3'He bought land (hearsay)'@agatha downey and david nielsen@april 17, 2019
 50@c:42026@@@1@evidential@ʔu-!aap=nit=waˑʔiš=qaˑč̓a nism̓a@@@@1@2@X-buy=PST=QUOT.3=DUB.3 land'He bought land (hearsay, doubtful)'@agatha downey and david nielsen@april 17, 2019
 51@c:42026@@@1@evidential@ʔu-!aap=nit=qaˑč̓a=waˑʔiš nism̓a@@@@0@2@X-buy=PST=DUB.3=QUOT.3 land'* He bought land (doubtful, hearsay)'@agatha downey and david nielsen@april 17, 2019
+52@c:52974@@@1@evidential@c̓awaak=mit=weˑʔiš ḥaakʷaˑƛ hina-iip-šiƛ k̓ʷač-šiƛ@@@@1@4@one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF'One girl hit it (the small one).'@agatha downey and david nielsen@april 17, 2019
+53@c:53083@@@1@evidential@čay̓ix=int=waˑʔš łuucsaamiiḥ muu-(č)ink@@@@1@3@picking.berries=PST=QUOT.3 woman.pl four-with'Four ladies were picking berries'@agatha downey and david nielsen@april 17, 2019
+54@c:52974@@@1@evidential@c̓awaak=mit ḥaakʷaˑƛ hina-iip-šiƛ k̓ʷač-šiƛ@@@@1@4@one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF'One girl hit it (the small one).'@agatha downey and david nielsen@april 17, 2019
+55@c:52974@@@1@evidential@c̓awaak ḥaakʷaˑƛ hina-iip-šiƛ k̓ʷač-šiƛ@@@@1@4@one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF'One girl hit it (the small one).'@agatha downey and david nielsen@april 17, 2019

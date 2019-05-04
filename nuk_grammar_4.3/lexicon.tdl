@@ -397,7 +397,7 @@ himwic̓a := noun3-noun-lex &
   [ STEM < "himwic̓a" >,
     SYNSEM.LKEYS.KEYREL.PRED "_myth.story_n_rel" ].
 
-c̓awaak := noun4-noun-lex &
+c̓awaak_1 := noun4-noun-lex &
   [ STEM < "c̓awaak" >,
     SYNSEM.LKEYS.KEYREL.PRED "_one_n_rel" ].
 
@@ -981,7 +981,7 @@ waʔič_1 := noun113-noun-lex &
   [ STEM < "ʔuyi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_at.the.time.of_n_rel" ].
 
-čay̓ix := noun121-noun-lex &
+čay̓ix_1 := noun121-noun-lex &
   [ STEM < "čay̓ix" >,
     SYNSEM.LKEYS.KEYREL.PRED "_picking.berries_n_rel" ].
 
@@ -1397,6 +1397,10 @@ hita_2 := verb16-verb-lex &
   [ STEM < "hita" >,
     SYNSEM.LKEYS.KEYREL.PRED "_empty_v_rel" ].
 
+c̓awaak_2 := verb16-verb-lex &
+  [ STEM < "c̓awaak" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_one_v_rel" ].
+
 waast := verb18-verb-lex &
   [ STEM < "waast" >,
     SYNSEM.LKEYS.KEYREL.PRED "_where_v_rel" ].
@@ -1644,6 +1648,10 @@ suč̓a := verb59-verb-lex &
 tapiƛ := verb60-verb-lex &
   [ STEM < "tapiƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_get.sick.mo_v_rel" ].
+
+čay̓ix_2 := verb60-verb-lex &
+  [ STEM < "čay̓ix" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_picking.berries._v_rel" ].
 
 tux := verb61-verb-lex &
   [ STEM < "tux" >,
