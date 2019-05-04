@@ -1465,12 +1465,20 @@ verb-pc156_lrt2-lex-rule.
 %suffix (* =aˑḥ)
 1sgReal-lex-rule.
 
+1sgReal-suffix3 :=
+%suffix (* =\(m\)aˑḥ)
+1sgReal-lex-rule.
+
 1plReal-suffix1 :=
 %suffix (* =min)
 1plReal-lex-rule.
 
 1plReal-suffix2 :=
 %suffix (* =in)
+1plReal-lex-rule.
+
+1plReal-suffix3 :=
+%suffix (* =\(m\)in)
 1plReal-lex-rule.
 
 2sgReal-suffix1 :=
@@ -1481,12 +1489,20 @@ verb-pc156_lrt2-lex-rule.
 %suffix (* =eˑʔic)
 2sgReal-lex-rule.
 
+2sgReal-suffix3 :=
+%suffix (* =\(m\)eˑʔic)
+2sgReal-lex-rule.
+
 2plReal-suffix1 :=
 %suffix (* =meˑʔicuu)
 2plReal-lex-rule.
 
 2plReal-suffix2 :=
 %suffix (* =eˑʔicuu)
+2plReal-lex-rule.
+
+2plReal-suffix3 :=
+%suffix (* =\(m\)eˑʔicuu)
 2plReal-lex-rule.
 
 3Real-suffix :=

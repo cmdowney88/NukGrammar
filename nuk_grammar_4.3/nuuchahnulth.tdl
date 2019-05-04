@@ -2932,4 +2932,3 @@ s1-top-coord-rule := basic-s-top-coord-rule & apoly-top-coord-rule &
 
 s1-bottom-coord-rule := conj-first-bottom-coord-rule & s-bottom-coord-phrase &
   [ SYNSEM.LOCAL.COORD-STRAT "1" ].
-
