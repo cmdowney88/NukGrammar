@@ -260,9 +260,9 @@ go.home=MO=NOW house=POSS=ARTL
 Source: c
 Vetted: s
 Judgment: g
-Phenomena: {poss}
+Phenomena: {poss, evidential}
 qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał
-three-round.chunky.DR=POSS=PAST=HRSY.3=3pl
+three-round.chunky.DR=POSS=PAST=QUOT.3=3pl
 `they had three (hoops).'
 
 #EXAMPLE 29 -- interesting 3 ways to combine into S
@@ -472,3 +472,11 @@ Phenomena: {evidential}
 ʔu-!aap=nit=qaˑč̓a=waˑʔiš nism̓a
 X-buy=PST=DUB.3=QUOT.3 land
 '* He bought land (doubtful, hearsay)'
+
+#EXAMPLE 52
+Source: c:52974
+Vetted: s
+Judgment: g
+Phenomena: {evidential}
+c̓awaak=mit=weˑʔiš ḥaakʷaˑƛ hina-iip-šiƛ k̓ʷač-šiƛ
+one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF
