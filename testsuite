@@ -396,8 +396,8 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {clausal-mod}
-weʔič=!aƛ=maˑḥ ʔani ciq=!aƛ=qaˑ.3
-sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR
+weʔič=!aƛ=maˑḥ ʔani ciq=!aƛ=qaˑ
+sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR.3
 'I am sleeping because he/she is speaking'
 
 #EXAMPLE 44
@@ -503,7 +503,7 @@ Source: c:53083
 Vetted: f
 Judgment: g
 Phenomena: {evidential}
-čay̓ix=int=waˑʔš łuucsaamiiḥ 
+čay̓ix=int=waˑʔiš łuucsaamiiḥ 
 picking.berries=PST=QUOT.3 woman.pl
 'Ladies were picking berries'
 
@@ -513,6 +513,7 @@ Vetted: f
 Judgment: u
 Phenomena: {evidential}
 čay̓ix=int=weˑʔinisi łuucsaamiiḥ 
+'Ladies were picking berries'
 
 #EXAMPLE 57 -- simplified by author
 Source: a:290
