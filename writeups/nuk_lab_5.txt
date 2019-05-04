@@ -12,8 +12,6 @@ e. For 4 items that parse, do the Semantics look reasonable?
 
 #### 2/3 (Documentation of Testsuite and Choices File Alterations) ####-------------------------------------------------
 
-## Clausal Complements ##
-
 ## Clausal Modifiers ##
 The most clear-cut case of clausal modifiers in Nuuchahnulth is "because" clauses of the form "I am sleeping because he is talking" (Example 43). In general, subordinate clauses are marked by Mood clitics appearing on the subordinate verb. However, "because" clauses are also demarcated by the apparent complementizer ʔani. When used in this way, subordinate clauses also have to take the clitic indicating the Subordinate Mood.
 
@@ -48,7 +46,7 @@ not.see=PASS X-because-LINK COMP=1PL far-CT-in.ocean
 
 ## Evidentials ##
 
-Our treatment of evidentials led us down a route that became more complicated than we anticipated, but added significant clarity to our grammar. In Nuuchahnulth, things like Hearsay, Doubt, Indication, Assertion, and Question are all indicated through a mutually-exclusive paradigm of Mood clitics. There are 12 Mood values in total, and we refined Indicative, Quotative, Subordinate, Conditional, and Dubiative for this week. The confusion for our work this week came from the fact that these Mood clitics are always accompanied by material indexing the Person and Number of the clause Subject. This material differs significantly between each of the Moods, and in different resources it is inconsistently marked as either Fusional or Agglutinating (clear boundary). In the end, we chose to abide by the Fusional analysis, and so refined choices for 5 affixes for each Mood: one each for 1sg, 1pl, 2sg, 2pl, and 3rd (no number on 3rd). These can be seen in Examples 54, 58, and 59
+Our treatment of evidentials led us down a route that became more complicated than we anticipated, but added significant clarity to our grammar. In Nuuchahnulth, things like Hearsay, Doubt, Indication, Assertion, and Question are all indicated through a mutually-exclusive paradigm of Mood clitics (Davidson does note that Hearsay and Doubt can co-occure but with separate clitics which was beyond tehe scope for this week). There are 12 Mood values in total, and we refined Indicative, Quotative, Subordinate, Conditional, and Dubiative for this week. The confusion for our work this week came from the fact that these Mood clitics are always accompanied by material indexing the Person and Number of the clause Subject. This material differs significantly between each of the Moods, and in different resources it is inconsistently marked as either Fusional or Agglutinating (clear boundary). In the end, we chose to abide by the Fusional analysis, and so refined choices for 5 affixes for each Mood: one each for 1sg, 1pl, 2sg, 2pl, and 3rd (no number on 3rd). These can be seen in Examples 54, 58, and 59
 
 #EXAMPLE 54
 Source: author
@@ -79,8 +77,54 @@ speak-PERF=TEMP=QUOT.1pl
 
 The basic steps to getting these Mood distinctions working in our grammar was adding their values to the TAM section of the choices file. Slightly more complex was the phonotactics. Some of our affixes for Mood existed in their already-inferred forms, but in general they were scattered around the the Verb Position Classes, likely due to scarcity of data. Since all of these clitics are mutually exclusive, we decided to consolidate them into one Position Class. To do this, we picked the Position Class with the clitic we see most in the data (PC161, INDIC.1sg) and made this our chosen position class. Next, we searched the affixes in the choices file for already-existing Mood clitics inferred into different PCs. When we found these, we added them to PC161, and also added their inputs to PC161. Then we deleted the position classes that were left empty. Lastly, we filled out PC161 with the rest of the Mood/Subject-Agreement paradigm as described in our grammar by Davidson.
 
+## Clausal Complements ##
+
+There are a number of different types of clausal complements in Nuuchahnulth. To keep our scope reasonable, we decided to extend our work on Mood and focus on mood-marked conditional clausal complements. These clauses always include a COND marking suffix and then fill the complement role to a transitive verb. As discussed in class and on Canvas, there are some arguments to be made that these function as control verbs but that is dependant on the glosses. However, this analysis cannot be implemented from the choices file so we decided to use the conditional clausal complement analysis and simply choose our examples carefully as suggested by you.
+IGT examples of clausal comlements:
+
+
+#EXAMPLE 47
+Source: c:34100
+Vetted: s
+Judgment: g
+Phenomena: {clausal-comp}
+nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=!aƛ=quuk
+immediately=NEUT.2sg sit-indoors.PERF wake=PERF=NOW=COND.2sg
+'Get up as soon as you wake up'
+
+#EXAMPLE 48 -- Corpus example simplified by author
+Source: c:34836
+Vetted: f
+Judgment: g
+Phenomena: {clausal-comp}
+hupii=suuk ʔuuš-(q)ḥ=!ap=w̓it̓as=!aƛ=quu=ʔał
+help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=COND.3
+'You help when they are going to make something'
+
+Using the choices file, we added a simple clausal-comp strategy with two requirements: the postion is the same as the non-clausal comp and the embedded verb must have the COND feature. Next, we modified the valence of the transitive verbs for which we found examples with clausal complements. With the previous work further developing mood, this was all that was needed for our desired examples to parse.
+
 #### 4 (Features in the Test Suite not Covered by the Customization System) ####------------------------------------------
+As noted in the Evidential section, Quotative and Dubitative clitics can both mark the same word so we have included examples of this for future work:
+
+#EXAMPLE 50 -- corpus example simplified by author plus dubitative
+Source: c:42026
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+ʔu-!aap=nit=waˑʔiš=qaˑč̓a nism̓a
+X-buy=PST=QUOT.3=DUB.3 land
+'He bought land (hearsay, doubtful)'
+
+#EXAMPLE 51 -- corpus example simplified by author but dubitative proceeds quotative ungrammatically
+Source: c:42026
+Vetted: f
+Judgment: u
+Phenomena: {evidential}
+ʔu-!aap=nit=qaˑč̓a=waˑʔiš nism̓a
+X-buy=PST=DUB.3=QUOT.3 land
+'* He bought land (doubtful, hearsay)'
+
 
 #### 5 (Serious Problems with Automatic Choices File) ####----------------------------------------------------------------
-
+No new choices and no problems this week.
 
