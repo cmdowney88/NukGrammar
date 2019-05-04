@@ -713,10 +713,6 @@ maʔas_2 := noun38-noun-lex &
   [ STEM < "ḥaḥuuł" >,
     SYNSEM.LKEYS.KEYREL.PRED "_chiefly.territory_n_rel" ].
 
-łuucsaamiiḥ := noun38-noun-lex &
-  [ STEM < "łuucsaamiiḥ" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_woman.pl_n_rel" ].
-
 łuucsma := noun38-noun-lex &
   [ STEM < "łuucsma" >,
     SYNSEM.LKEYS.KEYREL.PRED "_woman_n_rel" ].
@@ -1084,6 +1080,10 @@ waʔič_1 := noun113-noun-lex &
 ḥi := noun182-noun-lex &
   [ STEM < "ḥi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_unable.to_n_rel" ].
+
+łuucsaamiiḥ := noun183-noun-lex &
+  [ STEM < "łuucsaamiiḥ" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_woman.pl_n_rel" ].
 
 ;;; Adjectives
 

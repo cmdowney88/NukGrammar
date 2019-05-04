@@ -484,9 +484,18 @@ one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF
 
 #EXAMPLE 53 -- modified by author to remove uncovered modifier
 Source: c:53083
-Vetted: s
+Vetted: f
 Judgment: g
 Phenomena: {evidential}
 čay̓ix=int=waˑʔš łuucsaamiiḥ 
+picking.berries=PST=QUOT.3 woman.pl
+'Ladies were picking berries'
+
+#EXAMPLE 54 -- incorrect person suffix
+Source: c:53083
+Vetted: f
+Judgment: u
+Phenomena: {evidential}
+čay̓ix=int=weˑʔinisi łuucsaamiiḥ 
 picking.berries=PST=QUOT.3 woman.pl
 'Ladies were picking berries'
