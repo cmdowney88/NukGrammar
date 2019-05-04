@@ -48,6 +48,8 @@ not.see=PASS X-because-LINK COMP=1PL far-CT-in.ocean
 
 ## Evidentials ##
 
+Our treatment of evidentials led us down a route that became more complicated than we anticipated, but added significant clarity to our grammar. In Nuuchahnulth, things like Hearsay, Doubt, Indication, Assertion, and Question are all indicated through a mutually-exclusive paradigm of Mood clitics. There are 12 Mood values in total, and we refined Indicative, Quotative, Subordinate, Conditional, and Dubiative for this week. The confusion for our work this week came from the fact that these Mood clitics are always accompanied by material indexing the Person and Number of the clause Subject. This material differs significantly between each of the Moods, and in different resources it is inconsistently marked as either Fusional or Agglutinating (clear boundary). In the end, we chose to abide by the Fusional analysis, and so refined choices 
+
 #### 4 (Features in the Test Suite not Covered by the Customization System) ####------------------------------------------
 
 #### 5 (Serious Problems with Automatic Choices File) ####----------------------------------------------------------------
