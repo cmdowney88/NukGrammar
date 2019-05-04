@@ -48,7 +48,36 @@ not.see=PASS X-because-LINK COMP=1PL far-CT-in.ocean
 
 ## Evidentials ##
 
-Our treatment of evidentials led us down a route that became more complicated than we anticipated, but added significant clarity to our grammar. In Nuuchahnulth, things like Hearsay, Doubt, Indication, Assertion, and Question are all indicated through a mutually-exclusive paradigm of Mood clitics. There are 12 Mood values in total, and we refined Indicative, Quotative, Subordinate, Conditional, and Dubiative for this week. The confusion for our work this week came from the fact that these Mood clitics are always accompanied by material indexing the Person and Number of the clause Subject. This material differs significantly between each of the Moods, and in different resources it is inconsistently marked as either Fusional or Agglutinating (clear boundary). In the end, we chose to abide by the Fusional analysis, and so refined choices for 5 affixes for each Mood: one each for 1sg, 1pl, 2sg, 2pl, and 3rd
+Our treatment of evidentials led us down a route that became more complicated than we anticipated, but added significant clarity to our grammar. In Nuuchahnulth, things like Hearsay, Doubt, Indication, Assertion, and Question are all indicated through a mutually-exclusive paradigm of Mood clitics. There are 12 Mood values in total, and we refined Indicative, Quotative, Subordinate, Conditional, and Dubiative for this week. The confusion for our work this week came from the fact that these Mood clitics are always accompanied by material indexing the Person and Number of the clause Subject. This material differs significantly between each of the Moods, and in different resources it is inconsistently marked as either Fusional or Agglutinating (clear boundary). In the end, we chose to abide by the Fusional analysis, and so refined choices for 5 affixes for each Mood: one each for 1sg, 1pl, 2sg, 2pl, and 3rd (no number on 3rd). These can be seen in Examples 54, 58, and 59
+
+#EXAMPLE 54
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, negation}
+wik=!aƛ=weˑʔisi ciq-šiƛ
+NEG=TEMP=QUOT.1sg speak-PERF
+'It is said that I didn't speak'
+
+#EXAMPLE 58
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, agreement, mood}
+ciq-šiƛ=!aƛ=weˑʔincuk
+speak-PERF=TEMP=QUOT.2sg
+'It is said that you spoke'
+
+#EXAMPLE 59
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, agreement, mood}
+ciq-šiƛ=!aƛ=weˑʔinni
+speak-PERF=TEMP=QUOT.1pl
+'It is said that we spoke'
+
+The basic steps to getting these Mood distinctions working in our grammar was adding their values to the TAM section of the choices file. Slightly more complex was the phonotactics. Some of our affixes for Mood existed in their already-inferred forms, but in general they were scattered around the the Verb Position Classes, likely due to scarcity of data. Since all of these clitics are mutually exclusive, we decided to consolidate them into one Position Class. To do this, we picked the Position Class with the clitic we see most in the data (PC161, INDIC.1sg) and made this our chosen position class. Next, we searched the affixes in the choices file for already-existing Mood clitics inferred into different PCs. When we found these, we added them to PC161, and also added their inputs to PC161. Then we deleted the position classes that were left empty. Lastly, we filled out PC161 with the rest of the Mood/Subject-Agreement paradigm as described in our grammar by Davidson.
 
 #### 4 (Features in the Test Suite not Covered by the Customization System) ####------------------------------------------
 
