@@ -39,8 +39,13 @@
 39@author@@@1@coord,poss,neg@wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ@@@@1@6@NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house`The women did not take care of the houses and children'@agatha downey and david nielsen@april 17, 2019
 40@author@@@1@neg,tam@wik ciq-šiƛ=!aƛ=maˑ=aˑḥ@@@@0@2@NEG speak-PERF=TEMP=INDIC=1sgintended: `I did not speak'@agatha downey and david nielsen@april 17, 2019
 41@author@@@1@neg,tam@ciq wik-šiƛ=!aƛ=maˑ=aˑḥ@@@@0@2@speak NEG-PERF=TEMP=INDIC=1sgintended: `I did not speak'@agatha downey and david nielsen@april 17, 2019
-42@a:158@@@1@clausal-comp@t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu@@@@1@3@think-PERF=TEMP=QUOT girl=ART go.home-PERF=TEMP=PSSB'The girl decided to go home'@agatha downey and david nielsen@april 17, 2019
+42@a:158@@@1@clausal-comp,evidential@t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu@@@@1@3@think-PERF=TEMP=QUOT girl=ART go.home-PERF=TEMP=PSSB'The girl decided to go home'@agatha downey and david nielsen@april 17, 2019
 43@author@@@1@clausal-mod@weʔič=!aƛ=maˑ=aˑḥ ʔani ciq=!aƛ=qaˑ@@@@1@3@sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR'I am sleeping because he/she is speaking'@agatha downey and david nielsen@april 17, 2019
 44@c:1090@@@1@clausal-mod@hašił-°iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-!in=!ap=!at=qaˑ@@@@1@4@find.out.about-IN Kwalisits COMP laugh-make.a.soun=CAUS=PASS=SUBOR'Kwalisits heard about how he was being laughed at'@agatha downey and david nielsen@april 17, 2019
 45@c:1680@@@1@clausal-mod@č̓an̓ii=!at ʔu-L.aˑnuuƛ-(q)ḥ ʔani=n say-aˑ-c̓atu@@@@1@4@not.see=PASS X-because-LINK COMP=1PL far-CT-in.ocean'They can't be seen because we're so far out at sea'@agatha downey and david nielsen@april 17, 2019
 46@c:2000@@@1@clausal-mod@ciq=!aƛ=maˑ=aˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ@@@@1@5@speak=TEMP=INDIC=1sg COMP many=NOW bad-NMLZ D1=ARTL'I am speaking because there is much evil here now'@agatha downey and david nielsen@april 17, 2019
+47@c:34100@@@1@clausal-comp@nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=!aƛ=quuk@@@@1@3@immediately=NEUT.2sg sit-indoors.PERF wake=PERF=NOW=COND.2sg'Get up as soon as you wake up'@agatha downey and david nielsen@april 17, 2019
+48@c:34836@@@1@clausal-comp@hupii=suuk ʔuuš-(q)ḥ=!ap=w̓it̓as=!aƛ=quu=ʔał@@@@1@2@help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=PSSB.3'You help when they are going to make something'@agatha downey and david nielsen@april 17, 2019
+49@c:42026@@@1@evidential@ʔu-!aap=nit=waˑʔiš nism̓a@@@@1@2@X-buy=PST=QUOT.3'He bought land (hearsay)'@agatha downey and david nielsen@april 17, 2019
+50@c:42026@@@1@evidential@ʔu-!aap=nit=waˑʔiš=qaˑč̓a nism̓a@@@@1@2@X-buy=PST=QUOT.3=DUB.3 land'He bought land (hearsay, doubtful)'@agatha downey and david nielsen@april 17, 2019
+51@c:42026@@@1@evidential@ʔu-!aap=nit=qaˑč̓a=waˑʔiš nism̓a@@@@0@2@X-buy=PST=DUB.3=QUOT.3 land'* He bought land (doubtful, hearsay)'@agatha downey and david nielsen@april 17, 2019
