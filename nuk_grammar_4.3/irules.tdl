@@ -1058,7 +1058,7 @@ verb-pc35_lrt1-suffix3 :=
 verb-pc35_lrt1-lex-rule.
 
 verb-pc35_lrt2-suffix :=
-%suffix (* =weˑʔinisi)
+%suffix (* =weˑʔisi)
 verb-pc35_lrt2-lex-rule.
 
 verb-pc35_lrt3-suffix :=

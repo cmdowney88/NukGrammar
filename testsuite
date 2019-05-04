@@ -283,7 +283,6 @@ Phenomena: {poss}
 show-MO curtain=POSS=ARTL
 intended: `He/she/they displayed their curtain'
 
-
 #EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
 Source: a:307
 Vetted: s
@@ -482,7 +481,24 @@ c̓awaak=mit=weˑʔiš ḥaakʷaˑƛ hina-iip-šiƛ k̓ʷač-šiƛ
 one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF
 'One girl hit it (the small one).'
 
-#EXAMPLE 53 -- modified by author to remove uncovered modifier
+#EXAMPLE 53
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+ciq-šiƛ=!aƛ=weˑʔisi
+speak-PERF=TEMP=QUOT.1sg
+'It is said that I spoke'
+
+#EXAMPLE 54
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, negation}
+wik=!aƛ=weˑʔisi ciq-šiƛ
+NEG=TEMP=QUOT.1sg speak-PERF
+
+#EXAMPLE 55 -- modified by author to remove uncovered modifier
 Source: c:53083
 Vetted: f
 Judgment: g
@@ -491,16 +507,14 @@ Phenomena: {evidential}
 picking.berries=PST=QUOT.3 woman.pl
 'Ladies were picking berries'
 
-#EXAMPLE 54 -- incorrect person suffix
+#EXAMPLE 56 -- incorrect person suffix
 Source: c:53083
 Vetted: f
 Judgment: u
 Phenomena: {evidential}
 čay̓ix=int=weˑʔinisi łuucsaamiiḥ 
-picking.berries=PST=QUOT.1sg woman.pl
-'Ladies were picking berries'
 
-#EXAMPLE 55 -- simplified by author
+#EXAMPLE 57 -- simplified by author
 Source: a:290
 Vetted: s
 Judgment: g
