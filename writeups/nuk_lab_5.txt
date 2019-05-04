@@ -9,9 +9,22 @@ b. What was the average number of parses?
     -Final: Testsuite-2.22, Corpus-2.43
 
 c. How many parses did the most ambiguous item receive?
-    -Initial: Testsuite-, Corpus-
+    -Initial: Testsuite-6, Corpus-6
+    -Final: Testsuite-8, Corpus-6
 
 d. What sources of ambiguity can you identify?
+    -The most ambiguous item in our both our Testsuite and Corpus was Testsuite Example 43:
+
+        #EXAMPLE 43
+        Source: author
+        Vetted: f
+        Judgment: g
+        Phenomena: {clausal-mod}
+        weʔič=!aƛ=maˑḥ ʔani ciq=!aƛ=qaˑ
+        sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR.3
+        'I am sleeping because he/she is speaking'
+    
+    
 
 e. For 4 items that parse, do the Semantics look reasonable?
 
