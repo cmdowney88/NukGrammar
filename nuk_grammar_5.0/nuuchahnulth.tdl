@@ -352,7 +352,7 @@ noun183-noun-lex := noun-lex & noun-pc21-rule-dtr & noun-pc29-rule-dtr & noun-pc
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
                                        PER 3rd ] ].
 
-denominal-verb-lex-rule-super := constant-lex-rule & verb-pc2-rule-dtr&
+denominal-verb-lex-rule-super := constant-lex-rule & verb-lex &
 [ SYNSEM [ LOCAL [ CAT [ HEAD verb,
                          VAL [ SPEC < >,
                                COMPS < >,
