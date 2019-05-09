@@ -356,7 +356,7 @@ denominal-verb-lex-rule-super := constant-lex-rule & verb-pc2-rule-dtr&
 [ SYNSEM [ LOCAL [ CAT [ HEAD verb,
                          VAL [ SPEC < >,
                                COMPS < >,
-                               SUBJ < [ LOCAL [ CAT.HEAD noun &
+                               SUBJ < [ LOCAL [ CAT.HEAD noun,
                                                 CONT.HOOK.INDEX #xarg ] ] > ] ],
                    CONT.HOOK #hook  ],
            LKEYS.KEYREL #keyrel ],
