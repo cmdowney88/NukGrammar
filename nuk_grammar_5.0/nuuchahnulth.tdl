@@ -357,7 +357,6 @@ denominal-verb-lex-rule-super := constant-lex-rule & verb-pc2-rule-dtr&
                          VAL [ SPEC < >,
                                COMPS < >,
                                SUBJ < [ LOCAL [ CAT.HEAD noun &
-                                                        [ CASE real-case ],
                                                 CONT.HOOK.INDEX #xarg ] ] > ] ],
                    CONT.HOOK #hook  ],
            LKEYS.KEYREL #keyrel ],
