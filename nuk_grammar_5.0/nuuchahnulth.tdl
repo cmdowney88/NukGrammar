@@ -380,7 +380,7 @@ denominal-verb-lex-rule-super := constant-lex-rule & verb-pc02-rule-dtr&
                                               LTOP #larg ] ] ].
 
 
-denom-verb-lex-rule := donominal-verb-lex-rule &
+denom-verb-lex-rule := denominal-verb-lex-rule &
   [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
   
 ;;; Verbs
