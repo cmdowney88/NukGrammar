@@ -352,6 +352,37 @@ noun183-noun-lex := noun-lex & noun-pc21-rule-dtr & noun-pc29-rule-dtr & noun-pc
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
                                        PER 3rd ] ].
 
+denominal-verb-lex-rule-super := constant-lex-rule & verb-pc02-rule-dtr&
+[ SYNSEM [ LOCAL [ CAT [ HEAD verb,
+                         VAL [ SPEC < >,
+                               COMPS < >,
+                               SUBJ < [ LOCAL [ CAT.HEAD noun &
+                                                        [ CASE real-case ],
+                                                CONT.HOOK.INDEX #xarg ] ] > ] ],
+                   CONT.HOOK #hook  ],
+           LKEYS.KEYREL #keyrel ],
+ C-CONT [ HCONS <! qeq & [ HARG #harg,
+                           LARG #larg ] !>,
+          RELS <! #keyrel & arg12-ev-relation &
+                  [ LBL #ltop,
+                    ARG0 #index,
+                    ARG1 #xarg,
+                    ARG2 #dtr_ind ],
+                  quant-relation &
+                  [ PRED "exist_q_rel",
+                    ARG0 #dtr_ind,
+                    RSTR #harg ] !>,
+          ICONS <! !>,
+          HOOK #hook & [ LTOP #ltop,
+                 INDEX #index,
+                 XARG #xarg ] ],
+ DTR noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ INDEX #dtr_ind,
+                                              LTOP #larg ] ] ].
+
+
+denom-verb-lex-rule := donominal-verb-lex-rule &
+  [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+  
 ;;; Verbs
 
 verb-lex := non-mod-lex-item &
