@@ -485,10 +485,6 @@ hina_1 := noun13-noun-lex &
   [ STEM < "ʔaḥkuu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_d1_n_rel" ].
 
-wik_1 := noun13-noun-lex &
-  [ STEM < "wik" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_neg_n_rel" ].
-
 ḥaay̓a := noun14-noun-lex &
   [ STEM < "ḥaay̓a" >,
     SYNSEM.LKEYS.KEYREL.PRED "_low.tide_n_rel" ].
@@ -1687,10 +1683,6 @@ weʔič_2 := verb77-verb-lex &
 
 wit := verb78-verb-lex &
   [ STEM < "wit" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_neg_v_rel" ].
-
-wik_2 := verb78-verb-lex &
-  [ STEM < "wik" >,
     SYNSEM.LKEYS.KEYREL.PRED "_neg_v_rel" ].
 
 wikst := verb79-verb-lex &
