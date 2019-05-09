@@ -375,8 +375,8 @@ denominal-verb-lex-rule-super := constant-lex-rule & verb-pc15-or-verb-pc161-rul
           HOOK #hook & [ LTOP #ltop,
                  INDEX #index,
                  XARG #xarg ] ],
- DTR noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ INDEX #dtr_ind,
-                                              LTOP #larg ] ] ].
+ DTR noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ LTOP #larg,
+                                           INDEX #dtr_ind ] ] ].
 
 
 denominal-verb-lex-rule := denominal-verb-lex-rule-super &
