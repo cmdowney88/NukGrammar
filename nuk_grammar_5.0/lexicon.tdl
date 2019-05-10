@@ -869,10 +869,6 @@ sim := noun80-noun-lex &
   [ STEM < "sim" >,
     SYNSEM.LKEYS.KEYREL.PRED "_rigid_n_rel" ].
 
-siy̓aaq := noun82-noun-lex &
-  [ STEM < "siy̓aaq" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_1sg_n_rel" ].
-
 su_1 := noun84-noun-lex &
   [ STEM < "su" >,
     SYNSEM.LKEYS.KEYREL.PRED "_take.hold.of-or-hold_n_rel" ].
@@ -1772,6 +1768,10 @@ mat_2 := verb109-verb-lex &
 ḥum := verb130-verb-lex &
   [ STEM < "ḥum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_show_v_rel" ].
+
+siy̓aaq := verb131-verb-lex &
+  [ STEM < "siy̓aaq" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
 
 ;;; Auxiliaries
 
