@@ -625,24 +625,23 @@ hił=maˑḥ suč̓as ḥaakʷaˑƛ
 at=INDIC.1sg tree girl
 intended: '*the girl is at the tree'
 
-
-#EXAMPLE 69 -- Showing pronouns usage, but cannot be parsed because of our choice about second position clitics
+#EXAMPLE 69
 Source: a:213
 Vetted: f
 Judgment: g
-Phenomena: {nominal-pred}
+Phenomena: {copula}
 siy̓aaq=maˑḥ meʔiƛqac
 1sg.PRED=INDIC.1sg boy
-'I am a boy'
+'I am the boy'
 
-#EXAMPLE 70 -- Showing pronouns usage, but cannot be parsed because of our choice about second position clitics
+#EXAMPLE 70
 Source: a:215
 Vetted: f
 Judgment: g
-Phenomena: {nominal-pred}
+Phenomena: {copula}
 siy̓aaq=maˑḥ ciq-šiƛ
 1sg.PRED=INDIC.1sg speak-PERF
-'I speak'
+'It is I who speaks'
 
 #EXAMPLE 71 -- out of scope due to interaction between locative and nominal
 Source: a:211
@@ -651,7 +650,7 @@ Judgement: g
 Phenomena: {nominal-pred, locative-pred}
 ḥaw̓ił=maˑ hił
 chief=INDC.3rd at
-"his is chief there"
+"he is chief there"
 
 #EXAMPLE 72
 Source: author
@@ -661,3 +660,21 @@ Phenomena: {nominal-pred}
 suč̓as=(m)in
 tree=INDIC.1pl
 'We are trees'
+
+#EXAMPLE 73
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {copula}
+siy̓aaq=maˑḥ
+1sg.PRED=INDIC.1sg
+Fragment: *'I am...'
+
+#EXAMPLE 74 - mismatch between copula and mood person
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {copula, agreement}
+siy̓aaq=maˑ ḥaakʷaˑƛ
+1sg.PRED=INDIC.3 girl
+Intended: *'I am the girl'

@@ -877,10 +877,6 @@ su_1 := noun84-noun-lex &
   [ STEM < "ḥaaʔakʷ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_strong_n_rel" ].
 
-suw̓aaq := noun87-noun-lex &
-  [ STEM < "suw̓aaq" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_you_n_rel" ].
-
 ƛatw̓ := noun90-noun-lex &
   [ STEM < "ƛatw̓" >,
     SYNSEM.LKEYS.KEYREL.PRED "_paddle_n_rel" ].
@@ -1769,8 +1765,12 @@ mat_2 := verb109-verb-lex &
   [ STEM < "ḥum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_show_v_rel" ].
 
-siy̓aaq := verb131-verb-lex &
+siy̓aaq := 1sg-copula-verb-lex &
   [ STEM < "siy̓aaq" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
+
+suw̓aaq := 2sg-copula-verb-lex &
+  [ STEM < "suw̓aaq" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
 
 ;;; Auxiliaries
