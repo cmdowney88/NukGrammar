@@ -30,7 +30,7 @@ Source: a:102
 Vetted: f
 Judgment: g
 Phenomena: {tam}
-nunuˑk=!aƛ=maˑ
+nunuˑk=ʼaƛ=maˑ
 sing=TEMP=INDIC.3
 `he/she/it/they are singing'
 
@@ -40,7 +40,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {tam}
-weʔič=!aƛ=maˑ
+weʔič=ʼaƛ=maˑ
 sleep=TEMP=INDIC.3
 `he/she/it/they are sleeping'
 
@@ -49,7 +49,7 @@ Source: a:105
 Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
-weʔič=!aƛ=mit=siˑ
+weʔič=ʼaƛ=mit=siˑ
 sleep=TEMP=PAST=1sg
 `I was sleeping'
 
@@ -58,7 +58,7 @@ Source: a:109
 Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
-ciq-šiƛ=!aƛ=maˑ
+ciq-šiƛ=ʼaƛ=maˑ
 speak-PERF=TEMP=INDIC.3
 `he/she/it/they spoke'
 
@@ -67,7 +67,7 @@ Source: a:113
 Vetted: f
 Judgment: g
 Phenomena: {tam}
-weʔič-uƛ=!aƛ=ƛaa
+weʔič-uƛ=ʼaƛ=ƛaa
 sleep-PERF=TEMP=AGAIN
 `he/she/it/they slept again'
 
@@ -76,7 +76,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {agreement, tam}
-weʔič-uƛ=!aƛ=siˑ=ƛaa
+weʔič-uƛ=ʼaƛ=siˑ=ƛaa
 sleep-PER=TEMP=1sg=AGAIN
 `I slept again'
 
@@ -85,7 +85,7 @@ Source: a:109
 Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
-ciq-šiƛ=!aƛ=maˑḥ
+ciq-šiƛ=ʼaƛ=maˑḥ
 speak-PERF=TEMP=INDIC.1sg
 `I spoke'
 
@@ -94,7 +94,7 @@ Source: a:110
 Vetted: f
 Judgment: g
 Phenomena: {agreement, pronouns}
-n̓aacsa=!aƛ=maˑḥ suw̓a
+n̓aacsa=ʼaƛ=maˑḥ suw̓a
 see=TEMP=INDIC.1sg you.sg
 `I see you'
 
@@ -103,7 +103,7 @@ Source: a:113
 Vetted: f
 Judgment: g
 Phenomena: {adverbs}
-ciq-šiƛ=!aƛ=maˑḥ kuʔał=ʔiˑ
+ciq-šiƛ=ʼaƛ=maˑḥ kuʔał=ʔiˑ
 speak-PERF=TEMP=INDIC.1sg morning=ART
 `I spoke in the morning'
 
@@ -113,7 +113,7 @@ Source: a:101
 Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
-weʔič=!aƛ=maˑḥ
+weʔič=ʼaƛ=maˑḥ
 sleep=TEMP=INDIC.1sg
 `I am sleeping'
 
@@ -123,7 +123,7 @@ Source: a:101
 Vetted: f
 Judgment: u
 Phenomena: {tam, agreement}
-weʔič=!aƛ=aˑḥ=maˑ
+weʔič=ʼaƛ=aˑḥ=maˑ
 sleep=TEMP=1sg=INDIC
 `I am sleeping'
 
@@ -161,7 +161,7 @@ Source: a:155
 Vetted: s
 Judgment: g
 Phenomena: {neg}
-wik=!aƛ=quu=s weʔič ʔatḥii
+wik=ʼaƛ=quu=s weʔič ʔatḥii
 not=TEMP=COND=1sg sleep night
 `I did not sleep nights'
 
@@ -170,7 +170,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {neg}
-wik=!aƛ=maˑḥ ciq-yaˑ
+wik=ʼaƛ=maˑḥ ciq-yaˑ
 not=TEMP=INDIC.1sg speak
 `I did not speak'
 
@@ -179,7 +179,7 @@ Source: c
 Vetted: f
 Judgment: g
 Phenomena: {coord, poss}
-ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+ʔu-ʼaałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
 X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
 `The women took care of the houses and children'
 
@@ -216,7 +216,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {coord}
-ciq-šiƛ=!aƛ=maˑḥ ʔuḥʔiš weʔič-uƛ=!aƛ=siˑ
+ciq-šiƛ=ʼaƛ=maˑḥ ʔuḥʔiš weʔič-uƛ=ʼaƛ=siˑ
 speak-PERF=TEMP=INDIC.1sg and sleep-PER=TEMP=1sg
 `I spoke and I slept'
 
@@ -225,7 +225,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {coord, poss}
-n̓aacsa-šiƛ=!aƛ=maˑḥ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=!aƛ=maˑḥ
+n̓aacsa-šiƛ=ʼaƛ=maˑḥ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=ʼaƛ=maˑḥ
 see-PERF=TEMP=INDIC.1sg children=POSS=ARTL and sleep-PER=TEMP=INDIC.1sg
 `I saw their children and slept'
 
@@ -234,7 +234,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {poss}
-n̓aacsa=!aƛ t̓ašii=ʔak=ʔiˑ 
+n̓aacsa=ʼaƛ t̓ašii=ʔak=ʔiˑ 
 see=NOW door=POSS=ARTL night
 `He/She/they was looking at their door now'
 
@@ -243,7 +243,7 @@ Source: c
 Vetted: f
 Judgment: g
 Phenomena: {poss}
-wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
+wał-šiƛ=ʼaƛ maḥt̓iˑ=ʔak=ʔiˑ
 go.home-PERF=NOW house=POSS=ARTL
 `He/she/they returned to their home'
 
@@ -288,7 +288,7 @@ Source: c
 Vetted: s
 Judgment: g
 Phenomena: {neg}
-wik=!aƛ hina-iip t̓an̓a-ʔis=ʔiˑ
+wik=ʼaƛ hina-iip t̓an̓a-ʔis=ʔiˑ
 not.NEG=NOW EMPTY-find child-DIM=ARTL
 `But they never found the boy'
 
@@ -306,7 +306,7 @@ Source: c:3810
 Vetted: f
 Judgment: g
 Phenomena: {neg}
-wik-L.(w)aƛ=!aƛ=ʔał m̓aʔakƛ=qs puut
+wik-L.(w)aƛ=ʼaƛ=ʔał m̓aʔakƛ=qs puut
 NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
 `They did not find any boats'
 
@@ -315,7 +315,7 @@ Source: c:4210
 Vetted: f
 Judgment: g
 Phenomena: {neg, imp}
-wik=!iˑ qʷaa
+wik=ʼiˑ qʷaa
 NEG=CMMD.2 how
 `Don't be like that'
 
@@ -324,7 +324,7 @@ Source: c:4250
 Vetted: f
 Judgment: g
 Phenomena: {neg, imp}
-wik=!iˑ č̓iiʕaqa
+wik=ʼiˑ č̓iiʕaqa
 NEG=CMMD.2 fight
 `Don't fight'
 
@@ -351,7 +351,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {coord, poss, neg}
-wik=(m)it ʔu-!aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+wik=(m)it ʔu-ʼaałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
 NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
 `The women did not take care of the houses and children'
 
@@ -360,7 +360,7 @@ Source: author
 Vetted: f
 Judgment: u
 Phenomena: {negation, tam}
-wik ciq-šiƛ=!aƛ=maˑḥ
+wik ciq-šiƛ=ʼaƛ=maˑḥ
 NEG speak-PERF=TEMP=INDIC.1sg
 intended: `I did not speak'
 
@@ -369,7 +369,7 @@ Source: author
 Vetted: f
 Judgment: u
 Phenomena: {negation, tam}
-ciq wik-šiƛ=!aƛ=maˑḥ
+ciq wik-šiƛ=ʼaƛ=maˑḥ
 speak NEG-PERF=TEMP=INDIC.1sg
 intended: `I did not speak'
 
@@ -378,7 +378,7 @@ Source: a:158
 Vetted: s
 Judgment: g
 Phenomena: {clausal-comp, evidential}
-t̓apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
+t̓apat-šiƛ=ʼaƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=ʼaƛ=quu
 think-PERF=TEMP=QUOT.3 girl=ART go.home-PERF=TEMP=COND.3
 'The girl decided to go home'
 
@@ -387,7 +387,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {clausal-mod}
-weʔič=!aƛ=maˑḥ ʔani ciq-yaˑ=!aƛ=qaˑ
+weʔič=ʼaƛ=maˑḥ ʔani ciq-yaˑ=ʼaƛ=qaˑ
 sleep=TEMP=INDIC=1sg because speak-DUR=TEMP=SUBOR.3
 'I am sleeping because he/she is speaking'
 
@@ -396,7 +396,7 @@ Source: c:1090
 Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
-hašił-iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-!in=!ap=!at=qaˑ
+hašił-iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-ʼin=ʼap=ʼat=qaˑ
 find.out.about-IN Kwalisits COMP laugh-make.a.soun=CAUS=PASS=SUBOR.3
 'Kwalisits heard about how he was being laughed at'
 
@@ -405,7 +405,7 @@ Source: c:1680
 Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
-č̓an̓ii=!at ʔu-L.aˑnuuƛ-(q)ḥ ʔani=n say-aˑ-c̓atu
+č̓an̓ii=ʼat ʔu-L.aˑnuuƛ-(q)ḥ ʔani=n say-aˑ-c̓atu
 not.see=PASS X-because-LINK COMP=1PL far-CT-in.ocean
 'They can't be seen because we're so far out at sea'
 
@@ -414,7 +414,7 @@ Source: c:2000
 Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
-ciq-aˑ=!aƛ=maˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
+ciq-aˑ=ʼaƛ=maˑḥ ʔani ʔaya=ʼaƛ p̓iš-mis ʔaḥkuu=ʔiˑ
 speak-DUR=TEMP=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL
 'I am speaking because there is much evil here now'
 
@@ -423,7 +423,7 @@ Source: c:34100
 Vetted: s
 Judgment: g
 Phenomena: {clausal-comp}
-nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=!aƛ=quuk
+nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=ʼaƛ=quuk
 immediately=NEUT.2sg sit-indoors.PERF wake=PERF=NOW=COND.2sg
 'Get up as soon as you wake up'
 
@@ -432,7 +432,7 @@ Source: c:34836
 Vetted: f
 Judgment: g
 Phenomena: {clausal-comp}
-hupii=suuk ʔuuš-(q)ḥ=!ap=w̓it̓as=!aƛ=quu=ʔał
+hupii=suuk ʔuuš-(q)ḥ=ʼap=w̓it̓as=ʼaƛ=quu=ʔał
 help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=COND.3
 'You help when they are going to make something'
 
@@ -441,7 +441,7 @@ Source: c:42026
 Vetted: f
 Judgment: g
 Phenomena: {evidential}
-ʔu-!aap=nit=waˑʔiš nism̓a
+ʔu-ʼaap=nit=waˑʔiš nism̓a
 X-buy=PST=QUOT.3
 'He bought land (hearsay)'
 
@@ -450,7 +450,7 @@ Source: c:42026
 Vetted: f
 Judgment: g
 Phenomena: {evidential}
-ʔu-!aap=nit=waˑʔiš=qaˑč̓a nism̓a
+ʔu-ʼaap=nit=waˑʔiš=qaˑč̓a nism̓a
 X-buy=PST=QUOT.3=DUB.3 land
 'He bought land (hearsay, doubtful)'
 
@@ -459,7 +459,7 @@ Source: c:42026
 Vetted: f
 Judgment: u
 Phenomena: {evidential}
-ʔu-!aap=nit=qaˑč̓a=waˑʔiš nism̓a
+ʔu-ʼaap=nit=qaˑč̓a=waˑʔiš nism̓a
 X-buy=PST=DUB.3=QUOT.3 land
 '* He bought land (doubtful, hearsay)'
 
@@ -477,7 +477,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {evidential}
-ciq-šiƛ=!aƛ=weˑʔisi
+ciq-šiƛ=ʼaƛ=weˑʔisi
 speak-PERF=TEMP=QUOT.1sg
 'It is said that I spoke'
 
@@ -486,7 +486,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {evidential, negation}
-wik=!aƛ=weˑʔisi ciq-šiƛ
+wik=ʼaƛ=weˑʔisi ciq-šiƛ
 NEG=TEMP=QUOT.1sg speak-PERF
 'It is said that I didn't speak'
 
@@ -513,7 +513,7 @@ Source: a:290
 Vetted: s
 Judgment: g
 Phenomena: {evidential}
-n̓aacsa=!aƛ=qaˑč̓a ḥaw̓ił=ʔiˑ
+n̓aacsa=ʼaƛ=qaˑč̓a ḥaw̓ił=ʔiˑ
 see=TEMP=DUB  chief=ART
 'I think the chief now sees'
 
@@ -531,7 +531,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {evidential, agreement, mood}
-ciq-šiƛ=!aƛ=weˑʔincuk
+ciq-šiƛ=ʼaƛ=weˑʔincuk
 speak-PERF=TEMP=QUOT.2sg
 'It is said that you spoke'
 
@@ -540,7 +540,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {evidential, agreement, mood}
-ciq-šiƛ=!aƛ=weˑʔinni
+ciq-šiƛ=ʼaƛ=weˑʔinni
 speak-PERF=TEMP=QUOT.1pl
 'It is said that we spoke'
 
