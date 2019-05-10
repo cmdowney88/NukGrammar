@@ -611,7 +611,26 @@ NEG=INDIC.3 at tree girl
 Source: author
 Vetted: f
 Judgement: u
-vPhenomena: {locative-pred, agr}
+Phenomena: {locative-pred, agr}
 hił=maˑḥ suč̓as ḥaakʷaˑƛ
 at=INDIC.1sg tree girl
 intended: '*the girl is at the tree'
+
+
+#EXAMPLE 69 -- Showing pronouns usage, but cannot be parsed because of our choice about second position clitics
+Source: a:213
+Vetted: f
+Judgment: g
+Phenomena: {nominal-pred}
+siy̓aaq=maˑḥ meʔiƛqac
+1sg.PRED=INDIC.1sg boy
+'I am a boy'
+
+#EXAMPLE 70 -- Showing pronouns usage, but cannot be parsed because of our choice about second position clitics
+Source: a:215
+Vetted: f
+Judgment: g
+Phenomena: {nominal-pred}
+siy̓aaq=maˑḥ ciq-šiƛ
+1sg.PRED=INDIC.1sg speak-PERF
+'I speak'
