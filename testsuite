@@ -59,7 +59,7 @@ Vetted: f
 Judgment: g
 Phenomena: {tam, agreement}
 ciq-šiƛ=!aƛ=maˑ
-speak-PER=TEMP=INDIC.3
+speak-PERF=TEMP=INDIC.3
 `he/she/it/they spoke'
 
 #EXAMPLE 7
@@ -67,7 +67,7 @@ Source: a:113
 Vetted: f
 Judgment: g
 Phenomena: {tam}
-weʔič-šiƛ=!aƛ=ƛaa
+weʔič-uƛ=!aƛ=ƛaa
 sleep-PERF=TEMP=AGAIN
 `he/she/it/they slept again'
 
@@ -76,7 +76,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {agreement, tam}
-weʔič-šiƛ=!aƛ=siˑ=ƛaa
+weʔič-uƛ=!aƛ=siˑ=ƛaa
 sleep-PER=TEMP=1sg=AGAIN
 `I slept again'
 
@@ -104,17 +104,8 @@ Vetted: f
 Judgment: g
 Phenomena: {adverbs}
 ciq-šiƛ=!aƛ=maˑḥ kuʔał=ʔiˑ
-speak-PERF=TEMP=INDIC.1sg
+speak-PERF=TEMP=INDIC.1sg morning=ART
 `I spoke in the morning'
-
-#EXAMPLE 12
-Source: a:97
-Vetted: f
-Judgment: g
-Phenomena: {tam}
-su=!aƛ=maˑ
-hold-[L]=TEMP=INDIC.3
-`He/she/it/they are holding it'
 
 #EXAMPLE 13
 ### modified from the origianl root which was "sing"
@@ -143,7 +134,7 @@ Judgment: g
 Phenomena: {tam}
 qaḥ=ak
 die=DUR
-`dead'
+`he/she/it is dead'
 
 #EXAMPLE 16
 #the suffix should only begin with ʔ following a vowel
@@ -179,8 +170,8 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {neg}
-wik-šiƛ=!aƛ=maˑḥ ciq
-not-PERF=TEMP=INDIC.1sg speak
+wik=!aƛ=maˑḥ ciq-yaˑ
+not=TEMP=INDIC.1sg speak
 `I did not speak'
 
 #EXAMPLE 20
@@ -225,7 +216,7 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {coord}
-ciq-šiƛ=!aƛ=maˑḥ ʔuḥʔiš weʔič-šiƛ=!aƛ=siˑ
+ciq-šiƛ=!aƛ=maˑḥ ʔuḥʔiš weʔič-uƛ=!aƛ=siˑ
 speak-PERF=TEMP=INDIC.1sg and sleep-PER=TEMP=1sg
 `I spoke and I slept'
 
@@ -253,7 +244,7 @@ Vetted: f
 Judgment: g
 Phenomena: {poss}
 wał-šiƛ=!aƛ maḥt̓iˑ=ʔak=ʔiˑ
-go.home=MO=NOW house=POSS=ARTL
+go.home-PERF=NOW house=POSS=ARTL
 `He/she/they returned to their home'
 
 #EXAMPLE 28 -- failing because the bare-NP is of type ref-ind not event and args.first.synsem.local.cat.val.subj
@@ -271,7 +262,7 @@ Vetted: f
 Judgment: g
 Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
-show-MO curtain=POSS=ARTL
+show-PERF curtain=POSS=ARTL
 `He/she/they displayed their curtain'
 
 #EXAMPLE 30 -- wrong possessive suffix
@@ -280,7 +271,7 @@ Vetted: f
 Judgment: u
 Phenomena: {poss}
 ḥum-čiƛ muuyapiłum=uk=ʔiˑ
-show-MO curtain=POSS=ARTL
+show-PERF curtain=POSS=ARTL
 intended: `He/she/they displayed their curtain'
 
 #EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
@@ -288,8 +279,8 @@ Source: a:307
 Vetted: s
 Judgment: g
 Phenomena: {poss}
-ʔɑƛ-qimɬ=uk=qɑˑ=s kuˑnɑˑ
-two-X.many.round.objects=POSS=DEF=1sg schooner
+ʔɑƛ-qimɬ=uk=qɑˑs kuˑnɑˑ
+two-X.many.round.objects=POSS=DEF.1sg schooner
 `My two schooners'
 
 #EXAMPLE 32
@@ -307,8 +298,8 @@ Vetted: f
 Judgment: g
 Phenomena: {neg}
 wik=weˑʔin
-not.NEG=HRSY.3
-`He/she/they says no'
+NEG=HRSY.3
+`Apparently not'
 
 #EXAMPLE 34
 Source: c:3810
@@ -379,7 +370,7 @@ Vetted: f
 Judgment: u
 Phenomena: {negation, tam}
 ciq wik-šiƛ=!aƛ=maˑḥ
-speak NEG-PERF=TEMP=INDIC=1sg
+speak NEG-PERF=TEMP=INDIC.1sg
 intended: `I did not speak'
 
 #EXAMPLE 42
@@ -387,7 +378,7 @@ Source: a:158
 Vetted: s
 Judgment: g
 Phenomena: {clausal-comp, evidential}
-t'apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
+t̓apat-šiƛ=!aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=!aƛ=quu
 think-PERF=TEMP=QUOT.3 girl=ART go.home-PERF=TEMP=COND.3
 'The girl decided to go home'
 
@@ -396,8 +387,8 @@ Source: author
 Vetted: f
 Judgment: g
 Phenomena: {clausal-mod}
-weʔič=!aƛ=maˑḥ ʔani ciq=!aƛ=qaˑ
-sleep=TEMP=INDIC=1sg because speak=TEMP=SUBOR.3
+weʔič=!aƛ=maˑḥ ʔani ciq-yaˑ=!aƛ=qaˑ
+sleep=TEMP=INDIC=1sg because speak-DUR=TEMP=SUBOR.3
 'I am sleeping because he/she is speaking'
 
 #EXAMPLE 44
@@ -405,7 +396,7 @@ Source: c:1090
 Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
-hašił-°iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-!in=!ap=!at=qaˑ
+hašił-iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-!in=!ap=!at=qaˑ
 find.out.about-IN Kwalisits COMP laugh-make.a.soun=CAUS=PASS=SUBOR.3
 'Kwalisits heard about how he was being laughed at'
 
@@ -423,8 +414,8 @@ Source: c:2000
 Vetted: s
 Judgment: g
 Phenomena: {clausal-mod}
-ciq=!aƛ=maˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
-speak=TEMP=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL
+ciq-aˑ=!aƛ=maˑḥ ʔani ʔaya=!aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
+speak-DUR=TEMP=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL
 'I am speaking because there is much evil here now'
 
 #EXAMPLE 47
@@ -513,7 +504,7 @@ Source: c:53083
 Vetted: f
 Judgment: u
 Phenomena: {evidential}
-čay̓ix=int=weˑʔinisi łuucsaamiiḥ 
+čay̓ix=int=weˑʔinsi łuucsaamiiḥ 
 picking.berries=PST=QUOT.1sg woman.pl
 'Ladies were picking berries'
 
