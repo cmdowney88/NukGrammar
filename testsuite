@@ -662,11 +662,21 @@ suč̓as=(m)in
 tree=INDIC.1pl
 'We are trees'
 
-#EXAMPLE 63
+#EXAMPLE 73
 Source: author
 Vetted: f
 Judgement: g
 Phenomena: {nominal-pred, coordination}
 ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ
-girl=INDIC.1sg
+girl=INDIC.1sg and wolf=INDIC.1sg
 'I am a girl and a wolf'
+
+
+#EXAMPLE 74
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, coordination}
+wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik
+NEG=INDIC.1sg girl and wolf
+'I am not a girl and a wolf'
