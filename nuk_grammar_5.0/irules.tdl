@@ -93,10 +93,6 @@ noun-pc14_lrt1-suffix :=
 %suffix (* -y̓ak)
 noun-pc14_lrt1-lex-rule.
 
-noun-pc15_lrt1-suffix :=
-%suffix (* -šiƛ)
-noun-pc15_lrt1-lex-rule.
-
 noun-pc16_lrt1-suffix :=
 %suffix (* =weˑʔin)
 noun-pc16_lrt1-lex-rule.
@@ -825,8 +821,12 @@ verb-pc9_lrt1-suffix :=
 %suffix (* =waˑʔi)
 verb-pc9_lrt1-lex-rule.
 
-verb-pc10_lrt1-suffix :=
+verb-pc10_lrt1-suffix1 :=
 %suffix (* -šiƛ)
+verb-pc10_lrt1-lex-rule.
+
+verb-pc10_lrt1-suffix2 :=
+%suffix (* -uƛ)
 verb-pc10_lrt1-lex-rule.
 
 verb-pc11_lrt1-suffix :=
@@ -893,8 +893,16 @@ verb-pc17_lrt1-suffix :=
 %suffix (* -piƛ)
 verb-pc17_lrt1-lex-rule.
 
-verb-pc18_lrt1-suffix :=
+verb-pc18_lrt1-suffix1 :=
 %suffix (* -aˑ)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc18_lrt1-suffix2 :=
+%suffix (* -(y)aˑ)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc18_lrt1-suffix2 :=
+%suffix (* -yaˑ)
 verb-pc18_lrt1-lex-rule.
 
 verb-pc19_lrt1-suffix1 :=
