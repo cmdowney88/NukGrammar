@@ -678,3 +678,31 @@ Phenomena: {copula, agreement}
 siy̓aaq=maˑ ḥaakʷaˑƛ
 1sg.PRED=INDIC.3 girl
 Intended: *'I am the girl'
+
+#EXAMPLE 75
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, coordination}
+ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ
+girl=INDIC.1sg and wolf=INDIC.1sg
+'I am a girl and a wolf'
+
+#EXAMPLE 74
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, coordination}
+wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik
+NEG=INDIC.1sg girl and wolf
+'I am not a girl and a wolf'
+
+#EXAMPLE 75
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, clausal-mod}
+qʷayac̓iik=(m)aˑḥ ʔaya=‼aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
+wolf=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL
+'I am a wolf because there is much evil here now'
+
