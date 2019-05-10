@@ -570,3 +570,12 @@ Phenomena: {neg, nominal-pred}
 wik=maˑḥ meʔiƛqac
 NEG=INDIC.1sg boy
 'I am not a boy'
+
+#EXAMPLE 63
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred}
+suč̓as=eˑʔic
+tree=INDIC.2sg
+'You are a tree'
