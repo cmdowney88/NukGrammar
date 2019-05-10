@@ -1,0 +1,4 @@
+> cat theGirlIsAtTheTree.txt
+  hił=maˑ suč̓as ḥaakʷaˑƛ
+> cat theGirlIsAtTheTree.txt | ace -g nuk.dat
+  morpho: no such letter group as `i'
