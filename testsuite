@@ -107,6 +107,15 @@ ciq-šiƛ=‼aƛ=maˑḥ kuʔał=ʔiˑ
 speak-PERF=TEMP=INDIC.1sg morning=ART
 `I spoke in the morning'
 
+#EXAMPLE 12
+Source: a:97
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+su-(y)aˑ
+hold-CONT
+`He/she/it/they are holding it'
+
 #EXAMPLE 13
 ### modified from the origianl root which was "sing"
 Source: a:101
@@ -611,7 +620,35 @@ NEG=INDIC.3 at tree girl
 Source: author
 Vetted: f
 Judgement: u
-vPhenomena: {locative-pred, agr}
+Phenomena: {locative-pred, agr}
 hił=maˑḥ suč̓as ḥaakʷaˑƛ
 at=INDIC.1sg tree girl
 intended: '*the girl is at the tree'
+
+
+#EXAMPLE 69 -- Showing pronouns usage, but cannot be parsed because of our choice about second position clitics
+Source: a:213
+Vetted: f
+Judgment: g
+Phenomena: {nominal-pred}
+siy̓aaq=maˑḥ meʔiƛqac
+1sg.PRED=INDIC.1sg boy
+'I am a boy'
+
+#EXAMPLE 70 -- Showing pronouns usage, but cannot be parsed because of our choice about second position clitics
+Source: a:215
+Vetted: f
+Judgment: g
+Phenomena: {nominal-pred}
+siy̓aaq=maˑḥ ciq-šiƛ
+1sg.PRED=INDIC.1sg speak-PERF
+'I speak'
+
+#EXAMPLE 71 -- out of scope due to interaction between locative and nominal
+Source: a:211
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, locative-pred}
+ḥaw̓ił=maˑ hił
+chief=INDC.3rd at
+"his is chief there"
