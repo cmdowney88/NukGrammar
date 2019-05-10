@@ -570,3 +570,48 @@ Phenomena: {nominal-pred}
 suč̓as=eˑʔic
 tree=INDIC.2sg
 'You are a tree'
+
+#EXAMPLE 64
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {locative-pred}
+hił=maˑḥ suč̓as
+at=INDIC.1sg tree
+'I am at the tree'
+
+#EXAMPLE 65
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {locative-pred}
+suč̓as hił=maˑḥ
+tree at=INDIC.1sg
+intended: '*I am at the tree'
+
+#EXAMPLE 66
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {locative-pred}
+hił=maˑ suč̓as ḥaakʷaˑƛ
+at=INDIC.3 tree girl
+'the girl is at the tree'
+
+#EXAMPLE 67
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {locative-pred, neg}
+wik=maˑ hił suč̓as ḥaakʷaˑƛ
+NEG=INDIC.3 at tree girl
+'the girl is not at the tree'
+
+#EXAMPLE 68 - extra argument that does not agree with locative verb
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {locative-pred, agr}
+hił=maˑḥ suč̓as ḥaakʷaˑƛ
+at=INDIC.1sg tree girl
+intended: '*the girl is at the tree'
