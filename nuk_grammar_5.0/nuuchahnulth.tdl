@@ -354,8 +354,8 @@ noun183-noun-lex := noun-lex & noun-pc21-rule-dtr & noun-pc29-rule-dtr & noun-pc
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
                                        PER 3rd ] ].
 
-denominal-verb-lex-rule-super := constant-lex-rule & verb-pc15-or-verb-pc161-rule-dtr &
-[ SYNSEM [ LOCAL [ CAT [ HEAD verb,
+denominal-verb-lex-rule-super := constant-lex-rule & nocoord & verb-pc15-or-verb-pc161-rule-dtr &
+[ SYNSEM [ LOCAL [ CAT [ HEAD verb & [MOD < > ],
                          VAL [ SPEC < >,
                                COMPS < >,
                                SUBJ < [ LOCAL [ CAT.HEAD noun,
@@ -586,7 +586,8 @@ subj-raise-aux := aux-lex & trans-first-arg-raising-lex-item &
                                    COMPS < > ] ],
                        CONT.HOOK.INDEX #xarg ] ],
              #comps &
-             [ LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
+             [ OPT -,
+	       LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
                                  COMPS < >,
                                  SPR < >,
                                  SPEC < > ],
