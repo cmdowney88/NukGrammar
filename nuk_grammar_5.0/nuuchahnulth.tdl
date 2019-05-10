@@ -158,7 +158,9 @@ noun1-noun-lex := noun-lex & noun-pc2-rule-dtr.
 
 noun2-noun-lex := noun-lex & noun-pc114-or-noun-pc143-rule-dtr & noun-pc115-rule-dtr & noun-pc18-rule-dtr & noun-pc192-or-noun-pc3-rule-dtr & noun-pc29-rule-dtr & noun-pc36-rule-dtr & noun-pc4-rule-dtr & noun-pc42-rule-dtr & noun-pc46-rule-dtr & noun-pc47-rule-dtr & noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr & noun-pc6-rule-dtr & noun-pc93-rule-dtr & noun-pc95-rule-dtr & noun-pc97-rule-dtr.
 
-noun3-noun-lex := noun-lex & noun-pc100-rule-dtr & noun-pc101-or-noun-pc151-rule-dtr & noun-pc104-rule-dtr & noun-pc105-rule-dtr & noun-pc111-rule-dtr & noun-pc114-or-noun-pc143-rule-dtr & noun-pc115-rule-dtr & noun-pc117-or-noun-pc142-rule-dtr & noun-pc125-rule-dtr & noun-pc138-rule-dtr & noun-pc15-rule-dtr & noun-pc16-rule-dtr & noun-pc18-rule-dtr & noun-pc192-or-noun-pc3-rule-dtr & noun-pc193-or-noun-pc67-rule-dtr & noun-pc20-rule-dtr & noun-pc21-rule-dtr & noun-pc24-rule-dtr & noun-pc25-rule-dtr & noun-pc26-rule-dtr & noun-pc29-rule-dtr & noun-pc36-rule-dtr & noun-pc4-rule-dtr & noun-pc40-rule-dtr & noun-pc42-rule-dtr & noun-pc46-rule-dtr & noun-pc47-rule-dtr & noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr & noun-pc5-rule-dtr & noun-pc51-rule-dtr & noun-pc52-rule-dtr & noun-pc56-rule-dtr & noun-pc57-rule-dtr & noun-pc6-rule-dtr & noun-pc64-rule-dtr & noun-pc65-rule-dtr & noun-pc69-rule-dtr & noun-pc70-rule-dtr & noun-pc78-rule-dtr & noun-pc8-rule-dtr & noun-pc81-rule-dtr & noun-pc82-or-noun-pc86-rule-dtr & noun-pc84-rule-dtr & noun-pc85-rule-dtr & noun-pc87-rule-dtr & noun-pc92-rule-dtr & noun-pc93-rule-dtr & noun-pc95-rule-dtr & noun-pc97-rule-dtr.
+noun3-noun-lex := noun-lex & noun-pc100-rule-dtr & noun-pc101-or-noun-pc151-rule-dtr & noun-pc104-rule-dtr & noun-pc105-rule-dtr & noun-pc111-rule-dtr & noun-pc114-or-noun-pc143-rule-dtr & noun-pc115-rule-dtr & noun-pc117-or-noun-pc142-rule-dtr & noun-pc125-rule-dtr & noun-pc138-rule-dtr & noun-pc15-rule-dtr & noun-pc16-rule-dtr & noun-pc18-rule-dtr & noun-pc192-or-noun-pc3-rule-dtr & noun-pc193-or-noun-pc67-rule-dtr & noun-pc20-rule-dtr & noun-pc21-rule-dtr & noun-pc24-rule-dtr & noun-pc25-rule-dtr & noun-pc26-rule-dtr & noun-pc29-rule-dtr & noun-pc36-rule-dtr & noun-pc4-rule-dtr & noun-pc40-rule-dtr & noun-pc42-rule-dtr & noun-pc46-rule-dtr & noun-pc47-rule-dtr & noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr & noun-pc5-rule-dtr & noun-pc51-rule-dtr & noun-pc52-rule-dtr & noun-pc56-rule-dtr & noun-pc57-rule-dtr & noun-pc6-rule-dtr & noun-pc64-rule-dtr & noun-pc65-rule-dtr & noun-pc69-rule-dtr & noun-pc70-rule-dtr & noun-pc78-rule-dtr & noun-pc8-rule-dtr & noun-pc81-rule-dtr & noun-pc82-or-noun-pc86-rule-dtr & noun-pc84-rule-dtr & noun-pc85-rule-dtr & noun-pc87-rule-dtr & noun-pc92-rule-dtr & noun-pc93-rule-dtr & noun-pc95-rule-dtr & noun-pc97-rule-dtr &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ PER 3rd ] ].
+.
 
 noun4-noun-lex := noun-lex & noun-pc101-or-noun-pc151-rule-dtr & noun-pc114-or-noun-pc143-rule-dtr & noun-pc115-rule-dtr & noun-pc18-rule-dtr & noun-pc192-or-noun-pc3-rule-dtr & noun-pc193-or-noun-pc67-rule-dtr & noun-pc29-rule-dtr & noun-pc36-rule-dtr & noun-pc4-rule-dtr & noun-pc42-rule-dtr & noun-pc46-rule-dtr & noun-pc47-rule-dtr & noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr & noun-pc5-rule-dtr & noun-pc52-rule-dtr & noun-pc6-rule-dtr & noun-pc82-or-noun-pc86-rule-dtr & noun-pc85-rule-dtr & noun-pc93-rule-dtr & noun-pc95-rule-dtr & noun-pc97-rule-dtr.
 
@@ -352,8 +354,8 @@ noun183-noun-lex := noun-lex & noun-pc21-rule-dtr & noun-pc29-rule-dtr & noun-pc
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
                                        PER 3rd ] ].
 
-denominal-verb-lex-rule-super := constant-lex-rule & verb-pc15-or-verb-pc161-rule-dtr &
-[ SYNSEM [ LOCAL [ CAT [ HEAD verb,
+denominal-verb-lex-rule-super := constant-lex-rule & nocoord & verb-pc15-or-verb-pc161-rule-dtr &
+[ SYNSEM [ LOCAL [ CAT [ HEAD verb & [MOD < > ],
                          VAL [ SPEC < >,
                                COMPS < >,
                                SUBJ < [ LOCAL [ CAT.HEAD noun,
@@ -375,12 +377,12 @@ denominal-verb-lex-rule-super := constant-lex-rule & verb-pc15-or-verb-pc161-rul
           HOOK #hook & [ LTOP #ltop,
                  INDEX #index,
                  XARG #xarg ] ],
- DTR noun3-noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ INDEX #dtr_ind,
-                                              LTOP #larg ] ] ].
 
+ DTR noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ LTOP #larg,
+                                           INDEX #dtr_ind ] ] ].
 
 denominal-verb-lex-rule := denominal-verb-lex-rule-super &
-  [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+  [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
   
 ;;; Verbs
 
@@ -584,7 +586,8 @@ subj-raise-aux := aux-lex & trans-first-arg-raising-lex-item &
                                    COMPS < > ] ],
                        CONT.HOOK.INDEX #xarg ] ],
              #comps &
-             [ LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
+             [ OPT -,
+	       LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
                                  COMPS < >,
                                  SPR < >,
                                  SPEC < > ],

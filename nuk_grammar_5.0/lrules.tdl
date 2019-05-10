@@ -8,3 +8,5 @@ verb-pc2_lrt6-lex := verb-pc2_lrt6-lex-rule.
 verb-pc30_lrt1-lex := verb-pc30_lrt1-lex-rule.
 
 verb-pc116_lrt1-lex := verb-pc116_lrt1-lex-rule.
+
+denominal-verb-lex := denominal-verb-lex-rule.
