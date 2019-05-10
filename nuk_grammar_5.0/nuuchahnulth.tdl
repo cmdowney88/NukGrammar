@@ -147,11 +147,12 @@ subord := mood.
 ;;; Nouns
 
 noun-lex := basic-noun-lex & basic-one-arg & no-hcons-lex-item & non-mod-lex-item &
-  [ SYNSEM.LOCAL.CAT.VAL [ SPR < #spr &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPR < #spr &
                                  [ LOCAL.CAT.HEAD det ] >,
                            COMPS < >,
                            SUBJ < >,
-                           SPEC < > ],
+                           SPEC < > ],],
+	          [ CONT.HOOK.INDEX.PNG [ PER 3rd ] ],
     ARG-ST < #spr > ].
 
 noun1-noun-lex := noun-lex & noun-pc2-rule-dtr.
