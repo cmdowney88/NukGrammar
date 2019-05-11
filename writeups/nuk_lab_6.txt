@@ -73,8 +73,8 @@ denominal-verb-lex-rule := denominal-verb-lex-rule-super &
     intended: *'I am a girl a boy'
 
 ## Locative Predicates ##
-    Nuuchahnulth Locative Predicates are similar to denomial ones in that they seem to be expressed by a verb-like item (it at least takes the usual series of what we classify as Verbal affixes. This can be seen in Example 66 from our testsuite and the following example from our corpus.
-
+    One class of Nuuchahnulth Locative Predicates are similar to denomial ones in that they seem to be expressed by a verb-like item (it at least takes the usual series of what we classify as Verbal affixes. This can be seen in Example 66 from our testsuite and the following example from our corpus.
+    
     #EXAMPLE 66
     Source: author
     Vetted: f
@@ -106,6 +106,8 @@ denominal-verb-lex-rule := denominal-verb-lex-rule-super &
     hił=maˑḥ suč̓as ḥaakʷaˑƛ
     at=INDIC.1sg tree girl
     intended: '*the girl is at the tree'
+
+It is also worth noting that there are also locative suffixes in Nuuchahnulth but we cannot support them with our current grammar because we would have to move to treating the suffixes as second position auxilaries which is out of scope due to requiring us to reverse one of the fundimental assumptions of our grammar.
 
 ## Copular (Identity) Predicates ##
     As mentioned previously, Nuuchahnulth marks "copular" type Nominal predicates slightly differently depending on the precise type. As shown above, clauses that translate roughly to "I am a ___" are constructed by deriving verbal lexemes from the corresponding nominal root. Sentences that are of the type "I am THE ___" i.e., ones where the nominal predicate is definite, are marked using a different strategy, where the nominal is a complement of a Verb-like word. This can be seen in Examples 69 and 70:
