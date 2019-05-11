@@ -66,10 +66,14 @@
 66@author@@@1@locative-pred@hił=maˑ suč̓as ḥaakʷaˑƛ@@@@1@3@at=INDIC.3 tree girl'the girl is at the tree'@agatha downey and david nielsen@april 17, 2019
 67@author@@@1@locative-pred,neg@wik=maˑ hił suč̓as ḥaakʷaˑƛ@@@@1@4@NEG=INDIC.3 at tree girl'the girl is not at the tree'@agatha downey and david nielsen@april 17, 2019
 68@author@@@1@locative-pred,agr@hił=maˑḥ suč̓as ḥaakʷaˑƛ@@@@0@3@at=INDIC.1sg tree girlintended: '*the girl is at the tree'@agatha downey and david nielsen@april 17, 2019
-69@a:213@@@1@nominal-pred@siy̓aaq=maˑḥ meʔiƛqac@@@@1@2@1sg.PRED=INDIC.1sg boy'I am a boy'@agatha downey and david nielsen@april 17, 2019
-70@a:215@@@1@nominal-pred@siy̓aaq=maˑḥ ciq-šiƛ@@@@1@2@1sg.PRED=INDIC.1sg speak-PERF'I speak'@agatha downey and david nielsen@april 17, 2019
-71@a:211@@@1@nominal-pred,locative-pred@ḥaw̓ił=maˑ hił@@@@1@2@chief=INDC.3rd at"his is chief there"@agatha downey and david nielsen@april 17, 2019
+69@a:213@@@1@copula@siy̓aaq=maˑḥ meʔiƛqac@@@@1@2@1sg.PRED=INDIC.1sg boy'I am the boy'@agatha downey and david nielsen@april 17, 2019
+70@a:215@@@1@copula@siy̓aaq=maˑḥ ciq-šiƛ@@@@1@2@1sg.PRED=INDIC.1sg speak-PERF'It is I who speaks'@agatha downey and david nielsen@april 17, 2019
+71@a:211@@@1@nominal-pred,locative-pred@ḥaw̓ił=maˑ hił@@@@1@2@chief=INDC.3rd at"he is chief there"@agatha downey and david nielsen@april 17, 2019
 72@author@@@1@nominal-pred@suč̓as=(m)in@@@@1@1@tree=INDIC.1pl'We are trees'@agatha downey and david nielsen@april 17, 2019
-73@author@@@1@nominal-pred,crd@ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ@@@@1@3@girl=INDIC.1sg and wolf=INDIC.1sg'I am a girl and a wolf'@agatha downey and david nielsen@april 17, 2019
-74@author@@@1@nominal-pred,crd@wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik@@@@1@4@NEG=INDIC.1sg girl and wolf'I am not a girl and a wolf'@agatha downey and david nielsen@april 17, 2019
-75@author@@@1@nominal-pred,clausal-mod@qʷayac̓iik=(m)aˑḥ ʔaya=‼aƛ p̓iš-mis ʔaḥkuu=ʔiˑ@@@@1@4@wolf=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL'I am a wolf because there is much evil here now'@agatha downey and david nielsen@april 17, 2019
+73@author@@@1@copula@siy̓aaq=maˑḥ@@@@0@1@1sg.PRED=INDIC.1sgFragment: *'I am...'@agatha downey and david nielsen@april 17, 2019
+74@author@@@1@copula,agr@siy̓aaq=maˑ ḥaakʷaˑƛ@@@@0@2@1sg.PRED=INDIC.3 girlIntended: *'I am the girl'@agatha downey and david nielsen@april 17, 2019
+75@author@@@1@nominal-pred,crd@ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ@@@@1@3@girl=INDIC.1sg and wolf=INDIC.1sg'I am a girl and a wolf'@agatha downey and david nielsen@april 17, 2019
+76@author@@@1@nominal-pred,crd@wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik@@@@1@4@NEG=INDIC.1sg girl and wolf'I am not a girl and a wolf'@agatha downey and david nielsen@april 17, 2019
+77@author@@@1@nominal-pred,clausal-mod@qʷayac̓iik=(m)aˑḥ ʔaya=‼aƛ p̓iš-mis ʔaḥkuu=ʔiˑ@@@@1@4@wolf=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL'I am a wolf because there is much evil here now'@agatha downey and david nielsen@april 17, 2019
+78@author@@@1@copula,agr@suw̓aaq=eˑʔic ciq-šiƛ@@@@1@2@2sg.PRED=INDIC.2sg speak-PERF'It is you who speaks'@agatha downey and david nielsen@april 17, 2019
+79@author@@@1@nominal-pred,tam@ḥaw̓ił=weˑʔin@@@@1@1@chief=QUOT.3rd"he is chief (hearsay)"@agatha downey and david nielsen@april 17, 2019
