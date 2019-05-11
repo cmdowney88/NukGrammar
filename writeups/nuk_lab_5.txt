@@ -186,7 +186,6 @@ Phenomena: {evidential}
 X-buy=PST=DUB.3=QUOT.3 land
 '* He bought land (doubtful, hearsay)'
 
-
 #### 5 (Serious Problems with Automatic Choices File) ####----------------------------------------------------------------
 No new choices and no problems this week.
 

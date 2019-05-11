@@ -13,3 +13,55 @@ c. How many parses did the most ambiguous item receive?
     -Final: Testsuite-, Corpus-
 
 d. What sources of ambiguity can you identify?
+
+#### 2 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
+
+## Denomializing Constructions ##
+In Nuuchahnulth, clauses copula-like meaning of the sort "I am a girl", "you are a tree", are expressed through a verb that is derived from the corresponding noun. These sorts of predicates is what Davidson calls "class-inclusion predicates", which are marked differently from "equivalence predicates" like "I am the girl" (see below). An example of this type of sentence is seen in Example 63:
+
+#EXAMPLE 63
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred}
+suč̓as=eˑʔic
+tree=INDIC.2sg
+'You are a tree'
+
+suč̓as is a Noun root that introduces the tree_n_rel. In order to allow the type of predicational use of this relation seen in the example, we introduced a lexical rule that forms a Verb lexeme from a corresponding Noun lexeme:
+
+denominal-verb-lex-rule-super := constant-lex-rule & nocoord & verb-pc15-or-verb-pc161-rule-dtr &
+[ SYNSEM [ LOCAL [ CAT [ HEAD verb & [MOD < > ],
+                         VAL [ SPEC < >,
+                               COMPS < >,
+                               SUBJ < [ LOCAL [ CAT.HEAD noun,
+                                                CONT.HOOK.INDEX #xarg ] ] > ] ],
+                   CONT.HOOK #hook  ],
+           LKEYS.KEYREL #keyrel ],
+ C-CONT [ HCONS <! qeq & [ HARG #harg,
+                           LARG #larg ] !>,
+          RELS <! #keyrel & arg12-ev-relation &
+                  [ LBL #ltop,
+                    ARG0 #index,
+                    ARG1 #xarg,
+                    ARG2 #dtr_ind ],
+                  quant-relation &
+                  [ PRED "exist_q_rel",
+                    ARG0 #dtr_ind,
+                    RSTR #harg ] !>,
+          ICONS <! !>,
+          HOOK #hook & [ LTOP #ltop,
+                 INDEX #index,
+                 XARG #xarg ] ],
+
+ DTR noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ LTOP #larg,
+                                           INDEX #dtr_ind ] ] ].
+
+denominal-verb-lex-rule := denominal-verb-lex-rule-super &
+  [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
+
+This rule was based off of the solution proposed on Canvas for Yupik.
+
+#### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
+
+#### 4 (Documentation of ACE Parsing and Generation) ####----------------------------------------------------------------
