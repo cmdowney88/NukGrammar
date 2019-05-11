@@ -107,8 +107,20 @@ verb20-verb-lex := transitive-verb-lex & (inferred verb position classes)......
     1sg.PRED=INDIC.1sg speak-PERF
     'It is I who speaks'
 
-    (Note: 70 is outside of our scope right now because the complement of the copula must be Nominal, and we do not have a way of making "wh-clauses" yet, to accomodate the "who speaks" clause). In order to enable this 
+    (Note: 70 is outside of our scope right now because the complement of the copula must be Nominal, and we do not have a way of making "wh-clauses" yet, to accomodate the "who speaks" clause). In order to enable this, we added the roots siy̓aaq "I" (glossed 1sg.PRED) and suw̓aaq "you" (glossed 2sg.PRED) as transitive verb roots with a lexical relation _be_v_id_rel, linking the the complement of the Verb to the XARG with the lexical specification that the Subject is always 1sg, 2sg, etc. This analysis of these items as Verb roots seems justified for our purposes for two reasons:
+    1. These items take all the same affixes that we have analyzed to be part of verb morphology
+    2. While these items can be glossed as "pronouns", they are very rare as free (non-first-position) morphemes in our data and descriptive grammars, and pronouns as arguments always seem to be dropped.
+    The tdl entries for these copulas follow:
 
+    copula-verb-lex := transitive-verb-lex  & (verb position classes)......
+    
+    1sg-copula-verb-lex := copula-verb-lex & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
+                                                                NUM sg ] ].
+
+    2sg-copula-verb-lex := copula-verb-lex & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
+                                                                NUM sg ] ].
 
 #### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
 
