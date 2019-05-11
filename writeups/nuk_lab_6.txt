@@ -60,7 +60,11 @@ denominal-verb-lex-rule-super := constant-lex-rule & nocoord & verb-pc15-or-verb
 denominal-verb-lex-rule := denominal-verb-lex-rule-super &
   [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
 
-This rule was based off of the solution proposed on Canvas for Yupik.
+This rule was based off of the solution proposed on Canvas for Yupik. The rule takes as its DTR a Noun Lexeme and identifies its LTOP with the LARG value of the Mother's HCONS list. In addition, it identifies the INDEX of the Noun with the ARG0 of a exist_q_rel and the ARG2 of the copular _be_v_id_rel (which is actually enforced by the rule subtype. Thus, this rule creates a verb that establishes the identity between the Noun relation and the XARG of the verb (the subject).
+
+## Locative Predicates ##
+
+
 
 #### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
 
