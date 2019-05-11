@@ -62,6 +62,16 @@ denominal-verb-lex-rule := denominal-verb-lex-rule-super &
 
     This rule was based off of the solution proposed on Canvas for Yupik. The rule takes as its DTR a Noun Lexeme and identifies its LTOP with the LARG value of the Mother's HCONS list. In addition, it identifies the INDEX of the Noun with the ARG0 of a exist_q_rel and the ARG2 of the copular _be_v_id_rel (which is actually enforced by the rule subtype. Thus, this rule creates a verb that establishes the identity between the Noun relation and the XARG of the verb (the subject).
 
+    It is also worth noting that, since this copular form is intransitive, our grammar correctly rules out clauses with too many arguments, like Example 83
+
+    Source: author
+    Vetted: f
+    Judgement: u
+    Phenomena: {nom-pred}
+    ḥaakʷaˑƛ=maˑḥ meʔiƛqac
+    girl=INDIC.1sg boy
+    intended: *'I am a girl a boy'
+
 ## Locative Predicates ##
     Nuuchahnulth Locative Predicates are similar to denomial ones in that they seem to be expressed by a verb-like item (it at least takes the usual series of what we classify as Verbal affixes. This can be seen in Example 66 from our testsuite and the following example from our corpus.
 
@@ -84,7 +94,18 @@ denominal-verb-lex-rule := denominal-verb-lex-rule-super &
   [ STEM < "hił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be+located_v_rel" ].
 
-verb20-verb-lex := transitive-verb-lex & (inferred verb position classes)......
+    verb20-verb-lex := transitive-verb-lex & (inferred verb position classes)......
+
+    Our grammar also correctly rules out examples with extra arguments that don't agree with the predicate, as in Example 68:
+
+    #EXAMPLE 68
+    Source: author
+    Vetted: f
+    Judgement: u
+    Phenomena: {locative-pred, agr}
+    hił=maˑḥ suč̓as ḥaakʷaˑƛ
+    at=INDIC.1sg tree girl
+    intended: '*the girl is at the tree'
 
 ## Copular (Identity) Predicates ##
     As mentioned previously, Nuuchahnulth marks "copular" type Nominal predicates slightly differently depending on the precise type. As shown above, clauses that translate roughly to "I am a ___" are constructed by deriving verbal lexemes from the corresponding nominal root. Sentences that are of the type "I am THE ___" i.e., ones where the nominal predicate is definite, are marked using a different strategy, where the nominal is a complement of a Verb-like word. This can be seen in Examples 69 and 70:
