@@ -155,5 +155,7 @@ denominal-verb-lex-rule := denominal-verb-lex-rule-super &
                                                                 NUM sg ] ].
 
 #### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
-
+    
 #### 4 (Documentation of ACE Parsing and Generation) ####----------------------------------------------------------------
+    We got Ace parsing and generation to work, but it involved changing one of the characters of our grammar. The exclamation mark ! is used for one of the letters of Nuuchahnulth, and in our corpus and grammar it was escaped as \!. However for Ace, this character seems to be specially reserved, so we replaced it with another visually-similar unicode character ‼. This allowed the grammar to parse and generate properly.
+    On testing the generation from a simple transitive sentence, we got 324 results. Mostly, we seem to have very many semantically-empty morphemes that were inferred by the upstream system, but have not been given a semantic analysis. Thus, as many of these as are allowed by the phonotactics are being appended by the generator.
