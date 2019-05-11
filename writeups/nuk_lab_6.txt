@@ -107,6 +107,8 @@ verb20-verb-lex := transitive-verb-lex & (inferred verb position classes)......
     1sg.PRED=INDIC.1sg speak-PERF
     'It is I who speaks'
 
+    (Note: 70 is outside of our scope right now because the complement of the copula must be Nominal, and we do not have a way of making "wh-clauses" yet, to accomodate the "who speaks" clause). In order to enable this 
+
 
 #### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
 
