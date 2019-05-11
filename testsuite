@@ -724,4 +724,20 @@ Phenomena: {nominal-pred, tam}
 chief=QUOT.3rd
 "he is chief (hearsay)"
 
+#EXAMPLE 78 -- out of scope locative suffix
+Source c:9208
+Vetted: s
+Judgment: g
+Phenomena: {locative-pred}
+hita-(c)suḥta=‼aƛ=ƛaˑ qʷayac̓iik
+EMPTY-out.of.the.woods=NOW+also wolf
+'And then also a wolf came out of the woods'
 
+#EXAMPLE 79
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {locative-pred}
+hił-(q)ḥ=int=ʔiˑš=ʔał suč̓as
+at-LINK=PST=STRG.3=3pl tree
+'They were at the tree'
