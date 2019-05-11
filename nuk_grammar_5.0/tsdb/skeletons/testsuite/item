@@ -72,8 +72,11 @@
 72@author@@@1@nominal-pred@suč̓as=(m)in@@@@1@1@tree=INDIC.1pl'We are trees'@agatha downey and david nielsen@april 17, 2019
 73@author@@@1@copula@siy̓aaq=maˑḥ@@@@0@1@1sg.PRED=INDIC.1sgFragment: *'I am...'@agatha downey and david nielsen@april 17, 2019
 74@author@@@1@copula,agr@siy̓aaq=maˑ ḥaakʷaˑƛ@@@@0@2@1sg.PRED=INDIC.3 girlIntended: *'I am the girl'@agatha downey and david nielsen@april 17, 2019
-75@author@@@1@nominal-pred,crd@ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ@@@@1@3@girl=INDIC.1sg and wolf=INDIC.1sg'I am a girl and a wolf'@agatha downey and david nielsen@april 17, 2019
+75@author@@@1@nominal-pred,crd@ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ@@@@1@3@girl=INDIC.1sg and wolf=INDIC.1sg'I am a girl and I am a wolf'@agatha downey and david nielsen@april 17, 2019
 76@author@@@1@nominal-pred,crd@wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik@@@@1@4@NEG=INDIC.1sg girl and wolf'I am not a girl and a wolf'@agatha downey and david nielsen@april 17, 2019
-77@author@@@1@nominal-pred,clausal-mod@qʷayac̓iik=(m)aˑḥ ʔaya=‼aƛ p̓iš-mis ʔaḥkuu=ʔiˑ@@@@1@4@wolf=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL'I am a wolf because there is much evil here now'@agatha downey and david nielsen@april 17, 2019
+77@author@@@1@nominal-pred,clausal-mod@qʷayac̓iik=(m)aˑḥ ʔani ciq-yaˑ=‼aƛ=qaˑ@@@@1@3@wolf=INDIC.1sg because speak-DUR=TEMP=SUBOR.3'I am a wolf because he is speaking'@agatha downey and david nielsen@april 17, 2019
 78@author@@@1@copula,agr@suw̓aaq=eˑʔic ciq-šiƛ@@@@1@2@2sg.PRED=INDIC.2sg speak-PERF'It is you who speaks'@agatha downey and david nielsen@april 17, 2019
 79@author@@@1@nominal-pred,tam@ḥaw̓ił=weˑʔin@@@@1@1@chief=QUOT.3rd"he is chief (hearsay)"@agatha downey and david nielsen@april 17, 2019
+80@c:9208@@@1@locative-pred@hita-(c)suḥta=‼aƛ=ƛaˑ qʷayac̓iik@@@@1@2@EMPTY-out.of.the.woods=NOW+also wolf'And then also a wolf came out of the woods'@agatha downey and david nielsen@april 17, 2019
+81@author@@@1@locative-pred,tam@hił=int=maˑ=ʔał suč̓as@@@@1@2@at=PST=INDC.3=3pl tree'They were at the tree'@agatha downey and david nielsen@april 17, 2019
+82@author@@@1@locative-pred@hił-°ił=‼aƛ=\(m\)in@@@@1@1@at-indoors.DR=NOW=INDIC.1PL'We are indoors'@agatha downey and david nielsen@april 17, 2019

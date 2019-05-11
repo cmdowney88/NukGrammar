@@ -688,7 +688,7 @@ Phenomena: {nominal-pred, coordination}
 girl=INDIC.1sg and wolf=INDIC.1sg
 'I am a girl and I am a wolf'
 
-#EXAMPLE 74
+#EXAMPLE 76
 Source: author
 Vetted: f
 Judgement: g
@@ -697,7 +697,7 @@ wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik
 NEG=INDIC.1sg girl and wolf
 'I am not a girl and a wolf'
 
-#EXAMPLE 75
+#EXAMPLE 77
 Source: author
 Vetted: f
 Judgement: g
@@ -706,7 +706,7 @@ qʷayac̓iik=(m)aˑḥ ʔani ciq-yaˑ=‼aƛ=qaˑ
 wolf=INDIC.1sg because speak-DUR=TEMP=SUBOR.3
 'I am a wolf because he is speaking'
 
-#EXAMPLE 76
+#EXAMPLE 78
 Source: author
 Vetted: f
 Judgment: g
@@ -715,7 +715,7 @@ suw̓aaq=eˑʔic ciq-šiƛ
 2sg.PRED=INDIC.2sg speak-PERF
 'It is you who speaks'
 
-#EXAMPLE 77 -- out of scope due to interaction between locative and nominal
+#EXAMPLE 79 -- out of scope due to interaction between locative and nominal
 Source: author
 Vetted: f
 Judgement: g
@@ -723,4 +723,31 @@ Phenomena: {nominal-pred, tam}
 ḥaw̓ił=weˑʔin
 chief=QUOT.3rd
 "he is chief (hearsay)"
+
+#EXAMPLE 80 -- out of scope locative suffix
+Source: c:9208
+Vetted: s
+Judgment: g
+Phenomena: {locative-pred}
+hita-(c)suḥta=‼aƛ=ƛaˑ qʷayac̓iik
+EMPTY-out.of.the.woods=NOW+also wolf
+'And then also a wolf came out of the woods'
+
+#EXAMPLE 81
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {locative-pred, tam}
+hił=int=maˑ=ʔał suč̓as
+at=PST=INDC.3=3pl tree
+'They were at the tree'
+
+#EXAMPLE 82 -- out of scope locative suffix
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {locative-pred}
+hił-°ił=‼aƛ=\(m\)in
+at-indoors.DR=NOW=INDIC.1PL
+'We are indoors'
 
