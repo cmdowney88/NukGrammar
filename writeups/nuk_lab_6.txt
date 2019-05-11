@@ -65,22 +65,22 @@ denominal-verb-lex-rule := denominal-verb-lex-rule-super &
 ## Locative Predicates ##
     Nuuchahnulth Locative Predicates are similar to denomial ones in that they seem to be expressed by a verb-like item (it at least takes the usual series of what we classify as Verbal affixes. This can be seen in Example 66 from our testsuite and the following example from our corpus.
 
-#EXAMPLE 66
-Source: author
-Vetted: f
-Judgement: g
-Phenomena: {locative-pred}
-hił=maˑ suč̓as ḥaakʷaˑƛ
-at=INDIC.3 tree girl
-'the girl is at the tree'
+    #EXAMPLE 66
+    Source: author
+    Vetted: f
+    Judgement: g
+    Phenomena: {locative-pred}
+    hił=maˑ suč̓as ḥaakʷaˑƛ
+    at=INDIC.3 tree girl
+    'the girl is at the tree'
 
-hił=int=waˑʔš maḥt̓aʕs
-at=PST=HRSY.3 Queens.Cove
-He was at Queens Cove
+    hił=int=waˑʔš maḥt̓aʕs
+    at=PST=HRSY.3 Queens.Cove
+    He was at Queens Cove
 
     Since we see no evidence that this predicate type needs to co-occur with any other items like that are adpositional or auxiliary in nature, we analyze it (at least in terms of our implementation) as being of a simple transitive-verb lexeme type. Thus, we established the following lexical entry and lexical type:
 
-hił := verb20-verb-lex &
+    hił := verb20-verb-lex &
   [ STEM < "hił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be+located_v_rel" ].
 
@@ -107,9 +107,20 @@ verb20-verb-lex := transitive-verb-lex & (inferred verb position classes)......
     1sg.PRED=INDIC.1sg speak-PERF
     'It is I who speaks'
 
-    (Note: 70 is outside of our scope right now because the complement of the copula must be Nominal, and we do not have a way of making "wh-clauses" yet, to accomodate the "who speaks" clause). In order to enable this, we added the roots siy̓aaq "I" (glossed 1sg.PRED) and suw̓aaq "you" (glossed 2sg.PRED) as transitive verb roots with a lexical relation _be_v_id_rel, linking the the complement of the Verb to the XARG with the lexical specification that the Subject is always 1sg, 2sg, etc. This analysis of these items as Verb roots seems justified for our purposes for two reasons:
+    #EXAMPLE 73
+    Source: author
+    Vetted: f
+    Judgement: u
+    Phenomena: {copula}
+    siy̓aaq=maˑḥ
+    1sg.PRED=INDIC.1sg
+    Fragment: *'I am...'
+
+    (Note: 70 is outside of our scope right now because the complement of the copula must be Nominal, and we do not have a way of making "wh-clauses" yet, to accomodate the "who speaks" clause). In order to enable this, we added the roots siy̓aaq "I" (glossed 1sg.PRED) and suw̓aaq "you" (glossed 2sg.PRED) as transitive verb roots with a lexical relation _be_v_id_rel, linking the the complement of the Verb to the XARG with the lexical specification that the Subject is always 1sg, 2sg, etc. It is also notable that these copula constructions differ from the "class membership" ones in that they MUST take a complement. Copulas without complements like Example 73 are correctly ruled out by our grammar. This analysis of these items as Verb roots seems justified for our purposes for two reasons:
+    
     1. These items take all the same affixes that we have analyzed to be part of verb morphology
     2. While these items can be glossed as "pronouns", they are very rare as free (non-first-position) morphemes in our data and descriptive grammars, and pronouns as arguments always seem to be dropped.
+
     The tdl entries for these copulas follow:
 
     copula-verb-lex := transitive-verb-lex  & (verb position classes)......
