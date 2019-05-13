@@ -1069,6 +1069,10 @@ waʔič_1 := noun113-noun-lex &
   [ STEM < "łuucsaamiiḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_woman.pl_n_rel" ].
 
+huupuk̓ʷas := noun127-noun-lex &
+  [ STEM < "huupuk̓ʷas" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
+
 ;;; Adjectives
 
 ;;; Verbs
@@ -1783,6 +1787,11 @@ wik_3 := neg-aux-lex &
   [ STEM < "ʔuḥʔiš" >,
     SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
     CFORM "1" ].
+
+ʔaḥʔaaʔaƛ := conj-lex &
+  [ STEM < "ʔaḥʔaaʔaƛ" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+    CFORM "2" ].
 
 ʔani_2 := posthead-clause-init-subord-lex-item &
   [ STEM < "ʔani" >,
