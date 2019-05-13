@@ -1,0 +1,761 @@
+Language: Nuuchahnulth
+Language code: nuk
+Lines: orth gloss translat
+Author: Agatha Downey and David Nielsen
+Date: April 17, 2019
+Source a: Davidson
+Source b: Nakayama
+Source c: Inman_Corpus
+
+#EXAMPLE 1
+Source: a:98
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+weʔič=maˑ
+sleep=INDIC.3
+`he/she/it/they sleep'
+
+#EXAMPLE 2
+Source: a:98
+Vetted: f
+Judgment: u
+Phenomena: {word order}
+maˑ=weʔič
+INDIC.3=sleep
+`he/she/it/they sleep'
+
+#EXAMPLE 3
+Source: a:102
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+nunuˑk=‼aƛ=maˑ
+sing=TEMP=INDIC.3
+`he/she/it/they are singing'
+
+#EXAMPLE 4
+### This one was originally "sing", but we don't have that lexical entry
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+weʔič=‼aƛ=maˑ
+sleep=TEMP=INDIC.3
+`he/she/it/they are sleeping'
+
+#EXAMPLE 5
+Source: a:105
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement}
+weʔič=‼aƛ=mit=siˑ
+sleep=TEMP=PAST=1sg
+`I was sleeping'
+
+#EXAMPLE 6
+Source: a:109
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement}
+ciq-šiƛ=‼aƛ=maˑ
+speak-PERF=TEMP=INDIC.3
+`he/she/it/they spoke'
+
+#EXAMPLE 7
+Source: a:113
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+weʔič-uƛ=‼aƛ=ƛaa
+sleep-PERF=TEMP=AGAIN
+`he/she/it/they slept again'
+
+#EXAMPLE 8
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, tam}
+weʔič-uƛ=‼aƛ=siˑ=ƛaa
+sleep-PER=TEMP=1sg=AGAIN
+`I slept again'
+
+#EXAMPLE 9
+Source: a:109
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement}
+ciq-šiƛ=‼aƛ=maˑḥ
+speak-PERF=TEMP=INDIC.1sg
+`I spoke'
+
+#EXAMPLE 10
+Source: a:110
+Vetted: f
+Judgment: g
+Phenomena: {agreement, pronouns}
+n̓aacsa=‼aƛ=maˑḥ suw̓a
+see=TEMP=INDIC.1sg you.sg
+`I see you'
+
+#EXAMPLE 11
+git Source: a:113
+Vetted: f
+Judgment: g
+Phenomena: {adverbs}
+ciq-šiƛ=‼aƛ=maˑḥ kuʔał=ʔiˑ
+speak-PERF=TEMP=INDIC.1sg morning=ART
+`I spoke in the morning'
+
+#EXAMPLE 12
+Source: a:97
+Vetted: f
+Judgment: g
+Phenomena: {tam}
+su-(y)aˑ
+hold-CONT
+`He/she/it/they are holding it'
+
+#EXAMPLE 13
+### modified from the origianl root which was "sing"
+Source: a:101
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement}
+weʔič=‼aƛ=maˑḥ
+sleep=TEMP=INDIC.1sg
+`I am sleeping'
+
+#EXAMPLE 14
+### making sure agreement clitic cannot come before mood
+Source: a:101
+Vetted: f
+Judgment: u
+Phenomena: {tam, agreement}
+weʔič=‼aƛ=aˑḥ=maˑ
+sleep=TEMP=1sg=INDIC
+`I am sleeping'
+
+#EXAMPLE 15
+Source: b:26
+Vetted: s
+Judgment: g
+Phenomena: {tam}
+qaḥ=ak
+die=DUR
+`he/she/it is dead'
+
+#EXAMPLE 16
+#the suffix should only begin with ʔ following a vowel
+Source: b:26
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+qaḥ=ʔak
+die=DUR
+`dead'
+
+#EXAMPLE 17
+#constructing example from our lexicon.
+Source: b:26
+Vetted: f
+Judgment: u
+Phenomena: {tam}
+mat-aˑ
+fly-CONT
+`flying'
+
+#EXAMPLE 18
+Source: a:155
+Vetted: s
+Judgment: g
+Phenomena: {neg}
+wik=‼aƛ=quu=s weʔič ʔatḥii
+not=TEMP=COND=1sg sleep night
+`I did not sleep nights'
+
+#EXAMPLE 19
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+wik=‼aƛ=maˑḥ ciq-yaˑ
+not=TEMP=INDIC.1sg speak
+`I did not speak'
+
+#EXAMPLE 20
+Source: c
+Vetted: f
+Judgment: g
+Phenomena: {coord, poss}
+ʔu-‼aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
+`The women took care of the houses and children'
+
+#EXAMPLE 21
+Source: c
+Vetted: f
+Judgment: g
+Phenomena: {coord}
+ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+X-have=PST PL-house and troll.boat
+`They had their own homes and fishing boats'
+
+#EXAMPLE 22
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {coord}
+ʔu-naˑk=(m)it ʔuḥʔiš LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+X-have=PST and PL-house and troll.boat
+intended: `They had their own homes and fishing boats'
+
+#EXAMPLE 23
+#I marked this as ungrammtical at first, but based on the corpus it seems this may also be possible
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coord}
+ʔu-naˑk=(m)it LR-maḥt̓iˑ čiicsac
+X-have=PST PL-house troll.boat
+`They had their own homes and fishing boats'
+
+#EXAMPLE 24
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coord}
+ciq-šiƛ=‼aƛ=maˑḥ ʔuḥʔiš weʔič-uƛ=‼aƛ=siˑ
+speak-PERF=TEMP=INDIC.1sg and sleep-PER=TEMP=1sg
+`I spoke and I slept'
+
+#EXAMPLE 25
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coord, poss}
+n̓aacsa-šiƛ=‼aƛ=maˑḥ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš weʔič-šiƛ=‼aƛ=maˑḥ
+see-PERF=TEMP=INDIC.1sg children=POSS=ARTL and sleep-PER=TEMP=INDIC.1sg
+`I saw their children and slept'
+
+#EXAMPLE 26
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {poss}
+n̓aacsa=‼aƛ t̓ašii=ʔak=ʔiˑ 
+see=NOW door=POSS=ARTL night
+`He/She/they was looking at their door now'
+
+#EXAMPLE 27
+Source: c
+Vetted: f
+Judgment: g
+Phenomena: {poss}
+wał-šiƛ=‼aƛ maḥt̓iˑ=ʔak=ʔiˑ
+go.home-PERF=NOW house=POSS=ARTL
+`He/she/they returned to their home'
+
+#EXAMPLE 28 -- failing because the bare-NP is of type ref-ind not event and args.first.synsem.local.cat.val.subj
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: {poss, evidential}
+qacc̓a-(q)umł=uk=mit=waˑʔiš=ʔał
+three-round.chunky.DR=POSS=PAST=QUOT.3=3pl
+`they had three (hoops).'
+
+#EXAMPLE 29 -- interesting 3 ways to combine into S
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=ʔak=ʔiˑ
+show-PERF curtain=POSS=ARTL
+`He/she/they displayed their curtain'
+
+#EXAMPLE 30 -- wrong possessive suffix
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {poss}
+ḥum-čiƛ muuyapiłum=uk=ʔiˑ
+show-PERF curtain=POSS=ARTL
+intended: `He/she/they displayed their curtain'
+
+#EXAMPLE 31 --Second-position marking example from Davison. We will not parse correctly.
+Source: a:307
+Vetted: s
+Judgment: g
+Phenomena: {poss}
+ʔɑƛ-qimɬ=uk=qɑˑs kuˑnɑˑ
+two-X.many.round.objects=POSS=DEF.1sg schooner
+`My two schooners'
+
+#EXAMPLE 32
+Source: c
+Vetted: s
+Judgment: g
+Phenomena: {neg}
+wik=‼aƛ hina-iip t̓an̓a-ʔis=ʔiˑ
+not.NEG=NOW EMPTY-find child-DIM=ARTL
+`But they never found the boy'
+
+#EXAMPLE 33
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+wik=weˑʔin
+NEG=HRSY.3
+`Apparently not'
+
+#EXAMPLE 34
+Source: c:3810
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+wik-L.(w)aƛ=‼aƛ=ʔał m̓aʔakƛ=qs puut
+NEG-find.MO=NOW=3PL motor.boat=DEFN.1SG boat
+`They did not find any boats'
+
+#EXAMPLE 35
+Source: c:4210
+Vetted: f
+Judgment: g
+Phenomena: {neg, imp}
+wik=‼iˑ qʷaa
+NEG=CMMD.2 how
+`Don't be like that'
+
+#EXAMPLE 36
+Source: c:4250
+Vetted: f
+Judgment: g
+Phenomena: {neg, imp}
+wik=‼iˑ č̓iiʕaqa
+NEG=CMMD.2 fight
+`Don't fight'
+
+#EXAMPLE 37
+Source: c:5440
+Vetted: f
+Judgment: g
+Phenomena: {neg}
+wik=int taana huwaa
+NEG=PST money say.CT
+`They didn't mention money'
+
+#EXAMPLE 38
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {neg, coord}
+wik=(m)it ʔu-naˑk LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+NEG=PST PL-house and troll.boat
+`They did not have their own homes and fishing boats'
+
+#EXAMPLE 39
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {coord, poss, neg}
+wik=(m)it ʔu-‼aałuk łuucsaamiiḥ=ʔiˑ t̓aatn̓a=ʔak=ʔiˑ ʔuḥʔiš RL-maḥt̓iˑ
+NEG=PST X-look.after woman.PL=ARTL children=POSS=ARTL and PL-house
+`The women did not take care of the houses and children'
+
+#EXAMPLE 40 - the NEG marker is supposed to take all TAM markers, leaving the embedded verb bare
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation, tam}
+wik ciq-šiƛ=‼aƛ=maˑḥ
+NEG speak-PERF=TEMP=INDIC.1sg
+intended: `I did not speak'
+
+#EXAMPLE 41 - the NEG marker should come before the verb it modifies
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {negation, tam}
+ciq wik-šiƛ=‼aƛ=maˑḥ
+speak NEG-PERF=TEMP=INDIC.1sg
+intended: `I did not speak'
+
+#EXAMPLE 42
+Source: a:158
+Vetted: s
+Judgment: g
+Phenomena: {clausal-comp, evidential}
+t̓apat-šiƛ=‼aƛ=weˑʔin ḥaakʷaˑƛ=ʔiˑ wał-šiƛ=‼aƛ=quu
+think-PERF=TEMP=QUOT.3 girl=ART go.home-PERF=TEMP=COND.3
+'The girl decided to go home'
+
+#EXAMPLE 43
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {clausal-mod}
+weʔič=‼aƛ=maˑḥ ʔani ciq-yaˑ=‼aƛ=qaˑ
+sleep=TEMP=INDIC=1sg because speak-DUR=TEMP=SUBOR.3
+'I am sleeping because he/she is speaking'
+
+#EXAMPLE 44
+Source: c:1090
+Vetted: s
+Judgment: g
+Phenomena: {clausal-mod}
+hašił-iˑčiƛ k̓ʷalsic ʔani ƛ̓iixʷ-‼in=‼ap=‼at=qaˑ
+find.out.about-IN Kwalisits COMP laugh-make.a.soun=CAUS=PASS=SUBOR.3
+'Kwalisits heard about how he was being laughed at'
+
+#EXAMPLE 45
+Source: c:1680
+Vetted: s
+Judgment: g
+Phenomena: {clausal-mod}
+č̓an̓ii=‼at ʔu-L.aˑnuuƛ-(q)ḥ ʔani=n say-aˑ-c̓atu
+not.see=PASS X-because-LINK COMP=1PL far-CT-in.ocean
+'They can't be seen because we're so far out at sea'
+
+#EXAMPLE 46 - Fusion of corpus example and author; corpus example is modifying clause, matrix from author
+Source: c:2000
+Vetted: s
+Judgment: g
+Phenomena: {clausal-mod}
+ciq-aˑ=‼aƛ=maˑḥ ʔani ʔaya=‼aƛ p̓iš-mis ʔaḥkuu=ʔiˑ
+speak-DUR=TEMP=INDIC.1sg COMP many=NOW bad-NMLZ D1=ARTL
+'I am speaking because there is much evil here now'
+
+#EXAMPLE 47
+Source: c:34100
+Vetted: s
+Judgment: g
+Phenomena: {clausal-comp}
+nay̓iik=suuk t̓iqʷ-piƛ ƛupk-šiƛ=‼aƛ=quuk
+immediately=NEUT.2sg sit-indoors.PERF wake=PERF=NOW=COND.2sg
+'Get up as soon as you wake up'
+
+#EXAMPLE 48 -- Corpus example simplified by author
+Source: c:34836
+Vetted: f
+Judgment: g
+Phenomena: {clausal-comp}
+hupii=suuk ʔuuš-(q)ḥ=‼ap=w̓it̓as=‼aƛ=quu=ʔał
+help=NEUT.2sg some-LINK=CAUS=FUT2=NOW=COND.3
+'You help when they are going to make something'
+
+#EXAMPLE 49 -- corpus example simplified by author
+Source: c:42026
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+ʔu-‼aap=nit=waˑʔiš nism̓a
+X-buy=PST=QUOT.3
+'He bought land (hearsay)'
+
+#EXAMPLE 50 -- corpus example simplified by author plus dubitative
+Source: c:42026
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+ʔu-‼aap=nit=waˑʔiš=qaˑč̓a nism̓a
+X-buy=PST=QUOT.3=DUB.3 land
+'He bought land (hearsay, doubtful)'
+
+#EXAMPLE 51 -- corpus example simplified by author but dubitative proceeds quotative ungrammatically
+Source: c:42026
+Vetted: f
+Judgment: u
+Phenomena: {evidential}
+ʔu-‼aap=nit=qaˑč̓a=waˑʔiš nism̓a
+X-buy=PST=DUB.3=QUOT.3 land
+'* He bought land (doubtful, hearsay)'
+
+#EXAMPLE 52
+Source: c:52974
+Vetted: s
+Judgment: g
+Phenomena: {evidential}
+c̓awaak=mit=weˑʔiš ḥaakʷaˑƛ hina-iip-šiƛ k̓ʷač-šiƛ
+one=PST=QUOT.3 girl EMPTY-get.PERF=PERF hit.the.mark-PERF
+'One girl hit it (the small one).'
+
+#EXAMPLE 53
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+ciq-šiƛ=‼aƛ=weˑʔisi
+speak-PERF=TEMP=QUOT.1sg
+'It is said that I spoke'
+
+#EXAMPLE 54
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, negation}
+wik=‼aƛ=weˑʔisi ciq-šiƛ
+NEG=TEMP=QUOT.1sg speak-PERF
+'It is said that I didn't speak'
+
+#EXAMPLE 55 -- modified by author to remove uncovered modifier
+Source: c:53083
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+čay̓ix=int=waˑʔiš łuucsaamiiḥ 
+picking.berries=PST=QUOT.3 woman.pl
+'Ladies were picking berries'
+
+#EXAMPLE 56 -- incorrect person suffix
+Source: c:53083
+Vetted: f
+Judgment: u
+Phenomena: {evidential}
+čay̓ix=int=weˑʔinsi łuucsaamiiḥ 
+picking.berries=PST=QUOT.1sg woman.pl
+'Ladies were picking berries'
+
+#EXAMPLE 57 -- simplified by author
+Source: a:290
+Vetted: s
+Judgment: g
+Phenomena: {evidential}
+n̓aacsa=‼aƛ=qaˑč̓a ḥaw̓ił=ʔiˑ
+see=TEMP=DUB  chief=ART
+'I think the chief now sees'
+
+#EXAMPLE 58 -- modified by author to remove uncovered modifier and change mood
+Source: c:53083
+Vetted: f
+Judgment: g
+Phenomena: {evidential}
+čay̓ix=int=qaˑč̓a łuucsaamiiḥ 
+picking.berries=PST=DUB.3 woman.pl
+'Ladies were picking berries'
+
+#EXAMPLE 59
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, agreement, mood}
+ciq-šiƛ=‼aƛ=weˑʔincuk
+speak-PERF=TEMP=QUOT.2sg
+'It is said that you spoke'
+
+#EXAMPLE 60
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {evidential, agreement, mood}
+ciq-šiƛ=‼aƛ=weˑʔinni
+speak-PERF=TEMP=QUOT.1pl
+'It is said that we spoke'
+
+#EXAMPLE 61
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred}
+ḥaakʷaˑƛ=maˑḥ
+girl=INDIC.1sg
+'I am a girl'
+
+#EXAMPLE 62
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {neg, nominal-pred}
+wik=maˑḥ meʔiƛqac
+NEG=INDIC.1sg boy
+'I am not a boy'
+
+#EXAMPLE 63
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred}
+suč̓as=eˑʔic
+tree=INDIC.2sg
+'You are a tree'
+
+#EXAMPLE 64
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {locative-pred}
+hił=maˑḥ suč̓as
+at=INDIC.1sg tree
+'I am at the tree'
+
+#EXAMPLE 65
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {locative-pred}
+suč̓as hił=maˑḥ
+tree at=INDIC.1sg
+intended: '*I am at the tree'
+
+#EXAMPLE 66
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {locative-pred}
+hił=maˑ suč̓as ḥaakʷaˑƛ
+at=INDIC.3 tree girl
+'the girl is at the tree'
+
+#EXAMPLE 67
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {locative-pred, neg}
+wik=maˑ hił suč̓as ḥaakʷaˑƛ
+NEG=INDIC.3 at tree girl
+'the girl is not at the tree'
+
+#EXAMPLE 68 - extra argument that does not agree with locative verb
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {locative-pred, agr}
+hił=maˑḥ suč̓as ḥaakʷaˑƛ
+at=INDIC.1sg tree girl
+intended: '*the girl is at the tree'
+
+#EXAMPLE 69
+Source: a:213
+Vetted: f
+Judgment: g
+Phenomena: {copula}
+siy̓aaq=maˑḥ meʔiƛqac
+1sg.PRED=INDIC.1sg boy
+'I am the boy'
+
+#EXAMPLE 70
+Source: a:215
+Vetted: f
+Judgment: g
+Phenomena: {copula}
+siy̓aaq=maˑḥ ciq-šiƛ
+1sg.PRED=INDIC.1sg speak-PERF
+'It is I who speaks'
+
+#EXAMPLE 71 -- out of scope due to interaction between locative and nominal
+Source: a:211
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, locative-pred}
+ḥaw̓ił=maˑ hił
+chief=INDC.3rd at
+"he is chief there"
+
+#EXAMPLE 72
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred}
+suč̓as=(m)in
+tree=INDIC.1pl
+'We are trees'
+
+#EXAMPLE 73
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {copula}
+siy̓aaq=maˑḥ
+1sg.PRED=INDIC.1sg
+Fragment: *'I am...'
+
+#EXAMPLE 74 - mismatch between copula and mood person
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {copula, agreement}
+siy̓aaq=maˑ ḥaakʷaˑƛ
+1sg.PRED=INDIC.3 girl
+Intended: *'I am the girl'
+
+#EXAMPLE 75
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, coordination}
+ḥaakʷaˑƛ=maˑḥ ʔuḥʔiš qʷayac̓iik=(m)aˑḥ
+girl=INDIC.1sg and wolf=INDIC.1sg
+'I am a girl and I am a wolf'
+
+#EXAMPLE 76
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, coordination}
+wik=maˑḥ ḥaakʷaˑƛ ʔuḥʔiš qʷayac̓iik
+NEG=INDIC.1sg girl and wolf
+'I am not a girl and a wolf'
+
+#EXAMPLE 77
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, clausal-mod}
+qʷayac̓iik=(m)aˑḥ ʔani ciq-yaˑ=‼aƛ=qaˑ
+wolf=INDIC.1sg because speak-DUR=TEMP=SUBOR.3
+'I am a wolf because he is speaking'
+
+#EXAMPLE 78
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {copula, agreement}
+suw̓aaq=eˑʔic ciq-šiƛ
+2sg.PRED=INDIC.2sg speak-PERF
+'It is you who speaks'
+
+#EXAMPLE 79 -- out of scope due to interaction between locative and nominal
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {nominal-pred, tam}
+ḥaw̓ił=weˑʔin
+chief=QUOT.3rd
+"he is chief (hearsay)"
+
+#EXAMPLE 80 -- out of scope locative suffix
+Source: c:9208
+Vetted: s
+Judgment: g
+Phenomena: {locative-pred}
+hita-(c)suḥta=‼aƛ=ƛaˑ qʷayac̓iik
+EMPTY-out.of.the.woods=NOW+also wolf
+'And then also a wolf came out of the woods'
+
+#EXAMPLE 81
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {locative-pred, tam}
+hił=int=maˑ=ʔał suč̓as
+at=PST=INDC.3=3pl tree
+'They were at the tree'
+
+#EXAMPLE 82 -- out of scope locative suffix
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {locative-pred}
+hił-°ił=‼aƛ=\(m\)in
+at-indoors.DR=NOW=INDIC.1PL
+'We are indoors'
+
+#EXAMPLE 83 -- extra argument for intransitive copula
+Source: author
+Vetted: f
+Judgement: u
+Phenomena: {nom-pred}
+ḥaakʷaˑƛ=maˑḥ meʔiƛqac
+girl=INDIC.1sg boy
+intended: *'I am a girl a boy'

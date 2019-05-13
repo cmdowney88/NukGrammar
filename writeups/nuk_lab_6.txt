@@ -13,6 +13,66 @@ c. How many parses did the most ambiguous item receive?
     -Final: Testsuite-14, Corpus-14
 
 d. What sources of ambiguity can you identify?
+    Our most ambiguous item (Example 21) increased to 14 parses this week. This seems to be because of the rule allowing denomialized verbs. For instance, the noun čiicsac "troll boat" can now also be parsed as a verb roughly meaning "he/she/it was a troll boat". This is then coordinated with the VP "they had their own homes". Thus we end up with parses like "[They owned their own homes] and [it was a fishing boat]" and "They [owned their own homes] and [were fishing boats]".
+
+    EXAMPLE 21
+    Source: c
+    Vetted: f
+    Judgment: g
+    Phenomena: {coord}
+    ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+    X-have=PST PL-house and troll.boat
+    'They had their own homes and fishing boats'
+
+e. For four newly parsing items, do the semantics look reasonable?
+
+    1.
+      #EXAMPLE 62
+      Source: author
+      Vetted: f
+      Judgement: g
+      Phenomena: {neg, nominal-pred}
+      wik=maˑḥ meʔiƛqac
+      NEG=INDIC.1sg boy
+      'I am not a boy'
+
+      The INDEX of the mrs for this example is identified with the ARG0 of a neg_rel. The ARG1 of the neg_rel is identified with the LBL of the _be_v_id_rel. The ARG1 of the _be_v_id_rel is identified with the XARG of the phrase, and the ARG2 is identified with the ARG0 of the _boy_n_rel, so we seem to get the semantics we want.
+
+    2.
+      #EXAMPLE 66
+      Source: author
+      Vetted: f
+      Judgement: g
+      Phenomena: {locative-pred}
+      hił=maˑ suč̓as ḥaakʷaˑƛ
+      at=INDIC.3 tree girl
+      'the girl is at the tree'
+
+      The INDEX of the mrs is identified with the ARG0 of the _be+located_v_rel. The ARG1 of the _be+located_v_rel is identified with the ARG0 of the _girl_n_rel, and the ARG2 is identified with the ARG0 of the _tree_n_rel. Both the girl and the tree are quantified by the exist_q_rel. This all seems to be reasonable.
+
+    3.
+      #EXAMPLE 67
+      Source: author
+      Vetted: f
+      Judgement: g
+      Phenomena: {locative-pred, neg}
+      wik=maˑ hił suč̓as ḥaakʷaˑƛ
+      NEG=INDIC.3 at tree girl
+      'the girl is not at the tree'
+
+      This example seems to be behaving as expected in that the mrs is the same as the last example, with the exception that there is an additional neg_rel, which has its ARG0 identified with the INDEX of the phrase, and the ARG1 of the neg_rel is qeq to the LBL of the _be+located_v_rel from the non-negative version of this sentence.
+
+    4.
+      #EXAMPLE 69
+      Source: a:213
+      Vetted: f
+      Judgment: g
+      Phenomena: {copula}
+      siy̓aaq=maˑḥ meʔiƛqac
+      1sg.PRED=INDIC.1sg boy
+      'I am the boy'
+
+      This one seems to be behaving decently. The INDEX of the mrs is identified with the ARG0 of the _be_v_id_rel. The ARG1 of the copula rel is in turn identified with the XARG of the phrase, and the ARG2 is identified with the ARG0 of the _boy_n_rel. As described below, this type of copula is marked slightly differently from what Davidson terms "class-inclusion" copulas. Though this difference in marking seems to be accompanied by a semantic difference (which is roughly that the complement is definite??), we did not figure out how to model this difference for this week.
 
 #### 2 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
 
@@ -157,6 +217,7 @@ It is also worth noting that there are also locative suffixes in Nuuchahnulth bu
                                                                 NUM sg ] ].
 
 #### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
+    The LKB in general did not work well for generation. With 400 edges allowed, it took about 30 minutes to decide that there was a runaway rule and froze up our virtual machine. It is probable that this is related to the fact that we have many semantically empty affixes (see comment on ACE below), but we weren't able to verify that this was what was causing the LKB to slow dramatically.
     
 #### 4 (Documentation of ACE Parsing and Generation) ####----------------------------------------------------------------
     We got Ace parsing and generation to work, but it involved changing one of the characters of our grammar. The exclamation mark ! is used for one of the letters of Nuuchahnulth, and in our corpus and grammar it was escaped as \!. However for Ace, this character seems to be specially reserved, so we replaced it with another visually-similar unicode character ‼. This allowed the grammar to parse and generate properly.
