@@ -69,6 +69,10 @@ siy̓a := noun3-noun-lex &
   [ STEM < "ʕiniiƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dog_n_rel" ].
 
+piišpiš := noun3-noun-lex &
+  [ STEM < "piišpiš" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
+
 k̓ayuumin := noun3-noun-lex &
   [ STEM < "k̓ayuumin" >,
     SYNSEM.LKEYS.KEYREL.PRED "_panther_n_rel" ].
