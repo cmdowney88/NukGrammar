@@ -133,7 +133,7 @@ perf := aspect.
 
 ;;; Mood
 
-real := mood.
+indic := mood.
 cond := mood.
 quot := mood.
 dub := mood.
@@ -2101,7 +2101,7 @@ verb-pc19_lrt2-lex-rule := verb-pc19-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
 verb-pc19_lrt3-lex-rule := verb-pc19-lex-rule-super &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD real ].
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD indic ].
 
 verb-pc20-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
@@ -2831,28 +2831,28 @@ verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
     DTR verb-pc15-or-verb-pc161-rule-dtr &
         [ INFLECTED #infl ] ].
 
-1sgReal-lex-rule := verb-pc161-lex-rule-super &
-  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD real,
+1sgIndic-lex-rule := verb-pc161-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indic,
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
                                                                   NUM sg ] ] ].
 
-1plReal-lex-rule := verb-pc161-lex-rule-super &
-  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD real,
+1plIndic-lex-rule := verb-pc161-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indic,
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
                                                                   NUM pl ] ] ].
 
-2sgReal-lex-rule := verb-pc161-lex-rule-super &
-  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD real,
+2sgIndic-lex-rule := verb-pc161-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indic,
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
                                                                   NUM sg ] ] ].
 
-2plReal-lex-rule := verb-pc161-lex-rule-super &
-  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD real,
+2plIndic-lex-rule := verb-pc161-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indic,
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
                                                                   NUM pl ] ] ].
 
-3Real-lex-rule := verb-pc161-lex-rule-super &
-  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD real,
+3Indic-lex-rule := verb-pc161-lex-rule-super &
+  [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indic,
                    CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
                                                                   NUM pl ] ] ].
 
