@@ -139,6 +139,7 @@ quot := mood.
 dub := mood.
 abs := mood.
 subord := mood.
+interr := mood.
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Lexical Types
@@ -810,6 +811,11 @@ verb-pc26-rule-dtr := word-or-lexrule.
 verb-pc88-rule-dtr := word-or-lexrule.
 noun-pc40-rule-dtr := word-or-lexrule.
 verb-pc9-rule-dtr := word-or-lexrule.
+1sgInterr-rule-dtr := word-or-lexrule.
+1plInterr-rule-dtr := word-or-lexrule.
+2sgInterr-rule-dtr := word-or-lexrule.
+2plInterr-rule-dtr := word-or-lexrule.
+3rdInterr-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -2923,6 +2929,64 @@ verb-pc172_lrt5-lex-rule := verb-pc172-lex-rule-super &
   [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
                                                                   NUM pl ],
                    CONT.HOOK.INDEX.E.MOOD dub ] ].
+
+1sgInterr-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc14-rule-dtr &
+  [ INFLECTED #infl,
+    DTR 1sgInterr-rule-dtr &
+        [ INFLECTED #infl ] ].
+ 
+1sgInterr_lrt1-lex-rule := 1sgInterr-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                  PER 1st ],
+                   CONT.HOOK.INDEX [ SF ques,
+                                      E.MOOD interr ] ] ].
+
+1plInterr-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc14-rule-dtr &
+  [ INFLECTED #infl,
+    DTR 1plInterr-rule-dtr &
+        [ INFLECTED #infl ] ].
+ 
+1plInterr_lrt1-lex-rule := 1plInterr-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
+                                                                  PER 1st ],
+                   CONT.HOOK.INDEX [ SF ques,
+                                      E.MOOD interr ] ] ].
+
+
+
+2sgInterr-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc14-rule-dtr &
+  [ INFLECTED #infl,
+    DTR 2sgInterr-rule-dtr &
+        [ INFLECTED #infl ] ].
+ 
+2sgInterr_lrt1-lex-rule := 2sgInterr-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                  PER 2nd ],
+                   CONT.HOOK.INDEX [ SF ques,
+                                      E.MOOD interr ] ] ].
+
+2plInterr-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc14-rule-dtr &
+  [ INFLECTED #infl,
+    DTR 2plInterr-rule-dtr &
+        [ INFLECTED #infl ] ].
+ 
+2plInterr_lrt1-lex-rule := 2plInterr-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM pl,
+                                                                  PER 2nd ],
+                   CONT.HOOK.INDEX [ SF ques,
+                                      E.MOOD interr ] ] ].
+
+
+3rdInterr-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc14-rule-dtr &
+  [ INFLECTED #infl,
+    DTR 3rdInterr-rule-dtr &
+        [ INFLECTED #infl ] ].
+ 
+3rdInterr_lrt1-lex-rule := 3rdInterr-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 3rd ],
+                   CONT.HOOK.INDEX [ SF ques,
+                                      E.MOOD interr ] ] ].
+
 
 ;Constraint on MC used to be part of matrix.tdl
 ;;it applies to all wo implementations, except for v2
