@@ -139,6 +139,7 @@ quot := mood.
 dub := mood.
 abs := mood.
 subord := mood.
+interr := mood.
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Lexical Types
