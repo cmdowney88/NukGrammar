@@ -1465,57 +1465,57 @@ verb-pc156_lrt2-suffix :=
 %suffix (* =nit)
 verb-pc156_lrt2-lex-rule.
 
-1sgReal-suffix1 :=
+1sgIndic-suffix1 :=
 %suffix (* =maˑḥ)
-1sgReal-lex-rule.
+1sgIndic-lex-rule.
 
-1sgReal-suffix2 :=
+1sgIndic-suffix2 :=
 %suffix (* =aˑḥ)
-1sgReal-lex-rule.
+1sgIndic-lex-rule.
 
-1sgReal-suffix3 :=
+1sgIndic-suffix3 :=
 %suffix (* =\(m\)aˑḥ)
-1sgReal-lex-rule.
+1sgIndic-lex-rule.
 
-1plReal-suffix1 :=
+1plIndic-suffix1 :=
 %suffix (* =min)
-1plReal-lex-rule.
+1plIndic-lex-rule.
 
-1plReal-suffix2 :=
+1plIndic-suffix2 :=
 %suffix (* =in)
-1plReal-lex-rule.
+1plIndic-lex-rule.
 
-1plReal-suffix3 :=
+1plIndic-suffix3 :=
 %suffix (* =\(m\)in)
-1plReal-lex-rule.
+1plIndic-lex-rule.
 
-2sgReal-suffix1 :=
+2sgIndic-suffix1 :=
 %suffix (* =meˑʔic)
-2sgReal-lex-rule.
+2sgIndic-lex-rule.
 
-2sgReal-suffix2 :=
+2sgIndic-suffix2 :=
 %suffix (* =eˑʔic)
-2sgReal-lex-rule.
+2sgIndic-lex-rule.
 
-2sgReal-suffix3 :=
+2sgIndic-suffix3 :=
 %suffix (* =\(m\)eˑʔic)
-2sgReal-lex-rule.
+2sgIndic-lex-rule.
 
-2plReal-suffix1 :=
+2plIndic-suffix1 :=
 %suffix (* =meˑʔicuu)
-2plReal-lex-rule.
+2plIndic-lex-rule.
 
-2plReal-suffix2 :=
+2plIndic-suffix2 :=
 %suffix (* =eˑʔicuu)
-2plReal-lex-rule.
+2plIndic-lex-rule.
 
-2plReal-suffix3 :=
+2plIndic-suffix3 :=
 %suffix (* =\(m\)eˑʔicuu)
-2plReal-lex-rule.
+2plIndic-lex-rule.
 
-3Real-suffix :=
+3Indic-suffix :=
 %suffix (* =maˑ)
-3Real-lex-rule.
+3Indic-lex-rule.
 
 1sgAbs-suffix :=
 %suffix (* =siˑ)
