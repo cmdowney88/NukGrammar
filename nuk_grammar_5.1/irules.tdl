@@ -1564,3 +1564,27 @@ verb-pc172_lrt5-lex-rule.
 verb-pc172_lrt5-suffix2 :=
 %suffix (* qaˑcsuuwa)
 verb-pc172_lrt5-lex-rule.
+
+1sgInterr_lrt1-suffix :=
+%suffix (* =ḥaˑs)
+1sgInterr_lrt1-lex-rule.
+
+1plInterr_lrt1-suffix1 :=
+%suffix (* =ḥaˑn)
+1plInterr_lrt1-lex-rule.
+
+1plInterr_lrt1-suffix2 :=
+%suffix (* =ḥin)
+1plInterr_lrt1-lex-rule.
+
+2sgInterr_lrt1-suffix1 :=
+%suffix (* =ḥaˑk)
+2sgInterr_lrt1-lex-rule.
+
+2plInterr_lrt1-suffix1 :=
+%suffix (* =ḥaˑsuu)
+2plInterr_lrt1-lex-rule.
+
+3rdInterr_lrt1-suffix1 :=
+%suffix (* =ḥaˑ)
+3rdInterr_lrt1-lex-rule.
