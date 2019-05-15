@@ -1777,6 +1777,10 @@ mat_2 := verb109-verb-lex &
   [ STEM < "ḥum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_show_v_rel" ].
 
+casšiƛ := verb130-verb-lex &
+  [ STEM < "casšiƛ" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
 siy̓aaq := 1sg-copula-verb-lex &
   [ STEM < "siy̓aaq" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
