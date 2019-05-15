@@ -1,11 +1,14 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
-decl-head-opt-subj := decl-head-opt-subj-phrase.
+decl-head-opt-subj := decl-head-opt-subj-phrase &
+  [HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb].
 
-basic-head-opt-comp := basic-head-opt-comp-phrase.
+basic-head-opt-comp := basic-head-opt-comp-phrase &
+  [HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb].
 
 head-comp := head-comp-phrase.
 
-head-subj := head-subj-phrase.
+head-subj := head-subj-phrase &
+  [HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb].
 
 bare-np := bare-np-phrase.
 
