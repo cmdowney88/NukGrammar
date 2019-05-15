@@ -1,7 +1,9 @@
 ;;; -*- Mode: TDL; Coding: utf-8 -*-
-decl-head-opt-subj := decl-head-opt-subj-phrase.
+decl-head-opt-subj := decl-head-opt-subj-phrase &
+  [ HEAD-DTR.LOCAL.CAT.HEAD verb ].
 
-basic-head-opt-comp := basic-head-opt-comp-phrase.
+basic-head-opt-comp := basic-head-opt-comp-phrase &
+  [ HEAD-DTR.LOCAL.CAT.HEAD verb ].
 
 head-comp := head-comp-phrase.
 
