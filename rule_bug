@@ -1,7 +1,0 @@
-Error in unknown:
-  Unification with constraint of DECL-HEAD-OPT-SUBJ-PHRASE failed at path ()
-Structure for DECL-HEAD-OPT-SUBJ could not be made well formed
-
-Error in unknown:
-  Unification with constraint of BASIC-HEAD-OPT-COMP-PHRASE failed at path ()
-Structure for BASIC-HEAD-OPT-COMP could not be made well formed
