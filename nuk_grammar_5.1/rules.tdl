@@ -8,7 +8,6 @@ basic-head-opt-comp := basic-head-opt-comp-phrase &
 head-comp := head-comp-phrase.
 
 head-subj := head-subj-phrase.
-  [ HEAD-DTR.LOCAL.CAT.HEAD verb ].
 
 bare-np := bare-np-phrase.
 
