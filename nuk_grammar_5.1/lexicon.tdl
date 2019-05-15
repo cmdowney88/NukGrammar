@@ -1809,6 +1809,6 @@ wik_3 := neg-aux-lex &
 
 ;;; Adpositions
 
-hił_adp := nuk-adposition-lex-item := basic-int-mod-adposition-lex &
+hił_adp := nuk-adposition-lex-item &
   [ STEM < "hił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_in_adp_rel" ].
