@@ -213,6 +213,10 @@ m̓ukʷina := noun3-noun-lex &
   [ STEM < "čaačist" >,
     SYNSEM.LKEYS.KEYREL.PRED "_island_n_rel" ].
 
+čaačist_2 := noun3-noun-lex &
+  [ STEM < "čaačist" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
 nism̓aasʔaqsa := noun3-noun-lex &
   [ STEM < "nism̓aasʔaqsa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_kathleen.andrews_n_rel" ].
@@ -1802,3 +1806,9 @@ wik_3 := neg-aux-lex &
     SYNSEM.LKEYS.KEYREL.PRED "_because_subord_rel" ].
 
 ;;; Complementizers
+
+;;; Adpositions
+
+hił_adp := nuk-adposition-lex-item := basic-int-mod-adposition-lex &
+  [ STEM < "hił" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_in_adp_rel" ].
