@@ -612,7 +612,8 @@ neg-aux-lex := subj-raise-aux-with-pred & verb-pc10-rule-dtr & verb-pc101-or-ver
 
 ;;; Adpositions
 
-nuk-adposition-lex-item := basic-int-mod-adposition-lex.
+nuk-adposition-lex-item := basic-int-mod-adposition-lex &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD noun ].
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Subordinators
