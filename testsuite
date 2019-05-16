@@ -99,10 +99,10 @@ see=TEMP=INDIC.1sg you.sg
 `I see you'
 
 #EXAMPLE 11
-git Source: a:113
+Source: a:113
 Vetted: f
 Judgment: g
-Phenomena: {adverbs}
+Phenomena: {adyverbs}
 ciq-šiƛ=‼aƛ=maˑḥ kuʔał=ʔiˑ
 speak-PERF=TEMP=INDIC.1sg morning=ART
 `I spoke in the morning'
@@ -759,3 +759,43 @@ Phenomena: {nom-pred}
 ḥaakʷaˑƛ=maˑḥ meʔiƛqac
 girl=INDIC.1sg boy
 intended: *'I am a girl a boy'
+
+#EXAMPLE 84
+Source: author
+Vetted: f
+Judgement: g
+Phenomena: {matrix yes-no question, tam}
+weʔič=ḥaˑ
+sleep=INTERR.3
+`Does he/she/it/they sleep'
+
+
+#EXAMPLE 85
+### This one was originally "sing", but we don't have that lexical entry
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {matrix yes-no question, tam}
+weʔič=‼aƛ=ḥaˑ
+sleep=TEMP=INTERR.3
+`Is he/she/it/they sleeping'
+
+
+#EXAMPLE 86
+Source: a:109
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement, matrix yes-no question}
+ciq-šiƛ=‼aƛ=ḥaˑ
+speak-PERF=TEMP=INTERR.3
+`Did he/she/it/they speak?'
+
+
+#EXAMPLE 87
+Source: a:110
+Vetted: f
+Judgment: g
+Phenomena: {agreement, pronouns, matrix yes-no question}
+n̓aacsa=‼aƛ=ḥaˑ suw̓a
+see=TEMP=INTERR.1sg you.sg
+`Do I see you'
