@@ -2869,8 +2869,7 @@ verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
 
 3Indic-lex-rule := verb-pc161-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD indic,
-                   CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
-                                                                  NUM pl ] ] ].
+                   CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 3rd ] ] ].
 
 1sgAbs-lex-rule := verb-pc161-lex-rule-super &
   [ SYNSEM.LOCAL [ CONT.HOOK.INDEX.E.MOOD abs,
@@ -2983,7 +2982,8 @@ head-comp-phrase := basic-head-1st-comp-phrase & head-initial &
 
 head-subj-phrase := decl-head-subj-phrase & head-initial &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VC +,
-                                HEAD verb ] ].
+                                HEAD verb ],
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR < > ].
 
 ;Constraint on MC used to be part of matrix.tdl
 ;;it applies to all wo implementations, except for v2
