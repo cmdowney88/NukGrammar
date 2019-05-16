@@ -1,0 +1,29 @@
+#### 1 (TSDB Results) ####----------------------------------------------------------------------------------------------
+
+a. How many items parsed?
+    -Initial (5.0): Testsuite-, Corpus-
+    -Final (5.1): Testsuite-, Corpus-
+
+b. What was the average number of parses?
+    -Initial: Testsuite-, Corpus-
+    -Final: Testsuite-, Corpus-
+
+c. How many parses did the most ambiguous item receive?
+    -Initial: Testsuite-, Corpus-
+    -Final: Testsuite-, Corpus-
+
+d. What sources of ambiguity can you identify?
+
+e.For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
+
+
+#### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
+
+
+#### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
+## Matrix yes-no question ##
+
+## Prepositional phrase modifiers ##
+
+
+#### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
