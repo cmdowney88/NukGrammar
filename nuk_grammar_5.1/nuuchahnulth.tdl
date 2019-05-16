@@ -55,7 +55,10 @@ basic-bare-np-phrase :+ [ SYNSEM.LOCAL.CAT [ VAL.SPEC < >,
 basic-head-1st-comp-phrase :+ [ SYNSEM.LOCAL.CAT.POSSESSUM #poss,
     HEAD-DTR.SYNSEM.LOCAL.CAT.POSSESSUM #poss ].
 
-basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VAL.COMPS < >,
+                                                            HEAD verb ] ].
+
+basic-head-opt-comp-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb ].
 
 lex-rule :+ [ SYNSEM.LOCAL.CAT.VC #vc,
     DTR.SYNSEM.LOCAL.CAT.VC #vc ].
@@ -613,7 +616,10 @@ neg-aux-lex := subj-raise-aux-with-pred & verb-pc10-rule-dtr & verb-pc101-or-ver
 ;;; Adpositions
 
 nuk-adposition-lex-item := basic-int-mod-adposition-lex &
-  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD noun ].
+  [ SYNSEM.LOCAL.CAT [ VAL.COMPS.FIRST.LOCAL.CAT [ VAL.SPR < >,
+                                                   HEAD noun ],
+                       HEAD.MOD.FIRST.LOCAL.CAT.VAL [ COMPS < >,
+                                                      SPR < > ] ] ].
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Subordinators
@@ -2976,7 +2982,8 @@ head-comp-phrase := basic-head-1st-comp-phrase & head-initial &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.INIT + ].
 
 head-subj-phrase := decl-head-subj-phrase & head-initial &
-  [ HEAD-DTR.SYNSEM.LOCAL.CAT.VC + ].
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VC +,
+                                HEAD verb ] ].
 
 ;Constraint on MC used to be part of matrix.tdl
 ;;it applies to all wo implementations, except for v2
