@@ -2982,8 +2982,8 @@ head-comp-phrase := basic-head-1st-comp-phrase & head-initial &
 
 head-subj-phrase := decl-head-subj-phrase & head-initial &
   [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VC +,
-                                VAL.SPR < >,
-                                HEAD verb ] ].
+                                HEAD verb ],
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SPR < > ].
 
 ;Constraint on MC used to be part of matrix.tdl
 ;;it applies to all wo implementations, except for v2
