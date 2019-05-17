@@ -1542,7 +1542,7 @@ k̓ʷač := verb32-verb-lex &
     SYNSEM.LKEYS.KEYREL.PRED "_hit.the.mark_v_rel" ].
 
 t̓apat := verb32-verb-lex &
-  [ STEM < "t'apat" >,
+  [ STEM < "t̓apat" >,
     SYNSEM.LKEYS.KEYREL.PRED "_think_v_rel" ].
 
 makʷ := verb33-verb-lex &
