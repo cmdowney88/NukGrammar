@@ -1,8 +1,4 @@
 
-verb-pc19_lrt3-suffix :=
-%suffix (* =maˑ)
-verb-pc19_lrt3-lex-rule.
-
 3Indic-suffix :=
 %suffix (* =maˑ)
 3Indic-lex-rule.
