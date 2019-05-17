@@ -22,6 +22,22 @@ e.For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the cor
 
 #### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
 ## Matrix yes-no question ##
+As described by Davidson, matrix yes-no questions are marked with an interrogative mood clitic on the predicate. There is a note that there can also be indications of whether a positive or negative answer is expected but that was not attested to in Davidson's corpus and was out of scope for this week.
+####INSERT FINAL IGT EXAMPLES HERE####
+To model this in our grammar, first I added INTERR to our moods. I then used the Grammar Matrix yes-no question page to create a verble suffix question strategy. I then used the morphology page to implement the 1sg interogative lexical rule which set the PNG of the subject and the mood and question feature on the verb.  This gave me the necessary changes to nuuchahnulth.tdl and irules.tdl and I then used the diff-ing strategy to incorporate these two into our working grammar:
+
+nuuchahnulth.tdl
+1sgInterr-lex-rule := verb-pc161-lex-rule-super &
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                  PER 1st ],
+                   CONT.HOOK.INDEX [ SF ques,
+                                      E.MOOD interr ] ] ].
+irules.tdl
+1sgInterr_lrt1-suffix :=
+%suffix (* =ḥaˑs)
+1sgInterr-lex-rule.
+
+Because moods are mutually exclusive, the interrogative mood was incorporated under verb-pc161 which is the super for the moods Agatha built last week. After creating the 1sg version, all that was necessary was creating a version of the above for the other PNG combinations.
 
 ## Prepositional phrase modifiers ##
 
