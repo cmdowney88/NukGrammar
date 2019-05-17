@@ -25,16 +25,17 @@ As described by Davidson, matrix yes-no questions are marked with an interrogati
 ####INSERT FINAL IGT EXAMPLES HERE####
 To model this in our grammar, first I added INTERR to our moods. I then used the Grammar Matrix yes-no question page to create a verble suffix question strategy. I then used the morphology page to implement the 1sg interogative lexical rule which set the PNG of the subject and the mood and question feature on the verb.  This gave me the necessary changes to nuuchahnulth.tdl and irules.tdl and I then used the diff-ing strategy to incorporate these two into our working grammar:
 
-nuuchahnulth.tdl
-1sgInterr-lex-rule := verb-pc161-lex-rule-super &
-  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
-                                                                  PER 1st ],
-                   CONT.HOOK.INDEX [ SF ques,
-                                      E.MOOD interr ] ] ].
-irules.tdl
-1sgInterr_lrt1-suffix :=
-%suffix (* =ḥaˑs)
-1sgInterr-lex-rule.
+    ;;; nuuchahnulth.tdl
+    1sgInterr-lex-rule := verb-pc161-lex-rule-super &
+      [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+                                                                      PER 1st ],
+                       CONT.HOOK.INDEX [ SF ques,
+                                          E.MOOD interr ] ] ].
+
+    ;;; irules.tdl
+    1sgInterr_lrt1-suffix :=
+    %suffix (* =ḥaˑs)
+    1sgInterr-lex-rule.
 
 Because moods are mutually exclusive, the interrogative mood was incorporated under verb-pc161 which is the super for the moods Agatha built last week. After creating the 1sg version, all that was necessary was creating a version of the above for the other PNG combinations.
 
@@ -83,5 +84,21 @@ However, these modifications on their own led to an explosion in ambiguity, and 
     head-subj-phrase := decl-head-subj-phrase & head-initial &
       [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VC +,
                                     HEAD verb ] ].
+
+Addtionally, we found that our version of the head-modifier rule (inheriting directly from head-adj-int-phrase) was allowing non-saturated P's to serve as the modifying daughter (non-head). Thus we made an adendum to this rule:
+
+    ;;; nuuchahnulth.tdl
+    head-adj-int-phrase :+ [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
+This latter correction rules out ungrammatical sentences like Example 88, in which the modifying P does not have a complement:
+
+    #EXAMPLE 89 - disallows empty PP
+    Source: author
+    Vetted: f
+    Judgment: u
+    Phenomena: {pp-mod}
+    weʔič=maˑḥ hił
+    sleep=INDIC.1sg in
+    fragment: *'I sleep in...'
 
 #### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
