@@ -131,7 +131,7 @@ pst := tense.
 
 cont := aspect.
 dur := aspect.
-temp := aspect.
+temp := perf.
 perf := aspect.
 
 ;;; Mood
@@ -2026,7 +2026,9 @@ verb-pc14-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc101-
     DTR verb-pc14-rule-dtr &
         [ INFLECTED #infl ] ].
 
-verb-pc14_lrt1-lex-rule := verb-pc14-lex-rule-super.
+verb-pc14_lrt1-lex-rule := verb-pc14-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.ASPECT temp ].
+
 
 verb-pc15-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc108-rule-dtr & verb-pc172-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr &
   [ INFLECTED #infl,
