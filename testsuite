@@ -799,3 +799,141 @@ Phenomena: {agreement, pronouns, matrix yes-no question}
 n̓aacsa=‼aƛ=ḥaˑ suw̓a
 see=TEMP=INTERR.1sg you.sg
 `Do I see you'
+
+#MMT 1
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+weʔič=maˑ ʕiniiƛ
+sleep=INDIC.3 dog
+Dogs sleep
+
+#MMT 2
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, transitivity}
+casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas
+chase=INDIC.3 dog car
+Dogs chase cars
+
+#MMT 3
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, pronoun, null-subj}
+casšiƛ=maˑḥ suw̓a
+chase=INDIC.1sg you
+I chase you 
+
+#MMT 4
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement}
+haʔuk=maˑ ʕiniiƛ
+eat=INDIC.3 dog
+Dogs eat
+
+#MMT 5
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, transitivity, negation}
+wik=maˑ casšiƛ ʕiniiƛ huupuk̓ʷas
+NEG=INDIC.3 chase dog car
+The dogs dont chase cars
+
+#I think that you know that dogs chase cars
+#I ask whether you know that dogs chase cars
+
+#MMT 8
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, transitivity, np-coordination}
+casšiƛ=maˑ piišpiš ʔuḥʔiš ʕiniiƛ huupuk̓ʷas
+chase=INDIC.3 cat and dog car
+Cats and dogs chase cars
+
+#MMT 9
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, transitivity, s-coordination}
+casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
+chase=INDIC.3 dog car and chase=INDIC.3 cat dog
+Dogs chase cars and cats chase dogs
+
+#MMT 10
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, transitivity, vp-coordination}
+casšiƛ=maˑ piišpiš ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ
+chase=INDIC.3 cat dog and sleep=INDIC.3
+Cats chase dogs and sleep
+
+#MMT 11
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix yes-no questions}
+casšiƛ=ḥaˑ piišpiš ʕiniiƛ
+chase=INTERR.3 cat dog 
+Do cats chase dogs
+
+#MMT 13 -- čaačist is actually "Island"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {PP-mod}
+haʔuk=maˑ ʕiniiƛ hił čaačist
+eat=INDIC.3 dog in park
+Dogs in the park eat
+
+#MMT 16
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Agreement, Locative-Pred}
+hił=maˑ ʕiniiƛ čaačist
+at=INDIC.3 dog park
+The dogs are in the park
+
+#MMT 17
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Agreement, Copula, Denominal-Verb}
+piišpiš=maˑ ʕiniiƛ
+cat=INDIC.3 dog
+The dogs are the cats (lit: "the dogs are cats")
+
+#MMT 21
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Agreement, Clausal-Mod, Mood}
+weʔič=maˑ ʕiniiƛ ʔani weʔič=qaˑ piišpiš
+sleep=TEMP=INDIC.3 dog because sleep=SUBOR.3 cat
+The dog sleeps because the cat sleeps
+
+#MMT 23
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix wh questions}
+yaq=ḥaˑ weʔič
+who=INTERR.3 sleep
+Who sleeps
+
+#MMT 24
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix wh questions}
+qʷi=ḥaˑ ʕiniiƛ casšiƛ
+what=ITERR.3 dog chase
+What do the dogs chase
