@@ -21,6 +21,7 @@ e.For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the cor
 
 
 #### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
+
 ## Matrix yes-no question ##
 As described by Davidson, matrix yes-no questions are marked with an interrogative mood clitic on the predicate. There is a note that there can also be indications of whether a positive or negative answer is expected but that was not attested to in Davidson's corpus and was out of scope for this week.
 ####INSERT FINAL IGT EXAMPLES HERE####
@@ -40,6 +41,50 @@ irules.tdl
 Because moods are mutually exclusive, the interrogative mood was incorporated under verb-pc161 which is the super for the moods Agatha built last week. After creating the 1sg version, all that was necessary was creating a version of the above for the other PNG combinations.
 
 ## Prepositional phrase modifiers ##
+
+In personal communication, David Inman informed us that he word hił, used asf the locative predicate in "she is at the park", also has an adpositional use, enabling it to build Adpositional modifier phrase (I will call this a PP). The use of this type of phrase is illustrated in the following mmt Example 13, which stands in contrast to our previously-supported predicative use, as seen in Example 16
+
+    #EXAMPLE 13 -- čaačist is actually "Island"
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {PP-mod}
+    haʔuk=maˑ ʕiniiƛ hił čaačist
+    eat=INDIC.3 dog in park
+    Dogs in the park eat
+
+    #EXAMPLE 16
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {Agreement, Locative-Pred}
+    hił=maˑ ʕiniiƛ čaačist
+    at=INDIC.3 dog park
+    The dogs are in the park
+
+PP's required us to add both a new Lexical Type and a new Grammar Rule to our files:
+
+    ;;; nuuchahnulth.tdl
+    nuk-adposition-lex-item := basic-int-mod-adposition-lex &
+      [ SYNSEM.LOCAL.CAT [ VAL.COMPS.FIRST.LOCAL.CAT [ VAL.SPR < >,
+                                                       HEAD noun ],
+                           HEAD.MOD.FIRST.LOCAL.CAT.VAL [ COMPS < >,
+                                                          SPR < > ] ] ].
+
+    ;;; rules.tdl
+    head-mod := head-adj-int-phrase.
+
+However, these modifications on their own led to an explosion in ambiguity, and we discovered many of our grammar rules were unconstrained as to the type of their HEAD-DTR. This allowed rules like head-subj, basic-head-opt-subj, and basic-head-opt-comp to incorrectly take the preposition as their head. To fix this, we added constraints to our previous grammar rules to ensure they only took Verbs as their HEAD-DTR.
+
+    ;;; nuuchahnulth.tdl
+    basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VAL.COMPS < >,
+                                                                HEAD verb ] ].
+
+    basic-head-opt-comp-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD verb ].
+
+    head-subj-phrase := decl-head-subj-phrase & head-initial &
+      [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VC +,
+                                    HEAD verb ] ].
 
 
 #### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
