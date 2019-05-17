@@ -739,7 +739,7 @@ Vetted: f
 Judgment: g
 Phenomena: {locative-pred, tam}
 hił=int=maˑ=ʔał suč̓as
-at=PST=INDC.3=3pl tree
+at=PST=INDIC.3=3pl tree
 'They were at the tree'
 
 #EXAMPLE 82 -- out of scope locative suffix
@@ -797,6 +797,24 @@ Phenomena: {agreement, pronouns, matrix yes-no question}
 n̓aacsa=‼aƛ=ḥaˑ suw̓a
 see=TEMP=INTERR.1sg you.sg
 `Do I see you'
+
+#EXAMPLE 88 - disallows PP -> NP P (wrong order)
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {agreement, pp-mod}
+weʔič=maˑ piišpiš čaačist hił
+sleep=INDIC.3 cat park in
+intended: *'cats sleep in the park'
+
+#EXAMPLE 89 - disallows empty PP
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: {pp-mod}
+weʔič=maˑḥ hił
+sleep=INDIC.1sg in
+fragment: *'I sleep in...'
 
 #MMT 1
 Source: author
