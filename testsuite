@@ -780,7 +780,6 @@ weʔič=‼aƛ=ḥaˑ
 sleep=TEMP=INTERR.3
 `Is he/she/it/they sleeping'
 
-
 #EXAMPLE 86
 Source: a:109
 Vetted: f
@@ -789,7 +788,6 @@ Phenomena: {tam, agreement, matrix yes-no question}
 ciq-šiƛ=‼aƛ=ḥaˑ
 speak-PERF=TEMP=INTERR.3
 `Did he/she/it/they speak?'
-
 
 #EXAMPLE 87
 Source: a:110
@@ -844,9 +842,6 @@ Phenomena: {agreement, transitivity, negation}
 wik=maˑ casšiƛ ʕiniiƛ huupuk̓ʷas
 NEG=INDIC.3 chase dog car
 The dogs dont chase cars
-
-#I think that you know that dogs chase cars
-#I ask whether you know that dogs chase cars
 
 #MMT 8
 Source: author
