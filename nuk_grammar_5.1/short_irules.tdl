@@ -38,3 +38,11 @@ verb-pc15_lrt1-lex-rule.
 3rdInterr_lrt1-suffix1 :=
 %suffix (* =ḥaˑ)
 3rdInterr-lex-rule.
+
+1sgIndic-suffix1 :=
+%suffix (* =maˑḥ)
+1sgIndic-lex-rule.
+
+verb-pc15_lrt10-suffix :=
+%suffix (* =qaˑ)
+verb-pc15_lrt10-lex-rule.
