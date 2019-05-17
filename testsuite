@@ -816,6 +816,24 @@ weʔič=maˑḥ hił
 sleep=INDIC.1sg in
 fragment: *'I sleep in...'
 
+#EXAMPLE 90 - interrogative affix should follow temp affix
+Source: a:109
+Vetted: f
+Judgment: u
+Phenomena: {matrix yes-no question}
+ciq-šiƛ=ḥaˑ=‼aƛ
+speak-PERF=INTERR.3=TEMP
+`Did he/she/it/they speak?'
+
+#EXAMPLE 91 - Interrogative cannot combine with other moods
+Source: a:109
+Vetted: f
+Judgment: u
+Phenomena: {tam, agreement}
+ciq-šiƛ=‼aƛ=maˑ=ḥaˑ
+speak-PERF=TEMP=INDIC.3=INTERR.3
+`* Did he/she/it/they speak'
+
 #MMT 1
 Source: author
 Vetted: f
