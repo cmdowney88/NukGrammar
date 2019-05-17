@@ -16,7 +16,6 @@ d. What sources of ambiguity can you identify?
 
 e.For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
 
-
 #### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
 
 
