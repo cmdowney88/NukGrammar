@@ -10,11 +10,37 @@ b. What was the average number of parses?
 
 c. How many parses did the most ambiguous item receive?
     -Initial: Testsuite-14, Corpus-14
-    -Final: Testsuite-6, Corpus-6
+    -Final: Testsuite-16, Corpus-6
 
 d. What sources of ambiguity can you identify?
 
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
+It looks like our simplifications are really catching up with us on the corpus because our new features did not add any new parses again. Even though these work on the simple examples from our sources in the testsuite, the actual corpus examples are likely depended on the second position clitic analysis to gain any further coverage. As such, I will look at 2 MMT semantics and 2 new testsuite examples for semantics.
+
+#MMT 11
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix yes-no questions}
+casšiƛ=ḥaˑ piišpiš ʕiniiƛ
+chase=INTERR.3 cat dog 
+Do cats chase dogs
+
+For this we get two parses because the structural ambiguity of Nuuchahnulth allow either cat or dog to be the subject (and similar for the object). As Davidson says "The predicate usually comes first in the clause followed by the core (i.e. subject and object) RPs in either order. There is no case-marking or other overt means of indicating which RP is subject, and which is object." (109). Context would be used to disambiguate (along with an out of scope passive inverse clitic that Davidson notes in some examples). This means we get two mirrored sets of semantics. Both have cat_n_rel identified with an exists_q_rel and one arg of a chase_v_rel while dog_n_rel is identified with the other chase_v_rel arg and its own exists_q_rel. The arg0 of chase_v_rel is correctly identified with the index of the sentence which has mood:interr and sf:ques as we want from the =ḥaˑ suffix. This all looks like the desired semantics for the yes-no question 'do cats chase dogs' or 'do dogs chase cats' and context will dictate which is correct.
+
+
+#MMT 3
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {agreement, pronoun, null-subj}
+casšiƛ=maˑḥ suw̓a
+chase=INDIC.1sg you
+I chase you 
+
+This mmt example was not parsing with our old grammar but does parse with our improvements this week to the INDIC.1sg suffix that were done as part of general clean up of the grammar. The semantics of this transtive sentence are clear and match what we want. First we have a you_n_rel identified with an exists_q_rel and arg2 of a chase_v_rel. Because this is a null-subj construction with the INDIC.1sg providing the information about the missing subject, we next look at arg1 of chase_v_rel. It does not refer to another rel in the semantics but does have the desired 1sg PNG constraints when expanded. This gives us the desired 1sg chaser of a 2nd person object.
+
+
 
 #### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
 
