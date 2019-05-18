@@ -20,13 +20,50 @@ e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the co
 
 We were able to translate 15 of the 29 sentences so far. We asked David Inman for translations for some of the lexical items that were outside of our inferred vocabulary (such as dog, cat, car), and had much of the grammatical analysis already in place. We are able to translate simple intransitives, simple transitives, pronomial agreement, negation, NP, VP, and S coordination, locative predicates, copula predicates, clausal "because" modifiers, and wh-questions. In addition, we extended our analysis for the chosen phenomena of PP modifiers (e.g. Example 13 "dogs in the park eat") and yes-no questions (Example 11 "do cats chase dogs").
 
+
+#MMT EXAMPLE 11
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix yes-no questions}
+casšiƛ=ḥaˑ piišpiš ʕiniiƛ
+chase=INTERR.3 cat dog 
+Do cats chase dogs
+
+#MMT EXAMPLE 13 -- čaačist is actually "Island"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {PP-mod}
+haʔuk=maˑ ʕiniiƛ hił čaačist
+eat=INDIC.3 dog in park
+Dogs in the park eat
+
 We do not yet have translations for some of the clausal complements sentences like "I think that you know that dogs chase cars", as we are unsure if "think" is indicated through a verb with a clausal complement rather than some sort of mood marking. We also don't have any translation for "hungry dogs eat" because we don't seem to have adjectives in our inferred lexicon or grammar...we suspect Nuuchahnulth might express this like "the dogs who are hungry eat" but we need to research this further. We don't have a translation for "the dog sleeps after the cat sleeps" because we have yet to find a lexical item for this clausual modifier. As pertains the pair of sentences involving eating glass, we don't yet have lexical entries for "glass", or "hurt", and are unsure on the grammar of how the modal "can" works, though we suspect it is similar to negation.
 
 #### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
 
 ## Matrix Yes-No Questions ##
-As described by Davidson, matrix yes-no questions are marked with an interrogative mood clitic on the predicate. There is a note that there can also be indications of whether a positive or negative answer is expected but that was not attested to in Davidson's corpus and was out of scope for this week.
-####INSERT FINAL IGT EXAMPLES HERE####
+As described by Davidson, matrix yes-no questions are simply marked with an interrogative mood clitic on the predicate. There is a note that there can also be indications of whether a positive or negative answer is expected but that was not attested to in Davidson's corpus and was out of scope for this week.
+
+#EXAMPLE 85
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {matrix yes-no question, tam}
+weʔič=‼aƛ=ḥaˑ
+sleep=TEMP=INTERR.3
+`Is he/she/it/they sleeping'
+
+#EXAMPLE 86
+Source: author from a:109
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement, matrix yes-no question}
+ciq-šiƛ=‼aƛ=ḥaˑ
+speak-PERF=TEMP=INTERR.3
+`Did he/she/it/they speak?'
+
 To model this in our grammar, first I added INTERR to our moods. I then used the Grammar Matrix yes-no question page to create a verble suffix question strategy. I then used the morphology page to implement the 1sg interogative lexical rule which set the PNG of the subject and the mood and question feature on the verb.  This gave me the necessary changes to nuuchahnulth.tdl and irules.tdl and I then used the diff-ing strategy to incorporate these two into our working grammar:
 
     ;;; nuuchahnulth.tdl
@@ -47,7 +84,7 @@ Because moods are mutually exclusive, the interrogative mood was incorporated un
 
 In personal communication, David Inman informed us that he word hił, used asf the locative predicate in "she is at the park", also has an adpositional use, enabling it to build Adpositional modifier phrase (I will call this a PP). The use of this type of phrase is illustrated in the following mmt Example 13, which stands in contrast to our previously-supported predicative use, as seen in Example 16
 
-    #EXAMPLE 13 -- čaačist is actually "Island"
+    #MMT EXAMPLE 13 -- čaačist is actually "Island"
     Source: author
     Vetted: f
     Judgment: g
@@ -56,7 +93,7 @@ In personal communication, David Inman informed us that he word hił, used asf t
     eat=INDIC.3 dog in park
     Dogs in the park eat
 
-    #EXAMPLE 16
+    #MMT EXAMPLE 16
     Source: author
     Vetted: f
     Judgment: g
@@ -106,4 +143,71 @@ This latter correction rules out ungrammatical sentences like Example 88, in whi
     fragment: *'I sleep in...'
 
 #### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
-Following your recommendation from last week and on Canvas, we created a pruned irules 
+Following your recommendation from last week and on Canvas, we created pruned irules to avoid spurious application of empty affixes. We tested two versions, pruned_irules.tdl which contains only the suffixes being used in the MMT and a handful of test exampls and nonempty_irules.tdl which contains all irules that actually add features. After a quick correction to make TEMP aspect a daughter of PERF, I was able to generate with both these sets of irules. Using nonempty_irules.tdl, we still get a large number of generated sentences but significanly more reasonable. For example, starting with this example:
+
+    #MMT EXAMPLE 11
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {Matrix yes-no questions}
+    casšiƛ=ḥaˑ piišpiš ʕiniiƛ
+    chase=INTERR.3 cat dog 
+    Do cats chase dogs
+
+
+We are able to generate the following with ace:
+
+    Ciq=‼aƛ=waˑʔš=ḥaˑ
+    Ciq=‼aƛ=int=ḥaˑ
+    Ciq=‼aƛ=ḥaˑ
+    Ciq-šiƛ=‼aƛ=int=ḥaˑ
+    Ciq-šiƛ=‼aƛ=waˑʔš=ḥaˑ
+    Ciq-šiƛ=‼aƛ=ḥaˑ
+    Ciq=‼aƛ=int=waˑʔš=ḥaˑ
+    Ciq-šiƛ=‼aƛ=int=waˑʔš=ḥaˑ
+    NOTE: 16 passive, 235 active edges in final generation chart; built 70 passives total. [8 results]
+
+Generation for this example works similarly with lkb (but is less easy to paste into this writup).
+
+We next looked at the more complex clausal comp example:
+
+    Source: author -- removed one out of scope ART suffix
+    Vetted: s
+    Judgment: g
+    Phenomena: {clausal-comp, evidential}
+    t̓apat-šiƛ=‼aƛ=weˑʔin ḥaakʷaˑƛ wał-šiƛ=‼aƛ=quu
+    think-PERF=TEMP=QUOT.3 girl go.home-PERF=TEMP=COND.3
+    'The girl decided to go home'
+
+Generation from ace hits the RAM limit but is able to generate 84 examples:
+    ...
+    T̓apat=‼aƛ=weˑʔiš ḥaakʷaˑƛ=ʔał wał=‼aƛ=quu=ʔał
+    T̓apat=‼aƛ=waˑʔiš ḥaakʷaˑƛ=‼in wał-šiƛ=‼aƛ=waˑʔš=quu=ʔał
+    T̓apat=‼aƛ=weˑʔin ḥaakʷaˑƛ=quuk wał=‼aƛ=quu=ʔał
+    T̓apat=‼aƛ=waˑʔiš ḥaakʷaˑƛ=ʔiˑtk wał-šiƛ=‼aƛ=waˑʔš=quu=ʔał
+    NOTE: hit RAM limit while unpacking
+    NOTE: 125 passive, 661 active edges in final generation chart; built 616 passives total. [84 results]
+
+I then wanted to look at a simple sentence but one with bare semantics and homonyms in our lexicon so I considered the following:
+
+    #EXAMPLE 87
+    Source: a:110
+    Vetted: f
+    Judgment: g
+    Phenomena: {agreement, pronouns, matrix yes-no question}
+    n̓aacsa=‼aƛ=ḥaˑ suw̓a
+    see=TEMP=INTERR.1sg you.sg
+    `Do I see you'
+
+We have multiple entries for both see (transitive and intransitive) and multiple you.sg pronouns. This lead ace to generate the follwoing:
+    ...
+    N̓aacsa-šiƛ=‼aƛ=int=ḥaˑ sut=suu
+    ...
+    N̓aaca=‼aƛ=int=waˑʔš=ḥaˑ suw̓a-ss.(q)aq=ʔał
+    N̓aaca-m̓inḥ=‼aƛ=int=ḥaˑ suw̓a-aˑs=ʔał
+    N̓aaca-m̓inḥ=‼aƛ=int=ḥaˑ suw̓a-ss.(q)aq=ʔał
+    NOTE: 57 passive, 334 active edges in final generation chart; built 294 passives total. [5076 results]
+
+Since the sentence is less complex, fewer edges are used and we don't hit the RAM cap but we do get a massive 5k possible sentences.
+
+Overall, it looks like we can generate short and long sentences if we restirct ourselves to non-empty irules. We will always get a large number of parses if our semantics are relatively unconstrained so we will have to be mindful during our MMT example construction.
