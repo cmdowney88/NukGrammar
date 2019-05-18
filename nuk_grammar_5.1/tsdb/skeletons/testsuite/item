@@ -78,5 +78,29 @@
 78@author@@@1@copula,agr@suw̓aaq=eˑʔic ciq-šiƛ@@@@1@2@2sg.PRED=INDIC.2sg speak-PERF'It is you who speaks'@agatha downey and david nielsen@april 17, 2019
 79@author@@@1@nominal-pred,tam@ḥaw̓ił=weˑʔin@@@@1@1@chief=QUOT.3rd"he is chief (hearsay)"@agatha downey and david nielsen@april 17, 2019
 80@c:9208@@@1@locative-pred@hita-(c)suḥta=‼aƛ=ƛaˑ qʷayac̓iik@@@@1@2@EMPTY-out.of.the.woods=NOW+also wolf'And then also a wolf came out of the woods'@agatha downey and david nielsen@april 17, 2019
-81@author@@@1@locative-pred,tam@hił=int=maˑ=ʔał suč̓as@@@@1@2@at=PST=INDC.3=3pl tree'They were at the tree'@agatha downey and david nielsen@april 17, 2019
+81@author@@@1@locative-pred,tam@hił=int=maˑ=ʔał suč̓as@@@@1@2@at=PST=INDIC.3=3pl tree'They were at the tree'@agatha downey and david nielsen@april 17, 2019
 82@author@@@1@locative-pred@hił-°ił=‼aƛ=\(m\)in@@@@1@1@at-indoors.DR=NOW=INDIC.1PL'We are indoors'@agatha downey and david nielsen@april 17, 2019
+83@author@@@1@nom-pred@ḥaakʷaˑƛ=maˑḥ meʔiƛqac@@@@0@2@girl=INDIC.1sg boyintended: *'I am a girl a boy'@agatha downey and david nielsen@april 17, 2019
+84@author@@@1@matrixyes-noquestion,tam@weʔič=ḥaˑ@@@@1@1@sleep=INTERR.3`Does he/she/it/they sleep'@agatha downey and david nielsen@april 17, 2019
+85@author@@@1@matrixyes-noquestion,tam@weʔič=‼aƛ=ḥaˑ@@@@1@1@sleep=TEMP=INTERR.3`Is he/she/it/they sleeping'@agatha downey and david nielsen@april 17, 2019
+86@a:109@@@1@tam,agr,matrixyes-noquestion@ciq-šiƛ=‼aƛ=ḥaˑ@@@@1@1@speak-PERF=TEMP=INTERR.3`Did he/she/it/they speak?'@agatha downey and david nielsen@april 17, 2019
+87@a:110@@@1@agr,pn,matrixyes-noquestion@n̓aacsa=‼aƛ=ḥaˑ suw̓a@@@@1@2@see=TEMP=INTERR.1sg you.sg`Do I see you'@agatha downey and david nielsen@april 17, 2019
+88@author@@@1@agr,pp-mod@weʔič=maˑ piišpiš čaačist hił@@@@0@4@sleep=INDIC.3 cat park inintended: *'cats sleep in the park'@agatha downey and david nielsen@april 17, 2019
+89@author@@@1@pp-mod@weʔič=maˑḥ hił@@@@0@2@sleep=INDIC.1sg infragment: *'I sleep in...'@agatha downey and david nielsen@april 17, 2019
+90@a:109@@@1@matrixyes-noquestion@ciq-šiƛ=ḥaˑ=‼aƛ@@@@0@1@speak-PERF=INTERR.3=TEMP`Did he/she/it/they speak?'@agatha downey and david nielsen@april 17, 2019
+91@a:109@@@1@tam,agr@ciq-šiƛ=‼aƛ=maˑ=ḥaˑ@@@@0@1@speak-PERF=TEMP=INDIC.3=INTERR.3`* Did he/she/it/they speak'@agatha downey and david nielsen@april 17, 2019
+92@author@@@1@agr@weʔič=maˑ ʕiniiƛ@@@@1@2@sleep=INDIC.3 dogDogs sleep@agatha downey and david nielsen@april 17, 2019
+93@author@@@1@agr,transitivity@casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas@@@@1@3@chase=INDIC.3 dog carDogs chase cars@agatha downey and david nielsen@april 17, 2019
+94@author@@@1@agr,pronoun,null-subj@casšiƛ=maˑḥ suw̓a@@@@1@2@chase=INDIC.1sg youI chase you@agatha downey and david nielsen@april 17, 2019
+95@author@@@1@agr@haʔuk=maˑ ʕiniiƛ@@@@1@2@eat=INDIC.3 dogDogs eat@agatha downey and david nielsen@april 17, 2019
+96@author@@@1@agr,transitivity,neg@wik=maˑ casšiƛ ʕiniiƛ huupuk̓ʷas@@@@1@4@NEG=INDIC.3 chase dog carThe dogs dont chase cars@agatha downey and david nielsen@april 17, 2019
+97@author@@@1@agr,transitivity,np-coordination@casšiƛ=maˑ piišpiš ʔuḥʔiš ʕiniiƛ huupuk̓ʷas@@@@1@5@chase=INDIC.3 cat and dog carCats and dogs chase cars@agatha downey and david nielsen@april 17, 2019
+98@author@@@1@agr,transitivity,s-coordination@casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ@@@@1@7@chase=INDIC.3 dog car and chase=INDIC.3 cat dogDogs chase cars and cats chase dogs@agatha downey and david nielsen@april 17, 2019
+99@author@@@1@agr,transitivity,vp-coordination@casšiƛ=maˑ piišpiš ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ@@@@1@5@chase=INDIC.3 cat dog and sleep=INDIC.3Cats chase dogs and sleep@agatha downey and david nielsen@april 17, 2019
+100@author@@@1@q@casšiƛ=ḥaˑ piišpiš ʕiniiƛ@@@@1@3@chase=INTERR.3 cat dogDo cats chase dogs@agatha downey and david nielsen@april 17, 2019
+101@author@@@1@pp-mod@haʔuk=maˑ ʕiniiƛ hił čaačist@@@@1@4@eat=INDIC.3 dog in parkDogs in the park eat@agatha downey and david nielsen@april 17, 2019
+102@author@@@1@agr,locative-pred@hił=maˑ ʕiniiƛ čaačist@@@@1@3@at=INDIC.3 dog parkThe dogs are in the park@agatha downey and david nielsen@april 17, 2019
+103@author@@@1@agr,copula,denominal-verb@piišpiš=maˑ ʕiniiƛ@@@@1@2@cat=INDIC.3 dogThe dogs are the cats (lit: "the dogs are cats")@agatha downey and david nielsen@april 17, 2019
+104@author@@@1@agr,clausal-mod,mood@weʔič=maˑ ʕiniiƛ ʔani weʔič=qaˑ piišpiš@@@@1@5@sleep=TEMP=INDIC.3 dog because sleep=SUBOR.3 catThe dog sleeps because the cat sleeps@agatha downey and david nielsen@april 17, 2019
+105@author@@@1@matrixwhquestions@yaq=ḥaˑ weʔič@@@@1@2@who=INTERR.3 sleepWho sleeps@agatha downey and david nielsen@april 17, 2019
+106@author@@@1@matrixwhquestions@qʷi=ḥaˑ ʕiniiƛ casšiƛ@@@@1@3@what=ITERR.3 dog chaseWhat do the dogs chase@agatha downey and david nielsen@april 17, 2019
