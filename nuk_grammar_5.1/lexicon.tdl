@@ -441,14 +441,6 @@ qay̓apt̓a := noun9-noun-lex &
   [ STEM < "qay̓apt̓a" >,
     SYNSEM.LKEYS.KEYREL.PRED "_limb_n_rel" ].
 
-haʔu_1 := noun10-noun-lex &
-  [ STEM < "haʔu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_n_rel" ].
-
-haʔuk_1 := noun11-noun-lex &
-  [ STEM < "haʔuk" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_n_rel" ].
-
 ʔuḥ_1 := noun12-noun-lex &
   [ STEM < "ʔuḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be_n_rel" ].
@@ -1169,7 +1161,11 @@ huuwaay := verb7-verb-lex &
   [ STEM < "huuwaay" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be.careful_v_rel" ].
 
-haʔuk_2 := verb7-verb-lex &
+haʔu := verb7-verb-lex &
+  [ STEM < "haʔu" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+
+haʔuk := verb7-verb-lex &
   [ STEM < "haʔuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
@@ -1376,10 +1372,6 @@ hawiiƛ := verb13-verb-lex &
 hašaḥap := verb13-verb-lex &
   [ STEM < "hašaḥap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_preserve_v_rel" ].
-
-haʔu_2 := verb14-verb-lex &
-  [ STEM < "haʔu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 hina_2 := verb16-verb-lex &
   [ STEM < "hina" >,

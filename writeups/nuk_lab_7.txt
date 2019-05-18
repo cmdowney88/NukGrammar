@@ -6,13 +6,38 @@ a. How many items parsed?
 
 b. What was the average number of parses?
     -Initial: Testsuite-2.41, Corpus-2.50
-    -Final: Testsuite-2.81, Corpus-2.18
+    -Final: Testsuite-1.90, Corpus-2.12
 
 c. How many parses did the most ambiguous item receive?
     -Initial: Testsuite-14, Corpus-14
     -Final: Testsuite-16, Corpus-6
 
 d. What sources of ambiguity can you identify?
+    -Among our testsuite items, we have a max of 4 parses (some of the corpus examples have more. Fortunately, the ambiguity we see aligns with the facts of Nuuchahnulth. This can be seen in Example 9:
+    
+    #EXAMPLE 9
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {agreement, transitivity, s-coordination}
+    casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
+    chase=INDIC.3 dog car and chase=INDIC.3 cat dog
+    Dogs chase cars and cats chase dogs
+
+    Our grammar apparently allows for the Head-Comp and Head-Subj rules to apply in either order, and so with two coordinated sentences with both Subject and Object, there are four possibilities here, with the closer argument being able to be parsed as either Subject or Object. This, however, aligns with the facts of Nuuchahnulth. Davidson attests that when both are present, either argument can be parsed either way. Thus, this sentence actually has four ambiguous meanings: "dogs chase cars and cats chase dogs", "cars chase dogs and cats chase dogs", "dogs chase cars and dogs chase cats", and "cars chase dogs and dogs chase cats".
+
+    Another source of natural ambiguity is seen in Example 13:
+
+    #EXAMPLE 13
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {PP-mod}
+    haʔuk=maˑ ʕiniiƛ hił čaačist
+    eat=INDIC.3 dog in park
+    Dogs in the park eat
+
+    By our grammar, this sentence can either mean "dogs in the park eat" or "dogs eat in the park". However, David Inman confirms the sentence is ambiguous between these two meanings, so the ambiguity does not seem to be a problem.
 
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
 It looks like our simplifications are really catching up with us on the corpus because our new features did not add any new parses again. Even though these work on the simple examples from our sources in the testsuite, the actual corpus examples are likely depended on the second position clitic analysis to gain any further coverage. As such, I will look at 2 MMT semantics and 2 new testsuite examples for semantics.
