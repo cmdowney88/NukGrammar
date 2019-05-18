@@ -10,8 +10,7 @@ b. What was the average number of parses?
 
 c. How many parses did the most ambiguous item receive?
     -Initial: Testsuite-14, Corpus-14
-    -Final: Testsuite-
-    6, Corpus-6
+    -Final: Testsuite-6, Corpus-6
 
 d. What sources of ambiguity can you identify?
     -Among our testsuite items, we have a max of 4 parses (some of the corpus examples have more. Fortunately, the ambiguity we see aligns with the facts of Nuuchahnulth. This can be seen in Example 9:
@@ -41,85 +40,56 @@ d. What sources of ambiguity can you identify?
     By our grammar, this sentence can either mean "dogs in the park eat" or "dogs eat in the park". However, David Inman confirms the sentence is ambiguous between these two meanings, so the ambiguity does not seem to be a problem.
 
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
-It looks like our simplifications are really catching up with us on the corpus because our new features did not add any new parses again. Even though these work on the simple examples from our sources in the testsuite, the actual corpus examples are likely depended on the second position clitic analysis to gain any further coverage. As such, I will look at 3 MMT examples and 1 newly parsing testsuite examples for semantics.
-
-    #MMT 11
-    Source: author
-    Vetted: f
-    Judgment: g
-    Phenomena: {Matrix yes-no questions}
-    casšiƛ=ḥaˑ piišpiš ʕiniiƛ
-    chase=INTERR.3 cat dog 
-    Do cats chase dogs
-
-    For this we get two parses because the structural ambiguity of Nuuchahnulth allow either cat or dog to be the subject (and similar for the object). As Davidson says "The predicate usually comes first in the clause followed by the core (i.e. subject and object) RPs in either order. There is no case-marking or other overt means of indicating which RP is subject, and which is object." (109). Context would be used to disambiguate (along with an out of scope passive inverse clitic that Davidson notes in some examples). This means we get two mirrored sets of semantics. Both have cat_n_rel identified with an exists_q_rel and one arg of a chase_v_rel while dog_n_rel is identified with the other chase_v_rel arg and its own exists_q_rel. The arg0 of chase_v_rel is correctly identified with the index of the sentence which has mood:interr and sf:ques as we want from the =ḥaˑ suffix. This all looks like the desired semantics for the yes-no question 'do cats chase dogs' or 'do dogs chase cats' and context will dictate which is correct.
-
-
-    #MMT 3
-    Source: author
-    Vetted: f
-    Judgment: g
-    Phenomena: {agreement, pronoun, null-subj}
-    casšiƛ=maˑḥ suw̓a
-    chase=INDIC.1sg you
-    I chase you 
-
-    This mmt example was not parsing with our old grammar but does parse with our improvements this week to the INDIC.1sg suffix that were done as part of general clean up of the grammar. The semantics of this transitive sentence are clear and match what we want. First we have a you_n_rel identified with an exists_q_rel and arg2 of a chase_v_rel. Because this is a null-subj construction with the INDIC.1sg providing the information about the missing subject, we next look at arg1 of chase_v_rel. It does not refer to another rel in the semantics but does have the desired 1sg PNG constraints when expanded. This gives us the desired 1sg chaser of a 2nd person object.
-
-     #MMT 13 -- čaačist is actually "Island"
-     Source: author
-     Vetted: f
-     Judgment: g
-     Phenomena: {PP-mod}
-     haʔuk=maˑ ʕiniiƛ hił čaačist
-     eat=INDIC.3 dog in park
-     Dogs in the park eat
-
-     As noted above, we get two different sets of semantics for this example that I'll go over. The first reading as "dogs in the park eat" we have dog_n_rel arg0 identified with arg1 of in_adp_rel. In the "dogs eat in the park" we have arg0 of eat_v_rel identified with arg1 of in_adp_rel. In both readings, arg2 of in_adp_rel is identified with arg0 of park_n_rel and arg0 of dog_n_rel is identified with arg1 of eat_v_rel as desired; the dog is always doing the eating and the in refers to inside the park. Therefore, both these parses have sensible semantics.
-    
-    #EXAMPLE 48 -- Corpus example simplified by author
-    Source: c:34836
-    Vetted: f
-    Judgment: g
-    Phenomena: {clausal-comp}
-    hupii=suuk ʔuuš-(q)ḥ=‼ap=w̓it̓as=‼aƛ=quu=ʔał
-    help=NEUT.2sg some-LINK=CAUS=FUT2=TEMP=COND.3
-    'You help when they are going to make something'
-
-    This clausal comp example was not parsing previously because the affixes in the complement were not correctly connected as inputs. While debugging the grammar for this week, I rectified this mistake so we could look at the semantics. It is worth noting that -LINK, =CAUSE and =FUT2 are all out of scope and do not actually add features even though they were created by generation and are present in the irules. In our semantics we have two rels: help_v_rel and some_v_rel. The arg0 of help_v_rel is correctly identified with the index of the sentence. Because the subject is dropped, arg1 of help_v_rel does not identify with anything but it is specified as 2sg neuter as desired for the 'you' subject of this sentence. arg2 of help_v_rel is identified with the harg of a qeq with the larg identified with LBL of some_v_rel which looks correct to me. arg0 of some_v_rel has the desired aspect and mood (future tense is out of scope). The arg1 of some_v_rel also doesn't refer to anything thanks to dropped subjects even for the embedded clause but it does have the desired 3pl features for the plural 'they' subject as in our gloss. Overall, the semantics, while brief, seem to have all the desired features.
-
-
 
 #### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
 
-    We were able to translate 15 of the 29 sentences so far. We asked David Inman for translations for some of the lexical items that were outside of our inferred vocabulary (such as dog, cat, car), and had much of the grammatical analysis already in place. We are able to translate simple intransitives, simple transitives, pronomial agreement, negation, NP, VP, and S coordination, locative predicates, copula predicates, clausal "because" modifiers, and wh-questions. In addition, we extended our analysis for the chosen phenomena of PP modifiers (e.g. Example 13 "dogs in the park eat") and yes-no questions (Example 11 "do cats chase dogs") as seen earlier.
+We were able to translate 15 of the 29 sentences so far. We asked David Inman for translations for some of the lexical items that were outside of our inferred vocabulary (such as dog, cat, car), and had much of the grammatical analysis already in place. We are able to translate simple intransitives, simple transitives, pronomial agreement, negation, NP, VP, and S coordination, locative predicates, copula predicates, clausal "because" modifiers, and wh-questions. In addition, we extended our analysis for the chosen phenomena of PP modifiers (e.g. Example 13 "dogs in the park eat") and yes-no questions (Example 11 "do cats chase dogs").
 
-    We do not yet have translations for some of the clausal complements sentences like "I think that you know that dogs chase cars", as we are unsure if "think" is indicated through a verb with a clausal complement rather than some sort of mood marking. We also don't have any translation for "hungry dogs eat" because we don't seem to have adjectives in our inferred lexicon or grammar...we suspect Nuuchahnulth might express this like "the dogs who are hungry eat" but we need to research this further. We don't have a translation for "the dog sleeps after the cat sleeps" because we have yet to find a lexical item for this clausual modifier. As pertains the pair of sentences involving eating glass, we don't yet have lexical entries for "glass", or "hurt", and are unsure on the grammar of how the modal "can" works, though we suspect it is similar to negation.
+
+#MMT EXAMPLE 11
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix yes-no questions}
+casšiƛ=ḥaˑ piišpiš ʕiniiƛ
+chase=INTERR.3 cat dog 
+Do cats chase dogs
+
+#MMT EXAMPLE 13
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {PP-mod}
+haʔuk=maˑ ʕiniiƛ hił čaačist
+eat=INDIC.3 dog in park
+Dogs in the park eat
+
+We do not yet have translations for some of the clausal complements sentences like "I think that you know that dogs chase cars", as we are unsure if "think" is indicated through a verb with a clausal complement rather than some sort of mood marking. We also don't have any translation for "hungry dogs eat" because we don't seem to have adjectives in our inferred lexicon or grammar...we suspect Nuuchahnulth might express this like "the dogs who are hungry eat" but we need to research this further. We don't have a translation for "the dog sleeps after the cat sleeps" because we have yet to find a lexical item for this clausual modifier. As pertains the pair of sentences involving eating glass, we don't yet have lexical entries for "glass", or "hurt", and are unsure on the grammar of how the modal "can" works, though we suspect it is similar to negation.
 
 #### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
 
 ## Matrix Yes-No Questions ##
-    As described by Davidson, matrix yes-no questions are simply marked with an interrogative mood clitic on the predicate. There is a note that there can also be indications of whether a positive or negative answer is expected but that was not attested to in Davidson's corpus and was out of scope for this week.
+As described by Davidson, matrix yes-no questions are simply marked with an interrogative mood clitic on the predicate. There is a note that there can also be indications of whether a positive or negative answer is expected but that was not attested to in Davidson's corpus and was out of scope for this week.
 
-    #EXAMPLE 85
-    Source: author
-    Vetted: f
-    Judgment: g
-    Phenomena: {matrix yes-no question, tam}
-    weʔič=‼aƛ=ḥaˑ
-    sleep=TEMP=INTERR.3
-    `Is he/she/it/they sleeping'
+#EXAMPLE 85
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {matrix yes-no question, tam}
+weʔič=‼aƛ=ḥaˑ
+sleep=TEMP=INTERR.3
+`Is he/she/it/they sleeping'
 
-    #EXAMPLE 86
-    Source: author from a:109
-    Vetted: f
-    Judgment: g
-    Phenomena: {tam, agreement, matrix yes-no question}
-    ciq-šiƛ=‼aƛ=ḥaˑ
-    speak-PERF=TEMP=INTERR.3
-    `Did he/she/it/they speak?'
+#EXAMPLE 86
+Source: author from a:109
+Vetted: f
+Judgment: g
+Phenomena: {tam, agreement, matrix yes-no question}
+ciq-šiƛ=‼aƛ=ḥaˑ
+speak-PERF=TEMP=INTERR.3
+`Did he/she/it/they speak?'
 
-    To model this in our grammar, first I added INTERR to our moods. I then used the Grammar Matrix yes-no question page to create a verble suffix question strategy. I then used the morphology page to implement the 1sg interrogative lexical rule which set the PNG of the subject and the mood and question feature on the verb.  This gave me the necessary changes to nuuchahnulth.tdl and irules.tdl and I then used the diff-ing strategy to incorporate these two into our working grammar:
+To model this in our grammar, first I added INTERR to our moods. I then used the Grammar Matrix yes-no question page to create a verble suffix question strategy. I then used the morphology page to implement the 1sg interogative lexical rule which set the PNG of the subject and the mood and question feature on the verb.  This gave me the necessary changes to nuuchahnulth.tdl and irules.tdl and I then used the diff-ing strategy to incorporate these two into our working grammar:
 
     ;;; nuuchahnulth.tdl
     1sgInterr-lex-rule := verb-pc161-lex-rule-super &
@@ -133,11 +103,11 @@ It looks like our simplifications are really catching up with us on the corpus b
     %suffix (* =ḥaˑs)
     1sgInterr-lex-rule.
 
-    Because moods are mutually exclusive, the interrogative mood was incorporated under verb-pc161 which is the super for the moods Agatha built last week. After creating the 1sg version, all that was necessary was creating a version of the above for the other PNG combinations.
+Because moods are mutually exclusive, the interrogative mood was incorporated under verb-pc161 which is the super for the moods Agatha built last week. After creating the 1sg version, all that was necessary was creating a version of the above for the other PNG combinations.
 
 ## Prepositional Phrase Modifiers ##
 
-    In personal communication, David Inman informed us that the word hił, used as the locative predicate in "she is at the park", also has an adpositional use, enabling it to build Adpositional modifier phrase (I will call this a PP). The use of this type of phrase is illustrated in the following mmt Example 13, which stands in contrast to our previously-supported predicative use, as seen in Example 16
+In personal communication, David Inman informed us that he word hił, used asf the locative predicate in "she is at the park", also has an adpositional use, enabling it to build Adpositional modifier phrase (I will call this a PP). The use of this type of phrase is illustrated in the following mmt Example 13, which stands in contrast to our previously-supported predicative use, as seen in Example 16
 
     #MMT EXAMPLE 13 -- čaačist is actually "Island"
     Source: author
@@ -169,7 +139,7 @@ PP's required us to add both a new Lexical Type and a new Grammar Rule to our fi
     ;;; rules.tdl
     head-mod := head-adj-int-phrase.
 
-    However, these modifications on their own led to an explosion in ambiguity, and we discovered many of our grammar rules were unconstrained as to the type of their HEAD-DTR. This allowed rules like head-subj, basic-head-opt-subj, and basic-head-opt-comp to incorrectly take the preposition as their head. To fix this, we added constraints to our previous grammar rules to ensure they only took Verbs as their HEAD-DTR.
+However, these modifications on their own led to an explosion in ambiguity, and we discovered many of our grammar rules were unconstrained as to the type of their HEAD-DTR. This allowed rules like head-subj, basic-head-opt-subj, and basic-head-opt-comp to incorrectly take the preposition as their head. To fix this, we added constraints to our previous grammar rules to ensure they only took Verbs as their HEAD-DTR.
 
     ;;; nuuchahnulth.tdl
     basic-head-opt-subj-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VAL.COMPS < >,
@@ -181,12 +151,12 @@ PP's required us to add both a new Lexical Type and a new Grammar Rule to our fi
       [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VC +,
                                     HEAD verb ] ].
 
-    Additionally, we found that our version of the head-modifier rule (inheriting directly from head-adj-int-phrase) was allowing non-saturated P's to serve as the modifying daughter (non-head). Thus we made an addendum to this rule:
+Addtionally, we found that our version of the head-modifier rule (inheriting directly from head-adj-int-phrase) was allowing non-saturated P's to serve as the modifying daughter (non-head). Thus we made an adendum to this rule:
 
     ;;; nuuchahnulth.tdl
     head-adj-int-phrase :+ [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
 
-    This latter correction rules out ungrammatical sentences like Example 88, in which the modifying P does not have a complement:
+This latter correction rules out ungrammatical sentences like Example 88, in which the modifying P does not have a complement:
 
     #EXAMPLE 89 - disallows empty PP
     Source: author
@@ -198,7 +168,7 @@ PP's required us to add both a new Lexical Type and a new Grammar Rule to our fi
     fragment: *'I sleep in...'
 
 #### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
-    Following your recommendation from last week and on Canvas, we created pruned irules to avoid spurious application of empty affixes. We tested two versions, pruned_irules.tdl which contains only the suffixes being used in the MMT and a handful of test examples and nonempty_irules.tdl which contains all irules that actually add features. After a quick correction to make TEMP aspect a daughter of PERF, I was able to generate with both these sets of irules. Using nonempty_irules.tdl, we still get a large number of generated sentences but significantly more reasonable. For example, starting with this example:
+Following your recommendation from last week and on Canvas, we created pruned irules to avoid spurious application of empty affixes. We tested two versions, pruned_irules.tdl which contains only the suffixes being used in the MMT and a handful of test exampls and nonempty_irules.tdl which contains all irules that actually add features. After a quick correction to make TEMP aspect a daughter of PERF, we were able to generate with both these sets of irules. Using nonempty_irules.tdl, we still get a large number of generated sentences but significanly more reasonable. For example, starting with this example:
 
     #MMT EXAMPLE 11
     Source: author
@@ -208,7 +178,6 @@ PP's required us to add both a new Lexical Type and a new Grammar Rule to our fi
     casšiƛ=ḥaˑ piišpiš ʕiniiƛ
     chase=INTERR.3 cat dog 
     Do cats chase dogs
-
 
 We are able to generate the following with ace:
 
@@ -222,7 +191,9 @@ We are able to generate the following with ace:
     Ciq-šiƛ=‼aƛ=int=waˑʔš=ḥaˑ
     NOTE: 16 passive, 235 active edges in final generation chart; built 70 passives total. [8 results]
 
-Generation for this example works similarly with lkb (but is less easy to paste into this writeup). We next looked at the more complex clausal comp example:
+Generation for this example works similarly with lkb (but is less easy to paste into this writup).
+
+We next looked at the more complex clausal comp example:
 
     Source: author -- removed one out of scope ART suffix
     Vetted: s
@@ -241,7 +212,7 @@ Generation from ace hits the RAM limit but is able to generate 84 examples:
     NOTE: hit RAM limit while unpacking
     NOTE: 125 passive, 661 active edges in final generation chart; built 616 passives total. [84 results]
 
-I then wanted to look at a simple sentence but one with bare semantics and homonyms in our lexicon so I considered the following:
+We then wanted to look at a simple sentence but one with bare semantics and homonyms in our lexicon so we considered the following:
 
     #EXAMPLE 87
     Source: a:110
@@ -252,7 +223,7 @@ I then wanted to look at a simple sentence but one with bare semantics and homon
     see=TEMP=INTERR.1sg you.sg
     `Do I see you'
 
-We have multiple entries for both see (transitive and intransitive) and multiple you.sg pronouns. This lead ace to generate the following:
+We have multiple entries for both see (transitive and intransitive) and multiple you.sg pronouns. This lead ace to generate the follwoing:
     ...
     N̓aacsa-šiƛ=‼aƛ=int=ḥaˑ sut=suu
     ...
@@ -263,4 +234,4 @@ We have multiple entries for both see (transitive and intransitive) and multiple
 
 Since the sentence is less complex, fewer edges are used and we don't hit the RAM cap but we do get a massive 5k possible sentences.
 
-Overall, it looks like we can generate short and long sentences if we restrict ourselves to non-empty irules. We will always get a large number of parses if our semantics are relatively unconstrained so we will have to be mindful during our MMT example construction.
+Overall, it looks like we can generate short and long sentences if we restirct ourselves to non-empty irules. We will always get a large number of parses if our semantics are relatively unconstrained so we will have to be mindful during our MMT example construction.
