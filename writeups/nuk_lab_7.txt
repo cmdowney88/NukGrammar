@@ -85,3 +85,4 @@ However, these modifications on their own led to an explosion in ambiguity, and 
                                     HEAD verb ] ].
 
 #### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
+Following your recommendation from last week and on Canvas, we created a pruned irules 
