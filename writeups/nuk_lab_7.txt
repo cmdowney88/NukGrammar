@@ -55,7 +55,7 @@ casšiƛ=ḥaˑ piišpiš ʕiniiƛ
 chase=INTERR.3 cat dog 
 Do cats chase dogs
 
-#MMT EXAMPLE 13 -- čaačist is actually "Island"
+#MMT EXAMPLE 13
 Source: author
 Vetted: f
 Judgment: g
@@ -168,7 +168,7 @@ This latter correction rules out ungrammatical sentences like Example 88, in whi
     fragment: *'I sleep in...'
 
 #### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------
-Following your recommendation from last week and on Canvas, we created pruned irules to avoid spurious application of empty affixes. We tested two versions, pruned_irules.tdl which contains only the suffixes being used in the MMT and a handful of test exampls and nonempty_irules.tdl which contains all irules that actually add features. After a quick correction to make TEMP aspect a daughter of PERF, I was able to generate with both these sets of irules. Using nonempty_irules.tdl, we still get a large number of generated sentences but significanly more reasonable. For example, starting with this example:
+Following your recommendation from last week and on Canvas, we created pruned irules to avoid spurious application of empty affixes. We tested two versions, pruned_irules.tdl which contains only the suffixes being used in the MMT and a handful of test exampls and nonempty_irules.tdl which contains all irules that actually add features. After a quick correction to make TEMP aspect a daughter of PERF, we were able to generate with both these sets of irules. Using nonempty_irules.tdl, we still get a large number of generated sentences but significanly more reasonable. For example, starting with this example:
 
     #MMT EXAMPLE 11
     Source: author
@@ -178,7 +178,6 @@ Following your recommendation from last week and on Canvas, we created pruned ir
     casšiƛ=ḥaˑ piišpiš ʕiniiƛ
     chase=INTERR.3 cat dog 
     Do cats chase dogs
-
 
 We are able to generate the following with ace:
 
@@ -213,7 +212,7 @@ Generation from ace hits the RAM limit but is able to generate 84 examples:
     NOTE: hit RAM limit while unpacking
     NOTE: 125 passive, 661 active edges in final generation chart; built 616 passives total. [84 results]
 
-I then wanted to look at a simple sentence but one with bare semantics and homonyms in our lexicon so I considered the following:
+We then wanted to look at a simple sentence but one with bare semantics and homonyms in our lexicon so we considered the following:
 
     #EXAMPLE 87
     Source: a:110
