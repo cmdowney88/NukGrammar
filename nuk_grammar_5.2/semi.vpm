@@ -37,33 +37,33 @@ COG-ST : COG-ST
   * <> *
 
 
-PNG.PER : PNG.PER
+PNG.PER : PER
   3rd <> 3rd
   2nd <> 2nd
   1st <> 1st
   * <> *
 
-PNG.NUM : PNG.NUM
+PNG.NUM : NUM
   sg <> sg
   pl <> pl
   * <> *
 
-PNG.GEND : PNG.GEND
+PNG.GEND : GEND
   n <> n
   * <> *
 
-E.TENSE : E.TENSE
+E.TENSE : TENSE
   pst <> pst
   * <> *
 
-E.ASPECT : E.ASPECT
+E.ASPECT : ASPECT
   cont <> cont
   dur <> dur
   temp <> temp
   perf <> perf
   * <> *
 
-E.MOOD : E.MOOD
+E.MOOD : MOOD
   real <> real
   pssb <> pssb
   * <> *
