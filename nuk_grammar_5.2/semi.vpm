@@ -63,7 +63,13 @@ E.ASPECT : ASPECT
   perf <> perf
   * >> no-aspect
   no-aspect << [e]
+
 E.MOOD : MOOD
-  real <> real
-  pssb <> pssb
-  * <> *
+  indic <> indic
+  cond <> cond
+  quot <> quot
+  dub <> dub
+  abs <> abs
+  subord <> subord
+  interr <> interr
+  indic << [e]
