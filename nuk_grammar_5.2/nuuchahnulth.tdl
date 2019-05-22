@@ -135,6 +135,7 @@ cont := aspect.
 dur := aspect.
 temp := perf.
 perf := aspect.
+no-aspect := aspect.
 
 ;;; Mood
 

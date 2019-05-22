@@ -61,8 +61,8 @@ E.ASPECT : ASPECT
   dur <> dur
   temp <> temp
   perf <> perf
-  * <> *
-
+  * >> no-aspect
+  no-aspect << [e]
 E.MOOD : MOOD
   real <> real
   pssb <> pssb
