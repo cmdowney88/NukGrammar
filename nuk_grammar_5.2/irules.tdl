@@ -901,7 +901,7 @@ verb-pc18_lrt1-suffix2 :=
 %suffix (* -(y)aˑ)
 verb-pc18_lrt1-lex-rule.
 
-verb-pc18_lrt1-suffix2 :=
+verb-pc18_lrt1-suffix3 :=
 %suffix (* -yaˑ)
 verb-pc18_lrt1-lex-rule.
 
