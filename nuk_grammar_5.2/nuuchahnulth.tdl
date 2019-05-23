@@ -2332,7 +2332,7 @@ verb-pc36-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc101-
 
 verb-pc36_lrt1-lex-rule := verb-pc36-lex-rule-super.
 
-verb-pc37-lex-rule-super := add-only-no-ccont-rule & verb-pc108-rule-dtr & verb-pc112-rule-dtr & verb-pc122-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr  & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc8-rule-dtr & verb-pc9-rule-dtr &
+verb-pc37-lex-rule-super := add-only-no-ccont-rule & verb-pc108-rule-dtr & verb-pc112-rule-dtr & verb-pc122-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr  & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
   [ INFLECTED [ VERB-TENSE-FLAG +,
                 VERB-PC116-FLAG #verb-pc116],
     DTR verb-pc37-rule-dtr &
