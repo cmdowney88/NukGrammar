@@ -929,10 +929,6 @@ wał_1 := noun103-noun-lex &
   [ STEM < "wał" >,
     SYNSEM.LKEYS.KEYREL.PRED "_go.home_n_rel" ].
 
-weʔič_1 := noun105-noun-lex &
-  [ STEM < "weʔič" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sleep_n_rel" ].
-
 wiik̓it := noun107-noun-lex &
   [ STEM < "wiik̓it" >,
     SYNSEM.LKEYS.KEYREL.PRED "_none_n_rel" ].
