@@ -30,22 +30,10 @@ basic-head-comp-phrase :+ [ HEAD-DTR.SYNSEM.LOCAL.CAT [ VAL.COMPS.FIRST.OPT -,
                        VC #vc ],
     NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VC #vc ].
 
-inflected :+ [ VERB-PC37-FLAG luk,
-    VERB-PC8-FLAG luk,
-    VERB-PC156-FLAG luk,
-    VERB-PC147-FLAG luk,
-    VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG luk,
-    VERB-PC147-OR-VERB-PC156-FLAG luk,
-    VERB-PC37-OR-VERB-PC8-FLAG luk,
+inflected :+ [ VERB-TENSE-FLAG luk,
     VERB-PC116-FLAG luk ].
 
-infl-satisfied :+ [ VERB-PC37-FLAG na-or-+,
-    VERB-PC8-FLAG na-or-+,
-    VERB-PC156-FLAG na-or-+,
-    VERB-PC147-FLAG na-or-+,
-    VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG na-or-+,
-    VERB-PC147-OR-VERB-PC156-FLAG na-or-+,
-    VERB-PC37-OR-VERB-PC8-FLAG na-or-+,
+infl-satisfied :+ [ VERB-TENSE-FLAG na-or-+,
     VERB-PC116-FLAG na-or-+ ].
 
 png :+ [ PER person,
@@ -452,211 +440,199 @@ clausal-verb-lex := main-verb-lex &
 verb1-verb-lex := intransitive-verb-lex.
 
 verb2-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc2-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc3-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc5-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc55-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr&
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb4-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc13-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc61-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr&
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb5-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc17-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb7-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc2-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc3-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc44-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc55-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr & verb-pc92-rule-dtr & verb-pc96-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb8-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc3-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc55-rule-dtr & verb-pc57-rule-dtr & verb-pc66-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb11-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb12-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb13-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb14-verb-lex := intransitive-verb-lex & verb-pc28-rule-dtr.
 
 verb16-verb-lex := transitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc117-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc125-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc156-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc31-rule-dtr & verb-pc32-rule-dtr & verb-pc33-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc48-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc62-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr & verb-pc96-rule-dtr &
-  [ INFLECTED [ VERB-PC147-OR-VERB-PC156-FLAG -,
-                VERB-PC37-OR-VERB-PC8-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb18-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc156-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC156-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb20-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc44-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb21-verb-lex := intransitive-verb-lex & verb-pc108-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc48-rule-dtr & verb-pc85-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb22-verb-lex := intransitive-verb-lex.
 
 verb23-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb24-verb-lex := clausal-verb-lex & verb-pc53-rule-dtr & verb-pc54-rule-dtr & clausal-second-arg-trans-lex-item &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL [ CAT.HEAD verb,
                                            CONT.HOOK.INDEX.E.MOOD cond ] ] > ].
 
 verb25-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc3-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc55-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb26-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb27-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc61-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb28-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc62-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb29-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb32-verb-lex := clausal-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc13-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc61-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD verb ] >,
-    INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+    INFLECTED.VERB-TENSE-FLAG - ].
 
 verb33-verb-lex := intransitive-verb-lex.
 
 verb34-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc3-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc55-rule-dtr & verb-pc57-rule-dtr & verb-pc66-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb35-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc18-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc73-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb38-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb39-verb-lex := transitive-verb-lex & verb-pc61-rule-dtr & verb-pc75-rule-dtr.
 
 verb40-verb-lex := intransitive-verb-lex.
 
 verb41-verb-lex := transitive-verb-lex & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb42-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc79-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb43-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb49-verb-lex := intransitive-verb-lex & verb-pc29-rule-dtr & verb-pc69-rule-dtr.
 
 verb53-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc66-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb54-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTEDVERB-TENSE-FLAG - ].
 
 verb57-verb-lex := transitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc156-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc33-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC147-OR-VERB-PC156-FLAG -,
-                VERB-PC37-OR-VERB-PC8-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb58-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb59-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc31-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb60-verb-lex := intransitive-verb-lex & verb-pc108-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb61-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb63-verb-lex := intransitive-verb-lex & verb-pc108-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb64-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb66-verb-lex := clausal-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc17-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS < [ LOCAL.CAT.HEAD verb ] >,
-    INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG -  ].
+    INFLECTED.VERB-TENSE-FLAG -  ].
 
 verb67-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc104-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb69-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb72-verb-lex := transitive-verb-lex & verb-pc23-rule-dtr & verb-pc41-rule-dtr.
 
 verb77-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb78-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc116-rule-dtr & verb-pc117-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC116-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED [VERB-TENSE-FLAG -,
+	       VERB-PC116-FLAG - ] ].
 
 verb79-verb-lex := intransitive-verb-lex.
 
 verb81-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb82-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc121-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb83-verb-lex := intransitive-verb-lex & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb84-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc125-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc75-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr & verb-pc96-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb86-verb-lex := intransitive-verb-lex.
 
 verb87-verb-lex := intransitive-verb-lex & verb-pc54-rule-dtr.
 
 verb88-verb-lex := intransitive-verb-lex & verb-pc108-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb90-verb-lex := intransitive-verb-lex.
 
 verb91-verb-lex := intransitive-verb-lex.
 
 verb92-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc104-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb100-verb-lex := transitive-verb-lex.
 
 verb103-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc79-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb109-verb-lex := intransitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc18-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc25-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc73-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb111-verb-lex := intransitive-verb-lex & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb113-verb-lex := transitive-verb-lex & verb-pc108-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc23-rule-dtr & verb-pc35-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED.VERB-PC8-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb116-verb-lex := intransitive-verb-lex.
 
 verb122-verb-lex := intransitive-verb-lex & verb-pc121-rule-dtr.
 
 verb124-verb-lex := transitive-verb-lex & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc92-rule-dtr &
-  [ INFLECTED.VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG - ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 verb126-verb-lex := intransitive-verb-lex & verb-pc5-rule-dtr.
 
 verb130-verb-lex := transitive-verb-lex & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr & Interr-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 copula-verb-lex := transitive-verb-lex  & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc116-rule-dtr & verb-pc117-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC147-FLAG - ] ].
+  [ INFLECTED.VERB-TENSE-FLAG - ].
 
 1sg-copula-verb-lex := copula-verb-lex & 
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
@@ -693,9 +669,8 @@ subj-raise-aux-with-pred := subj-raise-aux & norm-sem-lex-item & trans-first-arg
 
 neg-aux-lex := subj-raise-aux-with-pred & verb-pc10-rule-dtr & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc113-rule-dtr & verb-pc116-rule-dtr & verb-pc117-rule-dtr & verb-pc12-rule-dtr & verb-pc122-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc147-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc22-rule-dtr & verb-pc23-rule-dtr & verb-pc24-rule-dtr & verb-pc25-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc32-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc45-rule-dtr & verb-pc46-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc64-rule-dtr & verb-pc65-rule-dtr & verb-pc66-rule-dtr & verb-pc67-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc90-rule-dtr &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM finite,
-    INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG -,
-                VERB-PC116-FLAG -,
-                VERB-PC147-FLAG - ] ].
+    INFLECTED [ VERB-TENSE-FLAG -,
+                VERB-PC116-FLAG - ] ].
 
 ;;; Adpositions
 
@@ -2061,20 +2036,10 @@ verb-pc5-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
 verb-pc5_lrt1-lex-rule := verb-pc5-lex-rule-super.
 
 verb-pc8-lex-rule-super := add-only-no-ccont-rule & verb-pc108-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc23-rule-dtr & verb-pc35-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-[ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG +,
-                VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG +,
-                VERB-PC8-FLAG +,
-                VERB-PC147-OR-VERB-PC156-FLAG #verb-pc147-or-verb-pc156,
-                VERB-PC37-FLAG #verb-pc37,
-                VERB-PC116-FLAG #verb-pc116,
-                VERB-PC156-FLAG #verb-pc156,
-                VERB-PC147-FLAG #verb-pc147 ],
+[ INFLECTED [ VERB-TENSE-FLAG +,
+                VERB-PC116-FLAG #verb-pc116],
     DTR verb-pc8-rule-dtr &
-        [ INFLECTED [ VERB-PC147-OR-VERB-PC156-FLAG #verb-pc147-or-verb-pc156,
-                      VERB-PC37-FLAG #verb-pc37,
-                      VERB-PC116-FLAG #verb-pc116,
-                      VERB-PC156-FLAG #verb-pc156,
-                      VERB-PC147-FLAG #verb-pc147 ] ] ].
+        [ INFLECTED [ VERB-PC116-FLAG #verb-pc116 ] ] ].
 
 verb-pc8_lrt1-lex-rule := infl-lex-rule & verb-pc8-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
@@ -2368,20 +2333,10 @@ verb-pc36-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc101-
 verb-pc36_lrt1-lex-rule := verb-pc36-lex-rule-super.
 
 verb-pc37-lex-rule-super := add-only-no-ccont-rule & verb-pc108-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-FLAG +,
-                VERB-PC37-FLAG +,
-                VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG +,
-                VERB-PC147-OR-VERB-PC156-FLAG #verb-pc147-or-verb-pc156,
-                VERB-PC156-FLAG #verb-pc156,
-                VERB-PC116-FLAG #verb-pc116,
-                VERB-PC147-FLAG #verb-pc147,
-                VERB-PC8-FLAG #verb-pc8 ],
+  [ INFLECTED [ VERB-TENSE-FLAG +,
+                VERB-PC116-FLAG #verb-pc116],
     DTR verb-pc37-rule-dtr &
-        [ INFLECTED [ VERB-PC147-OR-VERB-PC156-FLAG #verb-pc147-or-verb-pc156,
-                      VERB-PC156-FLAG #verb-pc156,
-                      VERB-PC116-FLAG #verb-pc116,
-                      VERB-PC147-FLAG #verb-pc147,
-                      VERB-PC8-FLAG #verb-pc8 ] ] ].
+        [ INFLECTED [ VERB-PC116-FLAG #verb-pc116 ] ] ].
 
 
 verb-pc37_lrt1-lex-rule := infl-lex-rule & verb-pc37-lex-rule-super &
@@ -2692,22 +2647,10 @@ verb-pc90_lrt1-lex-rule := verb-pc90-lex-rule-super &
                                                                 NUM sg ] ].
 
 verb-pc92-lex-rule-super := add-only-no-ccont-rule & verb-pc16-rule-dtr & verb-pc23-rule-dtr & verb-pc41-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED [ VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG +,
-                VERB-PC156-FLAG #verb-pc156,
-                VERB-PC8-FLAG #verb-pc8,
-                VERB-PC37-FLAG #verb-pc37,
-                VERB-PC147-FLAG #verb-pc147,
-                VERB-PC37-OR-VERB-PC8-FLAG #verb-pc37-or-verb-pc8,
-                VERB-PC147-OR-VERB-PC156-FLAG #verb-pc147-or-verb-pc156,
+  [ INFLECTED [ VERB-TENSE-FLAG +,
                 VERB-PC116-FLAG #verb-pc116 ],
     DTR verb-pc92-rule-dtr &
-        [ INFLECTED [ VERB-PC156-FLAG #verb-pc156,
-                      VERB-PC8-FLAG #verb-pc8,
-                      VERB-PC37-FLAG #verb-pc37,
-                      VERB-PC147-FLAG #verb-pc147,
-                      VERB-PC37-OR-VERB-PC8-FLAG #verb-pc37-or-verb-pc8,
-                      VERB-PC147-OR-VERB-PC156-FLAG #verb-pc147-or-verb-pc156,
-                      VERB-PC116-FLAG #verb-pc116 ] ] ].
+        [ INFLECTED [ VERB-PC116-FLAG #verb-pc116 ] ] ].
 
 verb-pc92_lrt1-lex-rule := infl-lex-rule & verb-pc92-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
@@ -2948,21 +2891,10 @@ verb-pc142-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc10-
 verb-pc142_lrt1-lex-rule := verb-pc142-lex-rule-super.
 
 verb-pc147-lex-rule-super := add-only-no-ccont-rule & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED [ VERB-PC147-OR-VERB-PC156-FLAG +,
-                VERB-PC147-FLAG +,
-                VERB-PC156-FLAG #verb-pc156,
-                VERB-PC8-FLAG #verb-pc8,
-                VERB-PC37-FLAG #verb-pc37,
-                VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG #verb-pc37-or-verb-pc8-or-verb-pc92,
-                VERB-PC37-OR-VERB-PC8-FLAG #verb-pc37-or-verb-pc8,
+  [ INFLECTED [ VERB-TENSE-FLAG +,
                 VERB-PC116-FLAG #verb-pc116 ],
     DTR verb-pc147-rule-dtr &
-        [ INFLECTED [ VERB-PC156-FLAG #verb-pc156,
-                      VERB-PC8-FLAG #verb-pc8,
-                      VERB-PC37-FLAG #verb-pc37,
-                      VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG #verb-pc37-or-verb-pc8-or-verb-pc92,
-                      VERB-PC37-OR-VERB-PC8-FLAG #verb-pc37-or-verb-pc8,
-                      VERB-PC116-FLAG #verb-pc116 ] ] ].
+        [ INFLECTED [ VERB-PC116-FLAG #verb-pc116 ] ] ].
 
 verb-pc147_lrt1-lex-rule := infl-lex-rule & verb-pc147-lex-rule-super.
 
@@ -2980,21 +2912,10 @@ verb-pc148-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
 verb-pc148_lrt1-lex-rule := verb-pc148-lex-rule-super.
 
 verb-pc156-lex-rule-super := add-only-no-ccont-rule & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc11-rule-dtr & verb-pc112-rule-dtr & verb-pc12-rule-dtr & verb-pc133-rule-dtr & verb-pc14-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc26-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc37-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc51-rule-dtr & verb-pc53-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc8-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
-  [ INFLECTED [ VERB-PC147-OR-VERB-PC156-FLAG +,
-                VERB-PC156-FLAG +,
-                VERB-PC147-FLAG #verb-pc147,
-                VERB-PC37-FLAG #verb-pc37,
-                VERB-PC8-FLAG #verb-pc8,
-                VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG #verb-pc37-or-verb-pc8-or-verb-pc92,
-                VERB-PC37-OR-VERB-PC8-FLAG #verb-pc37-or-verb-pc8,
+  [ INFLECTED [ VERB-TENSE-FLAG +,
                 VERB-PC116-FLAG #verb-pc116 ],
     DTR verb-pc156-rule-dtr &
-        [ INFLECTED [ VERB-PC147-FLAG #verb-pc147,
-                      VERB-PC37-FLAG #verb-pc37,
-                      VERB-PC8-FLAG #verb-pc8,
-                      VERB-PC37-OR-VERB-PC8-OR-VERB-PC92-FLAG #verb-pc37-or-verb-pc8-or-verb-pc92,
-                      VERB-PC37-OR-VERB-PC8-FLAG #verb-pc37-or-verb-pc8,
-                      VERB-PC116-FLAG #verb-pc116 ] ] ].
+        [ INFLECTED [ VERB-PC116-FLAG #verb-pc116 ] ] ].
 
 verb-pc156_lrt1-lex-rule := infl-lex-rule & verb-pc156-lex-rule-super.
 
