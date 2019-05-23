@@ -883,6 +883,8 @@ Interr-rule-dtr := word-or-lexrule.
 2sgInterr-rule-dtr := Interr-rule-dtr.
 2plInterr-rule-dtr := Interr-rule-dtr.
 3rdInterr-rule-dtr := Interr-rule-dtr.
+verb-pc68-rule-dtr := word-or-lexrule.
+verb-pc170-rule-dtr := word-or-lexrule.
 
 ;;; Lexical rule types
 
@@ -2034,7 +2036,7 @@ verb-pc5-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
 
 verb-pc5_lrt1-lex-rule := verb-pc5-lex-rule-super.
 
-verb-pc8-lex-rule-super := add-only-no-ccont-rule & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc108-rule-dtr & verb-pc112-rule-dtr & verb-pc11-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr &
+verb-pc8-lex-rule-super := add-only-no-ccont-rule & verb-pc101-or-verb-pc56-or-verb-pc58-rule-dtr & verb-pc108-rule-dtr & verb-pc108-rule-dtr & verb-pc112-rule-dtr & verb-pc11-rule-dtr & verb-pc12-rule-dtr & verb-pc15-or-verb-pc161-rule-dtr & verb-pc16-rule-dtr & verb-pc172-rule-dtr & verb-pc19-or-verb-pc72-or-verb-pc87-rule-dtr & verb-pc20-rule-dtr & verb-pc23-rule-dtr & verb-pc29-rule-dtr & verb-pc35-rule-dtr & verb-pc40-or-verb-pc42-rule-dtr & verb-pc41-rule-dtr & verb-pc54-rule-dtr & verb-pc57-rule-dtr & verb-pc69-rule-dtr & verb-pc78-or-verb-pc83-rule-dtr & verb-pc88-rule-dtr & verb-pc9-rule-dtr & verb-pc68-rule-dtr & verb-pc170-rule-dtr &
 [ INFLECTED [ VERB-TENSE-FLAG +,
                 VERB-PC116-FLAG #verb-pc116],
     DTR verb-pc8-rule-dtr &
@@ -2512,7 +2514,7 @@ verb-pc67_lrt2-lex-rule := verb-pc67-lex-rule-super &
 
 verb-pc68-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
-    DTR verb29-verb-lex &
+    DTR verb-pc68-rule-dtr &
         [ INFLECTED #infl ] ].
 
 verb-pc68_lrt1-lex-rule := verb-pc68-lex-rule-super.
@@ -2973,7 +2975,7 @@ verb-pc169_lrt1-lex-rule := verb-pc169-lex-rule-super.
 
 verb-pc170-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
-    DTR verb29-verb-lex &
+    DTR verb-pc170-rule-dtr &
         [ INFLECTED #infl ] ].
 
 verb-pc170_lrt1-lex-rule := verb-pc170-lex-rule-super &
