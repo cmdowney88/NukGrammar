@@ -2079,6 +2079,9 @@ verb-pc8-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc108-r
 verb-pc8_lrt1-lex-rule := verb-pc8-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
 
+verb-pc8-noninfl-lex-rule := const-lex-rule & verb-pc8-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ].
+
 verb-pc9-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc16-rule-dtr & verb-pc23-rule-dtr &
   [ INFLECTED #infl,
     DTR verb-pc9-rule-dtr &
@@ -2383,6 +2386,9 @@ verb-pc37-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc108-
 
 verb-pc37_lrt1-lex-rule := verb-pc37-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
+
+verb-pc37_noninfl-lex-rule := const-lex-rule & verb-pc37-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ].
 
 verb-pc40-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc16-rule-dtr & verb-pc23-rule-dtr & verb-pc88-rule-dtr &
   [ INFLECTED #infl,
@@ -2706,6 +2712,9 @@ verb-pc92-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & verb-pc16-r
 verb-pc92_lrt1-lex-rule := verb-pc92-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
 
+verb-pc92-noninfl-lex-rule := const-lex-rule & verb-pc92-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ].
+
 verb-pc93-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
     DTR verb7-verb-lex &
@@ -2960,6 +2969,9 @@ verb-pc147_lrt1-lex-rule := verb-pc147-lex-rule-super.
 verb-pc147_lrt2-lex-rule := verb-pc147-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
 
+verb-pc147-noninfl-lex-rule := const-lex-rule & verb-pc147-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ].
+
 verb-pc148-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
     DTR verb116-verb-lex &
@@ -2988,6 +3000,9 @@ verb-pc156_lrt1-lex-rule := verb-pc156-lex-rule-super.
 
 verb-pc156_lrt2-lex-rule := verb-pc156-lex-rule-super &
   [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pst ].
+
+verb-pc156-noninfl-lex-rule := const-lex-rule & verb-pc156-lex-rule-super &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.TENSE pres ].
 
 verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
