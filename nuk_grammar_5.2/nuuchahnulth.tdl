@@ -82,6 +82,14 @@ basic-head-mod-phrase-simple :+ [ SYNSEM.LOCAL.CAT.MC #mc,
 
 head-adj-int-phrase :+ [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
 
+extracted-comp-phrase := basic-extracted-comp-phrase &
+    [ SYNSEM.LOCAL.CAT.HEAD verb,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ cons ].
+
+extracted-subj-phrase := basic-extracted-subj-phrase &
+    [ SYNSEM.LOCAL.CAT.HEAD verb,
+      HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
+
 ;;;;;;;;;;;;;;
 ;;; Features
 ;;;;;;;;;;;;;;
@@ -717,6 +725,23 @@ posthead-clause-init-subord-lex-item := subord-with-verbal-comp-lex &
                        HEAD.INIT + ] ].
 
 ;;; Complementizers
+
+;;; Wh-Words
+
+wh-pronoun-noun-lex := norm-hook-lex-item & basic-icons-lex-item &
+    [ SYNSEM [ LOCAL [ CAT [ HEAD noun,
+                             VAL [ SPR < >,
+                                   SUBJ < >,
+                                   COMPS < >,
+                                   SPEC < > ] ],
+                       CONT [ RELS <![ LBL #larg,
+                                       ARG0 #ind & ref-ind ],
+                                     [ PRED "wh_q_rel",
+                                       ARG0 #ind,
+                                       RSTR #harg ]!>,
+                              HCONS <![ HARG #harg,
+                                        LARG #larg ]!> ] ],
+               NON-LOCAL.QUE <!#ind!> ] ].
 
 ;;;;;;;;;;;;;;;;;;;
 ;;; Lexical Rules

@@ -1812,3 +1812,13 @@ wik_3 := neg-aux-lex &
 hił_adp := nuk-adposition-lex-item &
   [ STEM < "hił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_in_adp_rel" ].
+
+;;; Wh-Items
+
+qʷi := wh-pronoun-noun-lex &
+  [ STEM < "qʷi" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+yaq := wh-pronoun-noun-lex &
+  [ STEM < "yaq" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].

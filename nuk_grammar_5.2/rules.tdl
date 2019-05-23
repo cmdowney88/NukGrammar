@@ -24,3 +24,7 @@ s1-top-coord := s1-top-coord-rule.
 s1-bottom-coord := s1-bottom-coord-rule.
 
 head-adj-scop := head-adj-scop-phrase.
+
+extracted-comp := extracted-comp-phrase.
+
+extracted-subj := extracted-subj-phrase.
