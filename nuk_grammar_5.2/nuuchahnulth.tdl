@@ -90,6 +90,16 @@ extracted-subj-phrase := basic-extracted-subj-phrase &
     [ SYNSEM.LOCAL.CAT.HEAD verb,
       HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < > ].
 
+wh-ques-phrase := basic-head-filler-phrase & interrogative-clause & 
+		  head-final &
+   [ SYNSEM.LOCAL.CAT [ MC bool,
+			VAL #val,
+			HEAD verb & [ FORM finite ] ],
+     HEAD-DTR.SYNSEM.LOCAL.CAT [ MC na,
+				 VAL #val & [ SUBJ < >,
+					      COMPS < > ] ],
+     NON-HEAD-DTR.SYNSEM.NON-LOCAL.QUE <! ref-ind !> ].
+
 ;;;;;;;;;;;;;;
 ;;; Features
 ;;;;;;;;;;;;;;
@@ -728,7 +738,7 @@ posthead-clause-init-subord-lex-item := subord-with-verbal-comp-lex &
 
 ;;; Wh-Words
 
-wh-pronoun-noun-lex := norm-hook-lex-item & basic-icons-lex-item &
+wh-pronoun-noun-lex := norm-hook-lex-item & basic-icons-lex-item & verb-pc15-or-verb-pc161-rule-dtr &
     [ SYNSEM [ LOCAL [ CAT [ HEAD noun,
                              VAL [ SPR < >,
                                    SUBJ < >,

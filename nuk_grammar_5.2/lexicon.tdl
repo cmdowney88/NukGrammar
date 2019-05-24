@@ -861,10 +861,6 @@ qʷaaʔap_1 := noun71-noun-lex &
   [ STEM < "qʷaaʔap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_do_n_rel" ].
 
-qʷi_1 := noun73-noun-lex &
-  [ STEM < "qʷi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_what_n_rel" ].
-
 ḥaakʷaƛ := noun77-noun-lex &
   [ STEM < "ḥaakʷaƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_daughter_n_rel" ].
@@ -936,10 +932,6 @@ wiik̓it := noun107-noun-lex &
 wiiq := noun108-noun-lex &
   [ STEM < "wiiq" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bad_n_rel" ].
-
-yaq_1 := noun112-noun-lex &
-  [ STEM < "yaq" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_who_n_rel" ].
 
 yuʔi := noun113-noun-lex &
   [ STEM < "yuʔi" >,
@@ -1401,10 +1393,6 @@ hist_2 := verb18-verb-lex &
   [ STEM < "hist" >,
     SYNSEM.LKEYS.KEYREL.PRED "_at_v_rel" ].
 
-qʷi_2 := verb20-verb-lex &
-  [ STEM < "qʷi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_what_v_rel" ].
-
 hił := verb20-verb-lex &
   [ STEM < "hił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be+located_v_rel" ].
@@ -1609,10 +1597,6 @@ qʷaaʔap_3 := verb53-verb-lex &
   [ STEM < "qʷaaʔap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_do_v_rel" ].
 
-qʷi_3 := verb54-verb-lex &
-  [ STEM < "qʷi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_what_v_rel" ].
-
 siḥ_2 := verb57-verb-lex &
   [ STEM < "siḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_you.all_v_rel" ].
@@ -1696,10 +1680,6 @@ yaaʔak := verb82-verb-lex &
 yac := verb83-verb-lex &
   [ STEM < "yac" >,
     SYNSEM.LKEYS.KEYREL.PRED "_step_v_rel" ].
-
-yaq_2 := verb84-verb-lex &
-  [ STEM < "yaq" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_who_v_rel" ].
 
 y̓ak := verb86-verb-lex &
   [ STEM < "y̓ak" >,

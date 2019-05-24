@@ -28,3 +28,5 @@ head-adj-scop := head-adj-scop-phrase.
 extracted-comp := extracted-comp-phrase.
 
 extracted-subj := extracted-subj-phrase.
+
+wh-ques := wh-ques-phrase.
