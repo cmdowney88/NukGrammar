@@ -1145,7 +1145,7 @@ huuwaay := verb7-verb-lex &
   [ STEM < "huuwaay" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be.careful_v_rel" ].
 
-haʔuk_2 := verb7-verb-lex &
+haʔuk_intrans := verb7-verb-lex &
   [ STEM < "haʔuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
@@ -1744,6 +1744,10 @@ mat_2 := verb109-verb-lex &
 casšiƛ := verb130-verb-lex &
   [ STEM < "casšiƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+haʔuk_trans := verb130-verb-lex &
+  [ STEM < "haʔuk" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 siy̓aaq := 1sg-copula-verb-lex &
   [ STEM < "siy̓aaq" >,
