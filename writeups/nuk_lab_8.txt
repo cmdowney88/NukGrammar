@@ -39,10 +39,28 @@ What do the dogs chase
 
 As can be seen, the Wh-words are found sentence-initially and take an affix indicating the interrogative mood as well as the agreement information for the Subject of the clause. This may be somewhat confusing for sentences in which the the Subject is being questioned, but it can be regarded as solely grammatical agreement with the "who" pronoun, not necessarily indicating that the questioned person need be 3rd-Person. This happens in English too: "Who unleash[es] the cats? -> You unleash[] the cats".
 
-We began to develop an implementation for this phenomenon, but ran into trouble with the fact that this seems to be a second-position phenomenon that is hard to work around. We borrowed the wh-ques-phrase, extracted-subj-phrase, extracted-comp-phrase, and wh-prounoun-noun-lex types from the given English grammar. However, the wh-ques-phrase expects that the wh-word acts as a noun "filler" to the gappy clause, whereas our current analysis of agreement clitics in Nuuchahnulth regard them as affixes on the sentence-initial verb. Thus, our wh-words are incompatible with the gap-filler type, or more specifically, the wh-pronoun types are not compatible with what we analyze as the initial verb morphology.
+Wh-relative clauses work using a very parallel structure, but with different words. This can be seen in the following examples from David Inman, the first being a lone wh-relative clause and the second being the embedded wh-question from the MT sentences:
 
+yaqʷ=qiˑtq casšiƛ ʕiniiƛ
+that.which=DEF chase dog
+"what the dog(s) chase"
+
+#EXAMPLE 18
+Source: d
+Vetted: f
+Judgment: g
+Phenomena: {Agreement, Embedded-Wh-Ques}
+ʔaʔaatu=mit=maˑḥ yaqʷ=yii casšiƛ ʕiniiƛ
+ask=past=INDIC.1sg that.which=INDEF.3 chase dog
+"I asked what dogs chased"
+
+We were advised to steer clear of this early on in the week, because according to Emily, the fact that the embedded question is identical to the relative clause and not the corresponding Wh-question is not easily ammenable to the matrix grammar as it stands. Thus, our Example 18 is translated, but not covered.
 
 #### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
+
+## Wh-Questions (Unsuccessful) ##
+
+We began to develop an implementation for Wh-questions as seen in the previous section, but ran into trouble with the fact that this seems to be a second-position phenomenon that is hard to work around. We borrowed the wh-ques-phrase, extracted-subj-phrase, extracted-comp-phrase, and wh-prounoun-noun-lex types from the given English grammar. However, the wh-ques-phrase expects that the wh-word acts as a noun "filler" to the gappy clause, whereas our current analysis of agreement clitics in Nuuchahnulth regard them as affixes on the sentence-initial verb. Thus, our wh-words are incompatible with the gap-filler type, or more specifically, the wh-pronoun types are not compatible with what we analyze as the initial verb morphology.
 
 #### 4 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
 
