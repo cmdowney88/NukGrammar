@@ -17,7 +17,7 @@ d. What sources of ambiguity can you identify?
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
 
 #### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
-This week we added translations for several different phenomena, though we weren't able to get each one workin in our grammar. First of all, we added translations for Wh-questions, as seen in Examples :
+This week we added translations for several different phenomena, though we weren't able to get each one working in our grammar. First of all, we added translations for Wh-questions, as seen in Examples 23 and 24:
 
 #EXAMPLE 23
 Source: author
@@ -61,6 +61,70 @@ We were advised to steer clear of this early on in the week, because according t
 ## Wh-Questions (Unsuccessful) ##
 
 We began to develop an implementation for Wh-questions as seen in the previous section, but ran into trouble with the fact that this seems to be a second-position phenomenon that is hard to work around. We borrowed the wh-ques-phrase, extracted-subj-phrase, extracted-comp-phrase, and wh-prounoun-noun-lex types from the given English grammar. However, the wh-ques-phrase expects that the wh-word acts as a noun "filler" to the gappy clause, whereas our current analysis of agreement clitics in Nuuchahnulth regard them as affixes on the sentence-initial verb. Thus, our wh-words are incompatible with the gap-filler type, or more specifically, the wh-pronoun types are not compatible with what we analyze as the initial verb morphology.
+
+## Modal Auxiliaries ##
+
+The phenomenon we were able to add successfully was modal auxiliaries, specifically adding Example 27 to our coverage:
+
+#EXAMPLE 27 -- ʔink actually means "fire"
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modals}
+ʔuʔumḥi=maˑḥ haʔuk ʔink
+can=INDIC.1sg eat glass
+I can eat glass
+
+To do this, we used a subject-raising auxiliary type similar to the one we used for negation and added the needed form to our lexicon:
+
+subj-raise-aux := aux-lex & trans-first-arg-raising-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL [ SPR < >,
+                             SPEC < >,
+                             COMPS < #comps >,
+                             SUBJ < #subj > ],
+                   CONT.HOOK.XARG #xarg ],
+    ARG-ST < #subj &
+             [ LOCAL [ CAT [ HEAD noun,
+                             VAL [ SUBJ < >,
+                                   SPR < >,
+                                   SPEC < >,
+                                   COMPS < > ] ],
+                       CONT.HOOK.INDEX #xarg ] ],
+             #comps &
+             [ OPT -,
+	       LOCAL.CAT [ VAL [ SUBJ < unexpressed >,
+                                 COMPS < >,
+                                 SPR < >,
+                                 SPEC < > ],
+                           HEAD verb ] ] > ].
+
+subj-raise-aux-with-pred := subj-raise-aux & norm-sem-lex-item & trans-first-arg-raising-lex-item-1.
+
+modal-aux-lex := subj-raise-aux-with-pred & (verb-pc-dtrs...) &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM nonfinite,
+    INFLECTED [ VERB-TENSE-FLAG - ] ].
+
+neg-aux-lex := subj-raise-aux-with-pred & (verb-pc-dtrs...) &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CAT.HEAD.FORM nonfinite,
+    INFLECTED [ VERB-TENSE-FLAG - ] ].
+
+We also improved upon the structure for both this and the neg-aux-lex, because before we did not account for the fact that the complement of an auxiliary verb must not have any of the mood/agreement clitics that appear on the main verb (second position clitics). For example, both of the following would be ungrammatical, and are correctly ruled out by our grammar:
+
+ʔuʔumḥi haʔuk=maˑḥ ʔink
+can eat=INDIC.1sg glass
+intended: *'I can eat glass'
+
+wik haʔuk=maˑḥ ʔink
+neg eat=INDIC.1sg glass
+intended: *'I do not eat glass'
+
+To accomplish this, we made sure that both the modal-aux-lex and neg-aux-lex (above) require their complements to be FORM nonfinite, and also that the second-position-clitics specify FORM finite on the verbs they attach to, as follows:
+
+verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM finite,
+    INFLECTED #infl & [ CLITIC-CLUSTER-FLAG + ],
+    DTR verb-pc15-or-verb-pc161-rule-dtr &
+        [ INFLECTED #infl ] ].
 
 #### 4 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
 
