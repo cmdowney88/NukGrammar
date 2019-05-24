@@ -1224,7 +1224,8 @@ noun-pc40-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & noun-pc95-r
         [ INFLECTED #infl ] ].
 
 noun-pc40_lrt1-lex-rule := noun-pc40-lex-rule-super &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM sg ].
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ NUM sg,
+								 PER 1st] ].
 
 noun-pc42-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
