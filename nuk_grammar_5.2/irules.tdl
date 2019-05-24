@@ -753,7 +753,7 @@ poss1_lrt1-suffix :=
 %suffix (* =ʔak)
 poss1_lrt1-lex-rule.
 
-poss2_ltr1-suffix :=
+poss2_lrt1-suffix :=
 %suffix (* =uk)
 poss2_ltr1-lex-rule.
 
