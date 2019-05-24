@@ -1033,10 +1033,6 @@ waʔič_1 := noun113-noun-lex &
   [ STEM < "ʔuuš" >,
     SYNSEM.LKEYS.KEYREL.PRED "_some_n_rel" ].
 
-ʔuʔumḥi_1 := noun164-noun-lex &
-  [ STEM < "ʔuʔumḥi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_can_n_rel" ].
-
 ʕatiq_1 := noun169-noun-lex &
   [ STEM < "ʕatiq" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thank_n_rel" ].
@@ -1329,7 +1325,7 @@ qayaa_1 := verb12-verb-lex &
   [ STEM < "čii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pull_v_rel" ].
 
-ʔuʔumḥi_2 := verb12-verb-lex &
+ʔuʔumḥi := verb12-verb-lex &
   [ STEM < "ʔuʔumḥi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_can_v_rel" ].
 
