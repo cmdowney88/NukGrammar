@@ -441,14 +441,6 @@ qay̓apt̓a := noun9-noun-lex &
   [ STEM < "qay̓apt̓a" >,
     SYNSEM.LKEYS.KEYREL.PRED "_limb_n_rel" ].
 
-haʔu_1 := noun10-noun-lex &
-  [ STEM < "haʔu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_n_rel" ].
-
-haʔuk_1 := noun11-noun-lex &
-  [ STEM < "haʔuk" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_n_rel" ].
-
 ʔuḥ_1 := noun12-noun-lex &
   [ STEM < "ʔuḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be_n_rel" ].
@@ -1325,7 +1317,7 @@ qayaa_1 := verb12-verb-lex &
   [ STEM < "čii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pull_v_rel" ].
 
-ʔuʔumḥi := verb12-verb-lex &
+ʔuʔumḥi := modal-aux-lex &
   [ STEM < "ʔuʔumḥi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_can_v_rel" ].
 
