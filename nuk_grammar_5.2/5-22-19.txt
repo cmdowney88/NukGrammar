@@ -1,0 +1,27 @@
+For this week we have two candidates for improvements to make to our grammar. One is adjectives: we don't really seem to have any inferred from our corpus. Our descriptive grammar also makes it seem like there might not be adjectives so much as stative verbs, which would complicate our analysis of sentences like "the hungry dogs eat". However, there seem to be at least some cases of words like "big" acting adjective-like in our corpus that it might be useful just to add that category for the sake of translation:
+
+tux-cpaˑ=(y)ii=č ʔu-L.(č)ił ḥaaʔaḥa ʔink=ʔiˑ ʔiiḥ
+jump-on.side=WEAK.3=HRSY.PART X-do.to D3 fire=ARTL big
+"He jumped over the big fire"
+
+Another candidate is wh-relative-clauses, which we have not yet tried with our grammar. For example, one of the examples is "who asked what the dogs chase". Putting aside the interrogative for the moment, it seems that the translation for "what the dogs chase" would be the following:
+
+yaqʷ-casšiƛ=qiˑtq ʕiniiƛ
+that.which-chase=DEF dog
+"what the dog(s) chase"
+
+In which the "wh" word seems to be a bound root that attaches to the beginning of the embedded verb.And the DEF clitic indicates the referent of the clause is definite. It's possible this could be complex for our analysis. Alternatively, we could maybe treat this as a complementizer instead, which might make this sort of analysis work. One problem is we are unsure if the "wh words" can come before any verb, or only before other bound roots, which David has pointed out act differently than free roots.
+
+Wh-interrogatives are slightly more straightforward, in that they seem to act similarly to the negation word, which we have analyzed as an Auxiliary, and already have an analysis for:
+
+wik=maˑ ʕiniiƛ casšiƛ
+neg=INDIC.3 dog chase
+"Dogs don't chase (them)"
+
+qʷi=ḥaˑ ʕiniiƛ casšiƛ
+what=ITERR.3 dog chase
+"What do dogs chase?"
+
+Like wh-clauses, these need to be accompanied by a necessary mood marker: in this case, Interrogative.
+
+So, for this week, probably most helpful would be advice about which of these phenomena will be most fruitful to cover, and where we might start looking among our already-defined grammar for starting points.
