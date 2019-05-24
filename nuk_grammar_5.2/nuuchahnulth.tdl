@@ -2021,12 +2021,39 @@ poss1_lrt1-lex-rule := noun-pc192-lex-rule-super &
                       [ HARG #harg2,
                         LARG #lbl2 ] !> ] ].
 
-noun-pc193-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule & noun-pc101-or-noun-pc151-rule-dtr & noun-pc114-or-noun-pc143-rule-dtr & noun-pc115-rule-dtr & noun-pc18-rule-dtr & noun-pc29-rule-dtr & noun-pc36-rule-dtr & noun-pc4-rule-dtr & noun-pc42-rule-dtr & noun-pc46-rule-dtr & noun-pc47-rule-dtr & noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr & noun-pc52-rule-dtr & noun-pc6-rule-dtr & noun-pc82-or-noun-pc86-rule-dtr & noun-pc85-rule-dtr & noun-pc95-rule-dtr &
+noun-pc193-lex-rule-super := infl-lex-rule & noun-pc101-or-noun-pc151-rule-dtr & noun-pc114-or-noun-pc143-rule-dtr & noun-pc115-rule-dtr & noun-pc18-rule-dtr & noun-pc29-rule-dtr & noun-pc36-rule-dtr & noun-pc4-rule-dtr & noun-pc40-rule-dtr & noun-pc42-rule-dtr & noun-pc46-rule-dtr & noun-pc47-rule-dtr & noun-pc48-or-noun-pc53-or-noun-pc61-rule-dtr & noun-pc52-rule-dtr & noun-pc6-rule-dtr & noun-pc82-or-noun-pc86-rule-dtr & noun-pc85-rule-dtr & noun-pc95-rule-dtr &
   [ INFLECTED #infl,
     DTR noun-pc193-or-noun-pc67-rule-dtr &
         [ INFLECTED #infl ] ].
 
-poss2_ltr1-lex-rule := noun-pc193-lex-rule-super.
+poss2_ltr1-lex-rule := noun-pc193-lex-rule-super &
+   [ SYNSEM.LOCAL.CAT [ HEAD #head,
+                       VAL #val ],
+    DTR.SYNSEM.LOCAL [ CONT.HOOK #hook &
+                                 [ INDEX #possessum &
+                                         [ COG-ST activ-or-more ],
+                                   LTOP #lbl ],
+                       CAT [ HEAD #head &
+                                  [ PRON - ],
+                             VAL #val ] ],
+    C-CONT [ HOOK #hook,
+             RELS <! noun-relation &
+                     [ PRED "pron_rel",
+                       LBL #lbl2,
+                       ARG0 #possessor &
+                            [ COG-ST activ-or-more,
+                              SPECI + ] ], arg12-ev-relation &
+                                           [ PRED "poss_rel",
+                                             LBL #lbl,
+                                             ARG1 #possessum,
+                                             ARG2 #possessor ], quant-relation &
+                                                                [ PRED "exist_q_rel",
+                                                                  ARG0 #possessor,
+                                                                  RSTR #harg2 ] !>,
+             HCONS <! qeq &
+                      [ HARG #harg2,
+                        LARG #lbl2 ] !> ] ].
+
 
 verb-pc1-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
