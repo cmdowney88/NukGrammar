@@ -1,0 +1,224 @@
+#### 1 (TSDB Results) ####----------------------------------------------------------------------------------------------
+
+a. How many items parsed?
+    -Initial (4.3): Testsuite-30, Corpus-37
+    -Final (5.0): Testsuite-36, Corpus-34
+
+b. What was the average number of parses?
+    -Initial: Testsuite-2.30, Corpus-2.43
+    -Final: Testsuite-2.47, Corpus-2.50
+
+c. How many parses did the most ambiguous item receive?
+    -Initial: Testsuite-6, Corpus-6
+    -Final: Testsuite-14, Corpus-14
+
+d. What sources of ambiguity can you identify?
+    Our most ambiguous item (Example 21) increased to 14 parses this week. This seems to be because of the rule allowing denomialized verbs. For instance, the noun čiicsac "troll boat" can now also be parsed as a verb roughly meaning "he/she/it was a troll boat". This is then coordinated with the VP "they had their own homes". Thus we end up with parses like "[They owned their own homes] and [it was a fishing boat]" and "They [owned their own homes] and [were fishing boats]".
+
+    EXAMPLE 21
+    Source: c
+    Vetted: f
+    Judgment: g
+    Phenomena: {coord}
+    ʔu-naˑk=(m)it LR-maḥt̓iˑ ʔuḥʔiš čiicsac
+    X-have=PST PL-house and troll.boat
+    'They had their own homes and fishing boats'
+
+e. For four newly parsing items, do the semantics look reasonable?
+
+    1.
+      #EXAMPLE 62
+      Source: author
+      Vetted: f
+      Judgement: g
+      Phenomena: {neg, nominal-pred}
+      wik=maˑḥ meʔiƛqac
+      NEG=INDIC.1sg boy
+      'I am not a boy'
+
+      The INDEX of the mrs for this example is identified with the ARG0 of a neg_rel. The ARG1 of the neg_rel is identified with the LBL of the _be_v_id_rel. The ARG1 of the _be_v_id_rel is identified with the XARG of the phrase, and the ARG2 is identified with the ARG0 of the _boy_n_rel, so we seem to get the semantics we want.
+
+    2.
+      #EXAMPLE 66
+      Source: author
+      Vetted: f
+      Judgement: g
+      Phenomena: {locative-pred}
+      hił=maˑ suč̓as ḥaakʷaˑƛ
+      at=INDIC.3 tree girl
+      'the girl is at the tree'
+
+      The INDEX of the mrs is identified with the ARG0 of the _be+located_v_rel. The ARG1 of the _be+located_v_rel is identified with the ARG0 of the _girl_n_rel, and the ARG2 is identified with the ARG0 of the _tree_n_rel. Both the girl and the tree are quantified by the exist_q_rel. This all seems to be reasonable.
+
+    3.
+      #EXAMPLE 67
+      Source: author
+      Vetted: f
+      Judgement: g
+      Phenomena: {locative-pred, neg}
+      wik=maˑ hił suč̓as ḥaakʷaˑƛ
+      NEG=INDIC.3 at tree girl
+      'the girl is not at the tree'
+
+      This example seems to be behaving as expected in that the mrs is the same as the last example, with the exception that there is an additional neg_rel, which has its ARG0 identified with the INDEX of the phrase, and the ARG1 of the neg_rel is qeq to the LBL of the _be+located_v_rel from the non-negative version of this sentence.
+
+    4.
+      #EXAMPLE 69
+      Source: a:213
+      Vetted: f
+      Judgment: g
+      Phenomena: {copula}
+      siy̓aaq=maˑḥ meʔiƛqac
+      1sg.PRED=INDIC.1sg boy
+      'I am the boy'
+
+      This one seems to be behaving decently. The INDEX of the mrs is identified with the ARG0 of the _be_v_id_rel. The ARG1 of the copula rel is in turn identified with the XARG of the phrase, and the ARG2 is identified with the ARG0 of the _boy_n_rel. As described below, this type of copula is marked slightly differently from what Davidson terms "class-inclusion" copulas. Though this difference in marking seems to be accompanied by a semantic difference (which is roughly that the complement is definite??), we did not figure out how to model this difference for this week.
+
+#### 2 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
+
+## Denomializing Constructions ##
+    In Nuuchahnulth, clauses copula-like meaning of the sort "I am a girl", "you are a tree", are expressed through a verb that is derived from the corresponding noun. These sorts of predicates is what Davidson calls "class-inclusion predicates", which are marked differently from "equivalence predicates" like "I am the girl" (see below). An example of this type of sentence is seen in Example 63:
+
+    #EXAMPLE 63
+    Source: author
+    Vetted: f
+    Judgement: g
+    Phenomena: {nominal-pred}
+    suč̓as=eˑʔic
+    tree=INDIC.2sg
+    'You are a tree'
+
+    suč̓as is a Noun root that introduces the tree_n_rel. In order to allow the type of predicational use of this relation seen in the example, we introduced a lexical rule that forms a Verb lexeme from a corresponding Noun lexeme:
+
+denominal-verb-lex-rule-super := constant-lex-rule & nocoord & verb-pc15-or-verb-pc161-rule-dtr &
+[ SYNSEM [ LOCAL [ CAT [ HEAD verb & [MOD < > ],
+                         VAL [ SPEC < >,
+                               COMPS < >,
+                               SUBJ < [ LOCAL [ CAT.HEAD noun,
+                                                CONT.HOOK.INDEX #xarg ] ] > ] ],
+                   CONT.HOOK #hook  ],
+           LKEYS.KEYREL #keyrel ],
+ C-CONT [ HCONS <! qeq & [ HARG #harg,
+                           LARG #larg ] !>,
+          RELS <! #keyrel & arg12-ev-relation &
+                  [ LBL #ltop,
+                    ARG0 #index,
+                    ARG1 #xarg,
+                    ARG2 #dtr_ind ],
+                  quant-relation &
+                  [ PRED "exist_q_rel",
+                    ARG0 #dtr_ind,
+                    RSTR #harg ] !>,
+          ICONS <! !>,
+          HOOK #hook & [ LTOP #ltop,
+                 INDEX #index,
+                 XARG #xarg ] ],
+
+ DTR noun-lex & [ SYNSEM.LOCAL.CONT.HOOK [ LTOP #larg,
+                                           INDEX #dtr_ind ] ] ].
+
+denominal-verb-lex-rule := denominal-verb-lex-rule-super &
+  [ SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel" ].
+
+    This rule was based off of the solution proposed on Canvas for Yupik. The rule takes as its DTR a Noun Lexeme and identifies its LTOP with the LARG value of the Mother's HCONS list. In addition, it identifies the INDEX of the Noun with the ARG0 of a exist_q_rel and the ARG2 of the copular _be_v_id_rel (which is actually enforced by the rule subtype. Thus, this rule creates a verb that establishes the identity between the Noun relation and the XARG of the verb (the subject).
+
+    It is also worth noting that, since this copular form is intransitive, our grammar correctly rules out clauses with too many arguments, like Example 83
+
+    Source: author
+    Vetted: f
+    Judgement: u
+    Phenomena: {nom-pred}
+    ḥaakʷaˑƛ=maˑḥ meʔiƛqac
+    girl=INDIC.1sg boy
+    intended: *'I am a girl a boy'
+
+## Locative Predicates ##
+    One class of Nuuchahnulth Locative Predicates are similar to denomial ones in that they seem to be expressed by a verb-like item (it at least takes the usual series of what we classify as Verbal affixes. This can be seen in Example 66 from our testsuite and the following example from our corpus.
+    
+    #EXAMPLE 66
+    Source: author
+    Vetted: f
+    Judgement: g
+    Phenomena: {locative-pred}
+    hił=maˑ suč̓as ḥaakʷaˑƛ
+    at=INDIC.3 tree girl
+    'the girl is at the tree'
+
+    hił=int=waˑʔš maḥt̓aʕs
+    at=PST=HRSY.3 Queens.Cove
+    He was at Queens Cove
+
+    Since we see no evidence that this predicate type needs to co-occur with any other items like that are adpositional or auxiliary in nature, we analyze it (at least in terms of our implementation) as being of a simple transitive-verb lexeme type. Thus, we established the following lexical entry and lexical type:
+
+    hił := verb20-verb-lex &
+  [ STEM < "hił" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_be+located_v_rel" ].
+
+    verb20-verb-lex := transitive-verb-lex & (inferred verb position classes)......
+
+    Our grammar also correctly rules out examples with extra arguments that don't agree with the predicate, as in Example 68:
+
+    #EXAMPLE 68
+    Source: author
+    Vetted: f
+    Judgement: u
+    Phenomena: {locative-pred, agr}
+    hił=maˑḥ suč̓as ḥaakʷaˑƛ
+    at=INDIC.1sg tree girl
+    intended: '*the girl is at the tree'
+
+It is also worth noting that there are also locative suffixes in Nuuchahnulth but we cannot support them with our current grammar because we would have to move to treating the suffixes as second position auxilaries which is out of scope due to requiring us to reverse one of the fundimental assumptions of our grammar.
+
+## Copular (Identity) Predicates ##
+    As mentioned previously, Nuuchahnulth marks "copular" type Nominal predicates slightly differently depending on the precise type. As shown above, clauses that translate roughly to "I am a ___" are constructed by deriving verbal lexemes from the corresponding nominal root. Sentences that are of the type "I am THE ___" i.e., ones where the nominal predicate is definite, are marked using a different strategy, where the nominal is a complement of a Verb-like word. This can be seen in Examples 69 and 70:
+
+    #EXAMPLE 69
+    Source: a:213
+    Vetted: f
+    Judgment: g
+    Phenomena: {copula}
+    siy̓aaq=maˑḥ meʔiƛqac
+    1sg.PRED=INDIC.1sg boy
+    'I am the boy'
+
+    #EXAMPLE 70
+    Source: a:215
+    Vetted: f
+    Judgment: g
+    Phenomena: {copula}
+    siy̓aaq=maˑḥ ciq-šiƛ
+    1sg.PRED=INDIC.1sg speak-PERF
+    'It is I who speaks'
+
+    #EXAMPLE 73
+    Source: author
+    Vetted: f
+    Judgement: u
+    Phenomena: {copula}
+    siy̓aaq=maˑḥ
+    1sg.PRED=INDIC.1sg
+    Fragment: *'I am...'
+
+    (Note: 70 is outside of our scope right now because the complement of the copula must be Nominal, and we do not have a way of making "wh-clauses" yet, to accomodate the "who speaks" clause). In order to enable this, we added the roots siy̓aaq "I" (glossed 1sg.PRED) and suw̓aaq "you" (glossed 2sg.PRED) as transitive verb roots with a lexical relation _be_v_id_rel, linking the the complement of the Verb to the XARG with the lexical specification that the Subject is always 1sg, 2sg, etc. It is also notable that these copula constructions differ from the "class membership" ones in that they MUST take a complement. Copulas without complements like Example 73 are correctly ruled out by our grammar. This analysis of these items as Verb roots seems justified for our purposes for two reasons:
+    
+    1. These items take all the same affixes that we have analyzed to be part of verb morphology
+    2. While these items can be glossed as "pronouns", they are very rare as free (non-first-position) morphemes in our data and descriptive grammars, and pronouns as arguments always seem to be dropped.
+
+    The tdl entries for these copulas follow:
+
+    copula-verb-lex := transitive-verb-lex  & (verb position classes)......
+    
+    1sg-copula-verb-lex := copula-verb-lex & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 1st,
+                                                                NUM sg ] ].
+
+    2sg-copula-verb-lex := copula-verb-lex & 
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd,
+                                                                NUM sg ] ].
+
+#### 3 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
+    The LKB in general did not work well for generation. With 400 edges allowed, it took about 30 minutes to decide that there was a runaway rule and froze up our virtual machine. It is probable that this is related to the fact that we have many semantically empty affixes (see comment on ACE below), but we weren't able to verify that this was what was causing the LKB to slow dramatically.
+    
+#### 4 (Documentation of ACE Parsing and Generation) ####----------------------------------------------------------------
+    We got Ace parsing and generation to work, but it involved changing one of the characters of our grammar. The exclamation mark ! is used for one of the letters of Nuuchahnulth, and in our corpus and grammar it was escaped as \!. However for Ace, this character seems to be specially reserved, so we replaced it with another visually-similar unicode character ‼. This allowed the grammar to parse and generate properly.
+    On testing the generation from a simple transitive sentence, we got 324 results. Mostly, we seem to have very many semantically-empty morphemes that were inferred by the upstream system, but have not been given a semantic analysis. Thus, as many of these as are allowed by the phonotactics are being appended by the generator.
