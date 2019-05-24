@@ -1,0 +1,49 @@
+#### 1 (TSDB Results) ####-----------------------------------------------------------------------------------------------
+
+a. How many items parsed?
+    -Initial (5.1): Testsuite-, Corpus-
+    -Final (5.2): Testsuite-, Corpus-
+
+b. What was the average number of parses?
+    -Initial: Testsuite-, Corpus-
+    -Final: Testsuite-, Corpus-
+
+c. How many parses did the most ambiguous item receive?
+    -Initial: Testsuite-, Corpus-
+    -Final: Testsuite-, Corpus-
+
+d. What sources of ambiguity can you identify?
+
+e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
+
+#### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
+This week we added translations for several different phenomena, though we weren't able to get each one workin in our grammar. First of all, we added translations for Wh-questions, as seen in Examples :
+
+#EXAMPLE 23
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix wh questions}
+yaq=ḥaˑ weʔič
+who=INTERR.3 sleep
+Who sleeps
+
+#EXAMPLE 24
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Matrix wh questions}
+qʷi=ḥaˑ casšiƛ ʕiniiƛ
+what=ITERR.3 chase dog
+What do the dogs chase
+
+As can be seen, the Wh-words are found sentence-initially and take an affix indicating the interrogative mood as well as the agreement information for the Subject of the clause. This may be somewhat confusing for sentences in which the the Subject is being questioned, but it can be regarded as solely grammatical agreement with the "who" pronoun, not necessarily indicating that the questioned person need be 3rd-Person. This happens in English too: "Who unleash[es] the cats? -> You unleash[] the cats".
+
+We began to develop an implementation for this phenomenon, but ran into trouble with the fact that this seems to be a second-position phenomenon that is hard to work around. We borrowed the wh-ques-phrase, extracted-subj-phrase, extracted-comp-phrase, and wh-prounoun-noun-lex types from the given English grammar. However, the wh-ques-phrase expects that the wh-word acts as a noun "filler" to the gappy clause, whereas our current analysis of agreement clitics in Nuuchahnulth regard them as affixes on the sentence-initial verb. Thus, our wh-words are incompatible with the gap-filler type, or more specifically, the wh-pronoun types are not compatible with what we analyze as the initial verb morphology.
+
+
+#### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
+
+#### 4 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
+
+#### 5 (Documentation of Machine Translation Setup) ####-----------------------------------------------------------------
