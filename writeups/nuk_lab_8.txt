@@ -26,7 +26,7 @@ Judgment: g
 Phenomena: {Matrix wh questions}
 yaq=ḥaˑ weʔič
 who=INTERR.3 sleep
-Who sleeps
+Who sleeps?
 
 #EXAMPLE 24
 Source: author
@@ -35,7 +35,7 @@ Judgment: g
 Phenomena: {Matrix wh questions}
 qʷi=ḥaˑ casšiƛ ʕiniiƛ
 what=ITERR.3 chase dog
-What do the dogs chase
+What do the dogs chase?
 
 As can be seen, the Wh-words are found sentence-initially and take an affix indicating the interrogative mood as well as the agreement information for the Subject of the clause. This may be somewhat confusing for sentences in which the the Subject is being questioned, but it can be regarded as solely grammatical agreement with the "who" pronoun, not necessarily indicating that the questioned person need be 3rd-Person. This happens in English too: "Who unleash[es] the cats? -> You unleash[] the cats".
 
@@ -52,7 +52,7 @@ Judgment: g
 Phenomena: {Agreement, Embedded-Wh-Ques}
 ʔaʔaatu=mit=maˑḥ yaqʷ=yii casšiƛ ʕiniiƛ
 ask=past=INDIC.1sg that.which=INDEF.3 chase dog
-"I asked what dogs chased"
+I asked what dogs chased
 
 We were advised to steer clear of this early on in the week, because according to Emily, the fact that the embedded question is identical to the relative clause and not the corresponding Wh-question is not easily ammenable to the matrix grammar as it stands. Thus, our Example 18 is translated, but not covered.
 
