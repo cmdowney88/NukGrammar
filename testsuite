@@ -834,6 +834,33 @@ ciq-šiƛ=‼aƛ=maˑ=ḥaˑ
 speak-PERF=TEMP=INDIC.3=INTERR.3
 `* Did he/she/it/they speak'
 
+#EXAMPLE 92
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modals}
+ʔuʔumḥi=maˑḥ weʔič
+can=INDIC.1sg weʔič
+'I can sleep'
+
+#EXAMPLE 93
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Modals, Clausal-Mod}
+wik=maˑḥ weʔič ʔani ciciqink=qaˑ piišpiš
+neg=INDIC.1sg sleep because pray=SUBOR.3 cat
+'I am not sleeping because the cat is praying'
+
+#EXAMPLE 93 -- mood/agreement marking must come on the topmost auxiliary, not the embedded verb
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Modals, Clausal-Mod}
+wik weʔič=maˑḥ ʔani ciciqink-aˑ=qaˑ piišpiš
+neg sleep=INDIC.1sg because pray-CONT=SUBOR.3 cat
+intended: *'I am not sleeping because the cat is praying'
+
 #MMT 1
 Source: author
 Vetted: f
@@ -924,6 +951,15 @@ haʔuk=maˑ ʕiniiƛ hił čaačist
 eat=INDIC.3 dog in park
 Dogs in the park eat
 
+#MMT 14 -- identical to 13
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {PP-mod}
+haʔuk=maˑ ʕiniiƛ hił čaačist
+eat=INDIC.3 dog in park
+Dogs eat in the park
+
 #MMT 16
 Source: author
 Vetted: f
@@ -941,6 +977,15 @@ Phenomena: {Agreement, Copula, Denominal-Verb}
 piišpiš=maˑ ʕiniiƛ
 cat=INDIC.3 dog
 The dogs are the cats (lit: "the dogs are cats")
+
+#MMT 18
+Source: d
+Vetted: f
+Judgment: g
+Phenomena: {Agreement, Embedded-Wh-Ques}
+ʔaʔaatu=mit=maˑḥ yaqʷ=yii casšiƛ ʕiniiƛ
+ask=past=INDIC.1sg that.which=INDEF.3 chase dog
+I asked what dogs chased
 
 #MMT 20
 Source: author
@@ -977,3 +1022,12 @@ Phenomena: {Matrix wh questions}
 qʷi=ḥaˑ ʕiniiƛ casšiƛ
 what=ITERR.3 dog chase
 What do the dogs chase
+
+#MMT 27
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {modals}
+ʔuʔumḥi=maˑḥ haʔuk ʔink
+can=INDIC.1sg eat glass
+I can eat glass
