@@ -867,23 +867,23 @@ verb-pc14_lrt1-lex-rule.
 
 3Cond-suffix :=
 %suffix (* =quu)
-verb-pc15_lrt1-lex-rule.
+3Cond-lex-rule.
 
-verb-pc15_lrt2-suffix :=
+1sgCond-suffix :=
 %suffix (* =quus)
-verb-pc15_lrt2-lex-rule.
+1sgCond-lex-rule.
 
-verb-pc15_lrt3-suffix :=
+1plCond-suffix :=
 %suffix (* =qun)
-verb-pc15_lrt3-lex-rule.
+1plCond-lex-rule.
 
-verb-pc15_lrt4-suffix :=
+2sgCond-suffix :=
 %suffix (* =quuk)
-verb-pc15_lrt4-lex-rule.
+2sgCond-lex-rule.
 
-verb-pc15_lrt5-suffix :=
+2plCond-suffix :=
 %suffix (* =quusuu)
-verb-pc15_lrt5-lex-rule.
+2plCond-lex-rule.
 
 1sgSubord-suffix :=
 %suffix (* =qaˑs)

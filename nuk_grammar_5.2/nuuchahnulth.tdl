@@ -2238,7 +2238,7 @@ conditional-or-subordinate-lex-rule-super := add-only-no-ccont-rule & infl-lex-r
                    CONT.HOOK.INDEX.E.MOOD subord ] ].
 
 3Subord-lex-rule := conditional-or-subordinate-lex-rule-super &
-  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 2nd ],
+  [ SYNSEM.LOCAL [ CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG [ PER 3rd ],
                    CONT.HOOK.INDEX.E.MOOD subord ] ].
 
 verb-pc16-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
