@@ -1745,8 +1745,8 @@ casšiƛ := verb130-verb-lex &
   [ STEM < "casšiƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
 
-haʔuk_trans := verb130-verb-lex &
-  [ STEM < "haʔuk" >,
+ʔuʔiis_trans := verb130-verb-lex &
+  [ STEM < "ʔuʔiis" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 siy̓aaq := 1sg-copula-verb-lex &
