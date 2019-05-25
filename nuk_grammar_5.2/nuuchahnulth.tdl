@@ -2061,6 +2061,37 @@ poss2_ltr1-lex-rule := noun-pc193-lex-rule-super &
                         LARG #lbl2 ] !> ] ].
 
 
+poss2_ltr2-lex-rule := noun-pc193-lex-rule-super &
+    [ SYNSEM.LOCAL.CAT [ HEAD #head,
+                       VAL #val ],
+    DTR.SYNSEM.LOCAL [ CONT.HOOK #hook &
+                                 [ INDEX #possessum &
+                                         [ COG-ST activ-or-more ],
+                                   LTOP #lbl ],
+                       CAT [ HEAD #head &
+                                  [ PRON - ],
+                             VAL #val ] ],
+    C-CONT [ HOOK #hook,
+             RELS <! noun-relation &
+                     [ PRED "pron_rel",
+                       LBL #lbl2,
+                       ARG0 #possessor &
+                            [ PNG [ NUM sg,
+			      	    PER 1st ],
+			      COG-ST activ-or-more,
+                              SPECI + ] ], arg12-ev-relation &
+                                           [ PRED "poss_rel",
+                                             LBL #lbl,
+                                             ARG1 #possessum,
+                                             ARG2 #possessor ], quant-relation &
+                                                                [ PRED "exist_q_rel",
+                                                                  ARG0 #possessor,
+                                                                  RSTR #harg2 ] !>,
+             HCONS <! qeq &
+                      [ HARG #harg2,
+                        LARG #lbl2 ] !> ] ].
+
+
 verb-pc1-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
     DTR verb1-verb-lex &
