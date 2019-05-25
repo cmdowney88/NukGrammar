@@ -17,7 +17,7 @@ d. What sources of ambiguity can you identify?
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
 
 #### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
-This week we added translations for several different phenomena, though we weren't able to get each one working in our grammar. First of all, we added translations for Wh-questions, as seen in Examples 23 and 24:
+This week we added translations for several different phenomena, working out to 4 new sentences with translations, though we weren't able to get each one working in our grammar. First of all, we added translations for Wh-questions, as seen in Examples 23 and 24:
 
 #EXAMPLE 23
 Source: author
@@ -56,8 +56,7 @@ I asked what dogs chased
 
 We were advised to steer clear of this early on in the week, because according to Emily, the fact that the embedded question is identical to the relative clause and not the corresponding Wh-question is not easily ammenable to the matrix grammar as it stands. Thus, our Example 18 is translated, but not covered.
 
-
-Next we added possession:
+We then added a translation of possession:
 
 #EXAMPLE 20
 Source: author
@@ -141,7 +140,8 @@ verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
     DTR verb-pc15-or-verb-pc161-rule-dtr &
         [ INFLECTED #infl ] ].
 
-#### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------- We have had geneartion working for the last two weeks but the number of generated sentences is incredilby high. Last week we began using only the irules that had features (replace irules.tdl with nonempty-rules.tdl to do this) to reduce the count but even then there were too many generated to be useful. This week, we began looking into other ways to reduce the number of generated sentences.
+#### 4 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
+We have had geneartion working for the last two weeks but the number of generated sentences is incredilby high. Last week we began using only the irules that had features (replace irules.tdl with nonempty-rules.tdl to do this) to reduce the count but even then there were too many generated to be useful. This week, we began looking into other ways to reduce the number of generated sentences.
 
 After examining the output of nuk to nuk generation, we realized that the leading culprit was underspcified features. Namely, if tense, person, or number were not specified in the input, all possible combinations of those suffixes appeared in the generated output leading to a combinatorial explosion.
 
