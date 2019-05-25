@@ -1461,7 +1461,7 @@ qaḥ := verb29-verb-lex &
   [ STEM < "šiiƛuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_move.house_v_rel" ].
 
-ʔuucuw̓aƛ := verb29-verb-lex &
+ʔuucuw̓aƛ := nuk-intransitive-verb-lex &
   [ STEM < "ʔuucuw̓aƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_blow_v_rel" ].
 

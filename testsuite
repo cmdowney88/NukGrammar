@@ -852,14 +852,32 @@ wik=maˑḥ weʔič ʔani ciciqink=qaˑ piišpiš
 neg=INDIC.1sg sleep because pray=SUBOR.3 cat
 'I am not sleeping because the cat is praying'
 
-#EXAMPLE 94 -- mood/agreement marking must come on the topmost auxiliary, not the embedded verb
+#EXAMPLE 94
 Source: author
 Vetted: f
 Judgment: g
+Phenomena: {Modals}
+ʔuʔumḥi=maˑ ciciqink piišpiš
+can=INDIC.3 pray cat
+'The cat can pray'
+
+#EXAMPLE 95 -- mood/agreement marking must come on the topmost auxiliary, not the embedded verb
+Source: author
+Vetted: f
+Judgment: u
 Phenomena: {Modals, Clausal-Mod}
-wik weʔič=maˑḥ ʔani ciciqink-aˑ=qaˑ piišpiš
-neg sleep=INDIC.1sg because pray-CONT=SUBOR.3 cat
+wik weʔič=maˑḥ ʔani ciciqink=qaˑ piišpiš
+neg sleep=INDIC.1sg because pray=SUBOR.3 cat
 intended: *'I am not sleeping because the cat is praying'
+
+#EXAMPLE 96
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Modals, Clausal-Mod, Possession}
+ʔuucuw̓aƛ=maˑ hačłiiƛ ʔani ʔuʔumḥi=qaˑ ciciqink piišpiš=uk=(m)aˑḥ
+blow=INDIC.3 West.Wind because can=SUBORD.3 pray cat=POSS=1sg
+'The West Wind blows because my cat can pray'
 
 #MMT 1
 Source: author
