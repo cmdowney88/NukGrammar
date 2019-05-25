@@ -2276,9 +2276,6 @@ verb-pc19_lrt1-lex-rule := verb-pc19-lex-rule-super &
 verb-pc19_lrt2-lex-rule := verb-pc19-lex-rule-super &
   [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK.INDEX.PNG.PER 3rd ].
 
-verb-pc19_lrt3-lex-rule := verb-pc19-lex-rule-super &
-  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.E.MOOD indic ].
-
 verb-pc20-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
     DTR verb-pc20-rule-dtr &

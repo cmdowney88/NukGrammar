@@ -925,10 +925,6 @@ verb-pc18_lrt1-suffix3 :=
 %suffix (* -yaˑ)
 verb-pc18_lrt1-lex-rule.
 
-verb-pc19_lrt1-suffix1 :=
-%suffix (* =qun)
-verb-pc19_lrt1-lex-rule.
-
 verb-pc19_lrt1-suffix2 :=
 %suffix (* =niˑš)
 verb-pc19_lrt1-lex-rule.
@@ -940,10 +936,6 @@ verb-pc19_lrt1-lex-rule.
 verb-pc19_lrt2-suffix :=
 %suffix (* =waˑʔš)
 verb-pc19_lrt2-lex-rule.
-
-verb-pc19_lrt3-suffix :=
-%suffix (* =maˑ)
-verb-pc19_lrt3-lex-rule.
 
 verb-pc20_lrt1-suffix :=
 %suffix (* =qs)
