@@ -1,0 +1,32 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+decl-head-opt-subj := decl-head-opt-subj-phrase.
+
+basic-head-opt-comp := basic-head-opt-comp-phrase.
+
+head-comp := head-comp-phrase.
+
+head-subj := head-subj-phrase.
+
+bare-np := bare-np-phrase.
+
+head-mod := head-adj-int-phrase.
+
+np1-top-coord := np1-top-coord-rule.
+
+np1-bottom-coord := np1-bottom-coord-rule.
+
+vp1-top-coord := vp1-top-coord-rule.
+
+vp1-bottom-coord := vp1-bottom-coord-rule.
+
+s1-top-coord := s1-top-coord-rule.
+
+s1-bottom-coord := s1-bottom-coord-rule.
+
+head-adj-scop := head-adj-scop-phrase.
+
+extracted-comp := extracted-comp-phrase.
+
+extracted-subj := extracted-subj-phrase.
+
+wh-ques := wh-ques-phrase.

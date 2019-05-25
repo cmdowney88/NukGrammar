@@ -865,7 +865,7 @@ verb-pc14_lrt1-suffix :=
 %suffix (* =‼aƛ)
 verb-pc14_lrt1-lex-rule.
 
-verb-pc15_lrt1-suffix :=
+3Cond-suffix :=
 %suffix (* =quu)
 verb-pc15_lrt1-lex-rule.
 
@@ -885,25 +885,25 @@ verb-pc15_lrt5-suffix :=
 %suffix (* =quusuu)
 verb-pc15_lrt5-lex-rule.
 
-verb-pc15_lrt6-suffix :=
+1sgSubord-suffix :=
 %suffix (* =qaˑs)
-verb-pc15_lrt6-lex-rule.
+1sgSubord-lex-rule.
 
-verb-pc15_lrt7-suffix :=
+1plSubord-suffix :=
 %suffix (* =qin)
-verb-pc15_lrt7-lex-rule.
+1plSubord-lex-rule.
 
-verb-pc15_lrt8-suffix :=
+2sgSubord-suffix :=
 %suffix (* =ʔiˑtqak)
-verb-pc15_lrt8-lex-rule.
+2sgSubord-lex-rule.
 
-verb-pc15_lrt9-suffix :=
+2plSubord-suffix :=
 %suffix (* =ʔiˑtqsuu)
-verb-pc15_lrt9-lex-rule.
+2plSubord-lex-rule.
 
-verb-pc15_lrt10-suffix :=
+3Subord-suffix :=
 %suffix (* =qaˑ)
-verb-pc15_lrt10-lex-rule.
+3Subord-lex-rule.
 
 verb-pc16_lrt1-suffix :=
 %suffix (* =ƛaˑ)
@@ -1208,10 +1208,6 @@ verb-pc67_lrt2-lex-rule.
 verb-pc68_lrt1-suffix :=
 %suffix (* -waˑs)
 verb-pc68_lrt1-lex-rule.
-
-verb-pc69_lrt1-suffix :=
-%suffix (* =qaˑ)
-verb-pc69_lrt1-lex-rule.
 
 verb-pc71_lrt1-suffix :=
 %suffix (* -ʔatu)

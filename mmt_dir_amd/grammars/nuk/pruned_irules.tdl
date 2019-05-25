@@ -1,0 +1,44 @@
+
+3Indic-suffix :=
+%suffix (* =maˑ)
+3Indic-lex-rule.
+
+verb-pc10_lrt1-suffix1 :=
+%suffix (* -šiƛ)
+verb-pc10_lrt1-lex-rule.
+
+verb-pc14_lrt1-suffix :=
+%suffix (* =‼aƛ)
+verb-pc14_lrt1-lex-rule.
+
+noun-pc8_lrt1-suffix :=
+%suffix (* =‼aƛ)
+noun-pc8_lrt1-lex-rule.
+
+verb-pc35_lrt1-suffix1 :=
+%suffix (* =weˑʔin)
+verb-pc35_lrt1-lex-rule.
+
+noun-pc16_lrt1-suffix :=
+%suffix (* =weˑʔin)
+noun-pc16_lrt1-lex-rule.
+
+noun-pc92_lrt1-suffix :=
+%suffix (* =quu)
+noun-pc92_lrt1-lex-rule.
+
+verb-pc15_lrt1-suffix :=
+%suffix (* =quu)
+verb-pc15_lrt1-lex-rule.
+
+3rdInterr_lrt1-suffix1 :=
+%suffix (* =ḥaˑ)
+3rdInterr-lex-rule.
+
+1sgIndic-suffix1 :=
+%suffix (* =maˑḥ)
+1sgIndic-lex-rule.
+
+verb-pc15_lrt10-suffix :=
+%suffix (* =qaˑ)
+verb-pc15_lrt10-lex-rule.
