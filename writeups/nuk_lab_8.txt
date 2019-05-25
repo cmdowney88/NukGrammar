@@ -56,6 +56,21 @@ I asked what dogs chased
 
 We were advised to steer clear of this early on in the week, because according to Emily, the fact that the embedded question is identical to the relative clause and not the corresponding Wh-question is not easily ammenable to the matrix grammar as it stands. Thus, our Example 18 is translated, but not covered.
 
+
+Next we added possession:
+
+#EXAMPLE 20
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: {Possesive}
+weʔič=maˑ ʕiniiƛ=uk=(m)aˑḥ
+sleep=INDIC.3 dog=POSS=1sg
+My dogs sleep
+
+We had already implemented a possession strategy in an earlier week: marked on possessum, possessor can be dropped. The suffix =uk was correctly adding the POSS information but =(m)aˑḥ was supposed to be contributing the PNG of the possessor and this was not working correctly. According to Elizabeth Nielsen, any lexical rule from her library that is contributing features to the possessor need to be part of the rule that adds the POSS feature. We attempted to find a work-around to add the possessor PNG later but were unsucessful. Instead, we simply made a compound suffix '=uk=(m)aˑḥ' that adds both featuers in a single rule. This would get unwieldy to do for all PNG but is within the scope of the adnominal possession library which was already implemented which keeps things reasonable for this course.  
+
+
 #### 3 (Documentation of Added Phenomena) ####---------------------------------------------------------------------------
 
 ## Wh-Questions (Unsuccessful) ##
@@ -126,6 +141,13 @@ verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
     DTR verb-pc15-or-verb-pc161-rule-dtr &
         [ INFLECTED #infl ] ].
 
-#### 4 (Documentation of LKB Generation) ####----------------------------------------------------------------------------
+#### 4 (Documentation of LKB Generation) ####---------------------------------------------------------------------------- We have had geneartion working for the last two weeks but the number of generated sentences is incredilby high. Last week we began using only the irules that had features (replace irules.tdl with nonempty-rules.tdl to do this) to reduce the count but even then there were too many generated to be useful. This week, we began looking into other ways to reduce the number of generated sentences.
+
+After examining the output of nuk to nuk generation, we realized that the leading culprit was underspcified features. Namely, if tense, person, or number were not specified in the input, all possible combinations of those suffixes appeared in the generated output leading to a combinatorial explosion.
+
+First, we looked to improve the handling of tense. We realized that we had only implemented past tense 'pst' and were leaving all others as unspecified. In Nuuchahnulth, when unspecified, the tense is assumed to be present. To model this we need to implement present tense, mark the tense affixes as obligatory, and create a non-inflecting lexical rule that added the present tense feature. The affixes that add tense were scattered throughout the generated grammar and after unsuccessfuly trying to modify each one, we collected all the tense suffixes into a single hiarchy of lexical rules with the inflecting rule adding past and the non-inflecting adding present. We then worked to make the tense marked output of this non-inflecting rule usable by all lexical rules that were previously used with the under-tense-specifed input. This served to roughly halve the number of generated sentences as expected.
+
+When looking at the PNG affixes, it was less clear how they could be organized in a hierachry. Because of this, there was not a tractable way to add the obligatory non-inflecting 3sg rule. If one suffix that usually added PNG was not present, this might be becuase the word was 3sg but it was also the case that a later position class would add the PNG information which would be incompatible with a non-inflected 3sg rule. Because of this lack of organization in the generated grammar, there was not a practicle way to implement the same fix with obligatory noninflecting rules for PNG. If the input examples include  non-3sg features, the generation is somewhat reasonable. But when translating from nuk, these examples are underspecified for PNG and lead to over generation. 
 
 #### 5 (Documentation of Machine Translation Setup) ####-----------------------------------------------------------------
+Following the generation, the MT was relatively straighforward. Modifiying the semi.vpm followed the example in class. We had to set defaults for aspect and mood as shown in the lab but those seem to work as desired. We also had to match the correct feature names in the other grammars but the error messages made that easy. We were able set up the mmt directory as instructed and run 'translate-line.sh eng nuk 1' with no issues save the overgeneration noted above. 

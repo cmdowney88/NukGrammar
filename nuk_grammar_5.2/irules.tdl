@@ -757,6 +757,10 @@ poss2_lrt1-suffix :=
 %suffix (* =uk)
 poss2_ltr1-lex-rule.
 
+poss2_lrt1-suffix :=
+%suffix (* =uk=\(m\)aˑḥ)
+poss2_ltr2-lex-rule.
+
 verb-pc1_lrt1-suffix :=
 %suffix (* -w̓it̓as)
 verb-pc1_lrt1-lex-rule.
