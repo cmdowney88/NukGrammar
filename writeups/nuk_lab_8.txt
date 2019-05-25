@@ -1,20 +1,55 @@
 #### 1 (TSDB Results) ####-----------------------------------------------------------------------------------------------
 
 a. How many items parsed?
-    -Initial (5.1): Testsuite-, Corpus-
-    -Final (5.2): Testsuite-, Corpus-
+    -Initial (5.1): Testsuite-53, Corpus-33
+    -Final (5.2): Testsuite-59, Corpus-33
 
 b. What was the average number of parses?
-    -Initial: Testsuite-, Corpus-
-    -Final: Testsuite-, Corpus-
+    -Initial: Testsuite-1.94, Corpus-2.12
+    -Final: Testsuite-1.76, Corpus-2.12
 
 c. How many parses did the most ambiguous item receive?
-    -Initial: Testsuite-, Corpus-
-    -Final: Testsuite-, Corpus-
+    -Initial: Testsuite-6, Corpus-6
+    -Final: Testsuite-6, Corpus-6
 
 d. What sources of ambiguity can you identify?
 
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
+    We did not get any newly parsing examples in the corpus, so we will look at the semantics of two of the parsing corpus examples that we have not yet analyzed.
+
+    #CORPUS EXAMPLE 2490
+    wik=!aƛ=ʔiˑš ƛaḥ qʷaa
+    NEG=NOW=STRG.3 now how
+    'Now it’s not like that'
+
+    This example displays the phenomenon of negation, which we refined this week, though it is unlikely this effected the semantics. The INDEX of the mrs is identified with the ARG0 of a neg_rel. The ARG1 of the neg_rel is identified with a _be_v_id_rel, so we have "not-copula" meaning so far. The ARG1 of the copula rel is identified with the ARG0 of a _how_n_rel, and the ARG2 is identified with the ARG1 of a _now_n_rel. Both of these latter relations are also the ARG0 of exist_q_rel. These semantics seem to be okay: we have essentially "how is not now". This doesn't sound good in English but I don't think we're very far off. On first glance it seems a little strange that "how" and "now" are acting as "nouns" (they were automatically inferred), but if "now" is glossed as "the present" instead of "presently", it makes more sense. Also, we know in some languages "how" and "thusly/thusways" are closely related, and I think something like that may be going on here.
+
+    #CORPUS EXAMPLE 5990
+    waa=!aƛ t̓iick̓in-m̓iˑt
+    say=NOW thunderbird
+    'Thunderbird said (it)'
+
+    This example is somewhat simpler, but it has several readings. One of them is in line with the given translation (and the context): the INDEX of the mrs is identified with the ARG0 of a _say_v_rel, the ARG1 of the _say_v_rel is identified with the ARG0 of the _thunderbird_n_rel, and the ARG2 of the _say_v_rel is identified with an unexpressed 3rd-person argument, essentially giving "Thunderbird said (it)". Two other parses give the semantics where the INDEX is identified with the _say_v_rel, but the ARG2 of the _say_v_rel is identified with the ARG0 of Thunderbird, and the ARG1 is identified with an unexpressed argument, giving roughly "(they/he/she) said 'Thunderbird'". Both of these readings align with the facts of Nuucahnulth, where an expressed argument can be either Subject or Object if the verb is transitive and both are 3rd person, and they can be in either order when both are expressed.
+
+    #MMT EXAMPLE 27
+    ʔuʔumḥi=maˑḥ ʔuʔiis ʔink
+    can=INDIC.1sg eat glass
+    I can eat glass
+
+    This example was added to our grammar's coverage this week. Right now, the word for "fire" is standing in for glass. Here, the INDEX of the mrs is identified with the ARG0 of the _can_v_rel, which aligns with the English Resource Grammar. The ARG1 of the _can_v_rel is identified with the LBL of the _eat_v_rel. The ARG1 of eat is identified with an unexpressed 1sg argument, and the ARG2 is identified with the ARG0 of the _glass_n_rel. This gives us the semantics we want: 1sg can eat glass.
+
+    #TESTSUITE EXAMPLE 96
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {Modals, Clausal-Mod, Possession}
+    ʔuucuw̓aƛ=maˑ hačłiiƛ ʔani ʔuʔumḥi=qaˑ ciciqink piišpiš=uk=(m)aˑḥ
+    blow=INDIC.3 West.Wind because can=SUBORD.3 pray cat=POSS=1sg
+    'The West Wind blows because my cat can pray'
+
+    Lastly, we tested an example sentence incorporating every phenomenon we added or fixed this week. It includes modals, adnominal possession, and clausal modifiers (which we had to fix due to some bugs/typos in our lexical rules, but not as a main task of this lab). The INDEX of the mrs is identified with the ARG0 of the _blow_v_rel. The ARG1 of the _blow_v_rel is identified with the ARG0 of the _west.wind_n_rel, and also of an exist_q_rel. The LBL of the _blow_v_rel is qeq the ARG1 of the _because_subord_rel ("blow" is the LARG). The ARG2 of the _because_q_rel is qeq the LBL of the _can_v_rel. The ARG1 of the _can_v_rel is identified with the LBL of the _pray_v_rel, and the ARG1 of the _pray_v_rel is identified with the _cat_n_rel. The ARG0 of the _cat_v_rel is also identified with the ARG1 of the poss_rel. The ARG2 of the poss_rel is identified with a pron_rel, which is indexed as 1sg.
+
+    Mostly this all seems to be working. The relations seem to share arguments in proper ways. HOWEVER, upon checking this MRS, we have realized that our Possession relation may be backwards: we are unsure if the ARG1 is supposed to be the possessor and the ARG2 the possessum. If this is the case, then we have inadvertently created something like "the cat who owns me" instead of "my cat". However, if it's the other way around we seem to have things right.
 
 #### 2 (Documentation of MMT Translation) ####---------------------------------------------------------------------------
 This week we added translations for several different phenomena, working out to 4 new sentences with translations, though we weren't able to get each one working in our grammar. First of all, we added translations for Wh-questions, as seen in Examples 23 and 24:
