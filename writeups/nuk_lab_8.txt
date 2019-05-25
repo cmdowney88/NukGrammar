@@ -13,6 +13,19 @@ c. How many parses did the most ambiguous item receive?
     -Final: Testsuite-6, Corpus-6
 
 d. What sources of ambiguity can you identify?
+    As usual, much of our ambiguity comes from the fact that Nuuchahnulth is radically pro-drop, and when both arguments are 3rd person, either can be interpreted as Subject or Object. This means we get interestingly many translations when going from Nuuchahnulth to English. As noted last time, when we parse an example containing two coordinated sentences with both subject and object each, we get four non-spurious readings since each argument can be either Subject or Object.
+    This week, we further eliminated ambiguity coming from duplicate affixes and duplicate lexical entries that were given to us by the inference system. Especially in Nuuchahnulth, where the boundary between word classes is not very clear, we seem to get, for instance, both a noun and verb version of each word.
+    Finally, we get some interesting structural ambiguity in some of our more complex examples, like Example 93:
+    #EXAMPLE 93
+    Source: author
+    Vetted: f
+    Judgment: g
+    Phenomena: {Modals, Clausal-Mod}
+    wik=maˑḥ weʔič ʔani ciciqink=qaˑ piišpiš
+    neg=INDIC.1sg sleep because pray=SUBOR.3 cat
+    'I am not sleeping because the cat is praying'
+
+    For this one, we get the expected ambiguity of the Clausal-Modifier "because the cat is praying" modifying either the whole sentence or the outermost VP. However, we also were somewhat surprised to get a reading in which the modifier is modifying the embedded VP "sleeping". Thus we get something like "I am not sleeping because the cat is praying! I am sleeping for a totally different reason!". Structurally this seems fine, and the corresponding sentence in English is also ambiguous with the right prosody, but nonetheless we were not expecting this reading when we created the example.
 
 e. For 4 newly parsing or otherwise fixed items (2 in the testsuite, 2 in the corpus), do any of the parses look reasonable in the semantics?
     We did not get any newly parsing examples in the corpus, so we will look at the semantics of two of the parsing corpus examples that we have not yet analyzed.
