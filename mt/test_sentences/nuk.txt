@@ -1,0 +1,29 @@
+wik=maˑḥ weʔič ʔani ciciqink=qaˑ piišpiš
+weʔič=maˑ ʕiniiƛ
+casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas
+casšiƛ=maˑḥ suw̓a
+haʔuk=maˑ ʕiniiƛ
+wik=maˑ casšiƛ ʕiniiƛ huupuk̓ʷas
+#EXAMPLE SKIPPED -- I think that you know that dogs chase cars
+#EXAMPLE SKIPPED -- I ask whether you know that dogs chase cars
+casšiƛ=maˑ piišpiš ʔuḥʔiš ʕiniiƛ huupuk̓ʷas
+casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
+casšiƛ=maˑ piišpiš ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ
+casšiƛ=ḥaˑ piišpiš ʕiniiƛ
+#EXAMPLE SKIPPED -- Hungry dogs eat
+haʔuk=maˑ ʕiniiƛ hił čaačist
+#EXAMPLE SKIPPED -- Dogs eat in the park
+#EXAMPLE SKIPPED -- The dogs are hungry
+hił=maˑ ʕiniiƛ čaačist
+piišpiš=maˑ ʕiniiƛ
+#EXAMPLE SKIPPED -- I asked what the dogs chased
+#EXAMPLE SKIPPED -- The dog s car sleeps
+#EXAMPLE SKIPPED -- My dogs sleep
+weʔič=maˑ ʕiniiƛ ʔani weʔič=qaˑ piišpiš
+#EXAMPLE SKIPPED -- The dog sleeps after the cat sleeps
+yaq=ḥaˑ weʔič
+qʷi=ḥaˑ ʕiniiƛ casšiƛ
+#EXAMPLE SKIPPED -- What do you think the dogs chase
+#EXAMPLE SKIPPED -- Who asked what the dogs chase
+#EXAMPLE SKIPPED -- I can eat glass
+#EXAMPLE SKIPPED -- It doesnt hurt me
