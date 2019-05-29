@@ -7,6 +7,4 @@ verb-pc8-noninfl-lex := verb-pc8-noninfl-lex-rule.
 
 verb-pc30_lrt1-lex := verb-pc30_lrt1-lex-rule.
 
-verb-pc116_lrt1-lex := verb-pc116_lrt1-lex-rule.
-
 denominal-verb-lex := denominal-verb-lex-rule.

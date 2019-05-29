@@ -133,9 +133,9 @@ t̓iick̓in := noun3-noun-lex &
   [ STEM < "t̓iick̓in" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thunderbird_n_rel" ].
 
-suw̓a := noun3-noun-lex &
+suw̓a := you-noun1-lex &
   [ STEM < "suw̓a" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_you_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 kapmint := noun3-noun-lex &
   [ STEM < "kapmint" >,
@@ -440,14 +440,6 @@ hałiił := noun9-noun-lex &
 qay̓apt̓a := noun9-noun-lex &
   [ STEM < "qay̓apt̓a" >,
     SYNSEM.LKEYS.KEYREL.PRED "_limb_n_rel" ].
-
-haʔu_1 := noun10-noun-lex &
-  [ STEM < "haʔu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_n_rel" ].
-
-haʔuk_1 := noun11-noun-lex &
-  [ STEM < "haʔuk" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_n_rel" ].
 
 ʔuḥ_1 := noun12-noun-lex &
   [ STEM < "ʔuḥ" >,
@@ -821,9 +813,9 @@ niḥ := noun56-noun-lex &
   [ STEM < "niḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_us_n_rel" ].
 
-sut := noun56-noun-lex &
+sut := you-noun2-lex &
   [ STEM < "sut" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_you_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "prono_rel" ].
 
 ḥamip_1 := noun57-noun-lex &
   [ STEM < "ḥamip" >,
@@ -941,10 +933,6 @@ yuʔi := noun113-noun-lex &
   [ STEM < "ʔiiḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_big_n_rel" ].
 
-waʔič_1 := noun113-noun-lex &
-  [ STEM < "waʔič" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sleep_n_rel" ].
-
 čakup := noun118-noun-lex &
   [ STEM < "čakup" >,
     SYNSEM.LKEYS.KEYREL.PRED "_man_n_rel" ].
@@ -1033,10 +1021,6 @@ waʔič_1 := noun113-noun-lex &
   [ STEM < "ʔuuš" >,
     SYNSEM.LKEYS.KEYREL.PRED "_some_n_rel" ].
 
-ʔuʔumḥi_1 := noun164-noun-lex &
-  [ STEM < "ʔuʔumḥi" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_can_n_rel" ].
-
 ʕatiq_1 := noun169-noun-lex &
   [ STEM < "ʕatiq" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thank_n_rel" ].
@@ -1093,199 +1077,195 @@ c̓itk := verb5-verb-lex &
   [ STEM < "c̓itk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lie.on.side_v_rel" ].
 
-huḥtikʷ_2 := verb7-verb-lex &
+huḥtikʷ_2 := nuk-intransitive-verb-lex &
   [ STEM < "huḥtikʷ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
 
-suu := verb7-verb-lex &
+suu := nuk-intransitive-verb-lex &
   [ STEM < "suu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_hold_v_rel" ].
 
-huḥtik := verb7-verb-lex &
+huḥtik := nuk-intransitive-verb-lex &
   [ STEM < "huḥtik" >,
     SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
 
-ʕapaakʷ := verb7-verb-lex &
+ʕapaakʷ := nuk-intransitive-verb-lex &
   [ STEM < "ʕapaakʷ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be.willing_v_rel" ].
 
-ḥaaḥuupa_2 := verb7-verb-lex &
+ḥaaḥuupa_2 := nuk-intransitive-verb-lex &
   [ STEM < "ḥaaḥuupa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_teaching_v_rel" ].
 
-n̓aaca := verb7-verb-lex &
+n̓aaca := nuk-intransitive-verb-lex &
   [ STEM < "n̓aaca" >,
     SYNSEM.LKEYS.KEYREL.PRED "_see_v_rel" ].
 
-tictaays := verb7-verb-lex &
+tictaays := nuk-intransitive-verb-lex &
   [ STEM < "tictaays" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fall_v_rel" ].
 
-ʔiicʔiiqḥa_1 := verb7-verb-lex &
+ʔiicʔiiqḥa_1 := nuk-intransitive-verb-lex &
   [ STEM < "ʔiicʔiiqḥa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_tell.rp_v_rel" ].
 
-ʔuḥ_2 := verb7-verb-lex &
+ʔuḥ_2 := nuk-intransitive-verb-lex &
   [ STEM < "ʔuḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
 
-siqiił_1 := verb7-verb-lex &
+siqiił_1 := nuk-intransitive-verb-lex &
   [ STEM < "siqiił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_cook_v_rel" ].
 
-k̓ašsaap := verb7-verb-lex &
+k̓ašsaap := nuk-intransitive-verb-lex &
   [ STEM < "k̓ašsaap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_put.away_v_rel" ].
 
-wawaa_2 := verb7-verb-lex &
+wawaa_2 := nuk-intransitive-verb-lex &
   [ STEM < "wawaa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say.ct_v_rel" ].
 
-n̓ascsuuḥ := verb7-verb-lex &
+n̓ascsuuḥ := nuk-intransitive-verb-lex &
   [ STEM < "n̓ascsuuḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_watch_v_rel" ].
 
-qʷaaʔap_2 := verb7-verb-lex &
+qʷaaʔap_2 := nuk-intransitive-verb-lex &
   [ STEM < "qʷaaʔap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_do_v_rel" ].
 
-ʔaaḥii := verb7-verb-lex &
+ʔaaḥii := nuk-intransitive-verb-lex &
   [ STEM < "ʔaaḥii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_purp.3_v_rel" ].
 
-huuwaay := verb7-verb-lex &
+huuwaay := nuk-intransitive-verb-lex &
   [ STEM < "huuwaay" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be.careful_v_rel" ].
 
-haʔuk_2 := verb7-verb-lex &
+haʔuk_intrans := nuk-intransitive-verb-lex &
   [ STEM < "haʔuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
-hayimḥa := verb7-verb-lex &
+hayimḥa := nuk-intransitive-verb-lex &
   [ STEM < "hayimḥa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_not.know_v_rel" ].
 
-waykaašiƛay_2 := verb7-verb-lex &
+waykaašiƛay_2 := nuk-intransitive-verb-lex &
   [ STEM < "waykaašiƛay" >,
     SYNSEM.LKEYS.KEYREL.PRED "_praise.you_v_rel" ].
 
-hinii := verb7-verb-lex &
+hinii := nuk-intransitive-verb-lex &
   [ STEM < "hinii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_give_v_rel" ].
 
-kaamatḥak := verb7-verb-lex &
+kaamatḥak := nuk-intransitive-verb-lex &
   [ STEM < "kaamatḥak" >,
     SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
 
-mamuuk_2 := verb7-verb-lex &
+mamuuk_2 := nuk-intransitive-verb-lex &
   [ STEM < "mamuuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_work_v_rel" ].
 
-ʔuuty̓aap := verb7-verb-lex &
+ʔuuty̓aap := nuk-intransitive-verb-lex &
   [ STEM < "ʔuuty̓aap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_bring.deliver_v_rel" ].
 
-taaʔaqił_2 := verb7-verb-lex &
+taaʔaqił_2 := nuk-intransitive-verb-lex &
   [ STEM < "taaʔaqił" >,
     SYNSEM.LKEYS.KEYREL.PRED "_logging_v_rel" ].
 
-naʔaa_1 := verb7-verb-lex &
+naʔaa_1 := nuk-intransitive-verb-lex &
   [ STEM < "naʔaa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_hear_v_rel" ].
 
-ḥasiik := verb7-verb-lex &
+ḥasiik := nuk-intransitive-verb-lex &
   [ STEM < "ḥasiik" >,
     SYNSEM.LKEYS.KEYREL.PRED "_finish_v_rel" ].
 
-haaʕin := verb7-verb-lex &
+haaʕin := nuk-intransitive-verb-lex &
   [ STEM < "haaʕin" >,
     SYNSEM.LKEYS.KEYREL.PRED "_invite_v_rel" ].
 
-qʷis_2 := verb7-verb-lex &
+qʷis_2 := nuk-intransitive-verb-lex &
   [ STEM < "qʷis" >,
     SYNSEM.LKEYS.KEYREL.PRED "_do.so_v_rel" ].
 
-qʷaaḥiiy̓ap := verb7-verb-lex &
+qʷaaḥiiy̓ap := nuk-intransitive-verb-lex &
   [ STEM < "qʷaaḥiiy̓ap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_reveal_v_rel" ].
 
-naʔaataḥ_2 := verb7-verb-lex &
+naʔaataḥ_2 := nuk-intransitive-verb-lex &
   [ STEM < "naʔaataḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_listen_v_rel" ].
 
-waʔič_2 := verb7-verb-lex &
-  [ STEM < "waʔič" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
-
-waa_2 := verb7-verb-lex &
+waa_2 := nuk-intransitive-verb-lex &
   [ STEM < "waa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_say_v_rel" ].
 
-ʔaak̓uuƛ := verb7-verb-lex &
+ʔaak̓uuƛ := nuk-intransitive-verb-lex &
   [ STEM < "ʔaak̓uuƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_borrow_v_rel" ].
 
-naḥii := verb7-verb-lex &
+naḥii := nuk-intransitive-verb-lex &
   [ STEM < "naḥii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_give.formally_v_rel" ].
 
-hinasiƛ := verb7-verb-lex &
+hinasiƛ := nuk-intransitive-verb-lex &
   [ STEM < "hinasiƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_arrive.at.mo_v_rel" ].
 
-ʔaʔaatuu := verb7-verb-lex &
+ʔaʔaatuu := nuk-intransitive-verb-lex &
   [ STEM < "ʔaʔaatuu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ask.mo_v_rel" ].
 
-hiniiʔas := verb7-verb-lex &
+hiniiʔas := nuk-intransitive-verb-lex &
   [ STEM < "hiniiʔas" >,
     SYNSEM.LKEYS.KEYREL.PRED "_go.outside_v_rel" ].
 
-m̓uč̓ič := verb7-verb-lex &
+m̓uč̓ič := nuk-intransitive-verb-lex &
   [ STEM < "m̓uč̓ič" >,
     SYNSEM.LKEYS.KEYREL.PRED "_dress_v_rel" ].
 
-hawaaƛ := verb7-verb-lex &
+hawaaƛ := nuk-intransitive-verb-lex &
   [ STEM < "hawaaƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_finish.mo_v_rel" ].
 
-wahaak_1 := verb7-verb-lex &
+wahaak_1 := nuk-intransitive-verb-lex &
   [ STEM < "wahaak" >,
     SYNSEM.LKEYS.KEYREL.PRED "_go.to_v_rel" ].
 
-čumqstuƛ := verb7-verb-lex &
+čumqstuƛ := nuk-intransitive-verb-lex &
   [ STEM < "čumqstuƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_be.happy.mo_v_rel" ].
 
-hupii_2 := verb7-verb-lex &
+hupii_2 := nuk-intransitive-verb-lex &
   [ STEM < "hupii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_help_v_rel" ].
 
-maakuk := verb7-verb-lex &
+maakuk := nuk-intransitive-verb-lex &
   [ STEM < "maakuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_buy_v_rel" ].
 
-hitaʔap := verb7-verb-lex &
+hitaʔap := nuk-intransitive-verb-lex &
   [ STEM < "hitaʔap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_win_v_rel" ].
 
-č̓iiʕaqa := verb7-verb-lex &
+č̓iiʕaqa := nuk-intransitive-verb-lex &
   [ STEM < "č̓iiʕaqa" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fight_v_rel" ].
 
-ƛ̓eekoo_2 := verb7-verb-lex &
+ƛ̓eekoo_2 := nuk-intransitive-verb-lex &
   [ STEM < "ƛ̓eekoo" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thank.you_v_rel" ].
 
-hitačink := verb7-verb-lex &
+hitačink := nuk-intransitive-verb-lex &
   [ STEM < "hitačink" >,
     SYNSEM.LKEYS.KEYREL.PRED "_fight_v_rel" ].
 
-ʔimč̓aap := verb7-verb-lex &
+ʔimč̓aap := nuk-intransitive-verb-lex &
   [ STEM < "ʔimč̓aap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_play_v_rel" ].
 
-ʔaʔaatu_1 := verb7-verb-lex &
+ʔaʔaatu_1 := nuk-intransitive-verb-lex &
   [ STEM < "ʔaʔaatu" >,
     SYNSEM.LKEYS.KEYREL.PRED "_ask.mo_v_rel" ].
 
@@ -1329,7 +1309,7 @@ qayaa_1 := verb12-verb-lex &
   [ STEM < "čii" >,
     SYNSEM.LKEYS.KEYREL.PRED "_pull_v_rel" ].
 
-ʔuʔumḥi_2 := verb12-verb-lex &
+ʔuʔumḥi := modal-aux-lex &
   [ STEM < "ʔuʔumḥi" >,
     SYNSEM.LKEYS.KEYREL.PRED "_can_v_rel" ].
 
@@ -1473,7 +1453,7 @@ qaḥ := verb29-verb-lex &
   [ STEM < "šiiƛuk" >,
     SYNSEM.LKEYS.KEYREL.PRED "_move.house_v_rel" ].
 
-ʔuucuw̓aƛ := verb29-verb-lex &
+ʔuucuw̓aƛ := nuk-intransitive-verb-lex &
   [ STEM < "ʔuucuw̓aƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_blow_v_rel" ].
 
@@ -1749,13 +1729,17 @@ mat_2 := verb109-verb-lex &
   [ STEM < "ʕiit" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lie_v_rel" ].
 
-ḥum := verb130-verb-lex &
+ḥum := nuk-transitive-verb-lex &
   [ STEM < "ḥum" >,
     SYNSEM.LKEYS.KEYREL.PRED "_show_v_rel" ].
 
-casšiƛ := verb130-verb-lex &
+casšiƛ := nuk-transitive-verb-lex &
   [ STEM < "casšiƛ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+ʔuʔiis_trans := nuk-transitive-verb-lex &
+  [ STEM < "ʔuʔiis" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
 
 siy̓aaq := 1sg-copula-verb-lex &
   [ STEM < "siy̓aaq" >,
@@ -1791,7 +1775,7 @@ wik_3 := neg-aux-lex &
 
 hił_adp := nuk-adposition-lex-item &
   [ STEM < "hił" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_in_adp_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_be+located_v_rel" ].
 
 ;;; Wh-Items
 

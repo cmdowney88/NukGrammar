@@ -565,14 +565,14 @@ in-to-be-located := monotonic_mtr &
   ARG1 #arg1,
   ARG2 #arg2 ] >,
       HCONS < > ],
-  OUTPUT [ RELS < [ PRED "_be_located_v_rel",
+  OUTPUT [ RELS < [ PRED "_be+located_v_rel",
    LBL #lbl,
    ARG0 #arg0,
    ARG1 #arg1,
    ARG2 #arg2 ] > ]].
 
 be-located-mtr := monotonic_mtr & 
-[ INPUT [ RELS < [ PRED "_be_located_v_rel",
+[ INPUT [ RELS < [ PRED "_be+located_v_rel",
   LBL #lbl,
   ARG0 #arg0,
   ARG1 #arg1,

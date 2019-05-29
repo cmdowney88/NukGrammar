@@ -6,7 +6,7 @@ LINE=$3
 
 SENTENCE="`sed -n ${LINE}p test_sentences/${SOURCE}.txt`"
 
-ace="/usr/local/bin/ace"
+ace="/home/david/Downloads/ace-0.9.30/ace"
 
 #Full pipeline
 #echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat 2>/dev/null | $ace -g tm/$TARGET/$TARGET.dat 2>/dev/null | $ace -g grammars/$TARGET/$TARGET.dat -e --disable-subsumption-test 2>/dev/null | more
@@ -19,7 +19,6 @@ ace="/usr/local/bin/ace"
 
 #Full pipeline; verbose
 echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat | $ace -g tm/$TARGET/$TARGET.dat | $ace -g grammars/$TARGET/$TARGET.dat -e --disable-subsumption-test
-
 #Full pipeline; verbose; allow subsumption check
 #echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat | $ace -g tm/$TARGET/$TARGET.dat | $ace -g grammars/$TARGET/$TARGET.dat -e 
 
