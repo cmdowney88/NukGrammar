@@ -17,7 +17,7 @@ hił=maˑ ʕiniiƛ čaačist
 piišpiš=maˑ ʕiniiƛ
 #EXAMPLE SKIPPED -- I asked what the dogs chased
 #EXAMPLE SKIPPED -- The dog s car sleeps
-#EXAMPLE SKIPPED -- My dogs sleep
+weʔič=maˑ ʕiniiƛ=uk=(m)aˑḥ
 weʔič=maˑ ʕiniiƛ ʔani weʔič=qaˑ piišpiš
 #EXAMPLE SKIPPED -- The dog sleeps after the cat sleeps
 yaq=ḥaˑ weʔič
