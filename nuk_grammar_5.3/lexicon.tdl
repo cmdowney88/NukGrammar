@@ -133,9 +133,9 @@ t̓iick̓in := noun3-noun-lex &
   [ STEM < "t̓iick̓in" >,
     SYNSEM.LKEYS.KEYREL.PRED "_thunderbird_n_rel" ].
 
-suw̓a := noun3-noun-lex &
+suw̓a := you-noun1-lex &
   [ STEM < "suw̓a" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_you_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
 
 kapmint := noun3-noun-lex &
   [ STEM < "kapmint" >,
@@ -813,9 +813,9 @@ niḥ := noun56-noun-lex &
   [ STEM < "niḥ" >,
     SYNSEM.LKEYS.KEYREL.PRED "_us_n_rel" ].
 
-sut := noun56-noun-lex &
+sut := you-noun2-lex &
   [ STEM < "sut" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_you_n_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "prono_rel" ].
 
 ḥamip_1 := noun57-noun-lex &
   [ STEM < "ḥamip" >,
@@ -1775,7 +1775,7 @@ wik_3 := neg-aux-lex &
 
 hił_adp := nuk-adposition-lex-item &
   [ STEM < "hił" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_in_adp_rel" ].
+    SYNSEM.LKEYS.KEYREL.PRED "_be+located_v_rel" ].
 
 ;;; Wh-Items
 
