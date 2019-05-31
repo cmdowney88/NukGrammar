@@ -112,6 +112,30 @@ sleep=INDIC.3 dog
 After working with Emily during office hours, we realized this was because the Mood position class was not obligatory so the underspecified versions were still compatible with the internal MRS generated from the semi.vpm. We made the Mood position class obligatory on all its inputs which correctly ruled out the non-mood inflected generation.
 
 #### 4 (Ambiguity Explanation) ####------------------------------------------------------------------------------------------------
+The primary source for ambiguity for both Pite Saami and English to Nuuchahnulth is free word order. In our analysis of Nuuchahnulth, sentences are verb-initial but there is no order imposed on subject or object. For example English 'dogs chase cars' correctly generates both:
+Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ
+chase=3rd car dog
+
+Casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas
+chase=3rd.Indic dog car
+
+We also see ambiguity from different spellings of the affixes. For example the following 3 1sg.Indic suffixes are all present in our corpus: (m)aˑḥ, =maˑḥ, =aˑḥ. We could unify our irules further to just the first version but haven't yet in order to keep coverage decent and account for the variety of spellings.
+
+Pronouns can be optionally dropped in Nuuchahnulth which allows 'I chase you' to be translated as both:
+Casšiƛ=(m)aˑḥ
+chase=1sg.Indic
+
+Casšiƛ=(m)aˑḥ suw̓a
+chase=1sg.Indc 2nd
+
+Similarly to the dropped pronouns, objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intrasitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be traslated as both
+Haʔuk=maˑ ʕiniiƛ
+eat(intras)=3rd.Indic dog
+
+ʔuʔiis=maˑ ʕiniiƛ
+eat(trans)=3rd.Indic dog
+
+This is always going to happen because the contextual dropping of objects has to be supported so both of these Nuuchahnulth examples are grammatical. 
 
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
 eng

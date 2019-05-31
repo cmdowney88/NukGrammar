@@ -3155,6 +3155,15 @@ verb-pc161-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
                    CONT.HOOK.INDEX [ SF ques,
                                       E.MOOD interr ] ] ].
 
+verb-no-mood-lex-rule-super := add-only-no-ccont-rule & const-lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD.FORM nonfinite,
+    INFLECTED [ VERB-TENSE-FLAG #tense,
+		CLITIC-CLUSTER-FLAG + ],
+    DTR mood-rule-dtr &
+         [ INFLECTED.VERB-TENSE-FLAG #tense ] ].
+
+verb-no-mood-lex-rule := verb-no-mood-lex-rule-super .
+
 verb-pc169-lex-rule-super := add-only-no-ccont-rule & infl-lex-rule &
   [ INFLECTED #infl,
     DTR verb122-verb-lex &
