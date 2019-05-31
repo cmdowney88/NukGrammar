@@ -109,7 +109,18 @@ sleep dog
 weʔič=maˑ ʕiniiƛ
 sleep=INDIC.3 dog
 
-After working with Emily during office hours, we realized this was because the Mood position class was not obligatory so the underspecified versions were still compatible with the internal MRS generated from the semi.vpm. We made the Mood position class obligatory on all its inputs which correctly ruled out the non-mood inflected generation.
+After working with Emily during office hours, we realized this was because the Mood position class was not obligatory so the underspecified versions were still compatible with the internal MRS generated from the semi.vpm. We made the Mood position class obligatory on all its inputs which correctly ruled out the non-mood inflected generation. In adddition to this, we had to modify our rules for Coordination. This is because being a top-level S requires that that the head be FORM finite, but S's that are coordinated  had no such restriction, even though these must have Mood in Nuuchahnulth. Thus we added the following type addenda:
+
+    s-coord-phrase :+ [ LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite,
+                        RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+    s-bottom-coord-phrase :+ [ NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+    vp-coord-phrase :+ [ LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+    vp-bottom-coord-phrase :+ [ NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM nonfinite ].
+
+In contrast to coordinated sentences, the second coordinated VP must not receive Mood inflection, thus we specify that the bottom VP have FORM nonfinite.
 
 #### 4 (Ambiguity Explanation) ####------------------------------------------------------------------------------------------------
 The primary source for ambiguity for both Pite Saami and English to Nuuchahnulth is free word order. In our analysis of Nuuchahnulth, sentences are verb-initial but there is no order imposed on subject or object. For example English 'dogs chase cars' correctly generates both:
@@ -147,8 +158,14 @@ As discussed in previous labs, when both Subject and Object are present in a Nuu
     Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
     Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ ʕiniiƛ piišpiš
 
+## Scope of Coordination ##
 
-
+In addition, we have some amibuity in between VP and S coordination. This only somes in SJE -> NUK translation, for instance in Example 10:
+    #10
+    Casšiƛ=maˑ piišpiš ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ
+    Casšiƛ=maˑ ʕiniiƛ ʔaḥʔaaʔaƛ weʔič piišpiš
+    Casšiƛ=maˑ ʕiniiƛ piišpiš ʔaḥʔaaʔaƛ weʔič=maˑ
+    Casšiƛ=maˑ ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ piišpiš
 
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
 eng
