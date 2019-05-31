@@ -52,15 +52,16 @@ PNG.GEND : GEND
 E.TENSE : TENSE
   pst <> past
   pres <> present
-  no-tense << *
+  pst << *
 
 
 E.ASPECT : ASPECT
-  cont <> cont
-  dur <> dur
-  temp <> temp
-  perf <> perf
+  cont >> cont
+  dur >> dur
+  temp >> temp
+  perf >> perf
   * >> no-aspect
+  no-aspect << [e]
   no-aspect << *
 
 E.MOOD : MOOD
@@ -72,3 +73,4 @@ E.MOOD : MOOD
   subord <> subord
   interr <> interr
   indic << [e]
+  indic << *
