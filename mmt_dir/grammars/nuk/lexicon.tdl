@@ -1345,10 +1345,6 @@ hašaḥap := verb13-verb-lex &
   [ STEM < "hašaḥap" >,
     SYNSEM.LKEYS.KEYREL.PRED "_preserve_v_rel" ].
 
-haʔu_2 := verb14-verb-lex &
-  [ STEM < "haʔu" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
-
 hina_2 := verb16-verb-lex &
   [ STEM < "hina" >,
     SYNSEM.LKEYS.KEYREL.PRED "_empty_v_rel" ].
