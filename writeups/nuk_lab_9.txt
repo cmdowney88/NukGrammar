@@ -1,0 +1,136 @@
+#### 1 (TSDB Results) ####-----------------------------------------------------------------------------------------------
+
+a. How many items parsed?
+    -Initial (5.2): Testsuite-59, Corpus-33
+    -Final:  Testsuite- , Corpus-
+
+b. What was the average number of parses?
+    -Initial: Testsuite-1.76, Corpus-2.12
+    -Final:  Testsuite- , Corpus-
+
+c. How many parses did the most ambiguous item receive?
+    -Initial: Testsuite-6, Corpus-6
+    -Final:  Testsuite- , Corpus-
+d. What sources of ambiguity can you identify?
+
+#### 2 (MRS Refinement) ####-----------------------------------------------------------------------------------------------
+1. The first change we did was to unify the name on our locative verbs so that both versions used the the '_be+located_v_rel' as we settled on in class. Next, we implemented the transfer rule to change '_in_p_rel' to our rel:
+
+in-to-be-located := monotonic_mtr & 
+[ INPUT [ RELS < [ PRED "_in_p_rel",
+  LBL #lbl,
+  ARG0 #arg0,
+  ARG1 #arg1,
+  ARG2 #arg2 ] >,
+      HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_be+located_v_rel",
+   LBL #lbl,
+   ARG0 #arg0,
+   ARG1 #arg1,
+   ARG2 #arg2 ] > ]].
+
+This allowed us to translate the following:
+
+MMT 13
+haʔuk=maˑ ʕiniiƛ hił čaačist
+eat=INDIC.3 dog in park
+Dogs in the park eat
+
+MMT 16
+hił=maˑ ʕiniiƛ čaačist
+at=INDIC.3 dog park
+The dogs are in the park
+
+2. We were unable to translate the 3rd sentence (or any with pronouns) to start:
+MMT 3
+eng
+I chase you
+1sg.pron chase.1st 2nd.pron
+I chase you
+
+nuk
+casšiƛ=maˑḥ suw̓a
+chase=INDIC.1sg 2nd.pron
+I chase you 
+
+
+First, we added optional pronoun dropping since the subject and object can be dropped:
+
+pronoun-delete-mtr := monotonic_omtr &
+ [ INPUT [ RELS < [ PRED "pron_rel",
+		     ARG0 #x,
+		     LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] >,
+	   HCONS < qeq & [ LARG #larg,
+			    HARG #harg ] > ],
+   OUTPUT [ RELS < >,
+	    HCONS < > ]].
+
+ This allowed us to generate 'casšiƛ=maˑḥ' which is allowed. However, we still weren't getting the desired version that included 'suw̓a'. We looked at the lexical entry for 'suw̓a' and realized that it had been generated with a non-matching predicate so we changed it from '_you_n_rel' to 'pron_rel'. Then we looked in 'nuuchahnulth.tdl' and saw it was inheriting from a noun type that had 3rd person features. We fixed this inheritence so that 'suw̓a' is now correctly 2nd person.
+
+#### 3 (Overgeneration Changes) ####-----------------------------------------------------------------------------------------------
+
+#### 4 (Ambiguity Explanation) ####-----------------------------------------------------------------------------------------------
+
+#### 5 (MMT Coverage) ####-----------------------------------------------------------------------------------------------
+eng
+1: covered
+2: covered
+3: coverd
+4: covered
+5: covered
+6: nuk skipped
+7: nuk skipped
+8: covered
+9: covered
+10: covered
+11: covered
+12: nuk skipped
+13: covered
+14: nuk skipped
+15: nuk skipped
+16: covered
+17: covered
+18: nuk skipped
+19: nuk skipped
+20: covered
+21: covered
+22: nuk skipped
+23: wh- out of scope for nuk
+24: wh- out of scope for nuk
+25: nuk skipped
+26: nuk skipped
+27: nuk skipped
+28: nuk skipped
+
+sje
+1: covered
+2: covered
+3: covered
+4: covered
+5: covered
+6: nuk skipped 
+7: nuk skipped 
+8: covered
+9: covered
+10: covered
+11: covered
+12: nuk skipped
+13 sje not coverd
+14: nuk skipped
+15: nuk skipped
+16 sje skipped
+17 sje skipped
+18: nuk skipped
+19: nuk skipped
+20: covered
+21 sje skipped
+22: nuk skipped
+23:: wh- out of scope for nuk
+24: wh- out of scope for nuk
+25: nuk skipped
+26: nuk skipped
+27: nuk skipped
+28: nuk skipped
