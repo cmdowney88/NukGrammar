@@ -41,10 +41,13 @@ PNG.PER : PER
   3rd <> third
   2nd <> second
   1st <> first
+  3rd << [x]
+  3rd << *
 
 PNG.NUM : NUM
   sg <> sg
   pl <> pl
+  
 
 PNG.GEND : GEND
    n <> n
@@ -52,6 +55,7 @@ PNG.GEND : GEND
 E.TENSE : TENSE
   pst <> past
   pres <> present
+  pres << [e]
   pres << *
 
 
@@ -61,6 +65,7 @@ E.ASPECT : ASPECT
   temp >> temp
   perf >> perf
   * >> no-aspect
+  perf << perf
   no-aspect << [e]
   no-aspect << *
 
