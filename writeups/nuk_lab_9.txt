@@ -72,9 +72,40 @@ pronoun-delete-mtr := monotonic_omtr &
 
 #### 3 (Overgeneration Changes) ####-----------------------------------------------------------------------------------------------
 
-#### 4 (Ambiguity Explanation) ####-----------------------------------------------------------------------------------------------
+The first major change we made to prevent overgeneration was pruning our Irules set to only the affixes used in the testsuite and mmt sentences that also model semantics of some sort. This reduced some of our coverage in the testsuite, since some of our non-constructed examples contained morphemes for which we do not yet model semantics. Secondly, we amended the vpm rules to prevent under specified Mood, Aspect, and Tense values from overgenerating when translating to Nuuchahnulth.
 
-#### 5 (MMT Coverage) ####-----------------------------------------------------------------------------------------------
+E.TENSE : TENSE
+  pst <> past
+  pres <> present
+  pres << [e]
+  pres << *
+
+E.ASPECT : ASPECT
+  cont >> cont
+  dur >> dur
+  temp >> temp
+  perf >> perf
+  * >> no-aspect
+  perf << perf
+  no-aspect << [e]
+  no-aspect << *
+
+E.MOOD : MOOD
+  indic <> indic
+  cond <> cond
+  quot <> quot
+  dub <> dub
+  abs <> abs
+  subord <> subord
+  interr <> interr
+  indic << [e]
+  indic << *
+
+For Aspect, we decided to constrain our vpm rules to export all values identically, but only import Perfective, and change everything else to no-aspect. This is because Pite Saami seems to have some form of Aspect, and our grammar can generate Perfective Aspect accurately at least. For Mood, we allow any of our supported Moods to be imported or exported. However, anything else is imported as Indicative, as "basic" Nuuchahnulth sentences have Indicative Mood. Similarly, for Tense we allow Present or Past to be imported, but otherwise set the Tense to Present, as basic Nuuchahnulth sentences are interpreted as Present, and we generate this accurately through an lrule.
+
+#### 4 (Ambiguity Explanation) ####------------------------------------------------------------------------------------------------
+
+#### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
 eng
 1: covered
 2: covered
