@@ -100,6 +100,14 @@ wh-ques-phrase := basic-head-filler-phrase & interrogative-clause &
 					      COMPS < > ] ],
      NON-HEAD-DTR.SYNSEM.NON-LOCAL.QUE <! ref-ind !> ].
 
+s-coord-phrase :+ [ LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite,
+                    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+s-bottom-coord-phrase :+ [ NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+vp-coord-phrase :+ [ LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
+
+vp-bottom-coord-phrase :+ [ NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM nonfinite ].
 ;;;;;;;;;;;;;;
 ;;; Features
 ;;;;;;;;;;;;;;
@@ -834,7 +842,7 @@ subord-with-verbal-comp-lex := adposition-subord-lex-item &
   [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD < [ LOCAL [ CAT.HEAD verb,
                                                 CONT.HOOK [ LTOP #mod,
                                                             INDEX #index ] ] ] >,
-                           VAL.COMPS < [ LOCAL [ CAT.HEAD verb,
+                           VAL.COMPS < [ LOCAL [ CAT.HEAD verb & [ FORM finite ],
                                                  CONT.HOOK.LTOP #comps ] ] > ],
                      CONT [ HCONS <! qeq &
                                      [ HARG #h1,
@@ -3262,7 +3270,9 @@ vp1-bottom-coord-rule := conj-first-bottom-coord-rule & vp-bottom-coord-phrase &
 ;;; Coordination Strategy 1
 
 s1-top-coord-rule := basic-s-top-coord-rule & apoly-top-coord-rule &
-  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+  [ SYNSEM.LOCAL [ COORD-STRAT "2",
+                   CAT.HEAD.FORM finite ] ].
 
 s1-bottom-coord-rule := conj-first-bottom-coord-rule & s-bottom-coord-phrase &
-  [ SYNSEM.LOCAL.COORD-STRAT "2" ].
+  [ SYNSEM.LOCAL [ COORD-STRAT "2",
+                   CAT.HEAD.FORM finite ] ].
