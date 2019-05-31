@@ -52,7 +52,7 @@ PNG.GEND : GEND
 E.TENSE : TENSE
   pst <> past
   pres <> present
-  pst << *
+  pres << *
 
 
 E.ASPECT : ASPECT
