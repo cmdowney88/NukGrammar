@@ -18,7 +18,7 @@ ace="/home/david/Downloads/ace-0.9.30/ace"
 #echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat 2>/dev/null | $ace -g tm/$TARGET/$TARGET.dat 2>/dev/null | $ace -g grammars/$TARGET/$TARGET.dat -e
 
 #Full pipeline; verbose
-echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat | $ace -g tm/$TARGET/$TARGET.dat | $ace -g grammars/$TARGET/$TARGET.dat -e --disable-subsumption-test 
+echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat | $ace -g tm/$TARGET/$TARGET.dat | $ace -g grammars/$TARGET/$TARGET.dat -e --disable-subsumption-test -v 
 
 #Full pipeline; verbose; allow subsumption check
 #echo $SENTENCE | $ace -g grammars/$SOURCE/$SOURCE.dat | $ace -g tm/$TARGET/$TARGET.dat | $ace -g grammars/$TARGET/$TARGET.dat -e 

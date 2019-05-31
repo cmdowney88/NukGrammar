@@ -67,5 +67,5 @@ E.ASPECT : ASPECT
   prog <> prog
   aspect <> *
 
-E.MOOD : E.MOOD
+E.MOOD : MOOD
   mood <> *
