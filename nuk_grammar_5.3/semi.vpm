@@ -47,7 +47,7 @@ PNG.NUM : NUM
   pl <> pl
 
 PNG.GEND : GEND
-2   n <> n
+   n <> n
 
 E.TENSE : TENSE
   pst <> past
