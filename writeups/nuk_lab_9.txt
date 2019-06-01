@@ -168,6 +168,41 @@ One source of ambiguity we weren't able to solve was that for Example 21 "the do
 
 As can be seen, the first two generated sentences align with the semantics of the English sentence from which the translation comes, whereas the second two have the opposite semantics. We confirmed that this second set of semantics was different (opposite) from the target with Emily on Canvas, and were advised to document it but not try to pursue the problem further.
 
+## Ambiguity of Modifier Scope ##
+
+[ LTOP: h14 INDEX: e12 
+[ e TENSE: present ASPECT: aspect SF: prop-or-ques ] 
+RELS: < 
+[ "_dog_n_rel"<-1:-1> LBL: h0 ARG0: x1 [ x PER: third NUM: pl COG-ST: type-id ] ]  
+[ "exist_q_rel"<-1:-1> LBL: h2 ARG0: x1 RSTR: h3 BODY: h4 ]  
+[ "_eat_v_rel"<-1:-1> LBL: h10 ARG0: e12 ARG1: x1 ARG2: x5 [ x COG-ST: type-id ] ]  
+[ "exist_q_rel"<-1:-1> LBL: h6 ARG0: x13 [ x PER: third NUM: sg COG-ST: uniq+fam+act ] RSTR: h7 BODY: h8 ]  
+[ "_park_n_rel"<-1:-1> LBL: h9 ARG0: x13 ]  
+[ "_be+located_v_rel"<-1:-1> LBL: h10 ARG0: e11 [ e TENSE: tense ASPECT: aspect SF: iforce ] ARG1: e12 ARG2: x13 ] > 
+HCONS: < h14 qeq h10 h3 qeq h0 h7 qeq h9 > ICONS: < e12 non-focus x5 > ]
+
+[ LTOP: h14 INDEX: e12 
+[ e TENSE: present ASPECT: aspect SF: prop-or-ques ] 
+RELS: < 
+[ "_dog_n_rel"<-1:-1> LBL: h0 ARG0: x1 [ x PER: third NUM: pl COG-ST: type-id ] ]  
+[ "exist_q_rel"<-1:-1> LBL: h2 ARG0: x1 RSTR: h3 BODY: h4 ]  
+[ "_eat_v_rel"<-1:-1> LBL: h10 ARG0: e12 ARG1: x1 ARG2: x5 [ x COG-ST: type-id ] ]  
+[ "exist_q_rel"<-1:-1> LBL: h6 ARG0: x13 [ x PER: third NUM: sg COG-ST: uniq+fam+act ] RSTR: h7 BODY: h8 ]  
+[ "_park_n_rel"<-1:-1> LBL: h9 ARG0: x13 ]  
+[ "_be+located_v_rel"<-1:-1> LBL: h10 ARG0: e11 [ e TENSE: tense ASPECT: aspect SF: iforce ] ARG1: e12 ARG2: x13 ] > 
+HCONS: < h14 qeq h10 h3 qeq h0 h7 qeq h9 > ICONS: < e12 non-focus x5 > ]
+
+[ LTOP: h14 INDEX: e12 
+[ e TENSE: present ASPECT: aspect SF: prop-or-ques ] 
+RELS: < 
+[ "_dog_n_rel"<-1:-1> LBL: h0 ARG0: x1 [ x PER: third NUM: pl COG-ST: type-id ] ]  
+[ "exist_q_rel"<-1:-1> LBL: h2 ARG0: x1 RSTR: h3 BODY: h4 ]  
+[ "_eat_v_rel"<-1:-1> LBL: h10 ARG0: e12 ARG1: x1 ARG2: x5 [ x COG-ST: type-id ] ]  
+[ "exist_q_rel"<-1:-1> LBL: h6 ARG0: x13 [ x PER: third NUM: sg COG-ST: uniq+fam+act ] RSTR: h7 BODY: h8 ]  
+[ "_park_n_rel"<-1:-1> LBL: h9 ARG0: x13 ]  
+[ "_be+located_v_rel"<-1:-1> LBL: h10 ARG0: e11 [ e TENSE: tense ASPECT: aspect SF: iforce ] ARG1: e12 ARG2: x13 ] > 
+HCONS: < h14 qeq h10 h3 qeq h0 h7 qeq h9 > ICONS: < e12 non-focus x5 > ]
+
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
 The following are all sentences that were generated in Nuuchahnulth from the two input languages. We have 15 sentences translating from English and 9 translating from Pite Saami.
 
