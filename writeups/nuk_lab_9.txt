@@ -43,7 +43,7 @@ hił=maˑ ʕiniiƛ čaačist
 at=INDIC.3 dog park
 The dogs are in the park
 
-2. We were unable to translate the 3rd sentence (or any with pronouns) to start:
+2. We were unable to translate the 3rd sentence (or any with pronouns) at first:
 MMT 3
 eng
 I chase you
@@ -140,8 +140,8 @@ As discussed in previous labs, when both Subject and Object are present in a Nuu
 ## Spelling ##
 We also see ambiguity from different spellings of the affixes. For example the following 3 1sg.Indic suffixes are all present in our corpus: (m)aˑḥ, =maˑḥ, =aˑḥ. We could unify our irules further to just the first version but haven't yet in order to keep coverage decent and account for the variety of spellings.
 
-## Pronoun Dropping ##
-Pronomial objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intrasitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be traslated as both
+## Subject/Object Dropping ##
+In addtion to the pronomial dropping mentioned above, subject and objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intrasitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be traslated as both
 
     Haʔuk=maˑ ʕiniiƛ
     eat(intras)=3rd.Indic dog
@@ -149,7 +149,7 @@ Pronomial objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is tra
     ʔuʔiis=maˑ ʕiniiƛ
     eat(trans)=3rd.Indic dog
 
-This is always going to happen because the contextual dropping of objects has to be supported so both of these Nuuchahnulth examples are grammatical. 
+This is always going to happen because the contextual dropping of objects has to be supported so both of these Nuuchahnulth examples are grammatical. This appears to be the underlying cause of the overgeneration in MMT 14 "dogs eat in the park"
 
 ## Direction of "because" Relation ##
 One source of ambiguity we weren't able to solve was that for Example 21 "the dog sleeps because the cat sleeps", our translations are generating sentences with the reverse semantics. Our translation generates the following:
@@ -169,7 +169,7 @@ One source of ambiguity we weren't able to solve was that for Example 21 "the do
 As can be seen, the first two generated sentences align with the semantics of the English sentence from which the translation comes, whereas the second two have the opposite semantics. We confirmed that this second set of semantics was different (opposite) from the target with Emily on Canvas, and were advised to document it but not try to pursue the problem further.
 
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
-The following are all sentences that were generated in Nuuchanulth from the two input languages. We have 15 sentences translating from English and 9 translating from Pite Saami
+The following are all sentences that were generated in Nuuchanulth from the two input languages. We have 15 sentences translating from English and 9 translating from Pite Saami.
 
 eng -> nuk
 #1
@@ -215,16 +215,6 @@ Haʔuk=maˑ hił čaačist ʕiniiƛ
 ʔuʔiis=maˑ ʕiniiƛ hił čaačist
 Haʔuk=maˑ ʕiniiƛ hił čaačist
 ʔuʔiis=maˑ hił čaačist ʕiniiƛ
-ʔuʔiis=maˑ ʕiniiƛ hił čaačist
-Haʔuk=maˑ hił čaačist ʕiniiƛ
-ʔuʔiis=maˑ ʕiniiƛ hił čaačist
-ʔuʔiis=maˑ hił čaačist ʕiniiƛ
-Haʔuk=maˑ ʕiniiƛ hił čaačist
-ʔuʔiis=maˑ ʕiniiƛ hił čaačist
-Haʔuk=maˑ hił čaačist ʕiniiƛ
-ʔuʔiis=maˑ ʕiniiƛ hił čaačist
-ʔuʔiis=maˑ hił čaačist ʕiniiƛ
-Haʔuk=maˑ ʕiniiƛ hił čaačist
 ʔuʔiis=maˑ ʕiniiƛ hił čaačist
 #15
 #16
