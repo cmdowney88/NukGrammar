@@ -169,6 +169,10 @@ One source of ambiguity we weren't able to solve was that for Example 21 "the do
 As can be seen, the first two generated sentences align with the semantics of the English sentence from which the translation comes, whereas the second two have the opposite semantics. We confirmed that this second set of semantics was different (opposite) from the target with Emily on Canvas, and were advised to document it but not try to pursue the problem further.
 
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
+coverd = sensible generation from translate-line.sh for that sentence.
+nuk skipped = a sentence not translated by us and unless otherwise noted, did not generate
+sje skipped = no input sentence from sje
+
 eng
 1: covered
 2: covered
@@ -183,7 +187,7 @@ eng
 11: covered
 12: nuk skipped
 13: covered
-14: nuk skipped
+14: covered but nuk skipped
 15: nuk skipped
 16: covered
 17: covered
@@ -192,8 +196,8 @@ eng
 20: covered
 21: covered
 22: nuk skipped
-23: wh- out of scope for nuk
-24: wh- out of scope for nuk
+23: nuk skipped: wh- out of scope for nuk
+24: nuk skipped: wh- out of scope for nuk
 25: nuk skipped
 26: nuk skipped
 27: nuk skipped
