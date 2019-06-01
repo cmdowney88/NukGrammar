@@ -212,7 +212,7 @@ sje
 10: covered
 11: covered
 12: nuk skipped
-13 sje not coverd
+13 sje not covered
 14: nuk skipped
 15: nuk skipped
 16 sje skipped
