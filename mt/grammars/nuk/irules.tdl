@@ -1,0 +1,226 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Inflecting Lexical Rule Instances
+
+1sgIndic-suffix1 :=
+%suffix (* =maˑḥ)
+1sgIndic-lex-rule.
+
+1sgIndic-suffix2 :=
+%suffix (* =aˑḥ)
+1sgIndic-lex-rule.
+
+1sgIndic-suffix3 :=
+%suffix (* =\(m\)aˑḥ)
+1sgIndic-lex-rule.
+
+1plIndic-suffix1 :=
+%suffix (* =min)
+1plIndic-lex-rule.
+
+1plIndic-suffix2 :=
+%suffix (* =in)
+1plIndic-lex-rule.
+
+1plIndic-suffix3 :=
+%suffix (* =\(m\)in)
+1plIndic-lex-rule.
+
+2sgIndic-suffix1 :=
+%suffix (* =meˑʔic)
+2sgIndic-lex-rule.
+
+2sgIndic-suffix2 :=
+%suffix (* =eˑʔic)
+2sgIndic-lex-rule.
+
+2sgIndic-suffix3 :=
+%suffix (* =\(m\)eˑʔic)
+2sgIndic-lex-rule.
+
+2plIndic-suffix1 :=
+%suffix (* =meˑʔicuu)
+2plIndic-lex-rule.
+
+2plIndic-suffix2 :=
+%suffix (* =eˑʔicuu)
+2plIndic-lex-rule.
+
+2plIndic-suffix3 :=
+%suffix (* =\(m\)eˑʔicuu)
+2plIndic-lex-rule.
+
+3Indic-suffix :=
+%suffix (* =maˑ)
+3Indic-lex-rule.
+
+1sgAbs-suffix :=
+%suffix (* =siˑ)
+1sgAbs-lex-rule.
+
+1plAbs-suffix :=
+%suffix (* =niˑ)
+1plAbs-lex-rule.
+
+2sgAbs-suffix :=
+%suffix (* =suˑk)
+2sgAbs-lex-rule.
+
+2plAbs-suffix :=
+%suffix (* =suu)
+2plAbs-lex-rule.
+
+3Cond-suffix :=
+%suffix (* =quu)
+3Cond-lex-rule.
+
+1sgCond-suffix :=
+%suffix (* =quus)
+1sgCond-lex-rule.
+
+1plCond-suffix :=
+%suffix (* =qun)
+1plCond-lex-rule.
+
+2sgCond-suffix :=
+%suffix (* =quuk)
+2sgCond-lex-rule.
+
+2plCond-suffix :=
+%suffix (* =quusuu)
+2plCond-lex-rule.
+
+1sgSubord-suffix :=
+%suffix (* =qaˑs)
+1sgSubord-lex-rule.
+
+1plSubord-suffix :=
+%suffix (* =qin)
+1plSubord-lex-rule.
+
+2sgSubord-suffix :=
+%suffix (* =ʔiˑtqak)
+2sgSubord-lex-rule.
+
+2plSubord-suffix :=
+%suffix (* =ʔiˑtqsuu)
+2plSubord-lex-rule.
+
+3Subord-suffix :=
+%suffix (* =qaˑ)
+3Subord-lex-rule.
+
+1sgInterr-suffix :=
+%suffix (* =ḥaˑs)
+1sgInterr-lex-rule.
+
+1plInterr-suffix1 :=
+%suffix (* =ḥaˑn)
+1plInterr-lex-rule.
+
+1plInterr-suffix2 :=
+%suffix (* =ḥin)
+1plInterr-lex-rule.
+
+2sgInterr-suffix1 :=
+%suffix (* =ḥaˑk)
+2sgInterr-lex-rule.
+
+2plInterr-suffix1 :=
+%suffix (* =ḥaˑsuu)
+2plInterr-lex-rule.
+
+3rdInterr-suffix1 :=
+%suffix (* =ḥaˑ)
+3rdInterr-lex-rule.
+
+verb-pc10_lrt1-suffix1 :=
+%suffix (* -šiƛ)
+verb-pc10_lrt1-lex-rule.
+
+verb-pc14_lrt1-suffix :=
+%suffix (* =‼aƛ)
+verb-pc14_lrt1-lex-rule.
+
+poss1_lrt1-suffix :=
+%suffix (* =ʔak)
+poss1_lrt1-lex-rule.
+
+poss2_lrt1-suffix :=
+%suffix (* =uk)
+poss2_ltr1-lex-rule.
+
+poss2_lrt1-suffix :=
+%suffix (* =uk=\(m\)aˑḥ)
+poss2_ltr2-lex-rule.
+
+verb-pc35_lrt1-suffix1 :=
+%suffix (* =weˑʔin)
+verb-pc35_lrt1-lex-rule.
+
+verb-pc35_lrt1-suffix2 :=
+%suffix (* =waˑʔiš)
+verb-pc35_lrt1-lex-rule.
+
+verb-pc35_lrt1-suffix3 :=
+%suffix (* =weˑʔiš)
+verb-pc35_lrt1-lex-rule.
+
+verb-pc35_lrt2-suffix :=
+%suffix (* =weˑʔisi)
+verb-pc35_lrt2-lex-rule.
+
+verb-pc35_lrt3-suffix :=
+%suffix (* =weˑʔinni)
+verb-pc35_lrt3-lex-rule.
+
+verb-pc35_lrt4-suffix :=
+%suffix (* =weˑʔincuk)
+verb-pc35_lrt4-lex-rule.
+
+verb-pc35_lrt5-suffix :=
+%suffix (* =weˑʔincuu)
+verb-pc35_lrt5-lex-rule.
+
+verb-pc8_lrt1-suffix1 :=
+%suffix (* =mit)
+verb-pc8_lrt1-lex-rule.
+
+verb-pc8_lrt1-suffix2 :=
+%suffix (* =int)
+verb-pc8_lrt1-lex-rule.
+
+verb-pc8_lrt2-suffix3 :=
+%suffix (* =\(m\)it)
+verb-pc8_lrt1-lex-rule.
+
+verb-pc8_lrt2-suffix4 :=
+%suffix (* =nit)
+verb-pc8_lrt1-lex-rule.
+
+verb-pc8_lrt1-suffix5 :=
+%suffix (* =muˑt)
+verb-pc8_lrt1-lex-rule.
+
+verb-pc17_lrt1-suffix :=
+%suffix (* -piƛ)
+verb-pc17_lrt1-lex-rule.
+
+verb-pc18_lrt1-suffix1 :=
+%suffix (* -aˑ)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc18_lrt1-suffix2 :=
+%suffix (* -\(y\)aˑ)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc18_lrt1-suffix3 :=
+%suffix (* -yaˑ)
+verb-pc18_lrt1-lex-rule.
+
+verb-pc134_lrt1-suffix :=
+%suffix (* =ʔak)
+verb-pc134_lrt1-lex-rule.
+
+verb-pc170_lrt1-suffix :=
+%suffix (* =ak)
+verb-pc170_lrt1-lex-rule.
