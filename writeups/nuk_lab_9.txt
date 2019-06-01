@@ -2,17 +2,18 @@
 
 a. How many items parsed?
     -Initial (5.2): Testsuite-59, Corpus-33
-    -Final:  Testsuite- , Corpus-
+    -Final:  Testsuite-34 , Corpus-2.2 -- with reduced irules.tdl
 
 b. What was the average number of parses?
     -Initial: Testsuite-1.76, Corpus-2.12
-    -Final:  Testsuite- , Corpus-
+    -Final:  Testsuite-1.53 , Corpus-1.5-- with reduced irules.tdl
 
 c. How many parses did the most ambiguous item receive?
     -Initial: Testsuite-6, Corpus-6
-    -Final:  Testsuite- , Corpus-
+    -Final:  Testsuite-4 , Corpus-2
 
 d. What sources of ambiguity can you identify?
+There are no new sources of ambiguity. The 4 readings are for the subject/object ambiguity inherient to Nuuchahnulth combined with two lexical entries with the same spelling after creating missing words for the MMT. 
 
 #### 2 (MRS Refinement) ####-----------------------------------------------------------------------------------------------
 1. The first change we did was to unify the name on our locative verbs so that both versions used the the '_be+located_v_rel' as we settled on in class. Next, we implemented the transfer rule to change '_in_p_rel' to our rel:
@@ -124,6 +125,7 @@ After working with Emily during office hours, we realized this was because the M
 
 In contrast to coordinated sentences, the second coordinated VP must not receive Mood inflection, thus we specify that the bottom VP have FORM nonfinite.
 
+
 #### 4 (Ambiguity Explanation) ####------------------------------------------------------------------------------------------------
 ## Word Order ##
 As discussed in previous labs, when both Subject and Object are present in a Nuuchahnulth clause, they can appear in either order after the Verb. This is one of our main sources of (warranted) ambiguity when translating to Nuuchahnulth. In cases like Example #9 where there are two clauses with Subject and Object, four different sentences (2^2) are generated just from this freedom of word order.
@@ -148,16 +150,6 @@ Pronomial objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is tra
     eat(trans)=3rd.Indic dog
 
 This is always going to happen because the contextual dropping of objects has to be supported so both of these Nuuchahnulth examples are grammatical. 
-
-## Word Order ##
-As discussed in previous labs, when both Subject and Object are present in a Nuuchahnulth clause, they can appear in either order after the Verb. This is one of our main sources of (warranted) ambiguity when translating to Nuuchahnulth. In cases like Example #9 where there are two clauses with Subject and Object, four different sentences (2^2) are generated just from this freedom of word order.
-
-    #9 -- "Dogs chase cars and cats chase dogs"
-    #chase=INDIC.3 dog car and chase=INDIC.3 cat dog (first order)
-    Casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
-    Casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ ʕiniiƛ piišpiš
-    Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
-    Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ ʕiniiƛ piišpiš
 
 ## Direction of "because" Relation ##
 One source of ambiguity we weren't able to solve was that for Example 21 "the dog sleeps because the cat sleeps", our translations are generating sentences with the reverse semantics. Our translation generates the following:
