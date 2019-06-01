@@ -170,6 +170,8 @@ As can be seen, the first two generated sentences align with the semantics of th
 
 ## Ambiguity of Modifier Scope ##
 
+Part of the reason Example 14 generated so many results (15) is that the translation received three almost-identical sets of MRSs from the English readings. Since these readings are so similar, the same sentences were generated for each reading: five per reading. In general, we see a slight ambiguity between a Sentence-Wide scope of the PP modifier and a VP-wide scope. Both of these options are generated in Nuuchahnulth, and in addition we have two words for "to eat". One of which is transitive, and has a reading in which the pronoun object is dropped, thus leading to five sentences each.
+
 [ LTOP: h14 INDEX: e12 
 [ e TENSE: present ASPECT: aspect SF: prop-or-ques ] 
 RELS: < 
