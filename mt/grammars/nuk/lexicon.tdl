@@ -209,9 +209,9 @@ m̓ukʷina := noun3-noun-lex &
   [ STEM < "m̓ukʷina" >,
     SYNSEM.LKEYS.KEYREL.PRED "_lewis.george_n_rel" ].
 
-čaačist := noun3-noun-lex &
-  [ STEM < "čaačist" >,
-    SYNSEM.LKEYS.KEYREL.PRED "_island_n_rel" ].
+;čaačist := noun3-noun-lex &
+;  [ STEM < "čaačist" >,
+;    SYNSEM.LKEYS.KEYREL.PRED "_island_n_rel" ].
 
 čaačist_2 := noun3-noun-lex &
   [ STEM < "čaačist" >,
