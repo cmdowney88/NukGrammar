@@ -176,14 +176,6 @@ One source of ambiguity we weren't able to solve was that for Example 21 "the do
 
 As can be seen, the first two generated sentences align with the semantics of the English sentence from which the translation comes, whereas the second two have the opposite semantics. We confirmed that this second set of semantics was different (opposite) from the target with Emily on Canvas, and were advised to document it but not try to pursue the problem further.
 
-## VP and S Coordination Ambiguity ##
-In addition, we have some amibuity in between VP and S coordination. This only somes in SJE -> NUK translation, for instance in Example 10:
-    #10
-    Casšiƛ=maˑ piišpiš ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ
-    Casšiƛ=maˑ ʕiniiƛ ʔaḥʔaaʔaƛ weʔič piišpiš
-    Casšiƛ=maˑ ʕiniiƛ piišpiš ʔaḥʔaaʔaƛ weʔič=maˑ
-    Casšiƛ=maˑ ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ piišpiš
-
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
 eng
 1: covered
