@@ -13,7 +13,7 @@ c. How many parses did the most ambiguous item receive?
     -Final:  Testsuite-4 , Corpus-2
 
 d. What sources of ambiguity can you identify?
-There are no new sources of ambiguity. The 4 readings are for the subject/object ambiguity inherient to Nuuchahnulth combined with two lexical entries with the same spelling after creating missing words for the MMT. 
+There are no new sources of ambiguity. The 4 readings are for the subject/object ambiguity inherent to Nuuchahnulth combined with two lexical entries with the same spelling after creating missing words for the MMT. 
 
 #### 2 (MRS Refinement) ####-----------------------------------------------------------------------------------------------
 1. The first change we did was to unify the name on our locative verbs so that both versions used the the '_be+located_v_rel' as we settled on in class. Next, we implemented the transfer rule to change '_in_p_rel' to our rel:
@@ -70,7 +70,7 @@ pronoun-delete-mtr := monotonic_omtr &
    OUTPUT [ RELS < >,
 	    HCONS < > ]].
 
- This allowed us to generate 'casšiƛ=maˑḥ' which is allowed. However, we still weren't getting the desired version that included 'suw̓a'. We looked at the lexical entry for 'suw̓a' and realized that it had been generated with a non-matching predicate so we changed it from '_you_n_rel' to 'pron_rel'. Then we looked in 'nuuchahnulth.tdl' and saw it was inheriting from a noun type that had 3rd person features. We fixed this inheritence so that 'suw̓a' is now correctly 2nd person.
+ This allowed us to generate 'casšiƛ=maˑḥ' which is allowed. However, we still weren't getting the desired version that included 'suw̓a'. We looked at the lexical entry for 'suw̓a' and realized that it had been generated with a non-matching predicate so we changed it from '_you_n_rel' to 'pron_rel'. Then we looked in 'nuuchahnulth.tdl' and saw it was inheriting from a noun type that had 3rd person features. We fixed this inheritance so that 'suw̓a' is now correctly 2nd person.
 
 #### 3 (Overgeneration Changes) ####-----------------------------------------------------------------------------------------------
 
@@ -112,7 +112,7 @@ For Mood, event though we had set up semi.vpm correctly to map underspecified to
     weʔič=maˑ ʕiniiƛ
     sleep=INDIC.3 dog
 
-After working with Emily during office hours, we realized this was because the Mood position class was not obligatory so the underspecified versions were still compatible with the internal MRS generated from the semi.vpm. We made the Mood position class obligatory on all its inputs which correctly ruled out the non-mood inflected generation. In adddition to this, we had to modify our rules for Coordination. This is because being a top-level S requires that that the head be FORM finite, but S's that are coordinated  had no such restriction, even though these must have Mood in Nuuchahnulth. Thus we added the following type addenda:
+After working with Emily during office hours, we realized this was because the Mood position class was not obligatory so the underspecified versions were still compatible with the internal MRS generated from the semi.vpm. We made the Mood position class obligatory on all its inputs which correctly ruled out the non-mood inflected generation. In addition to this, we had to modify our rules for Coordination. This is because being a top-level S requires that that the head be FORM finite, but S's that are coordinated  had no such restriction, even though these must have Mood in Nuuchahnulth. Thus we added the following type addenda:
 
     s-coord-phrase :+ [ LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite,
                         RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD.FORM finite ].
@@ -141,7 +141,7 @@ As discussed in previous labs, when both Subject and Object are present in a Nuu
 We also see ambiguity from different spellings of the affixes. For example the following 3 1sg.Indic suffixes are all present in our corpus: (m)aˑḥ, =maˑḥ, =aˑḥ. We could unify our irules further to just the first version but haven't yet in order to keep coverage decent and account for the variety of spellings.
 
 ## Subject/Object Dropping ##
-In addtion to the pronomial dropping mentioned above, subject and objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intrasitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be traslated as both
+In addition to the pronomial dropping mentioned above, subject and objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intransitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be translated as both
 
     Haʔuk=maˑ ʕiniiƛ
     eat(intras)=3rd.Indic dog
@@ -169,7 +169,7 @@ One source of ambiguity we weren't able to solve was that for Example 21 "the do
 As can be seen, the first two generated sentences align with the semantics of the English sentence from which the translation comes, whereas the second two have the opposite semantics. We confirmed that this second set of semantics was different (opposite) from the target with Emily on Canvas, and were advised to document it but not try to pursue the problem further.
 
 #### 5 (MMT Coverage) ####---------------------------------------------------------------------------------------------------------
-The following are all sentences that were generated in Nuuchanulth from the two input languages. We have 15 sentences translating from English and 9 translating from Pite Saami.
+The following are all sentences that were generated in Nuuchahnulth from the two input languages. We have 15 sentences translating from English and 9 translating from Pite Saami.
 
 eng -> nuk
 #1
