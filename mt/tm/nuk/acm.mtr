@@ -1,3 +1,25 @@
 ;;; Hey, emacs(1), this is -*- Mode: TDL; Coding: utf-8; -*- got it?
-in-to-be-located := in-to-be-located.
-pronoun-delete-mtr := pronoun-delete-mtr.
+in-to-be-located := monotonic_mtr & 
+[ INPUT [ RELS < [ PRED "_in_p_rel",
+  LBL #lbl,
+  ARG0 #arg0,
+  ARG1 #arg1,
+  ARG2 #arg2 ] >,
+      HCONS < > ],
+  OUTPUT [ RELS < [ PRED "_be+located_v_rel",
+   LBL #lbl,
+   ARG0 #arg0,
+   ARG1 #arg1,
+   ARG2 #arg2 ] > ]].
+
+pronoun-delete-mtr :=  monotonic_omtr &
+ [ INPUT [ RELS < [ PRED "pron_rel",
+		     ARG0 #x,
+		     LBL #larg ],
+		 [ PRED "exist_q_rel",
+		   ARG0 #x,
+		   RSTR #harg ] >,
+	   HCONS < qeq & [ LARG #larg,
+			    HARG #harg ] > ],
+   OUTPUT [ RELS < >,
+	    HCONS < > ]].
