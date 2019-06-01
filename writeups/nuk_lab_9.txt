@@ -11,6 +11,7 @@ b. What was the average number of parses?
 c. How many parses did the most ambiguous item receive?
     -Initial: Testsuite-6, Corpus-6
     -Final:  Testsuite- , Corpus-
+
 d. What sources of ambiguity can you identify?
 
 #### 2 (MRS Refinement) ####-----------------------------------------------------------------------------------------------
@@ -104,10 +105,11 @@ The first major change we made to prevent overgeneration was pruning our Irules 
 For Aspect, we decided to constrain our vpm rules to export all values identically, but only import Perfective, and change everything else to no-aspect. This is because Pite Saami seems to have some form of Aspect, and our grammar can generate Perfective Aspect accurately at least. For Mood, we allow any of our supported Moods to be imported or exported. However, anything else is imported as Indicative, as "basic" Nuuchahnulth sentences have Indicative Mood. Similarly, for Tense we allow Present or Past to be imported, but otherwise set the Tense to Present, as basic Nuuchahnulth sentences are interpreted as Present, and we generate this accurately through an lrule.
 
 For Mood, event though we had set up semi.vpm correctly to map underspecified to Indicative Mood, our grammar was still generating non-indicative versions of the sentences. E.g. both of the following were generated from 'Dogs sleep':
-Weʔič ʕiniiƛ
-sleep dog
-weʔič=maˑ ʕiniiƛ
-sleep=INDIC.3 dog
+
+    Weʔič ʕiniiƛ
+    sleep dog
+    weʔič=maˑ ʕiniiƛ
+    sleep=INDIC.3 dog
 
 After working with Emily during office hours, we realized this was because the Mood position class was not obligatory so the underspecified versions were still compatible with the internal MRS generated from the semi.vpm. We made the Mood position class obligatory on all its inputs which correctly ruled out the non-mood inflected generation. In adddition to this, we had to modify our rules for Coordination. This is because being a top-level S requires that that the head be FORM finite, but S's that are coordinated  had no such restriction, even though these must have Mood in Nuuchahnulth. Thus we added the following type addenda:
 
@@ -123,28 +125,27 @@ After working with Emily during office hours, we realized this was because the M
 In contrast to coordinated sentences, the second coordinated VP must not receive Mood inflection, thus we specify that the bottom VP have FORM nonfinite.
 
 #### 4 (Ambiguity Explanation) ####------------------------------------------------------------------------------------------------
-The primary source for ambiguity for both Pite Saami and English to Nuuchahnulth is free word order. In our analysis of Nuuchahnulth, sentences are verb-initial but there is no order imposed on subject or object. For example English 'dogs chase cars' correctly generates both:
-Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ
-chase=3rd car dog
+## Word Order ##
+As discussed in previous labs, when both Subject and Object are present in a Nuuchahnulth clause, they can appear in either order after the Verb. This is one of our main sources of (warranted) ambiguity when translating to Nuuchahnulth. In cases like Example #9 where there are two clauses with Subject and Object, four different sentences (2^2) are generated just from this freedom of word order.
 
-Casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas
-chase=3rd.Indic dog car
+    #9 -- "Dogs chase cars and cats chase dogs"
+    #chase=INDIC.3 dog car and chase=INDIC.3 cat dog (first order)
+    Casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
+    Casšiƛ=maˑ ʕiniiƛ huupuk̓ʷas ʔaḥʔaaʔaƛ casšiƛ=maˑ ʕiniiƛ piišpiš
+    Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
+    Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ ʕiniiƛ piišpiš
 
+## Spelling ##
 We also see ambiguity from different spellings of the affixes. For example the following 3 1sg.Indic suffixes are all present in our corpus: (m)aˑḥ, =maˑḥ, =aˑḥ. We could unify our irules further to just the first version but haven't yet in order to keep coverage decent and account for the variety of spellings.
 
-Pronouns can be optionally dropped in Nuuchahnulth which allows 'I chase you' to be translated as both:
-Casšiƛ=(m)aˑḥ
-chase=1sg.Indic
+## Pronoun Dropping ##
+Pronomial objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intrasitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be traslated as both
 
-Casšiƛ=(m)aˑḥ suw̓a
-chase=1sg.Indc 2nd
+    Haʔuk=maˑ ʕiniiƛ
+    eat(intras)=3rd.Indic dog
 
-Similarly to the dropped pronouns, objects can be dropped in Nuuchahnulth. For example, 'ʔuʔiis' is transitive 'eat' while 'haʔuk' is the intrasitive version. Since objects can be dropped, this allows the intransitive 'dogs eat' to be traslated as both
-Haʔuk=maˑ ʕiniiƛ
-eat(intras)=3rd.Indic dog
-
-ʔuʔiis=maˑ ʕiniiƛ
-eat(trans)=3rd.Indic dog
+    ʔuʔiis=maˑ ʕiniiƛ
+    eat(trans)=3rd.Indic dog
 
 This is always going to happen because the contextual dropping of objects has to be supported so both of these Nuuchahnulth examples are grammatical. 
 
@@ -158,8 +159,24 @@ As discussed in previous labs, when both Subject and Object are present in a Nuu
     Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ piišpiš ʕiniiƛ
     Casšiƛ=maˑ huupuk̓ʷas ʕiniiƛ ʔaḥʔaaʔaƛ casšiƛ=maˑ ʕiniiƛ piišpiš
 
-## Scope of Coordination ##
+## Direction of "because" Relation ##
+One source of ambiguity we weren't able to solve was that for Example 21 "the dog sleeps because the cat sleeps", our translations are generating sentences with the reverse semantics. Our translation generates the following:
 
+    Weʔič=maˑ ʕiniiƛ ʔani weʔič=maˑ piišpiš
+    sleep=INDIC.3 dog because sleep=INDIC.3 cat
+    Weʔič=maˑ ʔani weʔič=maˑ piišpiš ʕiniiƛ
+    sleep=INDIC.3 because sleep=INDIC.3 cat dog
+    "The dog sleeps because the cat sleeps"
+
+    Weʔič=maˑ piišpiš ʔani weʔič=maˑ ʕiniiƛ
+    sleep=INDIC.3 cat because sleep=INDIC.3 dog
+    Weʔič=maˑ ʔani weʔič=maˑ ʕiniiƛ piišpiš
+    sleep=INDIC.3 because sleep=INDIC.3 dog cat
+    "The cat sleeps because the dog sleeps"
+
+As can be seen, the first two generated sentences align with the semantics of the English sentence from which the translation comes, whereas the second two have the opposite semantics. We confirmed that this second set of semantics was different (opposite) from the target with Emily on Canvas, and were advised to document it but not try to pursue the problem further.
+
+## VP and S Coordination Ambiguity ##
 In addition, we have some amibuity in between VP and S coordination. This only somes in SJE -> NUK translation, for instance in Example 10:
     #10
     Casšiƛ=maˑ piišpiš ʕiniiƛ ʔaḥʔaaʔaƛ weʔič=maˑ
